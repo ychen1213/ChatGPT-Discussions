@@ -1,0 +1,1004 @@
+{
+  "schema": 1,
+  "date": "2026-10-24",
+  "purpose": "Traceable scalar evidence for the detailed review and three-page executive summary",
+  "units": {
+    "MB": "1,000,000 bytes",
+    "nm": "nanometre"
+  },
+  "current_metric_scope": "Bidirectional arc-length-weighted XY-section distance at 14 prescribed Z planes; all candidates clipped to Y >= inferred contact + 2h. Not full-3D Hausdorff distance.",
+  "current_storage_scope": "P coefficient NPZ or T vertex/face NPY payload file bytes, excluding metadata; V input label-array bytes cover all materials across the box.",
+  "current_time_scope": "Detailed-report build times use worker_wall_seconds; core_build_seconds measures the inner builder and excludes worker overhead. Neither time is shown in the executive chart.",
+  "figure_01_scope": "Illustrative common periodic cubic B-spline outline; not a measured experimental shape or error comparison.",
+  "voxel_reconstruction_5nm": [
+    {
+      "profile": "T_MC",
+      "p95_nm": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__T_MC.json",
+        "actual_key": "reconstructed_to_reference.all.p95_nm",
+        "value": 2.2600913741056274,
+        "unit": "nm"
+      },
+      "payload_bytes": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__T_MC.json",
+        "actual_key": "payload_bytes",
+        "value": 73583464,
+        "unit": "byte"
+      },
+      "material_iou": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__T_MC.json",
+        "actual_key": "material_consistency.iou",
+        "value": 1.0,
+        "unit": "dimensionless"
+      },
+      "false_negative": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__T_MC.json",
+        "actual_key": "material_consistency.false_negative",
+        "value": 0,
+        "unit": "cell"
+      },
+      "false_positive": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__T_MC.json",
+        "actual_key": "material_consistency.false_positive",
+        "value": 0,
+        "unit": "cell"
+      },
+      "core_build_seconds": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__T_MC.json",
+        "actual_key": "build_seconds",
+        "value": 11.457357399980538,
+        "unit": "second"
+      },
+      "worker_wall_seconds": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__T_MC.json",
+        "actual_key": "worker.wall_seconds",
+        "value": 11.537414499907754,
+        "unit": "second"
+      }
+    },
+    {
+      "profile": "P_sigma0",
+      "p95_nm": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma0.json",
+        "actual_key": "reconstructed_to_reference.all.p95_nm",
+        "value": 2.306334865848875,
+        "unit": "nm"
+      },
+      "payload_bytes": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma0.json",
+        "actual_key": "payload_bytes",
+        "value": 3803840,
+        "unit": "byte"
+      },
+      "material_iou": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma0.json",
+        "actual_key": "material_consistency.iou",
+        "value": 0.9992015209142091,
+        "unit": "dimensionless"
+      },
+      "false_negative": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma0.json",
+        "actual_key": "material_consistency.false_negative",
+        "value": 18004,
+        "unit": "cell"
+      },
+      "false_positive": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma0.json",
+        "actual_key": "material_consistency.false_positive",
+        "value": 18541,
+        "unit": "cell"
+      },
+      "core_build_seconds": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma0.json",
+        "actual_key": "build_seconds",
+        "value": 14.791796099976636,
+        "unit": "second"
+      },
+      "worker_wall_seconds": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma0.json",
+        "actual_key": "worker.wall_seconds",
+        "value": 14.870792399975471,
+        "unit": "second"
+      }
+    },
+    {
+      "profile": "P_sigma05",
+      "p95_nm": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma05.json",
+        "actual_key": "reconstructed_to_reference.all.p95_nm",
+        "value": 2.2136618853853687,
+        "unit": "nm"
+      },
+      "payload_bytes": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma05.json",
+        "actual_key": "payload_bytes",
+        "value": 3803840,
+        "unit": "byte"
+      },
+      "material_iou": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma05.json",
+        "actual_key": "material_consistency.iou",
+        "value": 0.9993748618873927,
+        "unit": "dimensionless"
+      },
+      "false_negative": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma05.json",
+        "actual_key": "material_consistency.false_negative",
+        "value": 14043,
+        "unit": "cell"
+      },
+      "false_positive": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma05.json",
+        "actual_key": "material_consistency.false_positive",
+        "value": 14566,
+        "unit": "cell"
+      },
+      "core_build_seconds": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma05.json",
+        "actual_key": "build_seconds",
+        "value": 16.00961319997441,
+        "unit": "second"
+      },
+      "worker_wall_seconds": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma05.json",
+        "actual_key": "worker.wall_seconds",
+        "value": 16.07936850003898,
+        "unit": "second"
+      }
+    },
+    {
+      "profile": "P_sigma1",
+      "p95_nm": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma1.json",
+        "actual_key": "reconstructed_to_reference.all.p95_nm",
+        "value": 2.0312970632792573,
+        "unit": "nm"
+      },
+      "payload_bytes": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma1.json",
+        "actual_key": "payload_bytes",
+        "value": 3803840,
+        "unit": "byte"
+      },
+      "material_iou": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma1.json",
+        "actual_key": "material_consistency.iou",
+        "value": 0.9996574227486112,
+        "unit": "dimensionless"
+      },
+      "false_negative": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma1.json",
+        "actual_key": "material_consistency.false_negative",
+        "value": 9293,
+        "unit": "cell"
+      },
+      "false_positive": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma1.json",
+        "actual_key": "material_consistency.false_positive",
+        "value": 6382,
+        "unit": "cell"
+      },
+      "core_build_seconds": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma1.json",
+        "actual_key": "build_seconds",
+        "value": 15.927746800007299,
+        "unit": "second"
+      },
+      "worker_wall_seconds": {
+        "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma1.json",
+        "actual_key": "worker.wall_seconds",
+        "value": 15.993299000081606,
+        "unit": "second"
+      }
+    }
+  ],
+  "voxel_input_5nm": {
+    "staircase_p95_nm": {
+      "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/local_5nm__voxel_baseline.json",
+      "actual_key": "input_voxel_to_reference.all.p95_nm",
+      "value": 2.374855636384972,
+      "unit": "nm"
+    },
+    "payload_bytes": {
+      "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/input_manifest.json",
+      "actual_key": "1.payload_bytes",
+      "value": 256000000,
+      "unit": "byte"
+    },
+    "array_shape_zyx": {
+      "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/input_manifest.json",
+      "actual_key": "1.array_shape_zyx",
+      "value": [
+        800,
+        100,
+        3200
+      ],
+      "unit": "cell"
+    },
+    "note": "Dense uint8 labels cover air, stripe and substrate across the full box; P/T payloads store stripe boundaries. This is not equal-semantics storage ranking."
+  },
+  "derived": {
+    "T_to_P05_payload_ratio": {
+      "value": 19.34452132581812,
+      "unit": "ratio",
+      "calculation": "voxel_reconstruction_5nm[T_MC].payload_bytes / voxel_reconstruction_5nm[P_sigma05].payload_bytes"
+    }
+  },
+  "topology_challenges": [
+    {
+      "case": "straight_control",
+      "input_source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/challenge_inputs/straight_control.npz",
+      "input_sha256": "e21c2e108587a1106670946df3b5014cdfdb07c10729fc53b804d3b2256f161b",
+      "profiles": [
+        {
+          "profile": "T_MC",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__T_MC.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__T_MC.json",
+            "actual_key": "material_consistency.iou",
+            "value": 1.0,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__T_MC.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 0,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__T_MC.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__T_MC.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__T_MC.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              0
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__T_MC.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          }
+        },
+        {
+          "profile": "P_sigma0",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma0.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma0.json",
+            "actual_key": "material_consistency.iou",
+            "value": 1.0,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma0.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 0,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma0.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma0.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma0.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              0
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma0.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          }
+        },
+        {
+          "profile": "P_sigma05",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma05.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma05.json",
+            "actual_key": "material_consistency.iou",
+            "value": 1.0,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma05.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 0,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma05.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma05.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma05.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              0
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma05.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          }
+        },
+        {
+          "profile": "P_sigma1",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma1.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma1.json",
+            "actual_key": "material_consistency.iou",
+            "value": 1.0,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma1.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 0,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma1.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma1.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma1.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              0
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma1.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          }
+        }
+      ],
+      "displayed_slice": {
+        "view": "XY",
+        "z_index": 16,
+        "y_indices_half_open": [
+          6,
+          36
+        ],
+        "x_indices_half_open": [
+          8,
+          57
+        ]
+      }
+    },
+    {
+      "case": "through_hole",
+      "input_source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/challenge_inputs/through_hole.npz",
+      "input_sha256": "a918abf78d4b406ab97364b1b0ff2fbc16042b0c8e3617d418c7eb737bacecaf",
+      "profiles": [
+        {
+          "profile": "T_MC",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/through_hole__T_MC.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/through_hole__T_MC.json",
+            "actual_key": "material_consistency.iou",
+            "value": 1.0,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/through_hole__T_MC.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 0,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/through_hole__T_MC.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/through_hole__T_MC.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/through_hole__T_MC.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/through_hole__T_MC.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          }
+        },
+        {
+          "profile": "P_sigma05",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/through_hole__P_sigma05.json",
+            "actual_key": "status",
+            "value": "unsupported_topology",
+            "unit": "status"
+          },
+          "reason": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/through_hole__P_sigma05.json",
+            "actual_key": "reason",
+            "value": "Z slice 0, component 1: an internal hole is present",
+            "unit": "text"
+          }
+        }
+      ],
+      "displayed_slice": {
+        "view": "XY",
+        "z_index": 16,
+        "y_indices_half_open": [
+          6,
+          36
+        ],
+        "x_indices_half_open": [
+          8,
+          57
+        ]
+      }
+    },
+    {
+      "case": "merging_bridge",
+      "input_source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/challenge_inputs/merging_bridge.npz",
+      "input_sha256": "56fd7f6941c8bab9d7c40c1336b32fe81645638ae77dd60370810beef16bf3c8",
+      "profiles": [
+        {
+          "profile": "T_MC",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/merging_bridge__T_MC.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/merging_bridge__T_MC.json",
+            "actual_key": "material_consistency.iou",
+            "value": 1.0,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/merging_bridge__T_MC.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 0,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/merging_bridge__T_MC.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/merging_bridge__T_MC.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/merging_bridge__T_MC.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              0
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/merging_bridge__T_MC.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1,
+              2
+            ],
+            "unit": "count"
+          }
+        },
+        {
+          "profile": "P_sigma05",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/merging_bridge__P_sigma05.json",
+            "actual_key": "status",
+            "value": "unsupported_topology",
+            "unit": "status"
+          },
+          "reason": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/build_records/merging_bridge__P_sigma05.json",
+            "actual_key": "reason",
+            "value": "Z slice 12: component count changed 2->1; birth/death/merge/split unsupported",
+            "unit": "text"
+          }
+        }
+      ],
+      "displayed_slice": {
+        "view": "XZ",
+        "y_index": 15
+      }
+    },
+    {
+      "case": "single_voxel_spur",
+      "input_source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/challenge_inputs/single_voxel_spur.npz",
+      "input_sha256": "4a7c0eb571830d93f06fb5d7101b5725863388454004dd58598c0300beedf37c",
+      "profiles": [
+        {
+          "profile": "T_MC",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__T_MC.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__T_MC.json",
+            "actual_key": "material_consistency.iou",
+            "value": 1.0,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__T_MC.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 0,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__T_MC.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__T_MC.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__T_MC.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              0
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__T_MC.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          }
+        },
+        {
+          "profile": "P_sigma0",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma0.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma0.json",
+            "actual_key": "material_consistency.iou",
+            "value": 0.9999349000716099,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma0.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 1,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma0.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma0.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma0.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              0
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma0.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          }
+        },
+        {
+          "profile": "P_sigma05",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma05.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma05.json",
+            "actual_key": "material_consistency.iou",
+            "value": 0.9999349000716099,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma05.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 1,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma05.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma05.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma05.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              0
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma05.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          }
+        },
+        {
+          "profile": "P_sigma1",
+          "status": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma1.json",
+            "actual_key": "status",
+            "value": "evaluated",
+            "unit": "status"
+          },
+          "iou": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma1.json",
+            "actual_key": "material_consistency.iou",
+            "value": 0.9999349000716099,
+            "unit": "dimensionless"
+          },
+          "false_negative": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma1.json",
+            "actual_key": "material_consistency.false_negative",
+            "value": 1,
+            "unit": "cell"
+          },
+          "false_positive": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma1.json",
+            "actual_key": "material_consistency.false_positive",
+            "value": 0,
+            "unit": "cell"
+          },
+          "evaluated_cells": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma1.json",
+            "actual_key": "material_consistency.evaluated_cells",
+            "value": 81920,
+            "unit": "cell"
+          },
+          "hole_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma1.json",
+            "actual_key": "topology.hole_counts",
+            "value": [
+              0
+            ],
+            "unit": "count"
+          },
+          "material_component_counts": {
+            "source_path": "ah53-geometry-validation/results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma1.json",
+            "actual_key": "topology.material_component_counts",
+            "value": [
+              1
+            ],
+            "unit": "count"
+          }
+        }
+      ],
+      "displayed_slice": {
+        "view": "XY",
+        "z_index": 16,
+        "y_indices_half_open": [
+          23,
+          35
+        ],
+        "x_indices_half_open": [
+          26,
+          39
+        ],
+        "spur_index_zyx": [
+          16,
+          28,
+          32
+        ]
+      }
+    }
+  ],
+  "previous_known_contour_experiment": {
+    "records": [
+      {
+        "model_id": "local_P_fine",
+        "section_p95_nm": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=local_P_fine].section_p95_nm",
+          "value": 0.015026939862226668,
+          "unit": "nm"
+        },
+        "array_payload_bytes": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=local_P_fine].array_payload_bytes",
+          "value": 2117592.0,
+          "unit": "byte"
+        },
+        "construction_seconds": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=local_P_fine].construction_seconds",
+          "value": 0.09275030007120222,
+          "unit": "second"
+        }
+      },
+      {
+        "model_id": "local_T_direct_fine",
+        "section_p95_nm": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=local_T_direct_fine].section_p95_nm",
+          "value": 0.4338673057320093,
+          "unit": "nm"
+        },
+        "array_payload_bytes": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=local_T_direct_fine].array_payload_bytes",
+          "value": 6243760.0,
+          "unit": "byte"
+        },
+        "construction_seconds": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=local_T_direct_fine].construction_seconds",
+          "value": 0.18267230002675205,
+          "unit": "second"
+        }
+      },
+      {
+        "model_id": "local_V_direct_fine",
+        "section_p95_nm": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=local_V_direct_fine].section_p95_nm",
+          "value": 2.366529620914889,
+          "unit": "nm"
+        },
+        "array_payload_bytes": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=local_V_direct_fine].array_payload_bytes",
+          "value": 256000000.0,
+          "unit": "byte"
+        },
+        "construction_seconds": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=local_V_direct_fine].construction_seconds",
+          "value": 7.414427699986845,
+          "unit": "second"
+        }
+      },
+      {
+        "model_id": "full_P_fine",
+        "section_p95_nm": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=full_P_fine].section_p95_nm",
+          "value": 0.014071399879471895,
+          "unit": "nm"
+        },
+        "array_payload_bytes": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=full_P_fine].array_payload_bytes",
+          "value": 75292152.0,
+          "unit": "byte"
+        },
+        "construction_seconds": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=full_P_fine].construction_seconds",
+          "value": 1.2522199999075383,
+          "unit": "second"
+        }
+      },
+      {
+        "model_id": "full_T_direct_fine",
+        "section_p95_nm": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=full_T_direct_fine].section_p95_nm",
+          "value": 0.306570293760033,
+          "unit": "nm"
+        },
+        "array_payload_bytes": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=full_T_direct_fine].array_payload_bytes",
+          "value": 222592400.0,
+          "unit": "byte"
+        },
+        "construction_seconds": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=full_T_direct_fine].construction_seconds",
+          "value": 3.326350499992259,
+          "unit": "second"
+        }
+      },
+      {
+        "model_id": "full_V_direct_10nm",
+        "section_p95_nm": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=full_V_direct_10nm].section_p95_nm",
+          "value": 4.682551327466453,
+          "unit": "nm"
+        },
+        "array_payload_bytes": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=full_V_direct_10nm].array_payload_bytes",
+          "value": 1152000000.0,
+          "unit": "byte"
+        },
+        "construction_seconds": {
+          "source_path": "ah53-geometry-validation/results/20261024_v2/metrics.csv",
+          "actual_key": "row[id=full_V_direct_10nm].construction_seconds",
+          "value": 93.53417860006448,
+          "unit": "second"
+        }
+      }
+    ],
+    "full_bounds_nm": {
+      "source_path": "ah53-geometry-validation/results/20261024_v2/manifest.json",
+      "actual_key": "configuration.scenes.full.bounds_nm",
+      "value": [
+        -24000,
+        24000,
+        -100,
+        400,
+        -24000,
+        24000
+      ],
+      "unit": "nm"
+    },
+    "full_spacing_nm": {
+      "source_path": "ah53-geometry-validation/results/20261024_v2/manifest.json",
+      "actual_key": "configuration.sampling.full.voxel_nm",
+      "value": 10,
+      "unit": "nm"
+    },
+    "full_input_sampling_boundary_step_nm": {
+      "source_path": "ah53-geometry-validation/results/20261024_v2/manifest.json",
+      "actual_key": "configuration.sampling.full.boundary_step_nm",
+      "value": 10,
+      "unit": "nm"
+    },
+    "full_input_sampling_z_step_nm": {
+      "source_path": "ah53-geometry-validation/results/20261024_v2/manifest.json",
+      "actual_key": "configuration.sampling.full.z_step_nm",
+      "value": 40,
+      "unit": "nm"
+    },
+    "nominal_height_nm": {
+      "source_path": "ah53-geometry-validation/results/20261024_v2/manifest.json",
+      "actual_key": "configuration.nominal.height_nm",
+      "value": 300,
+      "unit": "nm"
+    },
+    "notes": [
+      "P and T_direct were built from identical ordered contours derived from the synthetic reference.",
+      "V_direct used the analytic material oracle; this was not a common measured-input reconstruction ranking.",
+      "The full 48 x 48 um box is a validation assumption, not a measured full AH53 mark.",
+      "The main score is XY-section distance, not full-3D Hausdorff error; artificial end faces were excluded."
+    ]
+  },
+  "figure_paths": [
+    "review-20261024/figures/01_representation.png",
+    "review-20261024/figures/01_representation.svg",
+    "review-20261024/figures/02_measured_tradeoff.png",
+    "review-20261024/figures/02_measured_tradeoff.svg",
+    "review-20261024/figures/03_topology_challenges.png",
+    "review-20261024/figures/03_topology_challenges.svg"
+  ]
+}

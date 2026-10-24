@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-24",
+  "scope": "Documentation audit and new summary artifacts; existing geometry experiments were neither rerun nor modified.",
+  "evidence": {
+    "source_fields_cross_checked": 128,
+    "challenge_input_sha256_verified": 4,
+    "status": "passed"
+  },
+  "local_links": {
+    "documents_checked": 9,
+    "references_checked": 105,
+    "missing": []
+  },
+  "embedded_figures": {
+    "count": 6,
+    "matches_current_png_files": true
+  },
+  "pdf": {
+    "pages": 3,
+    "figures_per_page": 1,
+    "text_extraction": "passed",
+    "rendered_visual_review": "passed",
+    "font": "Microsoft YaHei embedded subset"
+  },
+  "browser": {
+    "tool": "Playwright Chromium",
+    "documents": [
+      "leadership summary HTML",
+      "detailed comparison HTML"
+    ],
+    "viewports": [
+      {
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "images_per_document": 3,
+    "all_images_loaded": true,
+    "horizontal_overflow": false,
+    "missing_toc_anchors": [],
+    "figure_zoom_link": "passed",
+    "detail_toc_open_and_scroll": "passed",
+    "javascript_errors": [],
+    "external_requests": []
+  },
+  "editorial": {
+    "original_theoretical_resource_arithmetic": "rechecked; no arithmetic correction required",
+    "original_numbered_references_retained": 29,
+    "limitations": [
+      "synthetic inputs",
+      "section metrics are not full-3D maximum errors",
+      "T benchmark is unsimplified",
+      "current P topology limitations are implementation-specific",
+      "real multi-material full-Mark validation is still pending"
+    ]
+  }
+}

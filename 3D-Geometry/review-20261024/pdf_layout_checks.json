@@ -1,0 +1,39 @@
+{
+  "pages": 3,
+  "bounds": [
+    {
+      "page": 1,
+      "title_height": 37,
+      "subtitle_height": 19,
+      "takeaway_height": 25,
+      "support_height": 19,
+      "qualification_height": 16
+    },
+    {
+      "page": 2,
+      "title_height": 37,
+      "subtitle_height": 19,
+      "takeaway_height": 25,
+      "support_height": 19,
+      "qualification_height": 16
+    },
+    {
+      "page": 3,
+      "title_height": 37,
+      "subtitle_height": 19,
+      "takeaway_height": 25,
+      "support_height": 19,
+      "qualification_height": 16
+    }
+  ],
+  "text_extraction_ok": true,
+  "figures_per_page": 1,
+  "font": "Microsoft YaHei embedded subset",
+  "visual_review": "passed",
+  "render_tool": "pdftoppm at 130 dpi",
+  "pages_visually_checked": [
+    1,
+    2,
+    3
+  ]
+}
