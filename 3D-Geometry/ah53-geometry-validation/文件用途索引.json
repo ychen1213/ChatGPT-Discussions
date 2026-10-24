@@ -22,10 +22,28 @@
       "how_to_use": "先看用途；无须为了浏览结果而修改。"
     },
     {
+      "relative_path": "AH53_P与T生成原理_从截面到三维.html",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_P与T生成原理_从截面到三维.html",
+      "href": "AH53_P%E4%B8%8ET%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86_%E4%BB%8E%E6%88%AA%E9%9D%A2%E5%88%B0%E4%B8%89%E7%BB%B4.html",
+      "size_bytes": 43641,
+      "category": "根目录与入口文档",
+      "purpose": "P/T 原理专篇的离线排版版：双击阅读，含公式解释、四张原理图、数值例子和互动页入口。",
+      "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
+    },
+    {
+      "relative_path": "AH53_P与T生成原理_从截面到三维.md",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_P与T生成原理_从截面到三维.md",
+      "href": "AH53_P%E4%B8%8ET%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86_%E4%BB%8E%E6%88%AA%E9%9D%A2%E5%88%B0%E4%B8%89%E7%BB%B4.md",
+      "size_bytes": 29129,
+      "category": "根目录与入口文档",
+      "purpose": "P/T 原理专篇的 GitHub 文字版：对应左右边界公式、变截面扫掠、两方向样条与相邻点连三角，配四张原理图。",
+      "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
+    },
+    {
       "relative_path": "AH53_三种几何表示验证_技术验证报告.html",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_三种几何表示验证_技术验证报告.html",
       "href": "AH53_%E4%B8%89%E7%A7%8D%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA%E9%AA%8C%E8%AF%81_%E6%8A%80%E6%9C%AF%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A.html",
-      "size_bytes": 38490,
+      "size_bytes": 38517,
       "category": "根目录与入口文档",
       "purpose": "保留的原技术报告：完整方法、统计与证据。HTML 用浏览器看图和表。",
       "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
@@ -34,7 +52,7 @@
       "relative_path": "AH53_三种几何表示验证_技术验证报告.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_三种几何表示验证_技术验证报告.md",
       "href": "AH53_%E4%B8%89%E7%A7%8D%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA%E9%AA%8C%E8%AF%81_%E6%8A%80%E6%9C%AF%E9%AA%8C%E8%AF%81%E6%8A%A5%E5%91%8A.md",
-      "size_bytes": 29782,
+      "size_bytes": 29809,
       "category": "根目录与入口文档",
       "purpose": "保留的原技术报告：完整方法、统计与证据。Markdown 为文字版本。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -43,7 +61,7 @@
       "relative_path": "AH53_三种几何表示验证_详细说明.html",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_三种几何表示验证_详细说明.html",
       "href": "AH53_%E4%B8%89%E7%A7%8D%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA%E9%AA%8C%E8%AF%81_%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E.html",
-      "size_bytes": 117576,
+      "size_bytes": 119278,
       "category": "根目录与入口文档",
       "purpose": "新版新手主说明：从目的、概念、步骤到读图和文件，按初学者顺序展开。HTML 用浏览器看图和表。",
       "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
@@ -52,7 +70,7 @@
       "relative_path": "AH53_三种几何表示验证_详细说明.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_三种几何表示验证_详细说明.md",
       "href": "AH53_%E4%B8%89%E7%A7%8D%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA%E9%AA%8C%E8%AF%81_%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E.md",
-      "size_bytes": 89569,
+      "size_bytes": 91000,
       "category": "根目录与入口文档",
       "purpose": "新版新手主说明：从目的、概念、步骤到读图和文件，按初学者顺序展开。Markdown 为文字版本。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -61,7 +79,7 @@
       "relative_path": "README.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\README.md",
       "href": "README.md",
-      "size_bytes": 4438,
+      "size_bytes": 4875,
       "category": "根目录与入口文档",
       "purpose": "新人和开发者共用的项目入口：说明阅读路径、已有成果及安装、生成、启动、测试命令。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -74,6 +92,33 @@
       "category": "实验配方",
       "purpose": "本轮默认实验配方：名义宽高、坐标、随机种子、合成起伏、场景范围和粗细步长。修改它不会自动改变已经保存的模型。",
       "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "docs/PT原理图说明.md",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\PT原理图说明.md",
+      "href": "docs/PT%E5%8E%9F%E7%90%86%E5%9B%BE%E8%AF%B4%E6%98%8E.md",
+      "size_bytes": 6921,
+      "category": "补充说明文档",
+      "purpose": "四张新原理图各自的用途、看图步骤和局限。",
+      "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
+    },
+    {
+      "relative_path": "docs/PT生成原理_动手演示.html",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\PT生成原理_动手演示.html",
+      "href": "docs/PT%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86_%E5%8A%A8%E6%89%8B%E6%BC%94%E7%A4%BA.html",
+      "size_bytes": 23071,
+      "category": "补充说明文档",
+      "purpose": "单文件离线教学：用四个观测截面演示 P 插值与 T 顶点轨迹直连，拖动 Z 看左右边界、宽度和中心；不是完整 AH53 实验数据。",
+      "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
+    },
+    {
+      "relative_path": "docs/PT生成原理正文.md",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\PT生成原理正文.md",
+      "href": "docs/PT%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86%E6%AD%A3%E6%96%87.md",
+      "size_bytes": 28413,
+      "category": "补充说明文档",
+      "purpose": "P/T 原理专篇的可编辑源文字，图像占位由生成脚本替换；教学数值与实际模型分开说明。",
+      "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
     },
     {
       "relative_path": "docs/figures/01_方向与尺度.png",
@@ -148,10 +193,82 @@
       "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
     },
     {
+      "relative_path": "docs/figures/pt_01_sweep_and_spatial_variation.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\pt_01_sweep_and_spatial_variation.png",
+      "href": "docs/figures/pt_01_sweep_and_spatial_variation.png",
+      "size_bytes": 755466,
+      "category": "补充说明文档",
+      "purpose": "原理图1：同截面直拉伸与截面沿Z变化的扫掠，明确教学例和高度显示放大。 PNG图片版，教程中展示。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "docs/figures/pt_01_sweep_and_spatial_variation.svg",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\pt_01_sweep_and_spatial_variation.svg",
+      "href": "docs/figures/pt_01_sweep_and_spatial_variation.svg",
+      "size_bytes": 1325308,
+      "category": "补充说明文档",
+      "purpose": "原理图1：同截面直拉伸与截面沿Z变化的扫掠，明确教学例和高度显示放大。 SVG矢量版，可放大。",
+      "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
+    },
+    {
+      "relative_path": "docs/figures/pt_02_boundary_displacement_fields.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\pt_02_boundary_displacement_fields.png",
+      "href": "docs/figures/pt_02_boundary_displacement_fields.png",
+      "size_bytes": 274541,
+      "category": "补充说明文档",
+      "purpose": "原理图2：基准左右边界加位移，分别解释中心变化和宽度变化。 PNG图片版，教程中展示。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "docs/figures/pt_02_boundary_displacement_fields.svg",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\pt_02_boundary_displacement_fields.svg",
+      "href": "docs/figures/pt_02_boundary_displacement_fields.svg",
+      "size_bytes": 231111,
+      "category": "补充说明文档",
+      "purpose": "原理图2：基准左右边界加位移，分别解释中心变化和宽度变化。 SVG矢量版，可放大。",
+      "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
+    },
+    {
+      "relative_path": "docs/figures/pt_03_same_points_to_P_and_T.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\pt_03_same_points_to_P_and_T.png",
+      "href": "docs/figures/pt_03_same_points_to_P_and_T.png",
+      "size_bytes": 522447,
+      "category": "补充说明文档",
+      "purpose": "原理图3：相同有序观测点建立P或T；四个相邻顶点连接成两个实际规则的三角形。 PNG图片版，教程中展示。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "docs/figures/pt_03_same_points_to_P_and_T.svg",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\pt_03_same_points_to_P_and_T.svg",
+      "href": "docs/figures/pt_03_same_points_to_P_and_T.svg",
+      "size_bytes": 551781,
+      "category": "补充说明文档",
+      "purpose": "原理图3：相同有序观测点建立P或T；四个相邻顶点连接成两个实际规则的三角形。 SVG矢量版，可放大。",
+      "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
+    },
+    {
+      "relative_path": "docs/figures/pt_04_height_vs_contour_parameter.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\pt_04_height_vs_contour_parameter.png",
+      "href": "docs/figures/pt_04_height_vs_contour_parameter.png",
+      "size_bytes": 325447,
+      "category": "补充说明文档",
+      "purpose": "原理图4：固定高度求左右交点与沿轮廓参数行走，说明两种坐标如何对应。 PNG图片版，教程中展示。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "docs/figures/pt_04_height_vs_contour_parameter.svg",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\pt_04_height_vs_contour_parameter.svg",
+      "href": "docs/figures/pt_04_height_vs_contour_parameter.svg",
+      "size_bytes": 320705,
+      "category": "补充说明文档",
+      "purpose": "原理图4：固定高度求左右交点与沿轮廓参数行走，说明两种坐标如何对应。 SVG矢量版，可放大。",
+      "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
+    },
+    {
       "relative_path": "docs/文件与模型指南.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\文件与模型指南.md",
       "href": "docs/%E6%96%87%E4%BB%B6%E4%B8%8E%E6%A8%A1%E5%9E%8B%E6%8C%87%E5%8D%97.md",
-      "size_bytes": 22137,
+      "size_bytes": 22801,
       "category": "补充说明文档",
       "purpose": "新手文件指南：模型地址、三种格式、目录含义、如何打开和哪些文件必须一起保留。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -160,7 +277,7 @@
       "relative_path": "docs/新手教程正文.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\新手教程正文.md",
       "href": "docs/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B%E6%AD%A3%E6%96%87.md",
-      "size_bytes": 30990,
+      "size_bytes": 31755,
       "category": "补充说明文档",
       "purpose": "新手主教程的可编辑文字来源，解释实验目的、原理、各图和实际操作。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -235,6 +352,96 @@
       "size_bytes": 124883,
       "category": "浏览器检查过程记录",
       "purpose": "浏览器验收过程截图：较小窗口的初始画面。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/pt_guide_check.js",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\pt_guide_check.js",
+      "href": "output/playwright/pt_guide_check.js",
+      "size_bytes": 2141,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "output/playwright/pt_guide_formula.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\pt_guide_formula.png",
+      "href": "output/playwright/pt_guide_formula.png",
+      "size_bytes": 149535,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/pt_guide_mobile.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\pt_guide_mobile.png",
+      "href": "output/playwright/pt_guide_mobile.png",
+      "size_bytes": 59540,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/pt_guide_top.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\pt_guide_top.png",
+      "href": "output/playwright/pt_guide_top.png",
+      "size_bytes": 165951,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/pt_guide_triangles.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\pt_guide_triangles.png",
+      "href": "output/playwright/pt_guide_triangles.png",
+      "size_bytes": 240250,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/ptdemo/cli.config.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\ptdemo\\cli.config.json",
+      "href": "output/playwright/ptdemo/cli.config.json",
+      "size_bytes": 108,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/playwright/ptdemo/desktop-band.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\ptdemo\\desktop-band.png",
+      "href": "output/playwright/ptdemo/desktop-band.png",
+      "size_bytes": 63424,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/ptdemo/desktop-rulers.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\ptdemo\\desktop-rulers.png",
+      "href": "output/playwright/ptdemo/desktop-rulers.png",
+      "size_bytes": 61967,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/ptdemo/mobile-band.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\ptdemo\\mobile-band.png",
+      "href": "output/playwright/ptdemo/mobile-band.png",
+      "size_bytes": 37772,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/ptdemo/mobile-rulers.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\ptdemo\\mobile-rulers.png",
+      "href": "output/playwright/ptdemo/mobile-rulers.png",
+      "size_bytes": 45585,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
       "how_to_use": "系统照片查看器打开；这是二维图。"
     },
     {
@@ -1885,6 +2092,15 @@
       "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
     },
     {
+      "relative_path": "results/20261024_v2/pt_principles_validation.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_v2\\pt_principles_validation.json",
+      "href": "results/20261024_v2/pt_principles_validation.json",
+      "size_bytes": 2858,
+      "category": "结果总表与核查记录",
+      "purpose": "P/T 原理专篇与互动教学页的检查记录：离线图片、链接、窄屏排版、数值与操作；不属于原几何误差实验。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
       "relative_path": "results/20261024_v2/saved_model_isolation.json",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_v2\\saved_model_isolation.json",
       "href": "results/20261024_v2/saved_model_isolation.json",
@@ -2059,16 +2275,34 @@
       "relative_path": "scripts/build_file_index.py",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\build_file_index.py",
       "href": "scripts/build_file_index.py",
-      "size_bytes": 30419,
+      "size_bytes": 32529,
       "category": "辅助生成与核查脚本",
       "purpose": "重新扫描项目并生成本文件用途索引；只读模型与结果，不生成新的 3D。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "scripts/build_pt_principles_figures.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\build_pt_principles_figures.py",
+      "href": "scripts/build_pt_principles_figures.py",
+      "size_bytes": 14766,
+      "category": "辅助生成与核查脚本",
+      "purpose": "重画截面扫掠、边界位移、P/T 连接与轮廓坐标四张教学图；前三张为教学例，第四张读取保存参考。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "scripts/build_pt_principles_guide.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\build_pt_principles_guide.py",
+      "href": "scripts/build_pt_principles_guide.py",
+      "size_bytes": 5133,
+      "category": "辅助生成与核查脚本",
+      "purpose": "从源文字与四张原理图生成独立的 P/T 原理 HTML/Markdown 教程，检查相对链接；不修改模型。",
       "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
     },
     {
       "relative_path": "scripts/build_report.py",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\build_report.py",
       "href": "scripts/build_report.py",
-      "size_bytes": 23857,
+      "size_bytes": 23884,
       "category": "辅助生成与核查脚本",
       "purpose": "读取实验结果、绘制 01～08 图并生成原技术说明；重跑会更新对应报告与图。",
       "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
@@ -2311,7 +2545,7 @@
       "relative_path": "先看这里.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\先看这里.md",
       "href": "%E5%85%88%E7%9C%8B%E8%BF%99%E9%87%8C.md",
-      "size_bytes": 4437,
+      "size_bytes": 4766,
       "category": "根目录与入口文档",
       "purpose": "项目入口和最短操作步骤；Markdown 文本，可用编辑器阅读。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -2338,7 +2572,7 @@
       "relative_path": "文件用途索引.html",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\文件用途索引.html",
       "href": "%E6%96%87%E4%BB%B6%E7%94%A8%E9%80%94%E7%B4%A2%E5%BC%95.html",
-      "size_bytes": 168753,
+      "size_bytes": 182706,
       "category": "根目录与入口文档",
       "purpose": "本离线文件索引：可搜索名字、用途、路径，按文件夹展开每个实际文件。",
       "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
@@ -2347,7 +2581,7 @@
       "relative_path": "文件用途索引.json",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\文件用途索引.json",
       "href": "%E6%96%87%E4%BB%B6%E7%94%A8%E9%80%94%E7%B4%A2%E5%BC%95.json",
-      "size_bytes": 176344,
+      "size_bytes": 191649,
       "category": "根目录与入口文档",
       "purpose": "本索引的机器可读版本；包含逐文件路径、字节数、用途与运行环境分组统计。",
       "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
@@ -2357,15 +2591,15 @@
     {
       "path": ".playwright-cli",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\.playwright-cli",
-      "file_count": 15,
-      "total_bytes": 580777,
+      "file_count": 19,
+      "total_bytes": 608019,
       "purpose": "浏览器自动化的页面快照、控制台日志和临时截图；正式验收记录另存于 output/playwright 和 results 的 JSON。"
     },
     {
       "path": ".pytest_cache",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\.pytest_cache",
       "file_count": 5,
-      "total_bytes": 1476,
+      "total_bytes": 1544,
       "purpose": "自动测试工具的上次运行状态/缓存；不是测试结果正文或模型。"
     },
     {

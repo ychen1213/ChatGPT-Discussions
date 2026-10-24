@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>P 和 T 怎样从同一批点生成？动手演示</title>
+<style>
+:root{color-scheme:light;--ink:#183047;--muted:#516477;--line:#d8e2eb;--paper:#fff;--green:#087c61;--orange:#c55213;--blue:#245da6}*{box-sizing:border-box}body{margin:0;background:#f2f6fa;color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",sans-serif;line-height:1.8;font-size:17px}main{max-width:1080px;margin:auto;padding:28px 24px 64px}a{color:var(--blue)}h1{font-size:clamp(26px,4vw,37px);line-height:1.4;margin:18px 0}h2{font-size:23px;line-height:1.5;margin:0 0 12px}h3{font-size:19px;margin:16px 0 5px}p{margin:10px 0}.lead{font-size:20px}.badge{display:inline-block;padding:2px 10px;border-radius:20px;background:#e1ebf8;color:#224d80;font-size:14px}.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:20px}.notice{padding:16px 20px;border-left:4px solid #dda83c;background:#fff6df;border-radius:6px;margin:20px 0}.muted,.caption{color:var(--muted);font-size:15px}.formula{font-family:Consolas,"Microsoft YaHei",monospace;overflow-wrap:anywhere;background:#eff4f8;border-radius:8px;padding:14px 16px;line-height:1.9}.presets{display:flex;flex-wrap:wrap;gap:10px;margin:15px 0}button{font:inherit;font-size:16px;padding:8px 13px;border-radius:9px;border:1px solid #b9cbdc;background:#fff;color:var(--ink);cursor:pointer}button:hover{background:#edf4fc}button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #82ace0;outline-offset:3px}button[aria-pressed=true]{background:#245da6;color:#fff;border-color:#245da6}.controls{display:grid;grid-template-columns:1fr 1fr;gap:18px 26px}.control label{display:block;font-weight:700;margin-bottom:6px}.control .row{display:flex;gap:12px;align-items:center}.control input[type=range]{width:100%;min-width:0;accent-color:#245da6}.control input[type=number]{width:85px;min-width:65px;font:inherit;padding:5px;border:1px solid #b9cbdc;border-radius:5px}.control.wide{grid-column:1/-1}.hint{font-size:14px;color:var(--muted);margin:4px 0}.legend{display:flex;gap:10px 24px;flex-wrap:wrap;font-size:15px;margin:4px 0 12px}.swatch{display:inline-block;vertical-align:middle;width:25px;height:4px;margin-right:6px}.swatch.p{background:var(--green)}.swatch.t{background:var(--orange)}.swatch.base{height:0;border-top:2px dashed #8997a5}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#1b2631;margin-right:7px}canvas{display:block;width:100%;height:360px}#rulers{height:260px}.readouts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}.readout{border:1px solid var(--line);border-top:4px solid var(--green);border-radius:9px;padding:12px 16px;min-width:0}.readout.t{border-top-color:var(--orange)}.readout strong{font-size:19px}.readout dl{margin:8px 0}.readout dl div{display:flex;justify-content:space-between;gap:8px}.readout dt{color:var(--muted)}.readout dd{margin:0;font-variant-numeric:tabular-nums;white-space:nowrap}.takeaway{padding:16px 20px;background:#eaf4f2;border-radius:8px}.takeaway strong{color:#07644f}.table-wrap{overflow:auto;margin:12px 0}table{border-collapse:collapse;width:100%;font-size:15px}th,td{padding:9px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}th:first-child,td:first-child{text-align:left}summary{font-weight:700;cursor:pointer}details{margin:18px 0 0}details p{font-size:16px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.step{padding:12px 16px;background:#f0f5fa;border-radius:8px}.step strong{display:block}.mono{font-family:Consolas,monospace}.footer{font-size:15px;color:var(--muted);margin-top:24px}.status{min-height:3.6em}.small{font-size:15px}.rule{height:1px;background:var(--line);margin:20px 0}
+@media(max-width:600px){main{padding:18px 14px 40px}body{font-size:16px}.card{padding:17px 14px;border-radius:12px}h2{font-size:21px}.lead{font-size:18px}.controls,.readouts,.steps{grid-template-columns:1fr}.control.wide{grid-column:auto}.readout dl div{max-width:360px}.legend{gap:7px 15px}canvas{height:340px}#rulers{height:300px}.formula{padding:12px;font-size:14px}.notice{padding:12px 14px}button{font-size:15px}.status{min-height:5em}}
+</style>
+</head>
+<body>
+<main>
+<a href="../AH53_P与T生成原理_从截面到三维.html">← 返回 P 与 T 生成原理详解</a>
+<p><span class="badge">离线可用 · 可拖动 · 教学假设数据</span></p>
+<h1>同样四组截面点，<br>P 和 T 怎样连出不同的形状？</h1>
+<p class="lead">先只看条纹的一个高度：<strong>Y = 150 nm</strong>。沿长度 Z 选四个位置，记录每处的左边界和右边界。P 用光滑函数连接；这个简化例子中的 T 用直线段连接。</p>
+<div class="notice"><strong>本页用来理解原理。</strong>长度只取 Z = 0～600 nm，宽度以 1600 nm 为基准。这些数字是教学设定，不是 AH53 的误差实验结果，也不用于给 P、T 排名。本页展示的是固定高度上的边界轨迹；完整三维表面还要包含其他高度。</div>
+
+<section class="card">
+<h2>1. 先造一条会变化的条纹</h2>
+<p>把条纹想成一条道路：<strong>中心 c</strong> 决定道路往左还是往右偏，<strong>宽度 w</strong> 决定道路变宽还是变窄。于是左右边界可以写成：</p>
+<div class="formula">x<sub>L</sub>(Z) = c(Z) − w(Z)/2<br>x<sub>R</sub>(Z) = c(Z) + w(Z)/2</div>
+<p>本页让变化从两端的 0 平滑增加到中间最大，再回到 0：</p>
+<div class="formula">q = Z / 600，s = 4q(1−q)<br>c(Z) = A·s，w(Z) = 1600 + B·s</div>
+<p class="small">A 是中间位置的中心偏移量；B 是中间位置的<strong>完整宽度增加量</strong>，不是单侧增加量。两端 s = 0，中间 Z = 300 nm 时 s = 1。</p>
+<div class="presets" aria-label="形状预设">
+<button type="button" data-a="0" data-b="0" aria-pressed="false">① 直拉伸</button>
+<button type="button" data-a="24" data-b="0" aria-pressed="false">② 只让中心摆动</button>
+<button type="button" data-a="0" data-b="32" aria-pressed="false">③ 只让宽度变化</button>
+<button type="button" data-a="24" data-b="32" aria-pressed="true">④ 两者同时变化</button>
+</div>
+<div class="controls">
+<div class="control"><label for="amplitude">中心偏移 A / nm</label><div class="row"><input id="amplitude" type="range" min="-60" max="60" step="1" value="24"><input id="amplitude-number" type="number" min="-60" max="60" step="1" value="24" aria-label="中心偏移 A 数值"></div><p class="hint">正数向 +X 偏，负数向 −X 偏。</p></div>
+<div class="control"><label for="width-amplitude">全宽变化 B / nm</label><div class="row"><input id="width-amplitude" type="range" min="-80" max="80" step="1" value="32"><input id="width-number" type="number" min="-80" max="80" step="1" value="32" aria-label="全宽变化 B 数值"></div><p class="hint">正数变宽，负数变窄；两边各分担一半。</p></div>
+<div class="control wide"><label for="position">现在查看的位置 Z / nm</label><div class="row"><input id="position" type="range" min="0" max="600" step="1" value="300"><input id="position-number" type="number" min="0" max="600" step="1" value="300" aria-label="当前位置 Z 数值"></div><div class="presets"><button id="at-observation" type="button">去观测点：Z = 200</button><button id="at-middle" type="button">去两点中间：Z = 300</button></div></div>
+</div>
+<p id="shape-description" class="status" aria-live="polite"></p>
+<details><summary>它与“基准边界 + 空间变化场”的公式是什么关系？</summary>
+<p>在本页固定的 Y = 150 nm 高度，基准左边界是 −800 nm，基准右边界是 +800 nm。你的公式在这里具体变成：</p>
+<div class="formula">x<sub>L</sub> = −800 + u<sub>L</sub>，x<sub>R</sub> = +800 + u<sub>R</sub><br>u<sub>L</sub> = c − (w−1600)/2 = (A−B/2)·s<br>u<sub>R</sub> = c + (w−1600)/2 = (A+B/2)·s</div>
+<p>因此左右变化场不是另一种神秘结构：它们就是每个位置相对基准边界的位移。两侧同向等量移动只改变中心；两侧反向移动会改变宽度。完整模型中的 u 还可以随高度 Y 变化，本页暂时把 Y 固定住。</p>
+</details>
+</section>
+
+<section class="card">
+<h2>2. 只留下四个截面的观测点，再分别重建</h2>
+<div class="steps"><div class="step"><strong>取点</strong>在 Z = 0、200、400、600 nm 记录左右边界。</div><div class="step"><strong>生成 P</strong>从这四组坐标计算光滑插值函数，查询时计算函数值。</div><div class="step"><strong>生成 T 的轨迹</strong>同一侧相邻观测点用直线相连，查询时在该线段上取值。</div></div>
+<p>下面这张图是固定 Y 的 <strong>XZ 平面材料带</strong>。向右是横向 X，向下是长度 Z。绿色填充表示 P 的材料区域；黑点是两种方法共同拿到的观测。</p>
+<div class="legend"><span><i class="swatch p"></i>P：光滑插值</span><span><i class="swatch t"></i>T：分段直线轨迹</span><span><i class="dot"></i>共同观测点</span><span><i class="swatch base"></i>基准 ±800 nm</span></div>
+<canvas id="band" role="img" aria-label="固定高度 Y 等于 150 纳米的 XZ 材料带，显示 P 光滑边界、T 分段直线边界与共同观测点"></canvas>
+<p class="caption">蓝色横线是当前查看的 Z 位置。横纵坐标的屏幕比例不同；本图用于读坐标，不能拿屏幕上的倾斜角当实际几何角度。起伏相对 1600 nm 宽度很小，下一张图会放大左右边界的区别。</p>
+<details><summary>展开四组观测点，以及 P 和 T 的计算方法</summary>
+<div class="table-wrap"><table><thead><tr><th>Z / nm</th><th>左点 X / nm</th><th>右点 X / nm</th><th>中心 / nm</th><th>全宽 / nm</th></tr></thead><tbody id="samples"></tbody></table></div>
+<p><strong>P 的教学版：</strong>给定四个 Z 值和对应的左边界值，用四点 Lagrange 插值计算唯一的至多三次多项式；右边界同样处理。程序先保存这四个样本，之后 P 的查询只使用样本。</p>
+<div class="formula">P(Z) = Σ<sub>i=0…3</sub> x<sub>i</sub> · ℓ<sub>i</sub>(Z)<br>ℓ<sub>i</sub>(Z) = ∏<sub>j≠i</sub> (Z−Z<sub>j</sub>)/(Z<sub>i</sub>−Z<sub>j</sub>)</div>
+<p>本页造数据的 s 是二次多项式，所以四点插值刚好能恢复它。这里的 P 与无内部结点、经过这四点的三次样条给出相同结果；这只是完整 P 方法中一个很简单的特例。实际项目使用分区轮廓的二维张量积三次样条，并不只存四个点，也不使用一条全局多项式处理整个大 Mark。</p>
+<p><strong>T 的教学版轨迹：</strong>找到包围当前位置的两个观测截面 Z<sub>i</sub>、Z<sub>i+1</sub>，计算当前位置走到了这段距离的几成，再按这个比例混合两个端点。</p>
+<div class="formula">t = (Z−Z<sub>i</sub>)/(Z<sub>i+1</sub>−Z<sub>i</sub>)<br>T(Z) = (1−t)·x<sub>i</sub> + t·x<sub>i+1</sub></div>
+<p>完整 T 保存的是三维顶点和三角形连接关系，表面由平面三角形组成。本页特意只观察一条沿 Z 的顶点轨迹，所以可以直接画成分段直线。<strong>完整三角网格在任意高度切开后，通常需要计算平面与三角形的交线，不能一律套用这里“两点之间直线插值”的简化公式。</strong></p>
+</details>
+</section>
+
+<section class="card">
+<h2>3. 放大当前截面的左右边界，比较数值</h2>
+<p id="position-description"></p>
+<div class="control"><label for="position-detail">直接在这里拖动 Z，观察下方的点怎样移动</label><input id="position-detail" type="range" min="0" max="600" step="1" value="300"><div class="presets"><button type="button" id="detail-observation">观测位置 200 nm</button><button type="button" id="detail-middle">中间位置 300 nm</button></div></div>
+<canvas id="rulers" role="img" aria-label="左右边界分别放大的横向位置数轴，比较 P 与 T 的当前位置"></canvas>
+<p class="caption">上面是两段分别放大的 X 数轴。左窗看左边界，右窗看右边界；中间约 1600 nm 的距离被省略。窄屏时两窗上下排列。绿点和橙点分两行，仅为避免遮挡，竖直距离没有物理含义。</p>
+<div class="readouts">
+<div class="readout"><strong>P：光滑函数</strong><dl><div><dt>左边界 L</dt><dd id="p-left"></dd></div><div><dt>右边界 R</dt><dd id="p-right"></dd></div><div><dt>宽度 CD = R−L</dt><dd id="p-width"></dd></div><div><dt>中心 = (L+R)/2</dt><dd id="p-center"></dd></div></dl></div>
+<div class="readout t"><strong>T：直线轨迹</strong><dl><div><dt>左边界 L</dt><dd id="t-left"></dd></div><div><dt>右边界 R</dt><dd id="t-right"></dd></div><div><dt>宽度 CD = R−L</dt><dd id="t-width"></dd></div><div><dt>中心 = (L+R)/2</dt><dd id="t-center"></dd></div></dl></div>
+</div>
+<div class="takeaway" id="comparison" aria-live="polite"></div>
+<details><summary>为什么观测点处相同，中间却可以不同？</summary>
+<p>因为共同输入只告诉我们“这四处在哪里”，没有把它们之间的所有位置都告诉我们。两种方法都忠实经过样本，但采用了不同的连接规则：P 用平滑函数，T 用平面片组成表面；本例考察的轨迹因此是直线段。</p>
+<p>这不是 P 多读了参考答案：本页 P 的插值同样只读这四组点。但教学参考恰好是一个光滑二次函数，恰好能被所用插值精确重建。若实物有尖角、噪声或两点之间隐藏着缺陷，不能据本页认定 P 一定更准确。</p>
+</details>
+</section>
+
+<section class="card">
+<h2>4. 从这张二维图回到三维</h2>
+<p>刚才固定了 Y，只看这一高度的左右边界。现在想象：把这一套描述扩展到其他高度，低处、中间、圆肩、顶部都有各自的边界；再沿所有 Z 位置铺开，便得到整条条纹的外表面。</p>
+<p><strong>P 保存连续表面的函数及其系数。</strong>想知道某个位置在哪里，就代入参数计算。<strong>T 保存离散顶点和连接这些顶点的三角形。</strong>相邻截面的对应点连接成网带，每个四边形通常拆成两个三角形，再封闭必要的底面与端面。</p>
+<p>“参数化截面、扫掠、空间变化场”是在说明形状如何随空间变化；“P 或 T”是在说明最终如何保存和计算这个形状。二者属于不同层面：同一个随位置变化的截面方案，既能生成 P，也能采样生成 T。</p>
+<p><a href="../AH53_P与T生成原理_从截面到三维.html">回到详解，继续看完整轮廓、三角形连接方式和实际项目的生成流程 →</a></p>
+</section>
+<p class="footer">单位统一为 nm（纳米）。1 μm = 1000 nm。本文件无需网络或服务器；下载后可直接用浏览器打开。</p>
+</main>
+<script>
+(() => {
+'use strict';
+const $ = id => document.getElementById(id);
+const state = {a:24,b:32,z:300};
+const sampleZ = [0,200,400,600];
+let observations = [];
+const fmt = x => (Math.abs(x)<0.0005?0:x).toFixed(3);
+const colors = {p:'#087c61',t:'#c55213',ink:'#183047',muted:'#516477',grid:'#dbe5ee',blue:'#245da6'};
+function source(z){const q=z/600,s=4*q*(1-q),c=state.a*s,w=1600+state.b*s;return {z,l:c-w/2,r:c+w/2,c,w};}
+function pValue(z,key){let y=0;for(let i=0;i<4;i++){let basis=1;for(let j=0;j<4;j++)if(i!==j)basis*=(z-sampleZ[j])/(sampleZ[i]-sampleZ[j]);y+=observations[i][key]*basis;}return y;}
+function tValue(z,key){const i=Math.min(2,Math.floor(z/200)),t=(z-sampleZ[i])/200;return observations[i][key]*(1-t)+observations[i+1][key]*t;}
+function values(z,fn){const l=fn(z,'l'),r=fn(z,'r');return {l,r,w:r-l,c:(r+l)/2};}
+function context(id){const canvas=$(id),rect=canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1;canvas.width=Math.round(rect.width*dpr);canvas.height=Math.round(rect.height*dpr);const ctx=canvas.getContext('2d');ctx.setTransform(dpr,0,0,dpr,0,0);ctx.font='13px "Microsoft YaHei", sans-serif';ctx.lineCap='round';return {ctx,w:rect.width,h:rect.height};}
+function line(ctx,x1,y1,x2,y2,color,width=1,dash=[]){ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=width;ctx.setLineDash(dash);ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.stroke();ctx.setLineDash([]);}
+function text(ctx,str,x,y,color=colors.muted,align='left',size=13){ctx.font=size+'px "Microsoft YaHei", sans-serif';ctx.fillStyle=color;ctx.textAlign=align;ctx.fillText(str,x,y);}
+function dot(ctx,x,y,r,color){ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=color;ctx.fill();}
+function drawBand(){const {ctx,w,h}=context('band'),left=46,right=w-15,top=41,bottom=h-40;const fx=x=>left+(x+960)/1920*(right-left),fy=z=>top+z/600*(bottom-top);
+text(ctx,'X 横向 / nm',right,18,colors.ink,'right');text(ctx,'Z / nm',2,18,colors.ink);
+[-800,0,800].forEach(x=>{line(ctx,fx(x),top,fx(x),bottom,colors.grid);text(ctx,String(x),fx(x),bottom+23,colors.muted,'center');});
+sampleZ.forEach(z=>{line(ctx,left,fy(z),right,fy(z),colors.grid);text(ctx,String(z),left-8,fy(z)+4,colors.muted,'right');});
+ctx.beginPath();for(let z=0;z<=600;z+=3){const x=fx(pValue(z,'l')),y=fy(z);if(z===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);}for(let z=600;z>=0;z-=3)ctx.lineTo(fx(pValue(z,'r')),fy(z));ctx.closePath();ctx.fillStyle='#087c6115';ctx.fill();
+[-800,800].forEach(x=>line(ctx,fx(x),top,fx(x),bottom,'#8796a6',1,[5,4]));
+['l','r'].forEach(key=>{ctx.beginPath();for(let z=0;z<=600;z+=2){const x=fx(pValue(z,key)),y=fy(z);if(z===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);}ctx.strokeStyle=colors.p;ctx.lineWidth=3;ctx.stroke();ctx.beginPath();observations.forEach((p,i)=>{if(i===0)ctx.moveTo(fx(p[key]),fy(p.z));else ctx.lineTo(fx(p[key]),fy(p.z));});ctx.strokeStyle=colors.t;ctx.lineWidth=2;ctx.setLineDash([6,4]);ctx.stroke();ctx.setLineDash([]);observations.forEach(p=>dot(ctx,fx(p[key]),fy(p.z),4,'#1b2631'));});
+line(ctx,left,fy(state.z),right,fy(state.z),colors.blue,1.5,[4,3]);
+const labelY=Math.max(top+18,Math.min(bottom-9,fy(state.z)-8));text(ctx,'当前 Z = '+state.z,fx(0),labelY,colors.blue,'center',14);
+}
+function drawRulers(p,t){const {ctx,w,h}=context('rulers'),vertical=w<560;const panels=[{key:'l',title:'左边界 X / nm',base:-800},{key:'r',title:'右边界 X / nm',base:800}];panels.forEach((panel,index)=>{const x0=vertical?0:index*w/2,y0=vertical?index*h/2:0,pw=vertical?w:w/2,ph=vertical?h/2:h;const pad=36,xleft=x0+pad,xright=x0+pw-20,mid=(p[panel.key]+t[panel.key])/2;let span=Math.max(8,Math.abs(p[panel.key]-t[panel.key])*3);const low=mid-span/2,high=mid+span/2,fx=x=>xleft+(x-low)/span*(xright-xleft),axisY=y0+(vertical?ph-31:ph-55),pY=y0+(vertical?55:90),tY=y0+(vertical?85:150);
+text(ctx,panel.title,x0+12,y0+23,colors.ink,'left',15);line(ctx,xleft,axisY,xright,axisY,'#7a8fa2',1);
+for(let j=0;j<=2;j++){const value=low+span*j/2,x=fx(value);line(ctx,x,axisY-4,x,axisY+4,'#7a8fa2');text(ctx,value.toFixed(1),x,axisY+20,colors.muted,'center',12);}
+if(panel.base>=low&&panel.base<=high){line(ctx,fx(panel.base),y0+35,fx(panel.base),axisY,'#8d9aa7',1,[3,4]);}
+line(ctx,fx(p[panel.key]),pY,fx(p[panel.key]),axisY,colors.p,1,[3,3]);line(ctx,fx(t[panel.key]),tY,fx(t[panel.key]),axisY,colors.t,1,[3,3]);dot(ctx,fx(p[panel.key]),pY,5,colors.p);dot(ctx,fx(t[panel.key]),tY,5,colors.t);text(ctx,'P',x0+12,pY+4,colors.p);text(ctx,'T',x0+12,tY+4,colors.t);
+});}
+function update(){observations=sampleZ.map(source);const p=values(state.z,pValue),t=values(state.z,tValue);['p','t'].forEach(name=>{const v=name==='p'?p:t;[['left','l'],['right','r'],['width','w'],['center','c']].forEach(([id,key])=>$(name+'-'+id).textContent=fmt(v[key])+' nm');});
+$('position-detail').value=String(state.z);
+$('samples').innerHTML=observations.map(v=>'<tr><td>'+v.z+'</td><td>'+fmt(v.l)+'</td><td>'+fmt(v.r)+'</td><td>'+fmt(v.c)+'</td><td>'+fmt(v.w)+'</td></tr>').join('');
+document.querySelectorAll('[data-a]').forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.a)===state.a&&Number(button.dataset.b)===state.b)));
+const movement=state.a===0?'中心保持在 X = 0':('中心在中间位置向 '+(state.a>0?'+X':'−X')+' 偏 '+Math.abs(state.a)+' nm');const widen=state.b===0?'宽度始终是 1600 nm':('中间位置的全宽'+(state.b>0?'增加':'减少')+' '+Math.abs(state.b)+' nm');
+$('shape-description').textContent='现在的形状：'+movement+'；'+widen+'。两端仍回到原来的位置与宽度。';
+const observed=sampleZ.includes(state.z);$('position-description').textContent='当前 Z = '+state.z+' nm，Y = 150 nm。'+(observed?'这里正好有一组共同观测点。':'这里没有直接观测点，需要由两侧观测推算。');
+let message;if(observed){message='<strong>观测点处，两种方法吻合。</strong> 两者都经过保存的同一组边界点。点击“去两点中间”，再看连接规则带来的区别。';}else if(Math.abs(p.l-t.l)<1e-8&&Math.abs(p.r-t.r)<1e-8){message='<strong>当前形状在这里没有差别。</strong> 直边界用光滑函数和直线段都能准确表示。试试“只让中心摆动”或“两者同时变化”。';}else{message='<strong>观测点之间，两种连接规则给出了不同位置。</strong> 此处 P 相比 T：左边界差 '+fmt(p.l-t.l)+' nm，右边界差 '+fmt(p.r-t.r)+' nm；全宽差 '+fmt(p.w-t.w)+' nm，中心差 '+fmt(p.c-t.c)+' nm。差值是 P − T，不是实测误差。';}$('comparison').innerHTML=message;drawBand();drawRulers(p,t);}
+function sync(key,rangeId,numId){const range=$(rangeId),num=$(numId);[range,num].forEach(control=>control.addEventListener('input',()=>{if(control.value==='')return;let value=Number(control.value);if(!Number.isFinite(value))return;value=Math.max(Number(range.min),Math.min(Number(range.max),Math.round(value)));state[key]=value;range.value=String(value);num.value=String(value);update();}));num.addEventListener('change',()=>{num.value=String(state[key]);});}
+sync('a','amplitude','amplitude-number');sync('b','width-amplitude','width-number');sync('z','position','position-number');
+function setZ(z){state.z=z;$('position').value=String(z);$('position-number').value=String(z);update();}
+$('at-observation').addEventListener('click',()=>setZ(200));$('at-middle').addEventListener('click',()=>setZ(300));
+$('detail-observation').addEventListener('click',()=>setZ(200));$('detail-middle').addEventListener('click',()=>setZ(300));$('position-detail').addEventListener('input',()=>setZ(Number($('position-detail').value)));
+document.querySelectorAll('[data-a]').forEach(button=>button.addEventListener('click',()=>{state.a=Number(button.dataset.a);state.b=Number(button.dataset.b);$('amplitude').value=$('amplitude-number').value=String(state.a);$('width-amplitude').value=$('width-number').value=String(state.b);update();}));
+let scheduled=false;window.addEventListener('resize',()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;update();});});update();
+})();
+</script>
+</body>
+</html>

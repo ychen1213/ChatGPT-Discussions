@@ -117,7 +117,7 @@ def main():
     fields={'RUN_ID':args.run}
     p,t,v=[by[s] for s in ['local_P_fine','local_T_direct_fine','local_V_direct_fine']]
     fields['SUMMARY']=f"已实际完成 A 的 9 组、B 的 4 条局部路径、1 条全域 P→T 路径和一次局部编辑。局部细档的双向截面距离 P95 分别为 P {fmt(p['section_p95_nm'])} nm、T_direct {fmt(t['section_p95_nm'])} nm、5 nm 体素 {fmt(v['section_p95_nm'])} nm。这里的指标是规定截面的距离，不能解释成完整三维曲面的全域误差上界。"
-    syn=config['synthetic'];fields['SHAPE_DETAILS']=f"配置使用随机相位有限傅里叶叠加：最短波长 {min(syn['wavelengths_nm'])} nm，幅值按无限域理论 RMS 归一化，有限窗口重新测量。左／右圆肩特征尺度 {syn['shoulder_scale_nm']} nm、变化约 ±{syn['shoulder_relative_variation']*100:g}%；顶部横向拱高 {syn['top_transverse_rise_nm']} nm。中央母单元的中间条纹在 Z={syn['local_feature']['z_center_nm']} nm 有局部连续挑战：沿线半高宽 {syn['local_feature']['z_hwhm_nm']} nm、左侧位移幅度 {syn['local_feature']['left_displacement_nm']} nm、顶部增加 {syn['local_feature']['height_nm']} nm。圆肩由与两侧共享端点、匹配切线的解析 Bézier 段定义；参考生成器不调用候选样条。"
+    syn=config['synthetic'];fields['SHAPE_DETAILS']=f"配置使用随机相位有限傅里叶叠加：最短波长 {min(syn['wavelengths_nm'])} nm，幅值按无限域理论 RMS 归一化，有限窗口重新测量。左／右圆肩特征尺度 {syn['shoulder_scale_nm']} nm、变化约 ±{syn['shoulder_relative_variation']*100:g}%；顶部横向拱高 {syn['top_transverse_rise_nm']} nm。中央母单元的中间条纹在 Z={syn['local_feature']['z_center_nm']} nm 有局部连续挑战：沿线半高宽 {syn['local_feature']['z_hwhm_nm']} nm、左侧位移幅度 {syn['local_feature']['left_displacement_nm']} nm、顶部增加 {syn['local_feature']['height_nm']} nm。圆肩由与两侧共享端点、对齐切线方向（G1 几何光顺）的解析 Bézier 段定义；参考生成器不调用候选样条。"
     measured=[]
     for id in ['local_P_fine','local_T_direct_fine','local_V_direct_fine','full_P_fine']:
         g=details[id]['metrics']['profiles']['actual_geometry'];measured.append([id,fmt(g['width_y150_mean_nm']),', '.join(fmt(x,3) for x in g['width_y150_fluctuation_rms_nm']),', '.join(fmt(x,3) for x in g['center_y150_fluctuation_rms_nm'])])

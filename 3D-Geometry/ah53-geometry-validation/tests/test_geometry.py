@@ -9,7 +9,7 @@ def test_nominal_and_crop_identity():
         for z in (-1793,123,400,1500):
             assert np.array_equal(local.contour(i,z),full.contour(i+3,z))
 
-def test_reference_c1_and_material_domain():
+def test_reference_g1_and_material_domain():
     r=ReferenceGeometry()
     for line in range(3):
         for z in (-1500,400,1677):

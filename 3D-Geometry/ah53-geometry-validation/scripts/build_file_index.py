@@ -12,6 +12,13 @@ JSON_NAME = "文件用途索引.json"
 RUNTIME_NAMES = {".venv", "__pycache__", ".pytest_cache", ".playwright-cli"}
 
 EXACT = {
+    "AH53_P与T生成原理_从截面到三维.md": "P/T 原理专篇的 GitHub 文字版：对应左右边界公式、变截面扫掠、两方向样条与相邻点连三角，配四张原理图。",
+    "AH53_P与T生成原理_从截面到三维.html": "P/T 原理专篇的离线排版版：双击阅读，含公式解释、四张原理图、数值例子和互动页入口。",
+    "docs/PT生成原理正文.md": "P/T 原理专篇的可编辑源文字，图像占位由生成脚本替换；教学数值与实际模型分开说明。",
+    "docs/PT原理图说明.md": "四张新原理图各自的用途、看图步骤和局限。",
+    "docs/PT生成原理_动手演示.html": "单文件离线教学：用四个观测截面演示 P 插值与 T 顶点轨迹直连，拖动 Z 看左右边界、宽度和中心；不是完整 AH53 实验数据。",
+    "scripts/build_pt_principles_guide.py": "从源文字与四张原理图生成独立的 P/T 原理 HTML/Markdown 教程，检查相对链接；不修改模型。",
+    "scripts/build_pt_principles_figures.py": "重画截面扫掠、边界位移、P/T 连接与轮廓坐标四张教学图；前三张为教学例，第四张读取保存参考。",
     ".gitattributes": "指定 Git 对第三方库和自动生成 SVG 的空白检查规则；不影响几何计算或网页内容。",
     ".gitignore": "告诉 Git 哪些本机环境、缓存和大型结果不需要提交；它不控制查看器显示。",
     "启动3D查看器.bat": "Windows 双击入口：调用同目录 PowerShell 启动脚本，再打开本机 3D 网页。新人看模型从这里开始。",
@@ -72,6 +79,7 @@ EXACT = {
     "scripts/build_beginner_figures.py": "生成新手解释图（坐标、三种表示、实验流程、指标），其中实际形状读取已保存模型；不改正式结果。",
 }
 RESULTS = {
+    "pt_principles_validation.json": "P/T 原理专篇与互动教学页的检查记录：离线图片、链接、窄屏排版、数值与操作；不属于原几何误差实验。",
     "manifest.json": "整轮实验总账：使用的配置、机器环境、批次状态以及 A/B 的执行情况。",
     "preparation.json": "实验准备记录：参考对象、观测数据、准备耗时/内存和参考体积。",
     "lineage.json": "模型来历链：每份模型从谁生成、用了什么操作、输入和输出文件指纹；用于追溯转换。",
@@ -136,6 +144,14 @@ def describe(relative):
     name = parts[-1]
     if relative in EXACT:
         return EXACT[relative]
+    if relative.startswith('docs/figures/pt_'):
+        label={
+            'pt_01':'原理图1：同截面直拉伸与截面沿Z变化的扫掠，明确教学例和高度显示放大。',
+            'pt_02':'原理图2：基准左右边界加位移，分别解释中心变化和宽度变化。',
+            'pt_03':'原理图3：相同有序观测点建立P或T；四个相邻顶点连接成两个实际规则的三角形。',
+            'pt_04':'原理图4：固定高度求左右交点与沿轮廓参数行走，说明两种坐标如何对应。',
+        }.get(name[:5],'P/T生成原理教学图。')
+        return label+(' SVG矢量版，可放大。' if name.endswith('.svg') else ' PNG图片版，教程中展示。')
     if parts[0] == "results":
         if "models" in parts:
             ident = parts[parts.index("models") + 1]

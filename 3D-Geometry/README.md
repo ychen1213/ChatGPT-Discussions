@@ -15,6 +15,8 @@
 
 ## AH53 方案执行结果与新手教程
 
+- [P/T 生成原理专篇](ah53-geometry-validation/AH53_P与T生成原理_从截面到三维.md)：从左右边界公式、变截面扫掠到样条系数与三角连接，含 4 张原理图和离线互动例子。
+
 - [AH53 验证项目入口](ah53-geometry-validation/README.md)：已执行九组独立表示、四条局部转换、一条全域转换与局部编辑，含离线查看器及重建命令。
 - [从零开始：目的、原理、每张图和每类文件](ah53-geometry-validation/AH53_三种几何表示验证_详细说明.md)：面向初学者的完整说明，首先给出生成的 3D 模型位置。
 - [完整技术结果](ah53-geometry-validation/AH53_三种几何表示验证_技术验证报告.md) · [实际模型小样](ah53-geometry-validation/samples/README.md)。

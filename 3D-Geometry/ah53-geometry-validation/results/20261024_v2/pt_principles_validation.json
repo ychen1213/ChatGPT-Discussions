@@ -1,0 +1,53 @@
+{
+  "date_local": "2026-10-24",
+  "timezone": "Asia/Hong_Kong",
+  "scope": "P/T construction tutorial, four explanatory figures, offline interactive teaching example, and navigation updates; no formal model arrays rebuilt",
+  "guide": "AH53_P与T生成原理_从截面到三维.html",
+  "guide_characters_markdown": 13276,
+  "browser": "Chrome via Playwright CLI",
+  "offline_file_url_checked": true,
+  "h2_headings": 11,
+  "images": 4,
+  "formula_blocks": 8,
+  "broken_images": [],
+  "missing_toc_anchors": [],
+  "desktop_viewport": [1280, 900],
+  "desktop_horizontal_overflow": false,
+  "mobile_viewport": [390, 844],
+  "mobile_horizontal_overflow": false,
+  "mobile_toc_opens": true,
+  "guide_demo_return_navigation": true,
+  "page_errors": [],
+  "relative_file_links": {"principles": 10, "interactive": 2, "beginner": 23, "technical": 9, "readme": 7, "start_here": 8, "missing": []},
+  "updated_beginner_guide": {"characters_markdown": 40317, "images": 15, "broken_links": []},
+  "formal_model_files_in_git_diff": 0,
+  "interactive_example": {
+    "file": "docs/PT生成原理_动手演示.html",
+    "scope": "Four observed Z positions at fixed Y; cubic polynomial interpolation for P and piecewise-linear corresponding vertex tracks for T; not the full AH53 model",
+    "browser_checks_passed": 20,
+    "coverage": ["numerical reference values", "observed-position agreement", "unobserved-position difference", "straight extrusion preset", "center-change preset", "width-change preset", "combined preset", "Z input and synchronized sliders", "observation table", "offline rendering", "mobile layout"],
+    "desktop_viewport": [1180, 900],
+    "mobile_viewport": [390, 844],
+    "mobile_horizontal_overflow": false,
+    "page_errors": [],
+    "external_requests": 0
+  },
+  "pytest": {"passed": 11, "failed": 0},
+  "code_audit": [
+    "P interpolates observed XY coordinates in each contour partition, then interpolates the coefficient arrays along Z",
+    "T_direct connects the same ordered observations without reading P coefficients",
+    "P contour parameter t, named u in code, is distinct from the boundary displacement fields u_L and u_R",
+    "Triangle slicing can introduce an extra intersection on a diagonal; arbitrary T queries are not reduced to the one-dimensional teaching example",
+    "Reference joins align tangent directions (G1); documentation and test name no longer imply equality of parameter derivatives (C1)"
+  ],
+  "screenshots_local_only": [
+    "output/playwright/pt_guide_top.png",
+    "output/playwright/pt_guide_triangles.png",
+    "output/playwright/pt_guide_formula.png",
+    "output/playwright/pt_guide_mobile.png",
+    "output/playwright/ptdemo/desktop-band.png",
+    "output/playwright/ptdemo/desktop-rulers.png",
+    "output/playwright/ptdemo/mobile-band.png",
+    "output/playwright/ptdemo/mobile-rulers.png"
+  ]
+}
