@@ -1,0 +1,62 @@
+{
+  "date_local": "2026-10-24",
+  "scope": "Voxel-only reconstruction test, measured report, scientific figures, and offline preview",
+  "main_reconstructions": 8,
+  "challenge_attempts": 12,
+  "saved_successful_models": 18,
+  "explicit_unsupported_topology_results": 2,
+  "pytest": {"passed": 23, "failed": 0, "dependency_deprecation_warnings": 51},
+  "input_isolation": {"workers": 20, "forbidden_read_probes": 60, "blocked_probes": 60, "project_package_imported_by_workers": false},
+  "independent_audit_file": "independent_audit.json",
+  "independent_audit_passed": true,
+  "browser": "Chrome via Playwright CLI",
+  "offline_file_url_checked": true,
+  "desktop_viewport": [1280, 960],
+  "mobile_viewport": [390, 844],
+  "viewer": {
+    "file": "AH53_体素重建_3D查看.html",
+    "P_preview_vertices": 5096,
+    "P_preview_faces": 9800,
+    "T_preview_vertices": 162289,
+    "T_preview_faces": 322989,
+    "P_T_switch_works": true,
+    "height_gain_change_works": true,
+    "wireframe_and_shading_controls_work": true,
+    "four_camera_views_render_different_images": true,
+    "screenshot_download_works": true,
+    "desktop_horizontal_overflow": false,
+    "mobile_horizontal_overflow": false,
+    "return_to_report_works": true,
+    "scope": "One discovered component, approximately 1 um open observation window; P is a display sampling, T retains saved original triangles"
+  },
+  "report": {
+    "file": "AH53_从体素重建P与T_检查与测试.html",
+    "markdown_characters": 9413,
+    "images": 4,
+    "h2_chapters": 10,
+    "broken_images": [],
+    "missing_toc_anchors": [],
+    "desktop_horizontal_overflow": false,
+    "mobile_horizontal_overflow": false,
+    "mobile_toc_opens": true
+  },
+  "page_errors": [],
+  "external_network_requests": [],
+  "independent_document_review": {
+    "all_reported_tables_match_saved_metrics": true,
+    "local_reference_counts_including_anchors": {"new_report_html": 33, "principles_html": 84, "beginner_html": 156, "new_report_markdown": 10},
+    "missing_local_targets": [],
+    "missing_html_anchors": []
+  },
+  "export_audit_file": "export_manifest.json",
+  "screenshots_local_only": [
+    "output/playwright/vr_viewer_P.png",
+    "output/playwright/vr_viewer_T.png",
+    "output/playwright/vr_viewer_mobile.png",
+    "output/playwright/vr_exported_screenshot.png",
+    "output/playwright/vr_report_top.png",
+    "output/playwright/vr_report_results.png",
+    "output/playwright/vr_report_mobile.png"
+  ],
+  "publication_scope": "Publish code, protocol, all small score/audit records, four figures, small challenge arrays and standalone preview. Keep full label inputs, P/T arrays, complete PLY exports, worker copies and environment local."
+}

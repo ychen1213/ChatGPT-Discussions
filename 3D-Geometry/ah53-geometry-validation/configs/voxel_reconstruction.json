@@ -1,0 +1,38 @@
+{
+  "experiment": "voxel_only_boundary_reconstruction",
+  "data_kind": "synthetic center-sampled material labels, not measured grayscale images",
+  "source_run": "20261024_v2",
+  "cases": [
+    {"name": "local_10nm", "source": "local_V_direct_coarse", "spacing_nm": 10.0},
+    {"name": "local_5nm", "source": "local_V_direct_fine", "spacing_nm": 5.0}
+  ],
+  "allowed_grid_fields": ["origin_xyz_nm", "spacing_nm", "axis_order", "units", "materials"],
+  "P_profiles": [
+    {"name": "P_sigma0", "contour_step_in_voxels": 2, "z_step_in_voxels": 4, "smoothing_sigma_in_voxels": 0},
+    {"name": "P_sigma05", "contour_step_in_voxels": 2, "z_step_in_voxels": 4, "smoothing_sigma_in_voxels": 0.5},
+    {"name": "P_sigma1", "contour_step_in_voxels": 2, "z_step_in_voxels": 4, "smoothing_sigma_in_voxels": 1}
+  ],
+  "T": {"name": "T_MC", "field": "labels == 1", "level": 0.5, "step_size": 1},
+  "evaluation": {
+    "z_nm": [-1783, -1167, -443, 137, 413, 677, 1549],
+    "additional_z_shift_in_voxels": 0.37,
+    "curve_step_nm": 0.5,
+    "distance_sample_step_nm": 2,
+    "exclude_contact_interface": true,
+    "exclude_artificial_z_caps": true,
+    "free_surface_rule": "Clip all reference, voxel, P and T segments to Y >= input-inferred contact height + 2h; report this band separately from complete closed-section distances",
+    "free_surface_clearance_in_voxels": 2,
+    "also_score_complete_closed_sections": true,
+    "voxel_agreement": "all input voxel centers; material1 vs rest",
+    "ranking": "report every profile; do not select or tune on hidden reference"
+  },
+  "challenges": ["straight_control", "through_hole", "merging_bridge", "single_voxel_spur"],
+  "limits": [
+    "Researchers know this is a stripe family; input isolation is not a researcher double-blind study.",
+    "P and T_MC are complete reconstruction pipelines, not a comparison of storage formats alone.",
+    "No original parameters, stripe centers, supplied contour partitions, or original observations enter reconstruction.",
+    "The original continuous reference is available only to the separate evaluator.",
+    "Topology unsupported by the selected P parameterization must be rejected rather than repaired silently.",
+    "No full-Mark scalability claim or raw-image segmentation validation is made."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"ok\", \"kind\": \"T\", \"seconds\": 0.029, \"output\": \"D:\\\\\\u5de5\\u4f5c\\\\ChatGPT-Discussions\\\\3D-Geometry\\\\ah53-geometry-validation\\\\results\\\\20261024_voxel_reconstruction\\\\models\\\\merging_bridge__T_MC\"}\n",
+  "stderr": "",
+  "subprocess_seconds": 3.1215766000095755
+}

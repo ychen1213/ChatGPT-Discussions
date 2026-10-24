@@ -1,0 +1,154 @@
+{
+  "kind": "P",
+  "status": "ok",
+  "grid": {
+    "origin_xyz_nm": [
+      -8000.0,
+      -100.0,
+      -2000.0
+    ],
+    "spacing_nm": 5.0,
+    "axis_order": "ZYX",
+    "units": "nm",
+    "materials": {
+      "0": "air",
+      "1": "stripe",
+      "2": "substrate"
+    }
+  },
+  "array_shape_zyx": [
+    800,
+    100,
+    3200
+  ],
+  "z_bounds_nm": [
+    -2000.0,
+    2000.0
+  ],
+  "input_information": "labels.npy and minimal grid.json only",
+  "contour_step_nm": 10.0,
+  "z_step_nm": 20.0,
+  "smoothing_nm": 0.0,
+  "smoothing_rule": "Gaussian filter of XY samples on every original Z slice before Z subsampling: contour sigma=smoothing_nm/(maximum_perimeter/sample_count), mode=wrap; Z sigma=smoothing_nm/voxel_spacing_nm, mode=nearest; same physical sigma in both directions",
+  "family_limit": "fixed count of through-going components, one hole-free closed contour per component, unambiguous adjacent overlap",
+  "end_rule": "nearest continuation from first/last voxel centre to the corresponding domain end face",
+  "parameterization": "normalized cumulative contour arc length at every selected slice; same normalized coordinate matched across Z",
+  "n_components": 3,
+  "u_degree": 3,
+  "z_degree": 3,
+  "contour_sample_counts": [
+    388,
+    391,
+    389
+  ],
+  "diagnostics": {
+    "checked_slice_count": 800,
+    "tracked_components": 3,
+    "selected_slice_count": 201,
+    "z_stride_cells": 4,
+    "minimum_adjacent_overlap_fraction": 0.9956100051046453,
+    "perimeter_ranges_nm": [
+      [
+        3803.345237791561,
+        3877.4873734152916
+      ],
+      [
+        3799.2031021678295,
+        3909.9137802864843
+      ],
+      [
+        3783.345237791561,
+        3881.6295090390227
+      ]
+    ],
+    "connectivity_2d": 8,
+    "correspondence": "exactly one nonzero adjacent-slice component overlap in each direction",
+    "start_point": "leftmost X at observed minimum Y; counterclockwise orientation"
+  },
+  "coefficient_layout": "[Z coefficient, contour coefficient, XY]",
+  "validity_checks": {
+    "invalid_observed_polygons": [],
+    "checked_fitted_z_centres": 800,
+    "invalid_fitted_sections": [],
+    "limitation": "polygonal inspection at voxel-centre planes; does not prove continuous-surface injectivity between planes"
+  },
+  "build_seconds": 14.791796099976636,
+  "payload_bytes": 3803840,
+  "worker": {
+    "wall_seconds": 14.870792399975471,
+    "rss_after_bytes": 84996096,
+    "process_peak_working_set_bytes": 392187904,
+    "python_isolated": true,
+    "initial_worker_files": [
+      "reconstruction.py",
+      "worker.py"
+    ],
+    "initial_output_files": [],
+    "project_package_imported": false,
+    "forbidden_read_probes": [
+      {
+        "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_v2\\models\\reference_local\\metadata.json",
+        "blocked": true
+      },
+      {
+        "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_v2\\models\\local_V_direct_fine\\metadata.json",
+        "blocked": true
+      },
+      {
+        "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\src\\ah53\\reference_geometry.py",
+        "blocked": true
+      }
+    ],
+    "blocked_read_count": 3,
+    "unexpected_blocked_reads": [],
+    "local_files_read": [
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\local_5nm\\grid.json",
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\local_5nm\\labels.npy",
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma0\\P\\coefficients.npz",
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma0\\P\\metadata.json",
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__P_sigma0\\__pycache__\\reconstruction.cpython-312.pyc",
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__P_sigma0\\reconstruction.py"
+    ],
+    "guard_scope": "Python file-open audit plus isolated import path; not an OS sandbox"
+  },
+  "model_id": "local_5nm__P_sigma0",
+  "input_case": "local_5nm",
+  "profile": "P_sigma0",
+  "settings": {
+    "contour_step_nm": 10.0,
+    "z_step_nm": 20.0,
+    "smoothing_nm": 0.0
+  },
+  "input_labels_sha256": "1971261dd6c022128117509f81e5893d15b6bca985321799629f912aed1209c0",
+  "implementation_sha256": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+  "worker_sha256": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a",
+  "build_fingerprint": {
+    "schema": 1,
+    "kind": "P",
+    "settings": {
+      "contour_step_nm": 10.0,
+      "z_step_nm": 20.0,
+      "smoothing_nm": 0.0
+    },
+    "input_labels_sha256": "1971261dd6c022128117509f81e5893d15b6bca985321799629f912aed1209c0",
+    "input_grid_sha256": "6ebdb44de8583c720aa5b03ea3a845621e01266572d2ed9efc84760d33414312",
+    "config_sha256": "6e05efb3ccc027c9c73053daba8054dbeb59691045aa6ce0c0060d00a8d17f61",
+    "implementation_sha256": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+    "worker_sha256": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a",
+    "runtime_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-image": "0.26.0",
+      "trimesh": "5.2.0",
+      "shapely": "2.2.0"
+    }
+  },
+  "artifact_sha256": {
+    "P/coefficients.npz": "846786f3027f6b5e79d4521901f8947c43dd48ff25b0f4c1799b9ae3eec662f3",
+    "P/metadata.json": "b26e61b68b74e48b97c9f9de306f4125f35144a2306b6900ce868f84aa348412"
+  },
+  "worker_directory_sha256": {
+    "reconstruction.py": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+    "worker.py": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a"
+  }
+}

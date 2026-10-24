@@ -4,6 +4,9 @@ __pycache__/
 *.pyc
 node_modules/
 results/*/models/
+results/*/inputs/
+results/*/workers/
+results/*/exports/
 results/*/observations/
 results/*/previews/
 results/*/edited/

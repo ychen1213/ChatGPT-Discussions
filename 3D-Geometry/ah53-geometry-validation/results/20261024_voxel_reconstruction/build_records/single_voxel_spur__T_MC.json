@@ -1,0 +1,105 @@
+{
+  "kind": "T",
+  "status": "ok",
+  "grid": {
+    "origin_xyz_nm": [
+      -320.0,
+      -80.0,
+      -160.0
+    ],
+    "spacing_nm": 10.0,
+    "axis_order": "ZYX",
+    "units": "nm",
+    "materials": {
+      "0": "air",
+      "1": "stripe",
+      "2": "substrate"
+    }
+  },
+  "array_shape_zyx": [
+    32,
+    40,
+    64
+  ],
+  "z_bounds_nm": [
+    -160.0,
+    160.0
+  ],
+  "input_information": "labels.npy and minimal grid.json only",
+  "algorithm": "Lewiner marching cubes on binary (labels == 1), isovalue 0.5, one zero halo, no mesh smoothing/decimation",
+  "end_rule": "zero halo creates an inferred cap at both observed domain ends; these are scan-window closures",
+  "vertex_count": 3780,
+  "face_count": 7556,
+  "signed_volume_nm3": 15323333.333333334,
+  "winding": "outward; positive signed enclosed volume",
+  "payload_bytes": 136288,
+  "build_seconds": 0.018196300021372736,
+  "worker": {
+    "wall_seconds": 0.025914400001056492,
+    "rss_after_bytes": 78856192,
+    "process_peak_working_set_bytes": 80470016,
+    "python_isolated": true,
+    "initial_worker_files": [
+      "reconstruction.py",
+      "worker.py"
+    ],
+    "initial_output_files": [],
+    "project_package_imported": false,
+    "forbidden_read_probes": [
+      {
+        "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_v2\\models\\reference_local\\metadata.json",
+        "blocked": true
+      },
+      {
+        "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_v2\\models\\local_V_direct_fine\\metadata.json",
+        "blocked": true
+      },
+      {
+        "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\src\\ah53\\reference_geometry.py",
+        "blocked": true
+      }
+    ],
+    "blocked_read_count": 3,
+    "unexpected_blocked_reads": [],
+    "local_files_read": [
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\single_voxel_spur\\grid.json",
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\single_voxel_spur\\labels.npy",
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__T_MC\\__pycache__\\reconstruction.cpython-312.pyc",
+      "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__T_MC\\reconstruction.py"
+    ],
+    "guard_scope": "Python file-open audit plus isolated import path; not an OS sandbox"
+  },
+  "model_id": "single_voxel_spur__T_MC",
+  "input_case": "single_voxel_spur",
+  "profile": "T_MC",
+  "settings": {},
+  "input_labels_sha256": "0cef2458a79ac150e27a34d459d36925172b362cbc24cac2fef18ff64f11b378",
+  "implementation_sha256": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+  "worker_sha256": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a",
+  "build_fingerprint": {
+    "schema": 1,
+    "kind": "T",
+    "settings": {},
+    "input_labels_sha256": "0cef2458a79ac150e27a34d459d36925172b362cbc24cac2fef18ff64f11b378",
+    "input_grid_sha256": "d06e9f8b4fe37f2cc1c22e21f64a57b0b3335be1c56f2ac922e388c331d01f70",
+    "config_sha256": "6e05efb3ccc027c9c73053daba8054dbeb59691045aa6ce0c0060d00a8d17f61",
+    "implementation_sha256": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+    "worker_sha256": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a",
+    "runtime_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-image": "0.26.0",
+      "trimesh": "5.2.0",
+      "shapely": "2.2.0"
+    }
+  },
+  "artifact_sha256": {
+    "T/faces.npy": "a4473a1f9e43f8d1ca60a4472557a1bc9d22cd9125eedbd71a703c80f40068de",
+    "T/metadata.json": "ac503cc7665031f2418e5141872a0eba93c31cf3deb94f148c707ac8abe64bb2",
+    "T/vertices.npy": "4ec91b6f0fc1ef30a79c5d88476d691dbd3acc86a9100fc2c48bd9018383fc34"
+  },
+  "worker_directory_sha256": {
+    "reconstruction.py": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+    "worker.py": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a"
+  }
+}

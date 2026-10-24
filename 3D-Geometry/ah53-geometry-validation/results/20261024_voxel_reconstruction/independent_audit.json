@@ -1,0 +1,741 @@
+{
+  "created_at_utc": "2026-10-24T11:55:31.550477+00:00",
+  "audit_script_sha256": "1714d9a658bcb8b295c0e5f2b1ce8ebd00948cb1d4af4450b91f88d066f940f9",
+  "provenance": {
+    "input_count": 6,
+    "build_count": 20,
+    "protocol_checks": {
+      "frozen_config_matches": true,
+      "frozen_manifest_matches": true,
+      "complete_expected_build_matrix": true
+    },
+    "inputs": [
+      {
+        "case": "local_10nm",
+        "sha256": "fbd12bc303af7f915609490900498e75b67d3b9485ac3971c855b3f4acb2b2a8",
+        "grid_sha256": "7f420221b20affa19310bc460b894565507bf5f254519c8307fb7e888530bf3b",
+        "checks": {
+          "labels_match_manifest": true,
+          "minimal_grid_only": true,
+          "grid_matches_manifest": true,
+          "only_two_input_files": true,
+          "labels_match_original_saved_voxels": true
+        },
+        "passed": true
+      },
+      {
+        "case": "local_5nm",
+        "sha256": "1971261dd6c022128117509f81e5893d15b6bca985321799629f912aed1209c0",
+        "grid_sha256": "6ebdb44de8583c720aa5b03ea3a845621e01266572d2ed9efc84760d33414312",
+        "checks": {
+          "labels_match_manifest": true,
+          "minimal_grid_only": true,
+          "grid_matches_manifest": true,
+          "only_two_input_files": true,
+          "labels_match_original_saved_voxels": true
+        },
+        "passed": true
+      },
+      {
+        "case": "straight_control",
+        "sha256": "be591273f69c29253866c9b5a33a0b97858b49d633747c63bb2b37421779b488",
+        "grid_sha256": "d06e9f8b4fe37f2cc1c22e21f64a57b0b3335be1c56f2ac922e388c331d01f70",
+        "checks": {
+          "labels_match_manifest": true,
+          "minimal_grid_only": true,
+          "grid_matches_manifest": true,
+          "only_two_input_files": true
+        },
+        "passed": true
+      },
+      {
+        "case": "through_hole",
+        "sha256": "483b6f11d1eff8650325fb68f6d9360b5c8168cbbaca5278fb1c573542ba92fc",
+        "grid_sha256": "d06e9f8b4fe37f2cc1c22e21f64a57b0b3335be1c56f2ac922e388c331d01f70",
+        "checks": {
+          "labels_match_manifest": true,
+          "minimal_grid_only": true,
+          "grid_matches_manifest": true,
+          "only_two_input_files": true
+        },
+        "passed": true
+      },
+      {
+        "case": "merging_bridge",
+        "sha256": "b301e466279938b3f9d9084782821b5902d297a234b73479b272997c4bf705cc",
+        "grid_sha256": "d06e9f8b4fe37f2cc1c22e21f64a57b0b3335be1c56f2ac922e388c331d01f70",
+        "checks": {
+          "labels_match_manifest": true,
+          "minimal_grid_only": true,
+          "grid_matches_manifest": true,
+          "only_two_input_files": true
+        },
+        "passed": true
+      },
+      {
+        "case": "single_voxel_spur",
+        "sha256": "0cef2458a79ac150e27a34d459d36925172b362cbc24cac2fef18ff64f11b378",
+        "grid_sha256": "d06e9f8b4fe37f2cc1c22e21f64a57b0b3335be1c56f2ac922e388c331d01f70",
+        "checks": {
+          "labels_match_manifest": true,
+          "minimal_grid_only": true,
+          "grid_matches_manifest": true,
+          "only_two_input_files": true
+        },
+        "passed": true
+      }
+    ],
+    "builds": [
+      {
+        "model_id": "local_10nm__T_MC",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "local_10nm__P_sigma0",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "local_10nm__P_sigma05",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "local_10nm__P_sigma1",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "local_5nm__T_MC",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "local_5nm__P_sigma0",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "local_5nm__P_sigma05",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "local_5nm__P_sigma1",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "straight_control__T_MC",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "straight_control__P_sigma0",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "straight_control__P_sigma05",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "straight_control__P_sigma1",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "through_hole__T_MC",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "through_hole__P_sigma05",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "merging_bridge__T_MC",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "merging_bridge__P_sigma05",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "single_voxel_spur__T_MC",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "single_voxel_spur__P_sigma0",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "single_voxel_spur__P_sigma05",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      },
+      {
+        "model_id": "single_voxel_spur__P_sigma1",
+        "checks": {
+          "three_forbidden_reads_blocked": true,
+          "exactly_three_blocked_reads": true,
+          "no_unexpected_blocked_read": true,
+          "isolated_python": true,
+          "ah53_not_imported_in_worker": true,
+          "initial_worker_only_two_scripts": true,
+          "initial_output_empty": true,
+          "input_labels_fingerprint": true,
+          "input_grid_fingerprint": true,
+          "config_fingerprint": true,
+          "implementation_fingerprint": true,
+          "worker_fingerprint": true,
+          "runtime_matches_protocol": true,
+          "metadata_has_no_truth_recipe_keys": true,
+          "saved_artifacts_match_record": true,
+          "worker_tree_matches_record": true,
+          "worker_result_matches_published_build_record": true
+        },
+        "forbidden_metadata_keys": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "scope": "recheck recorded Python file-open guard probes and hashes; not an OS sandbox or researcher double-blind claim"
+  },
+  "curve_discretization_convergence": {
+    "model_id": "local_5nm__P_sigma05",
+    "reference_curve_step_nm": 0.25,
+    "distance_sample_step_nm": 2.0,
+    "threshold_nm": 0.02,
+    "threshold_note": "predeclared numerical diagnostic; not a reconstruction-parameter tuning target",
+    "minimum_y_nm": 10.0,
+    "records": [
+      {
+        "z_nm": 413.0,
+        "step_0_5_nm": {
+          "rms_nm": 1.2244082941567809,
+          "p95_nm": 2.2905390149436005,
+          "max_nm": 2.9661022287203562,
+          "mean_signed_nm": 0.9802588456222797,
+          "samples": 43643,
+          "missing": 0
+        },
+        "step_0_25_nm": {
+          "rms_nm": 1.2245416448321378,
+          "p95_nm": 2.2904729902840466,
+          "max_nm": 2.966393412942984,
+          "mean_signed_nm": 0.9803891260792189,
+          "samples": 56764,
+          "missing": 0
+        },
+        "absolute_score_changes_nm": {
+          "rms_nm": 0.00013335067535691358,
+          "p95_nm": 6.602465955385384e-05,
+          "max_nm": 0.00029118422262763843
+        },
+        "between_discretizations": {
+          "rms_nm": 0.0004716119559797959,
+          "p95_nm": 0.0010738498030874823,
+          "max_nm": 0.004579034070718361,
+          "mean_signed_nm": 0.00021687946250759373,
+          "samples": 41027,
+          "missing": 0
+        },
+        "passed": true
+      },
+      {
+        "z_nm": 677.0,
+        "step_0_5_nm": {
+          "rms_nm": 1.1451414189084426,
+          "p95_nm": 2.0378290618956245,
+          "max_nm": 2.5671337675407155,
+          "mean_signed_nm": 0.9979768730261965,
+          "samples": 43587,
+          "missing": 0
+        },
+        "step_0_25_nm": {
+          "rms_nm": 1.145285831348411,
+          "p95_nm": 2.037667087572289,
+          "max_nm": 2.5679063353561475,
+          "mean_signed_nm": 0.9981161595302089,
+          "samples": 56668,
+          "missing": 0
+        },
+        "absolute_score_changes_nm": {
+          "rms_nm": 0.00014441243996854425,
+          "p95_nm": 0.0001619743233356452,
+          "max_nm": 0.0007725678154320015
+        },
+        "between_discretizations": {
+          "rms_nm": 0.0004982849305080853,
+          "p95_nm": 0.0011349233865738126,
+          "max_nm": 0.00478677260611926,
+          "mean_signed_nm": 0.00022718380104731956,
+          "samples": 40114,
+          "missing": 0
+        },
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "independent_center_classification": {
+    "seed": 20261024,
+    "sample_count_per_model": 10000,
+    "unique_sampled_cells": 9999,
+    "selected_z_indices": [
+      16,
+      30,
+      39,
+      60,
+      64,
+      110,
+      183,
+      197,
+      246,
+      260,
+      310,
+      316,
+      379,
+      386,
+      389,
+      425,
+      437,
+      447,
+      448,
+      502,
+      529,
+      572,
+      583,
+      600,
+      618,
+      680,
+      698,
+      700,
+      724,
+      779,
+      784,
+      799
+    ],
+    "selected_z_plane_count": 32,
+    "sample_selection": "5000 uniform XY samples on 32 seed-selected voxel Z planes plus 5000 samples in a one-cell dilation of label1/non1 transitions; reference never used for sampling",
+    "independent_method": "Shapely contains_xy per closed polygon, XOR even-odd across loops; independent of scoring scanline rasterizer",
+    "boundary_tie_handling": "distances <=1e-8 nm to polygon boundaries reported separately; no forced inside/outside verdict there",
+    "limitation": "validates polygon classification at stated discretization and sampled planes, not full continuous P solid membership",
+    "models": [
+      {
+        "model_id": "local_5nm__P_sigma05",
+        "strata": [
+          {
+            "stratum": "whole_XY_domain",
+            "samples": 5000,
+            "points_within_1e_8_nm_of_polygon_boundary": 0,
+            "raw_disagreements": 0,
+            "disagreements_excluding_boundary_ties": 0
+          },
+          {
+            "stratum": "label_transition_boundary_band",
+            "samples": 5000,
+            "points_within_1e_8_nm_of_polygon_boundary": 0,
+            "raw_disagreements": 0,
+            "disagreements_excluding_boundary_ties": 0
+          }
+        ],
+        "total_disagreements_excluding_boundary_ties": 0,
+        "passed": true
+      },
+      {
+        "model_id": "local_5nm__T_MC",
+        "strata": [
+          {
+            "stratum": "whole_XY_domain",
+            "samples": 5000,
+            "points_within_1e_8_nm_of_polygon_boundary": 0,
+            "raw_disagreements": 0,
+            "disagreements_excluding_boundary_ties": 0
+          },
+          {
+            "stratum": "label_transition_boundary_band",
+            "samples": 5000,
+            "points_within_1e_8_nm_of_polygon_boundary": 0,
+            "raw_disagreements": 0,
+            "disagreements_excluding_boundary_ties": 0
+          }
+        ],
+        "total_disagreements_excluding_boundary_ties": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "passed": true,
+  "seconds": 8.184726100065745
+}

@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"ok\", \"kind\": \"P\", \"seconds\": 0.211, \"output\": \"D:\\\\\\u5de5\\u4f5c\\\\ChatGPT-Discussions\\\\3D-Geometry\\\\ah53-geometry-validation\\\\results\\\\20261024_voxel_reconstruction\\\\models\\\\single_voxel_spur__P_sigma1\"}\n",
+  "stderr": "",
+  "subprocess_seconds": 3.4475041999248788
+}

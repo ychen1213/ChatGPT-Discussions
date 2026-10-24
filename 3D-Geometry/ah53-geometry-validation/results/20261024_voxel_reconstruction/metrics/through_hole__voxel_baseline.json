@@ -1,0 +1,90 @@
+{
+  "options": {
+    "curve_step_nm": 0.5,
+    "quadrature_step_nm": 2,
+    "phase_offset_in_voxels": 0.37,
+    "material_curve_step_nm": 0.5,
+    "contact_exclusion_height_in_voxels": 2,
+    "z_nm": [
+      -136.3,
+      -56.30000000000001,
+      -6.300000000000011,
+      3.700000000000017,
+      63.70000000000002,
+      133.7
+    ],
+    "additional_z_shift_in_voxels": 0.37,
+    "distance_sample_step_nm": 2,
+    "exclude_contact_interface": true,
+    "exclude_artificial_z_caps": true,
+    "free_surface_rule": "Clip all reference, voxel, P and T segments to Y >= input-inferred contact height + 2h; report this band separately from complete closed-section distances",
+    "free_surface_clearance_in_voxels": 2,
+    "also_score_complete_closed_sections": true,
+    "voxel_agreement": "all input voxel centers; material1 vs rest",
+    "ranking": "report every profile; do not select or tune on hidden reference"
+  },
+  "input_directory": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\through_hole",
+  "input_spacing_xyz_nm": [
+    10.0,
+    10.0,
+    10.0
+  ],
+  "input_shape_zyx": [
+    32,
+    40,
+    64
+  ],
+  "planar_substrate_interface_y_nm": 0.0,
+  "common_height_band_minimum_y_nm": 20.0,
+  "reference_curve_step_nm": 0.5,
+  "input_voxel_to_reference": null,
+  "input_voxel_to_reference_closed": null,
+  "distance_exclusions": "main distance uses identical Y >= contact + 2h band and clipped crossing segments; *_closed includes all XY interfaces including bottom; artificial Z caps absent from interior XY cuts",
+  "evaluation_fingerprint": {
+    "schema": 1,
+    "input_labels_sha256": "483b6f11d1eff8650325fb68f6d9360b5c8168cbbaca5278fb1c573542ba92fc",
+    "input_grid_sha256": "d06e9f8b4fe37f2cc1c22e21f64a57b0b3335be1c56f2ac922e388c331d01f70",
+    "config_sha256": "6e05efb3ccc027c9c73053daba8054dbeb59691045aa6ce0c0060d00a8d17f61",
+    "options": {
+      "z_nm": [
+        -136.3,
+        -56.30000000000001,
+        -6.300000000000011,
+        3.700000000000017,
+        63.70000000000002,
+        133.7
+      ],
+      "additional_z_shift_in_voxels": 0.37,
+      "curve_step_nm": 0.5,
+      "distance_sample_step_nm": 2,
+      "exclude_contact_interface": true,
+      "exclude_artificial_z_caps": true,
+      "free_surface_rule": "Clip all reference, voxel, P and T segments to Y >= input-inferred contact height + 2h; report this band separately from complete closed-section distances",
+      "free_surface_clearance_in_voxels": 2,
+      "also_score_complete_closed_sections": true,
+      "voxel_agreement": "all input voxel centers; material1 vs rest",
+      "ranking": "report every profile; do not select or tune on hidden reference"
+    },
+    "reference_artifact_sha256": null,
+    "evaluation_code_sha256": {
+      "__init__.py": "89f793b85722431fc3cb56ad953cb6f7363206b9745197f14b46664fff2af0b0",
+      "common.py": "8983b4ac001817f0e123f4785a8286f1094895aad50cecbbd8c35d3142167dff",
+      "evaluate.py": "e7afd6b4f56528e9d6e79e69dd240f75989e74c8e75fbea019fad32ff2a1e5c7",
+      "parametric.py": "290187bc29beea54b2cbe50d58cddb1633ea12ce11c167f7dde0454458bd90a8",
+      "reference_geometry.py": "d96873ee98d57abebe4a37a41e954a38204389cd96357fcfd171a70d6818cda8",
+      "surface.py": "327fb282430a90675021ea5004bf0060fa75557f9da74d38c31745709e9c3450",
+      "voxel.py": "4d8fe1af0531fb09b8c519e109e0db6791ef11435145a2b02d25688620f3de48",
+      "voxel_reconstruction.py": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+      "voxel_reconstruction_metrics.py": "d6ebb3711fccae2f46ce5cb07670d17bbc26688ed6311100b09fbff46361c73b"
+    },
+    "model_artifact_sha256": null,
+    "build_fingerprint": null,
+    "runtime_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-image": "0.26.0",
+      "trimesh": "5.2.0",
+      "shapely": "2.2.0"
+    }
+  }
+}

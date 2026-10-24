@@ -1,0 +1,254 @@
+{
+  "created_at_utc": "2026-10-24T11:58:35.040050+00:00",
+  "units": "nm",
+  "scope": "all discovered components over the full 4 um local length; stripe material only, no substrate solid",
+  "P": {
+    "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\exports\\P_5nm_sigma05_display_20nm_40nm.ply",
+    "relative_path": "results/20261024_voxel_reconstruction/exports/P_5nm_sigma05_display_20nm_40nm.ply",
+    "bytes": 2245420,
+    "sha256": "c0f27027a4dad7d48fe57f61fcf9378c744424119a183898afc5c9ad4dc35ccd",
+    "format": "binary_little_endian PLY, XYZ float32, triangle indices int32",
+    "units": "nm",
+    "roundtrip_every_vertex_and_face_exact": true,
+    "source_model": "local_5nm__P_sigma05",
+    "sampling": {
+      "source": "reloaded P coefficients",
+      "contour_step_nm": 20.0,
+      "contour_step_rule": "maximum observed perimeter / ceil(maximum perimeter / requested step); normalized contour parameter sampling",
+      "z_step_nm": 40.0,
+      "requested_z_step_nm": 40.0,
+      "z_bounds_nm": [
+        -2000.0,
+        2000.0
+      ],
+      "z_plane_count": 101,
+      "components": [
+        0,
+        1,
+        2
+      ],
+      "caps": [
+        {
+          "component": 0,
+          "low": {
+            "method": "Shapely/GEOS constrained Delaunay triangulation",
+            "polygon_area_nm2": 483777.2416194907,
+            "symmetric_difference_area_nm2": 0.0,
+            "triangle_count": 192,
+            "boundary_vertices": 194
+          },
+          "high": {
+            "method": "Shapely/GEOS constrained Delaunay triangulation",
+            "polygon_area_nm2": 478988.12292622,
+            "symmetric_difference_area_nm2": 0.0,
+            "triangle_count": 192,
+            "boundary_vertices": 194
+          }
+        },
+        {
+          "component": 1,
+          "low": {
+            "method": "Shapely/GEOS constrained Delaunay triangulation",
+            "polygon_area_nm2": 474927.3946947416,
+            "symmetric_difference_area_nm2": 0.0,
+            "triangle_count": 194,
+            "boundary_vertices": 196
+          },
+          "high": {
+            "method": "Shapely/GEOS constrained Delaunay triangulation",
+            "polygon_area_nm2": 483803.1831272005,
+            "symmetric_difference_area_nm2": 0.0,
+            "triangle_count": 194,
+            "boundary_vertices": 196
+          }
+        },
+        {
+          "component": 2,
+          "low": {
+            "method": "Shapely/GEOS constrained Delaunay triangulation",
+            "polygon_area_nm2": 474274.5796254358,
+            "symmetric_difference_area_nm2": 0.0,
+            "triangle_count": 193,
+            "boundary_vertices": 195
+          },
+          "high": {
+            "method": "Shapely/GEOS constrained Delaunay triangulation",
+            "polygon_area_nm2": 469416.7595497018,
+            "symmetric_difference_area_nm2": 0.0,
+            "triangle_count": 193,
+            "boundary_vertices": 195
+          }
+        }
+      ],
+      "not_scoring_geometry": true,
+      "scope": "display/exchange approximation; formal P scoring reloads coefficients directly"
+    },
+    "topology": {
+      "status": "ok",
+      "source": "sampled P display/exchange mesh, then verified identical to every exported PLY coordinate and index",
+      "vertices": 59085,
+      "used_vertices": 59085,
+      "unused_vertices": 0,
+      "faces": 118158,
+      "unique_edges": 177237,
+      "connected_components": 3,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistently_oriented_two_face_edges": 0,
+      "closed_edge_manifold": true,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area_nm2": 24.22124145179987,
+      "signed_volume_nm3": 5716928919.69978,
+      "absolute_signed_volume_nm3": 5716928919.69978,
+      "euler_characteristic": 6,
+      "components": [
+        {
+          "vertices": 19594,
+          "edges": 58776,
+          "faces": 39184,
+          "euler_characteristic": 2
+        },
+        {
+          "vertices": 19796,
+          "edges": 59382,
+          "faces": 39588,
+          "euler_characteristic": 2
+        },
+        {
+          "vertices": 19695,
+          "edges": 59079,
+          "faces": 39386,
+          "euler_characteristic": 2
+        }
+      ],
+      "scope_note": "checks shared-edge incidence, orientation and connectivity; does not prove absence of triangle self-intersections or vertex nonmanifoldness",
+      "caps_note": "bottom/contact and artificial Z caps included in closed-solid topology and volume only",
+      "seconds": 0.07452609995380044
+    },
+    "source_sha256": {
+      "coefficients.npz": "8ca41f7e186adc0165b09760dd5fca7056ea99ebf7bb2a8078cdcb47eb7feea4",
+      "metadata.json": "c18fea3761d64b8244c061acc5b79610ed2d46792d5bf4ab344bef62d982713d"
+    }
+  },
+  "T": {
+    "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\exports\\T_5nm_MC_exact.ply",
+    "relative_path": "results/20261024_voxel_reconstruction/exports/T_5nm_MC_exact.ply",
+    "bytes": 77671496,
+    "sha256": "bcd97ff2de29b0e361a797282fef0a856ad3511e6343c5ae2cafd2ad83aeb141",
+    "format": "binary_little_endian PLY, XYZ float32, triangle indices int32",
+    "units": "nm",
+    "roundtrip_every_vertex_and_face_exact": true,
+    "source_model": "local_5nm__T_MC",
+    "topology": {
+      "status": "ok",
+      "source": "actual persisted vertices.npy and faces.npy",
+      "vertices": 2043982,
+      "used_vertices": 2043982,
+      "unused_vertices": 0,
+      "faces": 4087952,
+      "unique_edges": 6131928,
+      "connected_components": 3,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistently_oriented_two_face_edges": 0,
+      "closed_edge_manifold": true,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area_nm2": 5.412658773652741,
+      "signed_volume_nm3": 5718493343.749999,
+      "absolute_signed_volume_nm3": 5718493343.749999,
+      "euler_characteristic": 6,
+      "components": [
+        {
+          "vertices": 681260,
+          "edges": 2043774,
+          "faces": 1362516,
+          "euler_characteristic": 2
+        },
+        {
+          "vertices": 682854,
+          "edges": 2048556,
+          "faces": 1365704,
+          "euler_characteristic": 2
+        },
+        {
+          "vertices": 679868,
+          "edges": 2039598,
+          "faces": 1359732,
+          "euler_characteristic": 2
+        }
+      ],
+      "scope_note": "checks shared-edge incidence, orientation and connectivity; does not prove absence of triangle self-intersections or vertex nonmanifoldness",
+      "caps_note": "bottom/contact and artificial Z caps included in closed-solid topology and volume only",
+      "seconds": 4.248689399915747
+    },
+    "source_sha256": {
+      "faces.npy": "8ddf502978f6f3945fc4cd6d39f4429bd914c0eaf6e0e6d65e4e1d14321c8fac",
+      "metadata.json": "7be7bb68ff218abe8be9764f2c4568f3fd5af7ff017c1600abd5540a0d2ef686",
+      "vertices.npy": "de562e866d7434b6a178ef637acd0433ec90e5b2b9bfc29306589dd38b806ed5"
+    },
+    "transformation": "none: original vertex values and triangle indices preserved exactly"
+  },
+  "limits": [
+    "P PLY is a separately sampled display/exchange mesh, not the evaluated P representation.",
+    "Both models include artificial scan-window end closures; these are not measured physical stripe ends.",
+    "Mesh edge/volume checks do not certify absence of all geometric self-intersections.",
+    "PLY does not enforce units; coordinates here are nanometres. Scale by 0.001 to interpret as micrometres."
+  ],
+  "viewer": {
+    "html_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_体素重建_3D查看.html",
+    "html_bytes": 3392457,
+    "preview_path": "results/20261024_voxel_reconstruction/preview_meshes.json.gz",
+    "preview_compressed_bytes": 2268504,
+    "preview_sha256": "78eca6fe3cc6bf2c7ae2e80522d95983c0515cf2b98d81a12e22a9c5c475b6ad",
+    "selection": {
+      "selection": "middle component discovered from actual T mid-Z section; nearest P component by observed X extent",
+      "x_window_nm": [
+        -1617.5,
+        1592.5
+      ],
+      "z_window_nm": [
+        -500.0,
+        500.0
+      ],
+      "T_rule": "keep only saved original triangles fully inside the window, remap indices only; no decimation, interpolation or cap",
+      "T_actual_bounds_xyz_nm": [
+        [
+          -860.0,
+          0.0,
+          -500.0
+        ],
+        [
+          835.0,
+          320.0,
+          500.0
+        ]
+      ],
+      "P_sampling": {
+        "source": "reloaded P coefficients",
+        "contour_step_nm": 20.0,
+        "contour_step_rule": "maximum observed perimeter / ceil(maximum perimeter / requested step); normalized contour parameter sampling",
+        "z_step_nm": 40.0,
+        "requested_z_step_nm": 40.0,
+        "z_bounds_nm": [
+          -500.0,
+          500.0
+        ],
+        "z_plane_count": 26,
+        "components": [
+          1
+        ],
+        "caps": "none: deliberately open preview window",
+        "not_scoring_geometry": true,
+        "scope": "display/exchange approximation; formal P scoring reloads coefficients directly"
+      },
+      "closed_complete_model": false,
+      "warning": "one observed component over a local approximately 1 um window; open artificial cut ends; not the full exported 4 um model"
+    },
+    "P_vertices": 5096,
+    "P_faces": 9800,
+    "T_vertices": 162289,
+    "T_faces": 322989,
+    "network_required": false,
+    "geometry_is_preview_only": true
+  }
+}

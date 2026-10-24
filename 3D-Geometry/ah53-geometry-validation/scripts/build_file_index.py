@@ -12,6 +12,22 @@ JSON_NAME = "文件用途索引.json"
 RUNTIME_NAMES = {".venv", "__pycache__", ".pytest_cache", ".playwright-cli"}
 
 EXACT = {
+    "AH53_从体素重建P与T_检查与测试.md": "新增体素输入实验报告：隔离原始轮廓，自动重建P/T，逐项解释精度、体素一致性、孔洞/合并/毛刺和实际文件。",
+    "AH53_从体素重建P与T_检查与测试.html": "体素重建实验的离线排版报告，含四张实数据图、完整结果表、指标解释和文件位置。",
+    "AH53_体素重建_3D查看.html": "自包含离线三维预览：从5nm体素重建的P/T局部窗口，支持旋转、切换、线框、倍率和截图；库及数据内嵌。",
+    "docs/体素重建验证_预注册方案.md": "从体素重建实验的预先方案：输入隔离、8条主路线、4类挑战、固定参数与评分边界。",
+    "configs/voxel_reconstruction.json": "体素重建测试的固定矩阵及参数；与已保存protocol哈希绑定，变化后需新结果目录。",
+    "run_voxel_reconstruction_validation.py": "体素重建总控：净化输入、独立进程建P/T、独立评分、核对指纹并拒绝混用陈旧缓存。",
+    "src/ah53/voxel_reconstruction.py": "只从labels和精简grid建立模型：自动提取/对应轮廓后拟合周期P，或直接Marching Cubes建立T。",
+    "src/ah53/voxel_reconstruction_metrics.py": "体素重建独立评分：完整闭合/共同高度带截面距离、全格中心一致性、孔与网格拓扑。",
+    "scripts/voxel_reconstruction_worker.py": "独立重建进程入口：限定可读路径，主动测试隐藏参考读取被禁止，并记录时间/内存。",
+    "scripts/build_voxel_reconstruction_figures.py": "读取净化体素、保存模型和评分绘制vr_01～04图；不会重新选择拟合参数。",
+    "scripts/build_voxel_reconstruction_report.py": "由正式体素重建评分生成新报告HTML/Markdown及summary汇总，检查图片与文件链接。",
+    "scripts/audit_voxel_reconstruction_results.py": "独立核查20次构建指纹/隔离证据、曲线采样收敛，以及另一分类方法的10000点对照。",
+    "scripts/export_voxel_reconstruction_models.py": "从读回的P/T导出PLY，核验读回/闭合，打包单文件离线预览；P显示采样不作为评分模型。",
+    "scripts/voxel_reconstruction_viewer_template.html": "新体素重建3D页的界面模板；库和小网格占位由导出脚本内嵌，普通阅读应打开根目录成品。",
+    "tests/test_voxel_reconstruction.py": "验证体素坐标、材料分类、多组件、孔洞/合并拒绝、双方向平滑及法向。",
+    "tests/test_voxel_reconstruction_metrics.py": "验证保孔扫描线分类、共同高度范围剪裁、距离、网格拓扑和自交检测。",
     "AH53_P与T生成原理_从截面到三维.md": "P/T 原理专篇的 GitHub 文字版：对应左右边界公式、变截面扫掠、两方向样条与相邻点连三角，配四张原理图。",
     "AH53_P与T生成原理_从截面到三维.html": "P/T 原理专篇的离线排版版：双击阅读，含公式解释、四张原理图、数值例子和互动页入口。",
     "docs/PT生成原理正文.md": "P/T 原理专篇的可编辑源文字，图像占位由生成脚本替换；教学数值与实际模型分开说明。",
@@ -144,6 +160,36 @@ def describe(relative):
     name = parts[-1]
     if relative in EXACT:
         return EXACT[relative]
+    if relative.startswith('docs/figures/vr_'):
+        purpose={'vr_01':'体素重建流程：净化输入、P/T生成和独立评分的边界。',
+                 'vr_02':'真实5nm标签切片放大：材料格子到提取轮廓，再到读回P/T截面。',
+                 'vr_03':'全部8条主路线的真值距离、模型大小及体素IoU比较。',
+                 'vr_04':'真实小挑战图：孔洞、合并和单格毛刺，展示P拒绝和T保留。'}.get(name[:5],'体素重建实数据图。')
+        return purpose+(' SVG可缩放矢量版。' if name.endswith('.svg') else ' PNG图，报告中使用。')
+    if relative.startswith('results/20261024_voxel_reconstruction/'):
+        if 'models' in parts:
+            prefix='体素输入重建 '+parts[parts.index('models')+1]+'。'
+            return prefix+{'coefficients.npz':'真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。',
+                           'vertices.npy':'真正T顶点XYZ坐标；需配套faces及metadata。',
+                           'faces.npy':'真正T三角面连接，MC直接从体素提取。',
+                           'metadata.json':'该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。',
+                           'worker_result.json':'该次构建状态、隔离证据、时间/内存、指纹和产物清单。'}.get(name,'模型配套记录。')
+        if 'inputs' in parts:
+            return '净化的重建输入。'+('材料标签数组，仅0空气/1条纹/2衬底，不带原始轮廓参数。' if name=='labels.npy' else '仅含原点、步长、轴顺序、单位与材料编号，不提供条纹中心/数量。')
+        if 'workers' in parts:return '独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。'
+        if 'build_records' in parts:return '这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。'
+        if 'metrics' in parts:return '该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。'
+        if 'execution_logs' in parts:return '隔离重建进程的标准输出、错误输出、返回码和总耗时。'
+        if 'challenge_inputs' in parts:return '可下载的独立小体素挑战：标签数组、原点和格子尺寸，用于直条/贯通孔/连接桥/单格毛刺测试。'
+        if 'exports' in parts:return '通用PLY三维文件。'+('保存T网格的原样导出，含完整三条纹和计算窗口封口。' if name.startswith('T_') else '从P系数按20nm轮廓/40nmZ采样的显示网格；正式评分仍使用系数。')
+        return {'summary.json':'本轮8个主模型及12次挑战的报告汇总；详细分数在metrics。',
+                'protocol.json':'正式冻结的实验配置、输入清单哈希及依赖版本，防止混用不同实验。',
+                'protocol_preflight_draft.json':'主构建/评分前的方案草案；保留评分范围澄清之前的记录，正式参数看protocol.json。',
+                'input_manifest.json':'六份输入的来源、数组大小、网格与哈希；验证净化过程没有改变标签。',
+                'independent_audit.json':'独立复核结果：输入/20次构建指纹、禁止读取、曲线离散化收敛和分类交叉检查。',
+                'export_manifest.json':'两份PLY的来源、采样、读回相等与闭合网格检查，以及离线预览范围。',
+                'preview_meshes.json.gz':'轻量局部P/T预览数据；P为显示采样，T为原始网格窗口，均不是完整4um模型。',
+                'delivery_validation.json':'交付检查记录：23项自动测试、离线报告/3D预览功能、图片/链接及发布范围。'}.get(name,'体素重建实验的配套结果或验收文件。')
     if relative.startswith('docs/figures/pt_'):
         label={
             'pt_01':'原理图1：同截面直拉伸与截面沿Z变化的扫掠，明确教学例和高度显示放大。',

@@ -1,0 +1,1433 @@
+{
+  "status": "evaluated",
+  "kind": "P",
+  "geometry_status": "ok",
+  "model_directory": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma0",
+  "options": {
+    "curve_step_nm": 0.5,
+    "quadrature_step_nm": 2,
+    "phase_offset_in_voxels": 0.37,
+    "material_curve_step_nm": 0.5,
+    "contact_exclusion_height_in_voxels": 2,
+    "z_nm": [
+      -136.3,
+      -56.30000000000001,
+      -6.300000000000011,
+      3.700000000000017,
+      63.70000000000002,
+      133.7
+    ],
+    "additional_z_shift_in_voxels": 0.37,
+    "distance_sample_step_nm": 2,
+    "exclude_contact_interface": true,
+    "exclude_artificial_z_caps": true,
+    "free_surface_rule": "Clip all reference, voxel, P and T segments to Y >= input-inferred contact height + 2h; report this band separately from complete closed-section distances",
+    "free_surface_clearance_in_voxels": 2,
+    "also_score_complete_closed_sections": true,
+    "voxel_agreement": "all input voxel centers; material1 vs rest",
+    "ranking": "report every profile; do not select or tune on hidden reference"
+  },
+  "input_spacing_xyz_nm": [
+    10.0,
+    10.0,
+    10.0
+  ],
+  "input_shape_zyx": [
+    32,
+    40,
+    64
+  ],
+  "planar_substrate_interface_y_nm": 0.0,
+  "common_height_band_minimum_y_nm": 20.0,
+  "reconstructed_to_reference": null,
+  "reconstructed_to_reference_closed": null,
+  "reconstructed_to_input_voxel_surface": {
+    "definition": "bidirectional arc-length-weighted XY-section point-to-segment distance",
+    "not_a_full_3d_hausdorff_distance": true,
+    "object_matching": "all components pooled; no reference-center pairing",
+    "z_positions_nm": [
+      -136.3,
+      -56.30000000000001,
+      -6.300000000000011,
+      3.700000000000017,
+      63.70000000000002,
+      133.7,
+      -132.60000000000002,
+      -52.60000000000001,
+      -2.600000000000011,
+      7.400000000000017,
+      67.40000000000002,
+      137.39999999999998
+    ],
+    "quadrature_max_step_nm": 2.026,
+    "missing_sections": 0,
+    "first_to_second": {
+      "rms_nm": 0.7567000201464347,
+      "p95_nm": 1.4539512471423481,
+      "max_nm": 6.796154633667041,
+      "mean_signed_nm": 0.2784202661894549,
+      "samples": 3620,
+      "missing": 0
+    },
+    "second_to_first": {
+      "rms_nm": 0.5270015056643346,
+      "p95_nm": 1.2536078676282045,
+      "max_nm": 4.867201477802549,
+      "mean_signed_nm": 0.21512218374131012,
+      "samples": 14423,
+      "missing": 0
+    },
+    "all": {
+      "rms_nm": 0.6530222780877238,
+      "p95_nm": 1.3730387585445385,
+      "max_nm": 6.796154633667041,
+      "mean_signed_nm": 0.24704500070082244,
+      "samples": 18043,
+      "missing": 0
+    },
+    "sections": [
+      {
+        "z_nm": -136.3,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.4952129177796371,
+          "p95_nm": 1.2337402669126303,
+          "max_nm": 3.0588160001552644,
+          "mean_signed_nm": 0.18998274363004236,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.38916574572232127,
+          "p95_nm": 1.0765726039488044,
+          "max_nm": 2.5371598608693944,
+          "mean_signed_nm": 0.16011398777626093,
+          "samples": 1200,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.44564228056876615,
+          "p95_nm": 1.1647112366262755,
+          "max_nm": 3.0588160001552644,
+          "mean_signed_nm": 0.17512930263334928,
+          "samples": 1500,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 593.531649708212
+      },
+      {
+        "z_nm": -56.30000000000001,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.4939759146830622,
+          "p95_nm": 1.226759484971322,
+          "max_nm": 3.068568298393199,
+          "mean_signed_nm": 0.20486065576295384,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.39824835036752926,
+          "p95_nm": 1.0638763337054797,
+          "max_nm": 2.5960731138707587,
+          "mean_signed_nm": 0.17684428792970355,
+          "samples": 1200,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.4489188482142293,
+          "p95_nm": 1.1875938493316482,
+          "max_nm": 3.068568298393199,
+          "mean_signed_nm": 0.1909250154673867,
+          "samples": 1500,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 593.8176244773852
+      },
+      {
+        "z_nm": -6.300000000000011,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.8481732122450006,
+          "p95_nm": 2.3406470064653733,
+          "max_nm": 4.732003048018044,
+          "mean_signed_nm": 0.3612452722279171,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.7187790270424629,
+          "p95_nm": 1.9983559305970005,
+          "max_nm": 3.6875631445563926,
+          "mean_signed_nm": 0.31267953318918995,
+          "samples": 1205,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.786593412748671,
+          "p95_nm": 2.214224719968797,
+          "max_nm": 4.732003048018044,
+          "mean_signed_nm": 0.33713214622545384,
+          "samples": 1505,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 591.6699201030847
+      },
+      {
+        "z_nm": 3.700000000000017,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 1.2903489038724816,
+          "p95_nm": 2.9371962275287444,
+          "max_nm": 6.7802618041962,
+          "mean_signed_nm": 0.5090401489390455,
+          "samples": 310,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.7088005108939314,
+          "p95_nm": 1.794868491437171,
+          "max_nm": 4.861891557447024,
+          "mean_signed_nm": 0.30250623158383244,
+          "samples": 1206,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 1.0475288680057437,
+          "p95_nm": 2.386847060664877,
+          "max_nm": 6.7802618041962,
+          "mean_signed_nm": 0.4081923116569721,
+          "samples": 1516,
+          "missing": 0
+        },
+        "first_length_nm": 620.0,
+        "second_length_nm": 591.6167869185304
+      },
+      {
+        "z_nm": 63.70000000000002,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.4943788191262208,
+          "p95_nm": 1.225202558462581,
+          "max_nm": 3.06944720333717,
+          "mean_signed_nm": 0.20646993797492938,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.39977362402110284,
+          "p95_nm": 1.0673583006929164,
+          "max_nm": 2.582502640015889,
+          "mean_signed_nm": 0.17867209962877492,
+          "samples": 1200,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.4498139605178709,
+          "p95_nm": 1.1916824267403996,
+          "max_nm": 3.06944720333717,
+          "mean_signed_nm": 0.1926426286057095,
+          "samples": 1500,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 593.8490686522532
+      },
+      {
+        "z_nm": 133.7,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.49756032273683654,
+          "p95_nm": 1.2315983665799972,
+          "max_nm": 3.0560114402214285,
+          "mean_signed_nm": 0.18538890471488167,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.388371732945707,
+          "p95_nm": 1.0534436105385225,
+          "max_nm": 2.510184014908134,
+          "mean_signed_nm": 0.15493485093798504,
+          "samples": 1200,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.4466152058305344,
+          "p95_nm": 1.1692159745096546,
+          "max_nm": 3.0560114402214285,
+          "mean_signed_nm": 0.17024552750160002,
+          "samples": 1500,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 593.4438161642988
+      },
+      {
+        "z_nm": -132.60000000000002,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.4954417944505608,
+          "p95_nm": 1.2314118861437675,
+          "max_nm": 3.0584404973628794,
+          "mean_signed_nm": 0.18943029119904572,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.3890077625123541,
+          "p95_nm": 1.073353669433061,
+          "max_nm": 2.5339435389352047,
+          "mean_signed_nm": 0.1594904566849899,
+          "samples": 1200,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.4457020401672049,
+          "p95_nm": 1.1727510561455572,
+          "max_nm": 3.0584404973628794,
+          "mean_signed_nm": 0.17454163678574572,
+          "samples": 1500,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 593.52107862502
+      },
+      {
+        "z_nm": -52.60000000000001,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.49456476991051357,
+          "p95_nm": 1.2245944124993977,
+          "max_nm": 3.069778922848282,
+          "mean_signed_nm": 0.2070946481188596,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.40039954213594536,
+          "p95_nm": 1.0687063468406564,
+          "max_nm": 2.5772488208184257,
+          "mean_signed_nm": 0.17938216790202374,
+          "samples": 1200,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.45019297823052323,
+          "p95_nm": 1.19326532257071,
+          "max_nm": 3.069778922848282,
+          "mean_signed_nm": 0.19330965527518673,
+          "samples": 1500,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 593.8612963413038
+      },
+      {
+        "z_nm": -2.600000000000011,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.8851177858737047,
+          "p95_nm": 2.5156110515396333,
+          "max_nm": 4.828003215136563,
+          "mean_signed_nm": 0.3732339597792194,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.7582918357466237,
+          "p95_nm": 2.094528931563417,
+          "max_nm": 3.863931617633625,
+          "mean_signed_nm": 0.3244894592577653,
+          "samples": 1206,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.8245918845462915,
+          "p95_nm": 2.316278235273458,
+          "max_nm": 4.828003215136563,
+          "mean_signed_nm": 0.3490328485117448,
+          "samples": 1506,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 591.6325007203459
+      },
+      {
+        "z_nm": 7.400000000000017,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 1.2916019515622856,
+          "p95_nm": 2.9376341194215625,
+          "max_nm": 6.796154633667041,
+          "mean_signed_nm": 0.5089434145703955,
+          "samples": 310,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.7078344423700372,
+          "p95_nm": 1.7851881721149994,
+          "max_nm": 4.867201477802549,
+          "mean_signed_nm": 0.3021639173525121,
+          "samples": 1206,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 1.0479998643486654,
+          "p95_nm": 2.3739488202716075,
+          "max_nm": 6.796154633667041,
+          "mean_signed_nm": 0.4079756090562069,
+          "samples": 1516,
+          "missing": 0
+        },
+        "first_length_nm": 620.0,
+        "second_length_nm": 591.6174140197684
+      },
+      {
+        "z_nm": 67.40000000000002,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.4937585414438893,
+          "p95_nm": 1.2278440081040694,
+          "max_nm": 3.06793017374288,
+          "mean_signed_nm": 0.20373482261986767,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.3972535841386124,
+          "p95_nm": 1.0619871234202378,
+          "max_nm": 2.605630907278055,
+          "mean_signed_nm": 0.17556685149771942,
+          "samples": 1200,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.4483607921700457,
+          "p95_nm": 1.184714231521653,
+          "max_nm": 3.06793017374288,
+          "mean_signed_nm": 0.1897240344241675,
+          "samples": 1500,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 593.7955991029376
+      },
+      {
+        "z_nm": 137.39999999999998,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.49704917181727404,
+          "p95_nm": 1.219107477294139,
+          "max_nm": 3.056479299595628,
+          "mean_signed_nm": 0.18624696036528426,
+          "samples": 300,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.3884292250730208,
+          "p95_nm": 1.0549285407532238,
+          "max_nm": 2.5152597881934184,
+          "mean_signed_nm": 0.15589931005526136,
+          "samples": 1200,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.44635310169223497,
+          "p95_nm": 1.1635392557317519,
+          "max_nm": 3.056479299595628,
+          "mean_signed_nm": 0.17115628318247098,
+          "samples": 1500,
+          "missing": 0
+        },
+        "first_length_nm": 600.0,
+        "second_length_nm": 593.4601990967758
+      }
+    ]
+  },
+  "reconstructed_to_input_voxel_surface_closed": {
+    "definition": "bidirectional arc-length-weighted XY-section point-to-segment distance",
+    "not_a_full_3d_hausdorff_distance": true,
+    "object_matching": "all components pooled; no reference-center pairing",
+    "z_positions_nm": [
+      -136.3,
+      -56.30000000000001,
+      -6.300000000000011,
+      3.700000000000017,
+      63.70000000000002,
+      133.7,
+      -132.60000000000002,
+      -52.60000000000001,
+      -2.600000000000011,
+      7.400000000000017,
+      67.40000000000002,
+      137.39999999999998
+    ],
+    "quadrature_max_step_nm": 2.026,
+    "missing_sections": 0,
+    "first_to_second": {
+      "rms_nm": 0.758540720954919,
+      "p95_nm": 1.4759501453836845,
+      "max_nm": 6.796154633667041,
+      "mean_signed_nm": 0.2993212140983014,
+      "samples": 5300,
+      "missing": 0
+    },
+    "second_to_first": {
+      "rms_nm": 0.5444645572621618,
+      "p95_nm": 1.3354633523884445,
+      "max_nm": 4.867201477802549,
+      "mean_signed_nm": 0.2338024681338243,
+      "samples": 21048,
+      "missing": 0
+    },
+    "all": {
+      "rms_nm": 0.6612849918403614,
+      "p95_nm": 1.4172426683767538,
+      "max_nm": 6.796154633667041,
+      "mean_signed_nm": 0.2668871538636062,
+      "samples": 26348,
+      "missing": 0
+    },
+    "sections": [
+      {
+        "z_nm": -136.3,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.5747737761796596,
+          "p95_nm": 1.3447864221520744,
+          "max_nm": 3.069399717968736,
+          "mean_signed_nm": 0.23283359926430447,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.4488250954019541,
+          "p95_nm": 1.2472432132918527,
+          "max_nm": 2.5371598608693944,
+          "mean_signed_nm": 0.19242631434515176,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.5161289355108701,
+          "p95_nm": 1.3094277312944236,
+          "max_nm": 3.069399717968736,
+          "mean_signed_nm": 0.21278185853358714,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 866.8661313931483
+      },
+      {
+        "z_nm": -56.30000000000001,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.5696800210200332,
+          "p95_nm": 1.3131623305615696,
+          "max_nm": 3.0691457667700695,
+          "mean_signed_nm": 0.24119082854558946,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.452030090569827,
+          "p95_nm": 1.2738320560645064,
+          "max_nm": 2.5960731138707587,
+          "mean_signed_nm": 0.20262784141767787,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.5146564585608925,
+          "p95_nm": 1.2956063328429908,
+          "max_nm": 3.0691457667700695,
+          "mean_signed_nm": 0.2220498527151569,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 867.2664469599499
+      },
+      {
+        "z_nm": -6.300000000000011,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.8467230317294429,
+          "p95_nm": 2.230990216614943,
+          "max_nm": 4.732003048018044,
+          "mean_signed_nm": 0.3685221728514851,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.6904193366591203,
+          "p95_nm": 1.7823491934835949,
+          "max_nm": 3.6875631445563926,
+          "mean_signed_nm": 0.30831536173987983,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.7732509566004814,
+          "p95_nm": 2.017811813982424,
+          "max_nm": 4.732003048018044,
+          "mean_signed_nm": 0.33869633625121903,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 863.9201549785015
+      },
+      {
+        "z_nm": 3.700000000000017,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 1.174225841152678,
+          "p95_nm": 2.795524340099491,
+          "max_nm": 6.7802618041962,
+          "mean_signed_nm": 0.47241718373755714,
+          "samples": 450,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.6860389322837102,
+          "p95_nm": 1.6312964199919975,
+          "max_nm": 4.861891557447024,
+          "mean_signed_nm": 0.3027646743800776,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.966471463362867,
+          "p95_nm": 2.1707215121816863,
+          "max_nm": 6.7802618041962,
+          "mean_signed_nm": 0.3893355854969,
+          "samples": 2204,
+          "missing": 0
+        },
+        "first_length_nm": 900.0,
+        "second_length_nm": 863.7247483244013
+      },
+      {
+        "z_nm": 63.70000000000002,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.569466224069789,
+          "p95_nm": 1.3085738350827683,
+          "max_nm": 3.06944720333717,
+          "mean_signed_nm": 0.24210195893077568,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.4526840258290529,
+          "p95_nm": 1.2609559026802941,
+          "max_nm": 2.582502640015889,
+          "mean_signed_nm": 0.203737146436049,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.514821096152803,
+          "p95_nm": 1.3022872928734122,
+          "max_nm": 3.06944720333717,
+          "mean_signed_nm": 0.223058864502031,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 867.3101967469213
+      },
+      {
+        "z_nm": 133.7,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.5775719821756325,
+          "p95_nm": 1.3286780739223119,
+          "max_nm": 3.069480820212018,
+          "mean_signed_nm": 0.230354236700232,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.4490983144786743,
+          "p95_nm": 1.239939022892571,
+          "max_nm": 2.510184014908134,
+          "mean_signed_nm": 0.18927519991688102,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.5178222735250506,
+          "p95_nm": 1.2985317547054662,
+          "max_nm": 3.069480820212018,
+          "mean_signed_nm": 0.20997061348791504,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 866.742206686074
+      },
+      {
+        "z_nm": -132.60000000000002,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.5750779388214486,
+          "p95_nm": 1.3444278309313007,
+          "max_nm": 3.0694093956387936,
+          "mean_signed_nm": 0.23253571257277178,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.44881882943936335,
+          "p95_nm": 1.2455475263478775,
+          "max_nm": 2.5339435389352047,
+          "mean_signed_nm": 0.19204655807226723,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.5162974217609887,
+          "p95_nm": 1.3094572316863569,
+          "max_nm": 3.0694093956387936,
+          "mean_signed_nm": 0.21244351866558517,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 866.8512427344966
+      },
+      {
+        "z_nm": -52.60000000000001,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.5694013403001292,
+          "p95_nm": 1.3085420782642176,
+          "max_nm": 3.069778922848282,
+          "mean_signed_nm": 0.24245550828868542,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.45296006649413545,
+          "p95_nm": 1.2578960651478042,
+          "max_nm": 2.5772488208184257,
+          "mean_signed_nm": 0.20416823415741844,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.5149048959881101,
+          "p95_nm": 1.3005343905453501,
+          "max_nm": 3.069778922848282,
+          "mean_signed_nm": 0.22345071387947338,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 867.327196562676
+      },
+      {
+        "z_nm": -2.600000000000011,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.8753554197319651,
+          "p95_nm": 2.3472387734369677,
+          "max_nm": 4.828003215136563,
+          "mean_signed_nm": 0.377936549829983,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.7201752921334456,
+          "p95_nm": 1.8271385650594425,
+          "max_nm": 3.863931617633625,
+          "mean_signed_nm": 0.31716754352913384,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.8022464828157404,
+          "p95_nm": 2.11899520883844,
+          "max_nm": 4.828003215136563,
+          "mean_signed_nm": 0.34783421093493194,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 863.8062257340846
+      },
+      {
+        "z_nm": 7.400000000000017,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 1.1750120768366727,
+          "p95_nm": 2.7955140876775824,
+          "max_nm": 6.796154633667041,
+          "mean_signed_nm": 0.47227120364163766,
+          "samples": 450,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.6852536367519922,
+          "p95_nm": 1.6334659813591657,
+          "max_nm": 4.867201477802549,
+          "mean_signed_nm": 0.3024789795036027,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.9666854421522677,
+          "p95_nm": 2.16797399383446,
+          "max_nm": 6.796154633667041,
+          "mean_signed_nm": 0.3891209040244039,
+          "samples": 2204,
+          "missing": 0
+        },
+        "first_length_nm": 900.0,
+        "second_length_nm": 863.730463853485
+      },
+      {
+        "z_nm": 67.40000000000002,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.5698704112054057,
+          "p95_nm": 1.3195497343038254,
+          "max_nm": 3.069164823011654,
+          "mean_signed_nm": 0.2405536955411735,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.4516206203337225,
+          "p95_nm": 1.273235681363957,
+          "max_nm": 2.605630907278055,
+          "mean_signed_nm": 0.20185323320469994,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.5145852191806812,
+          "p95_nm": 1.294733490965304,
+          "max_nm": 3.069164823011654,
+          "mean_signed_nm": 0.22134482523327997,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 867.235772540316
+      },
+      {
+        "z_nm": 137.39999999999998,
+        "status": "ok",
+        "first_to_second": {
+          "rms_nm": 0.5770045211232597,
+          "p95_nm": 1.3333919539840842,
+          "max_nm": 3.0694655714715147,
+          "mean_signed_nm": 0.23081723838490883,
+          "samples": 440,
+          "missing": 0
+        },
+        "second_to_first": {
+          "rms_nm": 0.4489906201887211,
+          "p95_nm": 1.241691124029046,
+          "max_nm": 2.5152597881934184,
+          "mean_signed_nm": 0.1898613430990215,
+          "samples": 1754,
+          "missing": 0
+        },
+        "all": {
+          "rms_nm": 0.517456242043878,
+          "p95_nm": 1.298346304042065,
+          "max_nm": 3.0694655714715147,
+          "mean_signed_nm": 0.21049444510973886,
+          "samples": 2194,
+          "missing": 0
+        },
+        "first_length_nm": 880.0,
+        "second_length_nm": 866.7653595111493
+      }
+    ]
+  },
+  "input_voxel_to_reference": null,
+  "input_voxel_to_reference_closed": null,
+  "distance_direction_note": "first=reference or input voxel; second=reconstructed model",
+  "distance_exclusions": "main distance uses identical Y >= contact + 2h band for P/T/V/reference, clipping crossing segments; *_closed includes all physical XY boundaries and bottom corner changes; artificial Z end caps absent from interior XY cuts; not directly comparable to previous experiment free-surface scores",
+  "material_consistency": {
+    "scope": "every center of every cell in the supplied grid; no random sampling or truth bbox",
+    "evaluated_cells": 81920,
+    "evaluated_z_planes": 32,
+    "curve_step_nm_for_P": 0.5,
+    "triangle_sections_exact_for_T": true,
+    "confusion_rows_input_0_1_2_cols_candidate_outside_inside_stripe": [
+      [
+        50175,
+        0
+      ],
+      [
+        1,
+        15360
+      ],
+      [
+        16384,
+        0
+      ]
+    ],
+    "true_positive": 15360,
+    "false_positive": 0,
+    "false_negative": 1,
+    "true_negative": 66559,
+    "false_positive_air": 0,
+    "false_positive_substrate": 0,
+    "iou": 0.9999349000716099,
+    "mismatch_fraction": 1.220703125e-05,
+    "input_material_cell_count": 15361,
+    "reconstructed_material_cell_count": 15360,
+    "input_voxel_material_volume_nm3": 15361000.0,
+    "reconstructed_center_classified_volume_nm3": 15360000.0,
+    "section_integrated_continuous_volume_nm3": 15354549.83330804,
+    "continuous_volume_rule": "midpoint quadrature of polygon areas on every voxel Z center; P curves discretized at stated step",
+    "center_tie_rule": "inclusive X interval endpoints with 1e-9-cell tolerance; half-open Y crossings; tie counts reported",
+    "section_diagnostics": {
+      "odd_intersection_rows": 0,
+      "horizontal_center_ties": 0,
+      "x_center_ties": 0
+    },
+    "invalid_or_open_section_planes": 0,
+    "total_section_vertices_processed": 56160,
+    "seconds": 0.04519629990682006
+  },
+  "topology": {
+    "section_scope": "sampled XY planes; no proof over every continuous Z",
+    "sections": [
+      {
+        "z_nm": -136.3,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 47972.524906477825,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 47972.524906477825,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": -56.30000000000001,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 47966.74027307743,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 47966.74027307743,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": -6.300000000000011,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 48027.19739816577,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 48027.19739816577,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": 3.700000000000017,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 48034.41695603661,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 48034.41695603661,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": 63.70000000000002,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 47966.11718210065,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 47966.11718210065,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": 133.7,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 47974.349026574826,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 47974.349026574826,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": -132.60000000000002,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 47972.74316847764,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 47972.74316847764,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": -52.60000000000001,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 47965.87551780403,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 47965.87551780403,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": -2.600000000000011,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 48031.074850847384,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 48031.074850847384,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": 7.400000000000017,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 48034.158103977825,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 48034.158103977825,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": 67.40000000000002,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 47967.17815064115,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 47967.17815064115,
+            "points": 1755
+          }
+        ]
+      },
+      {
+        "z_nm": 137.39999999999998,
+        "ring_count": 1,
+        "material_components_2d": 1,
+        "hole_count_2d": 0,
+        "all_closed": true,
+        "ring_boundary_intersections": 0,
+        "all_simple_valid": true,
+        "signed_material_area_nm2": 47974.00692427252,
+        "rings": [
+          {
+            "closed": true,
+            "simple": true,
+            "polygon_valid": true,
+            "unsigned_area_nm2": 47974.00692427252,
+            "points": 1755
+          }
+        ]
+      }
+    ],
+    "all_sampled_rings_closed": true,
+    "all_sampled_rings_simple_valid": true,
+    "material_component_counts": [
+      1
+    ],
+    "hole_counts": [
+      0
+    ],
+    "representation_limit": "fixed-correspondence periodic contour loft; unsupported topology must be rejected by reconstruction, not filled in scoring"
+  },
+  "model_metadata": {
+    "kind": "P",
+    "status": "ok",
+    "grid": {
+      "origin_xyz_nm": [
+        -320.0,
+        -80.0,
+        -160.0
+      ],
+      "spacing_nm": 10.0,
+      "axis_order": "ZYX",
+      "units": "nm",
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      }
+    },
+    "array_shape_zyx": [
+      32,
+      40,
+      64
+    ],
+    "z_bounds_nm": [
+      -160.0,
+      160.0
+    ],
+    "input_information": "labels.npy and minimal grid.json only",
+    "contour_step_nm": 20.0,
+    "z_step_nm": 40.0,
+    "smoothing_nm": 0.0,
+    "smoothing_rule": "Gaussian filter of XY samples on every original Z slice before Z subsampling: contour sigma=smoothing_nm/(maximum_perimeter/sample_count), mode=wrap; Z sigma=smoothing_nm/voxel_spacing_nm, mode=nearest; same physical sigma in both directions",
+    "family_limit": "fixed count of through-going components, one hole-free closed contour per component, unambiguous adjacent overlap",
+    "end_rule": "nearest continuation from first/last voxel centre to the corresponding domain end face",
+    "parameterization": "normalized cumulative contour arc length at every selected slice; same normalized coordinate matched across Z",
+    "n_components": 1,
+    "u_degree": 3,
+    "z_degree": 3,
+    "contour_sample_counts": [
+      44
+    ],
+    "diagnostics": {
+      "checked_slice_count": 32,
+      "tracked_components": 1,
+      "selected_slice_count": 9,
+      "z_stride_cells": 4,
+      "minimum_adjacent_overlap_fraction": 0.997920997920998,
+      "perimeter_ranges_nm": [
+        [
+          868.2842712474619,
+          876.5685424949238
+        ]
+      ],
+      "connectivity_2d": 8,
+      "correspondence": "exactly one nonzero adjacent-slice component overlap in each direction",
+      "start_point": "leftmost X at observed minimum Y; counterclockwise orientation"
+    },
+    "coefficient_layout": "[Z coefficient, contour coefficient, XY]",
+    "validity_checks": {
+      "invalid_observed_polygons": [],
+      "checked_fitted_z_centres": 32,
+      "invalid_fitted_sections": [],
+      "limitation": "polygonal inspection at voxel-centre planes; does not prove continuous-surface injectivity between planes"
+    },
+    "build_seconds": 0.17708509997464716,
+    "payload_bytes": 8400
+  },
+  "evaluation_seconds": 0.2197433999972418,
+  "model_id": "single_voxel_spur__P_sigma0",
+  "input_case": "single_voxel_spur",
+  "profile": "P_sigma0",
+  "build": {
+    "kind": "P",
+    "status": "ok",
+    "grid": {
+      "origin_xyz_nm": [
+        -320.0,
+        -80.0,
+        -160.0
+      ],
+      "spacing_nm": 10.0,
+      "axis_order": "ZYX",
+      "units": "nm",
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      }
+    },
+    "array_shape_zyx": [
+      32,
+      40,
+      64
+    ],
+    "z_bounds_nm": [
+      -160.0,
+      160.0
+    ],
+    "input_information": "labels.npy and minimal grid.json only",
+    "contour_step_nm": 20.0,
+    "z_step_nm": 40.0,
+    "smoothing_nm": 0.0,
+    "smoothing_rule": "Gaussian filter of XY samples on every original Z slice before Z subsampling: contour sigma=smoothing_nm/(maximum_perimeter/sample_count), mode=wrap; Z sigma=smoothing_nm/voxel_spacing_nm, mode=nearest; same physical sigma in both directions",
+    "family_limit": "fixed count of through-going components, one hole-free closed contour per component, unambiguous adjacent overlap",
+    "end_rule": "nearest continuation from first/last voxel centre to the corresponding domain end face",
+    "parameterization": "normalized cumulative contour arc length at every selected slice; same normalized coordinate matched across Z",
+    "n_components": 1,
+    "u_degree": 3,
+    "z_degree": 3,
+    "contour_sample_counts": [
+      44
+    ],
+    "diagnostics": {
+      "checked_slice_count": 32,
+      "tracked_components": 1,
+      "selected_slice_count": 9,
+      "z_stride_cells": 4,
+      "minimum_adjacent_overlap_fraction": 0.997920997920998,
+      "perimeter_ranges_nm": [
+        [
+          868.2842712474619,
+          876.5685424949238
+        ]
+      ],
+      "connectivity_2d": 8,
+      "correspondence": "exactly one nonzero adjacent-slice component overlap in each direction",
+      "start_point": "leftmost X at observed minimum Y; counterclockwise orientation"
+    },
+    "coefficient_layout": "[Z coefficient, contour coefficient, XY]",
+    "validity_checks": {
+      "invalid_observed_polygons": [],
+      "checked_fitted_z_centres": 32,
+      "invalid_fitted_sections": [],
+      "limitation": "polygonal inspection at voxel-centre planes; does not prove continuous-surface injectivity between planes"
+    },
+    "build_seconds": 0.17708509997464716,
+    "payload_bytes": 8400,
+    "worker": {
+      "wall_seconds": 0.18384750001132488,
+      "rss_after_bytes": 83009536,
+      "process_peak_working_set_bytes": 83091456,
+      "python_isolated": true,
+      "initial_worker_files": [
+        "reconstruction.py",
+        "worker.py"
+      ],
+      "initial_output_files": [],
+      "project_package_imported": false,
+      "forbidden_read_probes": [
+        {
+          "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_v2\\models\\reference_local\\metadata.json",
+          "blocked": true
+        },
+        {
+          "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_v2\\models\\local_V_direct_fine\\metadata.json",
+          "blocked": true
+        },
+        {
+          "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\src\\ah53\\reference_geometry.py",
+          "blocked": true
+        }
+      ],
+      "blocked_read_count": 3,
+      "unexpected_blocked_reads": [],
+      "local_files_read": [
+        "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\single_voxel_spur\\grid.json",
+        "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\single_voxel_spur\\labels.npy",
+        "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma0\\P\\coefficients.npz",
+        "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma0\\P\\metadata.json",
+        "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__P_sigma0\\__pycache__\\reconstruction.cpython-312.pyc",
+        "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__P_sigma0\\reconstruction.py"
+      ],
+      "guard_scope": "Python file-open audit plus isolated import path; not an OS sandbox"
+    },
+    "model_id": "single_voxel_spur__P_sigma0",
+    "input_case": "single_voxel_spur",
+    "profile": "P_sigma0",
+    "settings": {
+      "contour_step_nm": 20.0,
+      "z_step_nm": 40.0,
+      "smoothing_nm": 0.0
+    },
+    "input_labels_sha256": "0cef2458a79ac150e27a34d459d36925172b362cbc24cac2fef18ff64f11b378",
+    "implementation_sha256": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+    "worker_sha256": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a",
+    "build_fingerprint": {
+      "schema": 1,
+      "kind": "P",
+      "settings": {
+        "contour_step_nm": 20.0,
+        "z_step_nm": 40.0,
+        "smoothing_nm": 0.0
+      },
+      "input_labels_sha256": "0cef2458a79ac150e27a34d459d36925172b362cbc24cac2fef18ff64f11b378",
+      "input_grid_sha256": "d06e9f8b4fe37f2cc1c22e21f64a57b0b3335be1c56f2ac922e388c331d01f70",
+      "config_sha256": "6e05efb3ccc027c9c73053daba8054dbeb59691045aa6ce0c0060d00a8d17f61",
+      "implementation_sha256": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+      "worker_sha256": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a",
+      "runtime_versions": {
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "scikit-image": "0.26.0",
+        "trimesh": "5.2.0",
+        "shapely": "2.2.0"
+      }
+    },
+    "artifact_sha256": {
+      "P/coefficients.npz": "9aa11aad45bd0a96fa828ed5a697962dbb956595073abba6458ae91d68e83fe2",
+      "P/metadata.json": "406aa4f82e06bd8a3a9797bf26418e779fccbcb1aff45c55c05ff4d4b4b81eef"
+    },
+    "worker_directory_sha256": {
+      "reconstruction.py": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+      "worker.py": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a"
+    }
+  },
+  "evaluation_fingerprint": {
+    "schema": 1,
+    "input_labels_sha256": "0cef2458a79ac150e27a34d459d36925172b362cbc24cac2fef18ff64f11b378",
+    "input_grid_sha256": "d06e9f8b4fe37f2cc1c22e21f64a57b0b3335be1c56f2ac922e388c331d01f70",
+    "config_sha256": "6e05efb3ccc027c9c73053daba8054dbeb59691045aa6ce0c0060d00a8d17f61",
+    "options": {
+      "z_nm": [
+        -136.3,
+        -56.30000000000001,
+        -6.300000000000011,
+        3.700000000000017,
+        63.70000000000002,
+        133.7
+      ],
+      "additional_z_shift_in_voxels": 0.37,
+      "curve_step_nm": 0.5,
+      "distance_sample_step_nm": 2,
+      "exclude_contact_interface": true,
+      "exclude_artificial_z_caps": true,
+      "free_surface_rule": "Clip all reference, voxel, P and T segments to Y >= input-inferred contact height + 2h; report this band separately from complete closed-section distances",
+      "free_surface_clearance_in_voxels": 2,
+      "also_score_complete_closed_sections": true,
+      "voxel_agreement": "all input voxel centers; material1 vs rest",
+      "ranking": "report every profile; do not select or tune on hidden reference"
+    },
+    "reference_artifact_sha256": null,
+    "evaluation_code_sha256": {
+      "__init__.py": "89f793b85722431fc3cb56ad953cb6f7363206b9745197f14b46664fff2af0b0",
+      "common.py": "8983b4ac001817f0e123f4785a8286f1094895aad50cecbbd8c35d3142167dff",
+      "evaluate.py": "e7afd6b4f56528e9d6e79e69dd240f75989e74c8e75fbea019fad32ff2a1e5c7",
+      "parametric.py": "290187bc29beea54b2cbe50d58cddb1633ea12ce11c167f7dde0454458bd90a8",
+      "reference_geometry.py": "d96873ee98d57abebe4a37a41e954a38204389cd96357fcfd171a70d6818cda8",
+      "surface.py": "327fb282430a90675021ea5004bf0060fa75557f9da74d38c31745709e9c3450",
+      "voxel.py": "4d8fe1af0531fb09b8c519e109e0db6791ef11435145a2b02d25688620f3de48",
+      "voxel_reconstruction.py": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+      "voxel_reconstruction_metrics.py": "d6ebb3711fccae2f46ce5cb07670d17bbc26688ed6311100b09fbff46361c73b"
+    },
+    "model_artifact_sha256": {
+      "P/coefficients.npz": "9aa11aad45bd0a96fa828ed5a697962dbb956595073abba6458ae91d68e83fe2",
+      "P/metadata.json": "406aa4f82e06bd8a3a9797bf26418e779fccbcb1aff45c55c05ff4d4b4b81eef"
+    },
+    "build_fingerprint": {
+      "schema": 1,
+      "kind": "P",
+      "settings": {
+        "contour_step_nm": 20.0,
+        "z_step_nm": 40.0,
+        "smoothing_nm": 0.0
+      },
+      "input_labels_sha256": "0cef2458a79ac150e27a34d459d36925172b362cbc24cac2fef18ff64f11b378",
+      "input_grid_sha256": "d06e9f8b4fe37f2cc1c22e21f64a57b0b3335be1c56f2ac922e388c331d01f70",
+      "config_sha256": "6e05efb3ccc027c9c73053daba8054dbeb59691045aa6ce0c0060d00a8d17f61",
+      "implementation_sha256": "038ea6f0b982e11df4eaa91221cdf159a12d911ca0ab1970a8d4deebd7879778",
+      "worker_sha256": "91fffde36683e58c1f372628b2bef98570c85374f1d0fbb720b4cde3d450dc3a",
+      "runtime_versions": {
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "scikit-image": "0.26.0",
+        "trimesh": "5.2.0",
+        "shapely": "2.2.0"
+      }
+    },
+    "runtime_versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-image": "0.26.0",
+      "trimesh": "5.2.0",
+      "shapely": "2.2.0"
+    }
+  }
+}

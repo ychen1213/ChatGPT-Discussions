@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AH53｜从体素重建的 P 与 T · 离线 3D 查看</title>
+<style>
+:root{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#1c3042;background:#f1f5f7;line-height:1.65}*{box-sizing:border-box}body{margin:0}a{color:#17638c}header{max-width:1440px;margin:auto;padding:28px 28px 20px}h1{font-size:clamp(24px,3.5vw,34px);line-height:1.35;margin:10px 0}header p{max-width:1000px;margin:10px 0;color:#536878}.eyebrow{font-size:13px;letter-spacing:2px;font-weight:700;color:#597482}.layout{display:grid;grid-template-columns:300px minmax(0,1fr);gap:18px;max-width:1440px;margin:0 auto;padding:0 28px 28px}.panel,.stage,.explain{background:#fff;border:1px solid #dce5e9;border-radius:14px;box-shadow:0 6px 22px #17395006}.panel{padding:22px;align-self:start}.panel h2{font-size:17px;margin:0 0 14px}.choice{display:block;width:100%;border:1px solid #cedce4;background:#fff;padding:12px;text-align:left;border-radius:9px;cursor:pointer;color:#29455b;margin:8px 0;font:inherit}.choice strong{display:block;font-size:16px}.choice small{display:block;font-size:12px;margin-top:3px;line-height:1.5}.choice[aria-pressed=true]{background:#e9f3f9;border-color:#3784b5;box-shadow:inset 3px 0 #3784b5}.choice[data-kind=T][aria-pressed=true]{background:#fff3e7;border-color:#b8752d;box-shadow:inset 3px 0 #b8752d}.control{margin:18px 0;padding-top:15px;border-top:1px solid #e3eaee}.control label{display:block;margin:8px 0}select,button{font:inherit}select{width:100%;padding:8px;border:1px solid #ccd9e2;border-radius:6px;background:#fff}.check{display:flex!important;gap:8px;align-items:center}.buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px}.buttons button{padding:8px;border:1px solid #cfdde6;background:#f7fafc;border-radius:6px;color:#29455b;cursor:pointer}.note{font-size:12px;color:#647b8c}.stage{overflow:hidden;min-width:0}.stage-head{padding:16px 20px;border-bottom:1px solid #e0e8ed;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.stage-head strong{font-size:16px}.badge{font-size:12px;background:#eef4f7;border-radius:5px;padding:3px 9px;display:inline-block}.viewport{height:590px;position:relative;overflow:hidden;background:#f7fafb}#canvas{display:block;width:100%;height:100%;touch-action:none}.overlay{position:absolute;top:16px;left:18px;max-width:75%;background:#ffffffdb;padding:8px 12px;border-radius:7px;pointer-events:none;font-size:13px}.overlay b{display:block}.axis-label{position:absolute;padding:2px 5px;border-radius:3px;background:#ffffffdf;font-size:12px;font-weight:700;pointer-events:none}.viewport-note{position:absolute;bottom:14px;left:18px;background:#ffffffdb;padding:6px 10px;border-radius:6px;font-size:12px;pointer-events:none}.stage-foot{padding:14px 20px;font-size:13px;color:#526c7d;min-height:70px}#error{padding:20px;color:#9e312a;background:#fff1ec}#error[hidden]{display:none}.details{grid-column:1/-1}.explain{padding:24px 28px}.explain h2{font-size:19px;margin:0 0 12px}.explain p{margin:10px 0}.explain ul{padding-left:22px}.downloads{display:flex;gap:14px;flex-wrap:wrap}.downloads a{padding:8px 13px;background:#eef5f9;border:1px solid #d6e5ee;border-radius:7px;text-decoration:none;font-size:14px}.mono{font-family:ui-monospace,Consolas,monospace;overflow-wrap:anywhere;font-size:12px}details{margin-top:18px}summary{cursor:pointer;color:#4c677a}pre{white-space:pre-wrap;word-break:break-word;font-size:12px;max-height:250px;overflow:auto}footer{max-width:1440px;margin:auto;padding:0 28px 30px;color:#677d8c;font-size:12px}@media(max-width:900px){.layout{grid-template-columns:1fr}.panel{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.panel h2,.panel>.note{grid-column:1/-1}.control{margin-top:12px}.viewport{height:520px}}@media(max-width:520px){header{padding:20px 16px 12px}.layout{padding:0 12px 20px;gap:12px}.panel{padding:16px;gap:0 12px}.choice{padding:10px}.choice strong{font-size:14px}.control{font-size:13px}.viewport{height:440px}.overlay{font-size:11px;left:10px;top:10px}.stage-head,.stage-foot{padding:12px}.explain{padding:18px}.stage-head strong{font-size:14px}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">AH53 · 体素输入 → 连续边界重建</div>
+<h1>看一看：从同一份体素重建的 P 和 T</h1>
+<p>这两种表面来自 <strong>5 nm 材料标签</strong>。P 先从标签提取轮廓，再建立样条；T 直接提取三角表面。下面显示的是自动选出的<strong>中间一条条纹、长度约 1 μm 的局部窗口</strong>，两端为开放的观察切口。</p>
+<a href="AH53_从体素重建P与T_检查与测试.html">← 回到本轮检查与测试报告</a>　<a href="AH53_P与T生成原理_从截面到三维.html">P / T 原理图解</a>
+</header>
+<main class="layout">
+<aside class="panel">
+<h2>① 选择一种表面</h2>
+<button class="choice" data-kind="P" id="show-p" aria-pressed="true"><strong>P · 样条重建</strong><small>由保存的系数采样显示<br>平滑长度 σ = 2.5 nm</small></button>
+<button class="choice" data-kind="T" id="show-t" aria-pressed="false"><strong>T · 三角面重建</strong><small>保存的真实三角面<br>没有另加平滑或减面</small></button>
+<div class="control"><label for="gain">② 高度显示倍率</label><select id="gain"><option value="1">Y ×1 · 真实比例</option><option value="5" selected>Y ×5 · 便于观察</option><option value="10">Y ×10 · 放大高度</option></select><p class="note">倍率只改变屏幕显示；导出的模型保持纳米坐标。</p></div>
+<div class="control"><label class="check"><input id="wire" type="checkbox">显示三角线框</label><label class="check"><input id="flat" type="checkbox" checked>按三角面显示明暗</label><p class="note">P 的三角线框属于显示采样，不是 P 文件内部存储的三角网格。</p></div>
+<div class="control"><label>③ 换个观察方向</label><div class="buttons"><button id="view-oblique">立体视角</button><button id="view-xy">沿 Z 看截面</button><button id="view-top">俯视 XZ</button><button id="view-side">侧视 YZ</button></div></div>
+<div class="control"><button class="choice" id="save-image">保存当前截图</button><p class="note">鼠标左键旋转，滚轮缩放，右键平移。手机可拖动旋转、双指缩放。</p></div>
+</aside>
+<section class="stage" aria-label="交互三维模型">
+<div class="stage-head"><strong id="current-title">正在读取内嵌模型…</strong><span class="badge">离线 · 数据已内嵌</span></div>
+<div class="viewport" id="viewport"><canvas id="canvas"></canvas><div class="overlay"><b id="model-label">P / T</b><span id="scale-label">Y ×5 · 显示高度放大</span></div><span class="axis-label" id="axis-x" style="color:#b85246">X 横向</span><span class="axis-label" id="axis-y" style="color:#318957">Y 高度</span><span class="axis-label" id="axis-z" style="color:#3b68b1">Z 长度</span><div class="viewport-note">局部窗口 · 两端开放切口 · 无衬底实体</div></div>
+<div id="error" hidden></div><div class="stage-foot" id="status" role="status">解压并读取页面内的数据，首次打开可能需要几秒。</div>
+</section>
+<section class="explain details">
+<h2>这里看到的东西，和完整 3D 文件有什么关系？</h2>
+<p><strong>P：</strong>正式模型保存的是样条系数。为了在屏幕和常见 3D 软件里显示，这里沿轮廓按约 20 nm、沿 Z 按 40 nm 取点，再拼成显示网格。正式误差评分直接读取 P 系数，使用更细的评分采样。</p>
+<p><strong>T：</strong>正式模型本来就保存三角面。网页只取窗口内完整的原始三角面，保留其坐标和连接关系；边缘没有补封口。因此网页预览不能当作封闭的完整模型。</p>
+<p>下面两份 PLY 包含<strong>全部已识别条纹、完整 4 μm 长度</strong>。它们包含数据窗口两端的人工封口，不是测量得到的真实条纹端部；不包含衬底实体。T 文件较大，约 78 MB。</p>
+<div class="downloads"><a id="download-p" href="#" download>完整 P 显示网格 .ply</a><a id="download-t" href="#" download>完整 T 原始网格 .ply</a></div>
+<p class="note">本机已导出后可直接点击；从 GitHub 单独下载此 HTML 时，页面仍能显示内嵌预览，但不会随页面带上完整 PLY。可以用 MeshLab / Blender 打开 PLY。坐标单位为 nm；若按 μm 使用，统一缩放为 0.001。</p>
+<details><summary>查看这个预览使用的数据范围与面数</summary><pre id="metadata"></pre></details>
+<details><summary>本地 Three.js 的开源许可</summary><pre>@@THREE_LICENSE@@</pre></details>
+</section>
+</main>
+<footer>这是已分类合成体素的重建展示，未包含真实图像分割。表面更光滑不自动意味着几何更准确，误差和材料一致性应以测试报告为准。</footer>
+<script id="preview-data" type="application/octet-stream">@@PREVIEW_GZ@@</script>
+<script id="three-data" type="application/octet-stream">@@THREE_GZ@@</script>
+<script id="controls-data" type="application/octet-stream">@@CONTROLS_GZ@@</script>
+<script>
+(async()=>{
+  const $=id=>document.getElementById(id);
+  const bytes=s=>Uint8Array.from(atob(s.trim()),c=>c.charCodeAt(0));
+  async function unpack(id){const stream=new Blob([bytes($(id).textContent)]).stream().pipeThrough(new DecompressionStream('gzip'));return new Response(stream).text();}
+  try{
+    const [threeSource,controlsSource,dataText]=await Promise.all([unpack('three-data'),unpack('controls-data'),unpack('preview-data')]);
+    const threeURL=URL.createObjectURL(new Blob([threeSource],{type:'text/javascript'}));
+    const controlsURL=URL.createObjectURL(new Blob([controlsSource.replace("from 'three'",`from '${threeURL}'`)],{type:'text/javascript'}));
+    const THREE=await import(threeURL);const {OrbitControls}=await import(controlsURL);const data=JSON.parse(dataText);
+    const renderer=new THREE.WebGLRenderer({canvas:$('canvas'),antialias:true,preserveDrawingBuffer:true});
+    renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setClearColor(0xf7fafb);renderer.outputColorSpace=THREE.SRGBColorSpace;
+    const scene=new THREE.Scene();const camera=new THREE.PerspectiveCamera(38,1,.01,1000);camera.up.set(0,1,0);
+    const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=.12;
+    scene.add(new THREE.HemisphereLight(0xffffff,0x68757b,2.1));const lamp=new THREE.DirectionalLight(0xffffff,2.3);lamp.position.set(4,8,6);scene.add(lamp);
+    const fill=new THREE.DirectionalLight(0xc4ddfa,1.3);fill.position.set(-5,2,-4);scene.add(fill);
+    const group=new THREE.Group();scene.add(group);const materials={},geometries={};
+    for(const kind of ['P','T']){
+      const raw=data[kind];const position=new Float32Array(bytes(raw.positions_f32_le).buffer);for(let i=0;i<position.length;i++)position[i]/=1000;
+      const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.BufferAttribute(position,3));geometry.setIndex(new THREE.BufferAttribute(new Uint32Array(bytes(raw.indices_u32_le).buffer),1));geometry.computeVertexNormals();geometry.computeBoundingBox();geometries[kind]=geometry;
+      materials[kind]=new THREE.MeshStandardMaterial({color:kind==='P'?0x3888b8:0xc78a42,roughness:.62,metalness:.04,side:THREE.DoubleSide,flatShading:true});
+    }
+    let kind='P',mesh,axes,axisEnds={},gain=5;const number=x=>x.toLocaleString('zh-CN');
+    function bounds(){return new THREE.Box3().setFromObject(mesh);}
+    function makeAxes(){if(axes){scene.remove(axes);axes.traverse(o=>{o.geometry?.dispose();o.material?.dispose();});}axes=new THREE.Group();scene.add(axes);const b=bounds();const p=new THREE.Vector3(b.min.x-.2,b.min.y-.15,b.min.z-.15);const length=.42;axisEnds={};for(const [axis,color,dir]of [['x',0xb85246,new THREE.Vector3(1,0,0)],['y',0x318957,new THREE.Vector3(0,1,0)],['z',0x3b68b1,new THREE.Vector3(0,0,1)]]){const arrow=new THREE.ArrowHelper(dir,p,length,color,.065,.03);axes.add(arrow);axisEnds[axis]=p.clone().addScaledVector(dir,length+.07);}}
+    function view(mode='oblique'){const b=bounds(),center=b.getCenter(new THREE.Vector3()),size=b.getSize(new THREE.Vector3());const distance=Math.max(size.x,size.y,size.z)*2.35;controls.target.copy(center);const dirs={oblique:new THREE.Vector3(1.5,1.1,1.6),xy:new THREE.Vector3(0,0,1),top:new THREE.Vector3(0,1,.0001),side:new THREE.Vector3(1,0,0)};camera.position.copy(center).addScaledVector(dirs[mode].normalize(),distance);controls.update();}
+    function choose(next){kind=next;if(mesh)group.remove(mesh);mesh=new THREE.Mesh(geometries[kind],materials[kind]);mesh.scale.y=gain;group.add(mesh);document.querySelectorAll('.choice[data-kind]').forEach(e=>e.setAttribute('aria-pressed',String(e.dataset.kind===kind)));$('current-title').textContent=kind==='P'?'P · 从保存的样条系数采样':'T · 窗口内保存的原始三角面';$('model-label').textContent=kind==='P'?'蓝色：P 的显示采样网格':'橙色：T 的实际三角网格';materials[kind].wireframe=$('wire').checked;materials[kind].flatShading=$('flat').checked;materials[kind].needsUpdate=true;const raw=data[kind];$('status').textContent=`${number(raw.vertex_count)} 个顶点 · ${number(raw.face_count)} 个三角面 · 仅局部预览。${kind==='P'?'P 的显示采样不参与正式评分。':'这些三角面未另行平滑或减面。'}`;makeAxes();window.__ah53Viewer={ready:true,kind,faceCount:raw.face_count,vertexCount:raw.vertex_count,selection:data.selection,gain};}
+    function resize(){const box=$('viewport').getBoundingClientRect();renderer.setSize(box.width,box.height,false);camera.aspect=box.width/box.height;camera.updateProjectionMatrix();}
+    $('show-p').onclick=()=>choose('P');$('show-t').onclick=()=>choose('T');$('gain').onchange=()=>{gain=Number($('gain').value);mesh.scale.y=gain;$('scale-label').textContent=gain===1?'Y ×1 · 真实比例':`Y ×${gain} · 显示高度放大`;makeAxes();view();window.__ah53Viewer.gain=gain;};
+    $('wire').onchange=()=>{materials[kind].wireframe=$('wire').checked;};$('flat').onchange=()=>{materials[kind].flatShading=$('flat').checked;materials[kind].needsUpdate=true;};
+    for(const [id,mode]of [['view-oblique','oblique'],['view-xy','xy'],['view-top','top'],['view-side','side']])$(id).onclick=()=>view(mode);
+    $('save-image').onclick=()=>{renderer.render(scene,camera);const a=document.createElement('a');a.download=`AH53_voxel_reconstruction_${kind}_preview.png`;a.href=renderer.domElement.toDataURL('image/png');a.click();};
+    $('download-p').href=data.export_links.P;$('download-t').href=data.export_links.T;$('metadata').textContent=JSON.stringify({units:data.units,selection:data.selection,P:{vertices:data.P.vertex_count,faces:data.P.face_count},T:{vertices:data.T.vertex_count,faces:data.T.face_count}},null,2);
+    choose('P');resize();view();new ResizeObserver(resize).observe($('viewport'));
+    function draw(){requestAnimationFrame(draw);controls.update();renderer.render(scene,camera);const box=$('viewport').getBoundingClientRect();for(const axis of ['x','y','z']){const p=axisEnds[axis].clone().project(camera),el=$('axis-'+axis);el.style.left=((p.x*.5+.5)*box.width)+'px';el.style.top=((-p.y*.5+.5)*box.height)+'px';el.style.visibility=p.z<1&&Math.abs(p.x)<.96&&Math.abs(p.y)<.96?'visible':'hidden';}}draw();
+  }catch(error){$('error').hidden=false;$('error').textContent='无法显示：'+error.message+'。请使用支持 WebGL 和 DecompressionStream 的近期 Chrome / Edge。';$('status').textContent='模型加载失败。';window.__ah53Viewer={ready:false,error:String(error)};console.error(error);}
+})();
+</script>
+</body>
+</html>

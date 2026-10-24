@@ -16,7 +16,7 @@
       "relative_path": ".gitignore",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\.gitignore",
       "href": ".gitignore",
-      "size_bytes": 292,
+      "size_bytes": 348,
       "category": "根目录与入口文档",
       "purpose": "告诉 Git 哪些本机环境、缓存和大型结果不需要提交；它不控制查看器显示。",
       "how_to_use": "先看用途；无须为了浏览结果而修改。"
@@ -25,7 +25,7 @@
       "relative_path": "AH53_P与T生成原理_从截面到三维.html",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_P与T生成原理_从截面到三维.html",
       "href": "AH53_P%E4%B8%8ET%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86_%E4%BB%8E%E6%88%AA%E9%9D%A2%E5%88%B0%E4%B8%89%E7%BB%B4.html",
-      "size_bytes": 43641,
+      "size_bytes": 44032,
       "category": "根目录与入口文档",
       "purpose": "P/T 原理专篇的离线排版版：双击阅读，含公式解释、四张原理图、数值例子和互动页入口。",
       "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
@@ -34,7 +34,7 @@
       "relative_path": "AH53_P与T生成原理_从截面到三维.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_P与T生成原理_从截面到三维.md",
       "href": "AH53_P%E4%B8%8ET%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86_%E4%BB%8E%E6%88%AA%E9%9D%A2%E5%88%B0%E4%B8%89%E7%BB%B4.md",
-      "size_bytes": 29129,
+      "size_bytes": 29480,
       "category": "根目录与入口文档",
       "purpose": "P/T 原理专篇的 GitHub 文字版：对应左右边界公式、变截面扫掠、两方向样条与相邻点连三角，配四张原理图。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -61,7 +61,7 @@
       "relative_path": "AH53_三种几何表示验证_详细说明.html",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_三种几何表示验证_详细说明.html",
       "href": "AH53_%E4%B8%89%E7%A7%8D%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA%E9%AA%8C%E8%AF%81_%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E.html",
-      "size_bytes": 119278,
+      "size_bytes": 119771,
       "category": "根目录与入口文档",
       "purpose": "新版新手主说明：从目的、概念、步骤到读图和文件，按初学者顺序展开。HTML 用浏览器看图和表。",
       "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
@@ -70,16 +70,43 @@
       "relative_path": "AH53_三种几何表示验证_详细说明.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_三种几何表示验证_详细说明.md",
       "href": "AH53_%E4%B8%89%E7%A7%8D%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA%E9%AA%8C%E8%AF%81_%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E.md",
-      "size_bytes": 91000,
+      "size_bytes": 91431,
       "category": "根目录与入口文档",
       "purpose": "新版新手主说明：从目的、概念、步骤到读图和文件，按初学者顺序展开。Markdown 为文字版本。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
     },
     {
+      "relative_path": "AH53_从体素重建P与T_检查与测试.html",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_从体素重建P与T_检查与测试.html",
+      "href": "AH53_%E4%BB%8E%E4%BD%93%E7%B4%A0%E9%87%8D%E5%BB%BAP%E4%B8%8ET_%E6%A3%80%E6%9F%A5%E4%B8%8E%E6%B5%8B%E8%AF%95.html",
+      "size_bytes": 26839,
+      "category": "根目录与入口文档",
+      "purpose": "体素重建实验的离线排版报告，含四张实数据图、完整结果表、指标解释和文件位置。",
+      "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
+    },
+    {
+      "relative_path": "AH53_从体素重建P与T_检查与测试.md",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_从体素重建P与T_检查与测试.md",
+      "href": "AH53_%E4%BB%8E%E4%BD%93%E7%B4%A0%E9%87%8D%E5%BB%BAP%E4%B8%8ET_%E6%A3%80%E6%9F%A5%E4%B8%8E%E6%B5%8B%E8%AF%95.md",
+      "size_bytes": 19122,
+      "category": "根目录与入口文档",
+      "purpose": "新增体素输入实验报告：隔离原始轮廓，自动重建P/T，逐项解释精度、体素一致性、孔洞/合并/毛刺和实际文件。",
+      "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
+    },
+    {
+      "relative_path": "AH53_体素重建_3D查看.html",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\AH53_体素重建_3D查看.html",
+      "href": "AH53_%E4%BD%93%E7%B4%A0%E9%87%8D%E5%BB%BA_3D%E6%9F%A5%E7%9C%8B.html",
+      "size_bytes": 3392457,
+      "category": "根目录与入口文档",
+      "purpose": "自包含离线三维预览：从5nm体素重建的P/T局部窗口，支持旋转、切换、线框、倍率和截图；库及数据内嵌。",
+      "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
+    },
+    {
       "relative_path": "README.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\README.md",
       "href": "README.md",
-      "size_bytes": 4875,
+      "size_bytes": 6715,
       "category": "根目录与入口文档",
       "purpose": "新人和开发者共用的项目入口：说明阅读路径、已有成果及安装、生成、启动、测试命令。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -91,6 +118,15 @@
       "size_bytes": 1869,
       "category": "实验配方",
       "purpose": "本轮默认实验配方：名义宽高、坐标、随机种子、合成起伏、场景范围和粗细步长。修改它不会自动改变已经保存的模型。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "configs/voxel_reconstruction.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\configs\\voxel_reconstruction.json",
+      "href": "configs/voxel_reconstruction.json",
+      "size_bytes": 2288,
+      "category": "实验配方",
+      "purpose": "体素重建测试的固定矩阵及参数；与已保存protocol哈希绑定，变化后需新结果目录。",
       "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
     },
     {
@@ -115,7 +151,7 @@
       "relative_path": "docs/PT生成原理正文.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\PT生成原理正文.md",
       "href": "docs/PT%E7%94%9F%E6%88%90%E5%8E%9F%E7%90%86%E6%AD%A3%E6%96%87.md",
-      "size_bytes": 28413,
+      "size_bytes": 28762,
       "category": "补充说明文档",
       "purpose": "P/T 原理专篇的可编辑源文字，图像占位由生成脚本替换；教学数值与实际模型分开说明。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -265,6 +301,87 @@
       "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
     },
     {
+      "relative_path": "docs/figures/vr_01_blind_reconstruction_workflow.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\vr_01_blind_reconstruction_workflow.png",
+      "href": "docs/figures/vr_01_blind_reconstruction_workflow.png",
+      "size_bytes": 337700,
+      "category": "补充说明文档",
+      "purpose": "体素重建流程：净化输入、P/T生成和独立评分的边界。 PNG图，报告中使用。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "docs/figures/vr_01_blind_reconstruction_workflow.svg",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\vr_01_blind_reconstruction_workflow.svg",
+      "href": "docs/figures/vr_01_blind_reconstruction_workflow.svg",
+      "size_bytes": 232951,
+      "category": "补充说明文档",
+      "purpose": "体素重建流程：净化输入、P/T生成和独立评分的边界。 SVG可缩放矢量版。",
+      "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
+    },
+    {
+      "relative_path": "docs/figures/vr_02_actual_voxels_to_contours.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\vr_02_actual_voxels_to_contours.png",
+      "href": "docs/figures/vr_02_actual_voxels_to_contours.png",
+      "size_bytes": 317300,
+      "category": "补充说明文档",
+      "purpose": "真实5nm标签切片放大：材料格子到提取轮廓，再到读回P/T截面。 PNG图，报告中使用。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "docs/figures/vr_02_actual_voxels_to_contours.svg",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\vr_02_actual_voxels_to_contours.svg",
+      "href": "docs/figures/vr_02_actual_voxels_to_contours.svg",
+      "size_bytes": 236288,
+      "category": "补充说明文档",
+      "purpose": "真实5nm标签切片放大：材料格子到提取轮廓，再到读回P/T截面。 SVG可缩放矢量版。",
+      "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
+    },
+    {
+      "relative_path": "docs/figures/vr_03_accuracy_storage_consistency.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\vr_03_accuracy_storage_consistency.png",
+      "href": "docs/figures/vr_03_accuracy_storage_consistency.png",
+      "size_bytes": 429727,
+      "category": "补充说明文档",
+      "purpose": "全部8条主路线的真值距离、模型大小及体素IoU比较。 PNG图，报告中使用。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "docs/figures/vr_03_accuracy_storage_consistency.svg",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\vr_03_accuracy_storage_consistency.svg",
+      "href": "docs/figures/vr_03_accuracy_storage_consistency.svg",
+      "size_bytes": 262807,
+      "category": "补充说明文档",
+      "purpose": "全部8条主路线的真值距离、模型大小及体素IoU比较。 SVG可缩放矢量版。",
+      "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
+    },
+    {
+      "relative_path": "docs/figures/vr_04_topology_and_small_features.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\vr_04_topology_and_small_features.png",
+      "href": "docs/figures/vr_04_topology_and_small_features.png",
+      "size_bytes": 345021,
+      "category": "补充说明文档",
+      "purpose": "真实小挑战图：孔洞、合并和单格毛刺，展示P拒绝和T保留。 PNG图，报告中使用。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "docs/figures/vr_04_topology_and_small_features.svg",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\figures\\vr_04_topology_and_small_features.svg",
+      "href": "docs/figures/vr_04_topology_and_small_features.svg",
+      "size_bytes": 236691,
+      "category": "补充说明文档",
+      "purpose": "真实小挑战图：孔洞、合并和单格毛刺，展示P拒绝和T保留。 SVG可缩放矢量版。",
+      "how_to_use": "浏览器或矢量图编辑器打开；缩放不易模糊，这是二维说明图。"
+    },
+    {
+      "relative_path": "docs/体素重建验证_预注册方案.md",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\体素重建验证_预注册方案.md",
+      "href": "docs/%E4%BD%93%E7%B4%A0%E9%87%8D%E5%BB%BA%E9%AA%8C%E8%AF%81_%E9%A2%84%E6%B3%A8%E5%86%8C%E6%96%B9%E6%A1%88.md",
+      "size_bytes": 13959,
+      "category": "补充说明文档",
+      "purpose": "从体素重建实验的预先方案：输入隔离、8条主路线、4类挑战、固定参数与评分边界。",
+      "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
+    },
+    {
       "relative_path": "docs/文件与模型指南.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\文件与模型指南.md",
       "href": "docs/%E6%96%87%E4%BB%B6%E4%B8%8E%E6%A8%A1%E5%9E%8B%E6%8C%87%E5%8D%97.md",
@@ -277,7 +394,7 @@
       "relative_path": "docs/新手教程正文.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\docs\\新手教程正文.md",
       "href": "docs/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B%E6%AD%A3%E6%96%87.md",
-      "size_bytes": 31755,
+      "size_bytes": 32186,
       "category": "补充说明文档",
       "purpose": "新手主教程的可编辑文字来源，解释实验目的、原理、各图和实际操作。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -526,6 +643,312 @@
       "how_to_use": "系统照片查看器打开；这是二维图。"
     },
     {
+      "relative_path": "output/playwright/vr_exported_screenshot.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\vr_exported_screenshot.png",
+      "href": "output/playwright/vr_exported_screenshot.png",
+      "size_bytes": 168139,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/vr_report_mobile.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\vr_report_mobile.png",
+      "href": "output/playwright/vr_report_mobile.png",
+      "size_bytes": 65142,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/vr_report_results.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\vr_report_results.png",
+      "href": "output/playwright/vr_report_results.png",
+      "size_bytes": 224574,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/vr_report_top.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\vr_report_top.png",
+      "href": "output/playwright/vr_report_top.png",
+      "size_bytes": 176438,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/vr_review.js",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\vr_review.js",
+      "href": "output/playwright/vr_review.js",
+      "size_bytes": 3929,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "output/playwright/vr_viewer_P.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\vr_viewer_P.png",
+      "href": "output/playwright/vr_viewer_P.png",
+      "size_bytes": 138082,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/vr_viewer_T.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\vr_viewer_T.png",
+      "href": "output/playwright/vr_viewer_T.png",
+      "size_bytes": 194840,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/playwright/vr_viewer_mobile.png",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\playwright\\vr_viewer_mobile.png",
+      "href": "output/playwright/vr_viewer_mobile.png",
+      "size_bytes": 101605,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收过程截图：用于检查页面显示，不是模型。",
+      "how_to_use": "系统照片查看器打开；这是二维图。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/merging_bridge/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\merging_bridge\\P\\metadata.json",
+      "href": "output/voxel_evaluation_smoke/merging_bridge/P/metadata.json",
+      "size_bytes": 1337,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/merging_bridge/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\merging_bridge\\T\\faces.npy",
+      "href": "output/voxel_evaluation_smoke/merging_bridge/T/faces.npy",
+      "size_bytes": 133712,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/merging_bridge/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\merging_bridge\\T\\metadata.json",
+      "href": "output/voxel_evaluation_smoke/merging_bridge/T/metadata.json",
+      "size_bytes": 917,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/merging_bridge/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\merging_bridge\\T\\vertices.npy",
+      "href": "output/voxel_evaluation_smoke/merging_bridge/T/vertices.npy",
+      "size_bytes": 66944,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/single_voxel_spur/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\single_voxel_spur\\P\\coefficients.npz",
+      "href": "output/voxel_evaluation_smoke/single_voxel_spur/P/coefficients.npz",
+      "size_bytes": 8400,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/single_voxel_spur/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\single_voxel_spur\\P\\metadata.json",
+      "href": "output/voxel_evaluation_smoke/single_voxel_spur/P/metadata.json",
+      "size_bytes": 2216,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/single_voxel_spur/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\single_voxel_spur\\T\\faces.npy",
+      "href": "output/voxel_evaluation_smoke/single_voxel_spur/T/faces.npy",
+      "size_bytes": 90800,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/single_voxel_spur/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\single_voxel_spur\\T\\metadata.json",
+      "href": "output/voxel_evaluation_smoke/single_voxel_spur/T/metadata.json",
+      "size_bytes": 924,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/single_voxel_spur/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\single_voxel_spur\\T\\vertices.npy",
+      "href": "output/voxel_evaluation_smoke/single_voxel_spur/T/vertices.npy",
+      "size_bytes": 45488,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/straight_control/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\straight_control\\P\\coefficients.npz",
+      "href": "output/voxel_evaluation_smoke/straight_control/P/coefficients.npz",
+      "size_bytes": 8400,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/straight_control/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\straight_control\\P\\metadata.json",
+      "href": "output/voxel_evaluation_smoke/straight_control/P/metadata.json",
+      "size_bytes": 2129,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/straight_control/P_evaluation.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\straight_control\\P_evaluation.json",
+      "href": "output/voxel_evaluation_smoke/straight_control/P_evaluation.json",
+      "size_bytes": 26849,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/straight_control/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\straight_control\\T\\faces.npy",
+      "href": "output/voxel_evaluation_smoke/straight_control/T/faces.npy",
+      "size_bytes": 90704,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/straight_control/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\straight_control\\T\\metadata.json",
+      "href": "output/voxel_evaluation_smoke/straight_control/T/metadata.json",
+      "size_bytes": 924,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/straight_control/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\straight_control\\T\\vertices.npy",
+      "href": "output/voxel_evaluation_smoke/straight_control/T/vertices.npy",
+      "size_bytes": 45440,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/straight_control/T_evaluation.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\straight_control\\T_evaluation.json",
+      "href": "output/voxel_evaluation_smoke/straight_control/T_evaluation.json",
+      "size_bytes": 25943,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/through_hole/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\through_hole\\P\\metadata.json",
+      "href": "output/voxel_evaluation_smoke/through_hole/P/metadata.json",
+      "size_bytes": 1312,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/through_hole/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\through_hole\\T\\faces.npy",
+      "href": "output/voxel_evaluation_smoke/through_hole/T/faces.npy",
+      "size_bytes": 109952,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/through_hole/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\through_hole\\T\\metadata.json",
+      "href": "output/voxel_evaluation_smoke/through_hole/T/metadata.json",
+      "size_bytes": 915,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_evaluation_smoke/through_hole/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_evaluation_smoke\\through_hole\\T\\vertices.npy",
+      "href": "output/voxel_evaluation_smoke/through_hole/T/vertices.npy",
+      "size_bytes": 55040,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_guard_preflight/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_guard_preflight\\reconstruction.py",
+      "href": "output/voxel_guard_preflight/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "output/voxel_guard_preflight/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_guard_preflight\\worker.py",
+      "href": "output/voxel_guard_preflight/worker.py",
+      "size_bytes": 4600,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "output/voxel_guard_result/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_guard_result\\T\\faces.npy",
+      "href": "output/voxel_guard_result/T/faces.npy",
+      "size_bytes": 90704,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_guard_result/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_guard_result\\T\\metadata.json",
+      "href": "output/voxel_guard_result/T/metadata.json",
+      "size_bytes": 924,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "output/voxel_guard_result/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_guard_result\\T\\vertices.npy",
+      "href": "output/voxel_guard_result/T/vertices.npy",
+      "size_bytes": 45440,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "output/voxel_guard_result/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\output\\voxel_guard_result\\worker_result.json",
+      "href": "output/voxel_guard_result/worker_result.json",
+      "size_bytes": 2285,
+      "category": "浏览器检查过程记录",
+      "purpose": "浏览器验收工具的文字输出，包含操作结果/耗时和诊断信息；供排查界面问题。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
       "relative_path": "requirements-dev.txt",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\requirements-dev.txt",
       "href": "requirements-dev.txt",
@@ -538,7 +961,7 @@
       "relative_path": "requirements.txt",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\requirements.txt",
       "href": "requirements.txt",
-      "size_bytes": 77,
+      "size_bytes": 128,
       "category": "根目录与入口文档",
       "purpose": "运行项目所需的 Python 库清单；供 pip 安装，通常不用手改。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -2146,6 +2569,1770 @@
       "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
     },
     {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/local_10nm__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\local_10nm__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/local_10nm__P_sigma0.json",
+      "size_bytes": 6276,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/local_10nm__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\local_10nm__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/local_10nm__P_sigma05.json",
+      "size_bytes": 6285,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/local_10nm__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\local_10nm__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/local_10nm__P_sigma1.json",
+      "size_bytes": 6281,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/local_10nm__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\local_10nm__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/local_10nm__T_MC.json",
+      "size_bytes": 4365,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\local_5nm__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma0.json",
+      "size_bytes": 6272,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\local_5nm__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma05.json",
+      "size_bytes": 6276,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\local_5nm__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/local_5nm__P_sigma1.json",
+      "size_bytes": 6272,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/local_5nm__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\local_5nm__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/local_5nm__T_MC.json",
+      "size_bytes": 4361,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/merging_bridge__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\merging_bridge__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/merging_bridge__P_sigma05.json",
+      "size_bytes": 4806,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/merging_bridge__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\merging_bridge__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/merging_bridge__T_MC.json",
+      "size_bytes": 4370,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/single_voxel_spur__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\single_voxel_spur__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/single_voxel_spur__P_sigma0.json",
+      "size_bytes": 6148,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/single_voxel_spur__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\single_voxel_spur__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/single_voxel_spur__P_sigma05.json",
+      "size_bytes": 6154,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/single_voxel_spur__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\single_voxel_spur__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/single_voxel_spur__P_sigma1.json",
+      "size_bytes": 6151,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/single_voxel_spur__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\single_voxel_spur__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/single_voxel_spur__T_MC.json",
+      "size_bytes": 4396,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/straight_control__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\straight_control__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/straight_control__P_sigma0.json",
+      "size_bytes": 6126,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/straight_control__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\straight_control__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/straight_control__P_sigma05.json",
+      "size_bytes": 6130,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/straight_control__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\straight_control__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/straight_control__P_sigma1.json",
+      "size_bytes": 6129,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/straight_control__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\straight_control__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/straight_control__T_MC.json",
+      "size_bytes": 4390,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/through_hole__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\through_hole__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/through_hole__P_sigma05.json",
+      "size_bytes": 4769,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/build_records/through_hole__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\build_records\\through_hole__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/build_records/through_hole__T_MC.json",
+      "size_bytes": 4357,
+      "category": "结果总表与核查记录",
+      "purpose": "这一次P/T构建的正式证据：状态、固定参数、运行时间/内存、禁止访问测试和文件指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/challenge_inputs/merging_bridge.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\challenge_inputs\\merging_bridge.npz",
+      "href": "results/20261024_voxel_reconstruction/challenge_inputs/merging_bridge.npz",
+      "size_bytes": 1192,
+      "category": "结果总表与核查记录",
+      "purpose": "可下载的独立小体素挑战：标签数组、原点和格子尺寸，用于直条/贯通孔/连接桥/单格毛刺测试。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/challenge_inputs/single_voxel_spur.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\challenge_inputs\\single_voxel_spur.npz",
+      "href": "results/20261024_voxel_reconstruction/challenge_inputs/single_voxel_spur.npz",
+      "size_bytes": 1160,
+      "category": "结果总表与核查记录",
+      "purpose": "可下载的独立小体素挑战：标签数组、原点和格子尺寸，用于直条/贯通孔/连接桥/单格毛刺测试。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/challenge_inputs/straight_control.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\challenge_inputs\\straight_control.npz",
+      "href": "results/20261024_voxel_reconstruction/challenge_inputs/straight_control.npz",
+      "size_bytes": 1153,
+      "category": "结果总表与核查记录",
+      "purpose": "可下载的独立小体素挑战：标签数组、原点和格子尺寸，用于直条/贯通孔/连接桥/单格毛刺测试。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/challenge_inputs/through_hole.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\challenge_inputs\\through_hole.npz",
+      "href": "results/20261024_voxel_reconstruction/challenge_inputs/through_hole.npz",
+      "size_bytes": 1321,
+      "category": "结果总表与核查记录",
+      "purpose": "可下载的独立小体素挑战：标签数组、原点和格子尺寸，用于直条/贯通孔/连接桥/单格毛刺测试。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/delivery_validation.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\delivery_validation.json",
+      "href": "results/20261024_voxel_reconstruction/delivery_validation.json",
+      "size_bytes": 2704,
+      "category": "结果总表与核查记录",
+      "purpose": "交付检查记录：23项自动测试、离线报告/3D预览功能、图片/链接及发布范围。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/local_10nm__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\local_10nm__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/local_10nm__P_sigma0.json",
+      "size_bytes": 344,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/local_10nm__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\local_10nm__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/local_10nm__P_sigma05.json",
+      "size_bytes": 345,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/local_10nm__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\local_10nm__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/local_10nm__P_sigma1.json",
+      "size_bytes": 343,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/local_10nm__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\local_10nm__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/local_10nm__T_MC.json",
+      "size_bytes": 340,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/local_5nm__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\local_5nm__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/local_5nm__P_sigma0.json",
+      "size_bytes": 345,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/local_5nm__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\local_5nm__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/local_5nm__P_sigma05.json",
+      "size_bytes": 346,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/local_5nm__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\local_5nm__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/local_5nm__P_sigma1.json",
+      "size_bytes": 345,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/local_5nm__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\local_5nm__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/local_5nm__T_MC.json",
+      "size_bytes": 341,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/merging_bridge__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\merging_bridge__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/merging_bridge__P_sigma05.json",
+      "size_bytes": 368,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/merging_bridge__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\merging_bridge__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/merging_bridge__T_MC.json",
+      "size_bytes": 345,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/single_voxel_spur__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\single_voxel_spur__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/single_voxel_spur__P_sigma0.json",
+      "size_bytes": 351,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/single_voxel_spur__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\single_voxel_spur__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/single_voxel_spur__P_sigma05.json",
+      "size_bytes": 353,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/single_voxel_spur__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\single_voxel_spur__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/single_voxel_spur__P_sigma1.json",
+      "size_bytes": 352,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/single_voxel_spur__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\single_voxel_spur__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/single_voxel_spur__T_MC.json",
+      "size_bytes": 348,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/straight_control__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\straight_control__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/straight_control__P_sigma0.json",
+      "size_bytes": 350,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/straight_control__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\straight_control__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/straight_control__P_sigma05.json",
+      "size_bytes": 352,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/straight_control__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\straight_control__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/straight_control__P_sigma1.json",
+      "size_bytes": 350,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/straight_control__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\straight_control__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/straight_control__T_MC.json",
+      "size_bytes": 347,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/through_hole__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\through_hole__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/through_hole__P_sigma05.json",
+      "size_bytes": 366,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/execution_logs/through_hole__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\execution_logs\\through_hole__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/execution_logs/through_hole__T_MC.json",
+      "size_bytes": 342,
+      "category": "结果总表与核查记录",
+      "purpose": "隔离重建进程的标准输出、错误输出、返回码和总耗时。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/export_manifest.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\export_manifest.json",
+      "href": "results/20261024_voxel_reconstruction/export_manifest.json",
+      "size_bytes": 9866,
+      "category": "结果总表与核查记录",
+      "purpose": "两份PLY的来源、采样、读回相等与闭合网格检查，以及离线预览范围。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/exports/P_5nm_sigma05_display_20nm_40nm.ply",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\exports\\P_5nm_sigma05_display_20nm_40nm.ply",
+      "href": "results/20261024_voxel_reconstruction/exports/P_5nm_sigma05_display_20nm_40nm.ply",
+      "size_bytes": 2245420,
+      "category": "结果总表与核查记录",
+      "purpose": "通用PLY三维文件。从P系数按20nm轮廓/40nmZ采样的显示网格；正式评分仍使用系数。",
+      "how_to_use": "先看用途；无须为了浏览结果而修改。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/exports/T_5nm_MC_exact.ply",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\exports\\T_5nm_MC_exact.ply",
+      "href": "results/20261024_voxel_reconstruction/exports/T_5nm_MC_exact.ply",
+      "size_bytes": 77671496,
+      "category": "结果总表与核查记录",
+      "purpose": "通用PLY三维文件。保存T网格的原样导出，含完整三条纹和计算窗口封口。",
+      "how_to_use": "先看用途；无须为了浏览结果而修改。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/independent_audit.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\independent_audit.json",
+      "href": "results/20261024_voxel_reconstruction/independent_audit.json",
+      "size_bytes": 27726,
+      "category": "结果总表与核查记录",
+      "purpose": "独立复核结果：输入/20次构建指纹、禁止读取、曲线离散化收敛和分类交叉检查。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/input_manifest.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\input_manifest.json",
+      "href": "results/20261024_voxel_reconstruction/input_manifest.json",
+      "size_bytes": 4165,
+      "category": "结果总表与核查记录",
+      "purpose": "六份输入的来源、数组大小、网格与哈希；验证净化过程没有改变标签。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/local_10nm/grid.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\local_10nm\\grid.json",
+      "href": "results/20261024_voxel_reconstruction/inputs/local_10nm/grid.json",
+      "size_bytes": 221,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。仅含原点、步长、轴顺序、单位与材料编号，不提供条纹中心/数量。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/local_10nm/labels.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\local_10nm\\labels.npy",
+      "href": "results/20261024_voxel_reconstruction/inputs/local_10nm/labels.npy",
+      "size_bytes": 32000128,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。材料标签数组，仅0空气/1条纹/2衬底，不带原始轮廓参数。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/local_5nm/grid.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\local_5nm\\grid.json",
+      "href": "results/20261024_voxel_reconstruction/inputs/local_5nm/grid.json",
+      "size_bytes": 220,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。仅含原点、步长、轴顺序、单位与材料编号，不提供条纹中心/数量。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/local_5nm/labels.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\local_5nm\\labels.npy",
+      "href": "results/20261024_voxel_reconstruction/inputs/local_5nm/labels.npy",
+      "size_bytes": 256000128,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。材料标签数组，仅0空气/1条纹/2衬底，不带原始轮廓参数。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/merging_bridge/grid.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\merging_bridge\\grid.json",
+      "href": "results/20261024_voxel_reconstruction/inputs/merging_bridge/grid.json",
+      "size_bytes": 218,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。仅含原点、步长、轴顺序、单位与材料编号，不提供条纹中心/数量。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/merging_bridge/labels.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\merging_bridge\\labels.npy",
+      "href": "results/20261024_voxel_reconstruction/inputs/merging_bridge/labels.npy",
+      "size_bytes": 82048,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。材料标签数组，仅0空气/1条纹/2衬底，不带原始轮廓参数。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/single_voxel_spur/grid.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\single_voxel_spur\\grid.json",
+      "href": "results/20261024_voxel_reconstruction/inputs/single_voxel_spur/grid.json",
+      "size_bytes": 218,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。仅含原点、步长、轴顺序、单位与材料编号，不提供条纹中心/数量。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/single_voxel_spur/labels.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\single_voxel_spur\\labels.npy",
+      "href": "results/20261024_voxel_reconstruction/inputs/single_voxel_spur/labels.npy",
+      "size_bytes": 82048,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。材料标签数组，仅0空气/1条纹/2衬底，不带原始轮廓参数。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/straight_control/grid.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\straight_control\\grid.json",
+      "href": "results/20261024_voxel_reconstruction/inputs/straight_control/grid.json",
+      "size_bytes": 218,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。仅含原点、步长、轴顺序、单位与材料编号，不提供条纹中心/数量。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/straight_control/labels.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\straight_control\\labels.npy",
+      "href": "results/20261024_voxel_reconstruction/inputs/straight_control/labels.npy",
+      "size_bytes": 82048,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。材料标签数组，仅0空气/1条纹/2衬底，不带原始轮廓参数。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/through_hole/grid.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\through_hole\\grid.json",
+      "href": "results/20261024_voxel_reconstruction/inputs/through_hole/grid.json",
+      "size_bytes": 218,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。仅含原点、步长、轴顺序、单位与材料编号，不提供条纹中心/数量。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/inputs/through_hole/labels.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\inputs\\through_hole\\labels.npy",
+      "href": "results/20261024_voxel_reconstruction/inputs/through_hole/labels.npy",
+      "size_bytes": 82048,
+      "category": "结果总表与核查记录",
+      "purpose": "净化的重建输入。材料标签数组，仅0空气/1条纹/2衬底，不带原始轮廓参数。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_10nm__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_10nm__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_10nm__P_sigma0.json",
+      "size_bytes": 116071,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_10nm__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_10nm__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_10nm__P_sigma05.json",
+      "size_bytes": 116101,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_10nm__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_10nm__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_10nm__P_sigma1.json",
+      "size_bytes": 116187,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_10nm__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_10nm__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_10nm__T_MC.json",
+      "size_bytes": 112940,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_10nm__voxel_baseline.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_10nm__voxel_baseline.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_10nm__voxel_baseline.json",
+      "size_bytes": 32575,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_5nm__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma0.json",
+      "size_bytes": 116502,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_5nm__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma05.json",
+      "size_bytes": 116520,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_5nm__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_5nm__P_sigma1.json",
+      "size_bytes": 116548,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_5nm__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_5nm__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_5nm__T_MC.json",
+      "size_bytes": 113413,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/local_5nm__voxel_baseline.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\local_5nm__voxel_baseline.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/local_5nm__voxel_baseline.json",
+      "size_bytes": 32719,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/merging_bridge__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\merging_bridge__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/merging_bridge__P_sigma05.json",
+      "size_bytes": 8388,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/merging_bridge__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\merging_bridge__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/merging_bridge__T_MC.json",
+      "size_bytes": 46948,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/merging_bridge__voxel_baseline.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\merging_bridge__voxel_baseline.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/merging_bridge__voxel_baseline.json",
+      "size_bytes": 3983,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\single_voxel_spur__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma0.json",
+      "size_bytes": 48219,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\single_voxel_spur__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma05.json",
+      "size_bytes": 48249,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\single_voxel_spur__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__P_sigma1.json",
+      "size_bytes": 48187,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\single_voxel_spur__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__T_MC.json",
+      "size_bytes": 45595,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__voxel_baseline.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\single_voxel_spur__voxel_baseline.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/single_voxel_spur__voxel_baseline.json",
+      "size_bytes": 3986,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma0.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\straight_control__P_sigma0.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma0.json",
+      "size_bytes": 48199,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\straight_control__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma05.json",
+      "size_bytes": 48205,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma1.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\straight_control__P_sigma1.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/straight_control__P_sigma1.json",
+      "size_bytes": 48115,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/straight_control__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\straight_control__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/straight_control__T_MC.json",
+      "size_bytes": 45520,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/straight_control__voxel_baseline.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\straight_control__voxel_baseline.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/straight_control__voxel_baseline.json",
+      "size_bytes": 3985,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/through_hole__P_sigma05.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\through_hole__P_sigma05.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/through_hole__P_sigma05.json",
+      "size_bytes": 8349,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/through_hole__T_MC.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\through_hole__T_MC.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/through_hole__T_MC.json",
+      "size_bytes": 47962,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/metrics/through_hole__voxel_baseline.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\metrics\\through_hole__voxel_baseline.json",
+      "href": "results/20261024_voxel_reconstruction/metrics/through_hole__voxel_baseline.json",
+      "size_bytes": 3981,
+      "category": "结果总表与核查记录",
+      "purpose": "该路线或原体素基线的完整评分：共同高度带及闭合轮廓距离、全部格中心一致性、拓扑；带核验缓存指纹。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma0/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__P_sigma0\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma0/P/coefficients.npz",
+      "size_bytes": 970648,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__P_sigma0。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma0/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__P_sigma0\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma0/P/metadata.json",
+      "size_bytes": 2401,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__P_sigma0。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma0/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__P_sigma0\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma0/worker_result.json",
+      "size_bytes": 6276,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__P_sigma0。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma05/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__P_sigma05\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma05/P/coefficients.npz",
+      "size_bytes": 970648,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__P_sigma05。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma05/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__P_sigma05\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma05/P/metadata.json",
+      "size_bytes": 2403,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__P_sigma05。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma05/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__P_sigma05\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma05/worker_result.json",
+      "size_bytes": 6285,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__P_sigma05。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma1/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__P_sigma1\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma1/P/coefficients.npz",
+      "size_bytes": 970648,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__P_sigma1。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma1/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__P_sigma1\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma1/P/metadata.json",
+      "size_bytes": 2404,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__P_sigma1。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma1/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__P_sigma1\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__P_sigma1/worker_result.json",
+      "size_bytes": 6281,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__P_sigma1。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__T_MC/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__T_MC\\T\\faces.npy",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__T_MC/T/faces.npy",
+      "size_bytes": 12246848,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__T_MC。真正T三角面连接，MC直接从体素提取。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__T_MC/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__T_MC\\T\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__T_MC/T/metadata.json",
+      "size_bytes": 936,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__T_MC。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__T_MC/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__T_MC\\T\\vertices.npy",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__T_MC/T/vertices.npy",
+      "size_bytes": 6123560,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__T_MC。真正T顶点XYZ坐标；需配套faces及metadata。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_10nm__T_MC/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_10nm__T_MC\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_10nm__T_MC/worker_result.json",
+      "size_bytes": 4365,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_10nm__T_MC。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma0/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma0\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma0/P/coefficients.npz",
+      "size_bytes": 3803840,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__P_sigma0。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma0/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma0\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma0/P/metadata.json",
+      "size_bytes": 2404,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__P_sigma0。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma0/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma0\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma0/worker_result.json",
+      "size_bytes": 6272,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__P_sigma0。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma05/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma05\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma05/P/coefficients.npz",
+      "size_bytes": 3803840,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__P_sigma05。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma05/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma05\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma05/P/metadata.json",
+      "size_bytes": 2403,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__P_sigma05。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma05/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma05\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma05/worker_result.json",
+      "size_bytes": 6276,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__P_sigma05。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma1/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma1\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma1/P/coefficients.npz",
+      "size_bytes": 3803840,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__P_sigma1。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma1/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma1\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma1/P/metadata.json",
+      "size_bytes": 2404,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__P_sigma1。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma1/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__P_sigma1\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__P_sigma1/worker_result.json",
+      "size_bytes": 6272,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__P_sigma1。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__T_MC/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__T_MC\\T\\faces.npy",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__T_MC/T/faces.npy",
+      "size_bytes": 49055552,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__T_MC。真正T三角面连接，MC直接从体素提取。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__T_MC/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__T_MC\\T\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__T_MC/T/metadata.json",
+      "size_bytes": 937,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__T_MC。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__T_MC/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__T_MC\\T\\vertices.npy",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__T_MC/T/vertices.npy",
+      "size_bytes": 24527912,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__T_MC。真正T顶点XYZ坐标；需配套faces及metadata。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/local_5nm__T_MC/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\local_5nm__T_MC\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/local_5nm__T_MC/worker_result.json",
+      "size_bytes": 4361,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 local_5nm__T_MC。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/merging_bridge__P_sigma05/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\merging_bridge__P_sigma05\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/merging_bridge__P_sigma05/P/metadata.json",
+      "size_bytes": 1337,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 merging_bridge__P_sigma05。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/merging_bridge__P_sigma05/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\merging_bridge__P_sigma05\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/merging_bridge__P_sigma05/worker_result.json",
+      "size_bytes": 4806,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 merging_bridge__P_sigma05。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/merging_bridge__T_MC/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\merging_bridge__T_MC\\T\\faces.npy",
+      "href": "results/20261024_voxel_reconstruction/models/merging_bridge__T_MC/T/faces.npy",
+      "size_bytes": 133712,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 merging_bridge__T_MC。真正T三角面连接，MC直接从体素提取。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/merging_bridge__T_MC/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\merging_bridge__T_MC\\T\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/merging_bridge__T_MC/T/metadata.json",
+      "size_bytes": 917,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 merging_bridge__T_MC。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/merging_bridge__T_MC/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\merging_bridge__T_MC\\T\\vertices.npy",
+      "href": "results/20261024_voxel_reconstruction/models/merging_bridge__T_MC/T/vertices.npy",
+      "size_bytes": 66944,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 merging_bridge__T_MC。真正T顶点XYZ坐标；需配套faces及metadata。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/merging_bridge__T_MC/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\merging_bridge__T_MC\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/merging_bridge__T_MC/worker_result.json",
+      "size_bytes": 4370,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 merging_bridge__T_MC。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma0/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma0\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma0/P/coefficients.npz",
+      "size_bytes": 8400,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__P_sigma0。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma0/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma0\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma0/P/metadata.json",
+      "size_bytes": 2216,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__P_sigma0。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma0/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma0\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma0/worker_result.json",
+      "size_bytes": 6148,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__P_sigma0。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma05/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma05\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma05/P/coefficients.npz",
+      "size_bytes": 8400,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__P_sigma05。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma05/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma05\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma05/P/metadata.json",
+      "size_bytes": 2216,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__P_sigma05。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma05/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma05\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma05/worker_result.json",
+      "size_bytes": 6154,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__P_sigma05。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma1/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma1\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma1/P/coefficients.npz",
+      "size_bytes": 8400,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__P_sigma1。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma1/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma1\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma1/P/metadata.json",
+      "size_bytes": 2217,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__P_sigma1。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma1/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__P_sigma1\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__P_sigma1/worker_result.json",
+      "size_bytes": 6151,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__P_sigma1。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__T_MC/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__T_MC\\T\\faces.npy",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__T_MC/T/faces.npy",
+      "size_bytes": 90800,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__T_MC。真正T三角面连接，MC直接从体素提取。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__T_MC/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__T_MC\\T\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__T_MC/T/metadata.json",
+      "size_bytes": 924,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__T_MC。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__T_MC/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__T_MC\\T\\vertices.npy",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__T_MC/T/vertices.npy",
+      "size_bytes": 45488,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__T_MC。真正T顶点XYZ坐标；需配套faces及metadata。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/single_voxel_spur__T_MC/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\single_voxel_spur__T_MC\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/single_voxel_spur__T_MC/worker_result.json",
+      "size_bytes": 4396,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 single_voxel_spur__T_MC。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma0/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__P_sigma0\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma0/P/coefficients.npz",
+      "size_bytes": 8400,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__P_sigma0。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma0/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__P_sigma0\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma0/P/metadata.json",
+      "size_bytes": 2202,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__P_sigma0。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma0/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__P_sigma0\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma0/worker_result.json",
+      "size_bytes": 6126,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__P_sigma0。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma05/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__P_sigma05\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma05/P/coefficients.npz",
+      "size_bytes": 8400,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__P_sigma05。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma05/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__P_sigma05\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma05/P/metadata.json",
+      "size_bytes": 2200,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__P_sigma05。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma05/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__P_sigma05\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma05/worker_result.json",
+      "size_bytes": 6130,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__P_sigma05。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma1/P/coefficients.npz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__P_sigma1\\P\\coefficients.npz",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma1/P/coefficients.npz",
+      "size_bytes": 8400,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__P_sigma1。真正P系数、轮廓与Z结点；整圈周期轮廓，不是旧六段模型。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma1/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__P_sigma1\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma1/P/metadata.json",
+      "size_bytes": 2203,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__P_sigma1。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma1/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__P_sigma1\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__P_sigma1/worker_result.json",
+      "size_bytes": 6129,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__P_sigma1。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__T_MC/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__T_MC\\T\\faces.npy",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__T_MC/T/faces.npy",
+      "size_bytes": 90704,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__T_MC。真正T三角面连接，MC直接从体素提取。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__T_MC/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__T_MC\\T\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__T_MC/T/metadata.json",
+      "size_bytes": 924,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__T_MC。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__T_MC/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__T_MC\\T\\vertices.npy",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__T_MC/T/vertices.npy",
+      "size_bytes": 45440,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__T_MC。真正T顶点XYZ坐标；需配套faces及metadata。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/straight_control__T_MC/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\straight_control__T_MC\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/straight_control__T_MC/worker_result.json",
+      "size_bytes": 4390,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 straight_control__T_MC。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/through_hole__P_sigma05/P/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\through_hole__P_sigma05\\P\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/through_hole__P_sigma05/P/metadata.json",
+      "size_bytes": 1312,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 through_hole__P_sigma05。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/through_hole__P_sigma05/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\through_hole__P_sigma05\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/through_hole__P_sigma05/worker_result.json",
+      "size_bytes": 4769,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 through_hole__P_sigma05。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/through_hole__T_MC/T/faces.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\through_hole__T_MC\\T\\faces.npy",
+      "href": "results/20261024_voxel_reconstruction/models/through_hole__T_MC/T/faces.npy",
+      "size_bytes": 109952,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 through_hole__T_MC。真正T三角面连接，MC直接从体素提取。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/through_hole__T_MC/T/metadata.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\through_hole__T_MC\\T\\metadata.json",
+      "href": "results/20261024_voxel_reconstruction/models/through_hole__T_MC/T/metadata.json",
+      "size_bytes": 915,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 through_hole__T_MC。该模型的输入网格、自动识别、参数和状态；拒绝模型只有说明没有伪造几何。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/through_hole__T_MC/T/vertices.npy",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\through_hole__T_MC\\T\\vertices.npy",
+      "href": "results/20261024_voxel_reconstruction/models/through_hole__T_MC/T/vertices.npy",
+      "size_bytes": 55040,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 through_hole__T_MC。真正T顶点XYZ坐标；需配套faces及metadata。",
+      "how_to_use": "用项目查看器/NumPy 读取；不要当文本编辑。分享正式模型时复制整个模型子目录。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/models/through_hole__T_MC/worker_result.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\models\\through_hole__T_MC\\worker_result.json",
+      "href": "results/20261024_voxel_reconstruction/models/through_hole__T_MC/worker_result.json",
+      "size_bytes": 4357,
+      "category": "正式模型及共同观测",
+      "purpose": "体素输入重建 through_hole__T_MC。该次构建状态、隔离证据、时间/内存、指纹和产物清单。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/preview_meshes.json.gz",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\preview_meshes.json.gz",
+      "href": "results/20261024_voxel_reconstruction/preview_meshes.json.gz",
+      "size_bytes": 2268504,
+      "category": "结果总表与核查记录",
+      "purpose": "轻量局部P/T预览数据；P为显示采样，T为原始网格窗口，均不是完整4um模型。",
+      "how_to_use": "由查看器自动使用；不必手动打开。压缩显示缓存可重新生成。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/protocol.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\protocol.json",
+      "href": "results/20261024_voxel_reconstruction/protocol.json",
+      "size_bytes": 3275,
+      "category": "结果总表与核查记录",
+      "purpose": "正式冻结的实验配置、输入清单哈希及依赖版本，防止混用不同实验。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/protocol_preflight_draft.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\protocol_preflight_draft.json",
+      "href": "results/20261024_voxel_reconstruction/protocol_preflight_draft.json",
+      "size_bytes": 2895,
+      "category": "结果总表与核查记录",
+      "purpose": "主构建/评分前的方案草案；保留评分范围澄清之前的记录，正式参数看protocol.json。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/summary.json",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\summary.json",
+      "href": "results/20261024_voxel_reconstruction/summary.json",
+      "size_bytes": 37826,
+      "category": "结果总表与核查记录",
+      "purpose": "本轮8个主模型及12次挑战的报告汇总；详细分数在metrics。",
+      "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma0/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_10nm__P_sigma0\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma0/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma0/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_10nm__P_sigma0\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma0/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma05/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_10nm__P_sigma05\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma05/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma05/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_10nm__P_sigma05\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma05/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma1/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_10nm__P_sigma1\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma1/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma1/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_10nm__P_sigma1\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_10nm__P_sigma1/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_10nm__T_MC/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_10nm__T_MC\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_10nm__T_MC/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_10nm__T_MC/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_10nm__T_MC\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_10nm__T_MC/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma0/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__P_sigma0\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma0/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma0/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__P_sigma0\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma0/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma05/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__P_sigma05\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma05/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma05/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__P_sigma05\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma05/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma1/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__P_sigma1\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma1/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma1/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__P_sigma1\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_5nm__P_sigma1/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_5nm__T_MC/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__T_MC\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_5nm__T_MC/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/local_5nm__T_MC/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\local_5nm__T_MC\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/local_5nm__T_MC/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/merging_bridge__P_sigma05/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\merging_bridge__P_sigma05\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/merging_bridge__P_sigma05/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/merging_bridge__P_sigma05/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\merging_bridge__P_sigma05\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/merging_bridge__P_sigma05/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/merging_bridge__T_MC/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\merging_bridge__T_MC\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/merging_bridge__T_MC/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/merging_bridge__T_MC/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\merging_bridge__T_MC\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/merging_bridge__T_MC/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma0/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__P_sigma0\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma0/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma0/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__P_sigma0\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma0/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma05/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__P_sigma05\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma05/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma05/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__P_sigma05\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma05/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma1/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__P_sigma1\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma1/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma1/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__P_sigma1\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__P_sigma1/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__T_MC/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__T_MC\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__T_MC/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__T_MC/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\single_voxel_spur__T_MC\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/single_voxel_spur__T_MC/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma0/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\straight_control__P_sigma0\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma0/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma0/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\straight_control__P_sigma0\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma0/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma05/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\straight_control__P_sigma05\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma05/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma05/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\straight_control__P_sigma05\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma05/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma1/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\straight_control__P_sigma1\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma1/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma1/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\straight_control__P_sigma1\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/straight_control__P_sigma1/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/straight_control__T_MC/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\straight_control__T_MC\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/straight_control__T_MC/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/straight_control__T_MC/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\straight_control__T_MC\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/straight_control__T_MC/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/through_hole__P_sigma05/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\through_hole__P_sigma05\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/through_hole__P_sigma05/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/through_hole__P_sigma05/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\through_hole__P_sigma05\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/through_hole__P_sigma05/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/through_hole__T_MC/reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\through_hole__T_MC\\reconstruction.py",
+      "href": "results/20261024_voxel_reconstruction/workers/through_hole__T_MC/reconstruction.py",
+      "size_bytes": 22725,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "results/20261024_voxel_reconstruction/workers/through_hole__T_MC/worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_voxel_reconstruction\\workers\\through_hole__T_MC\\worker.py",
+      "href": "results/20261024_voxel_reconstruction/workers/through_hole__T_MC/worker.py",
+      "size_bytes": 4600,
+      "category": "结果总表与核查记录",
+      "purpose": "独立构建进程的代码副本；只能读净化输入、运行库、自身代码及输出。正式源代码在src/scripts。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
       "relative_path": "results/latest.txt",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\latest.txt",
       "href": "results/latest.txt",
@@ -2161,6 +4348,15 @@
       "size_bytes": 31289,
       "category": "根目录与入口文档",
       "purpose": "实验总控程序：生成参考和观测、建立 P/T/V、执行 A 与 B、检查局部编辑并汇总结果。运行会生成大文件，不是打开现有模型的入口。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "run_voxel_reconstruction_validation.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\run_voxel_reconstruction_validation.py",
+      "href": "run_voxel_reconstruction_validation.py",
+      "size_bytes": 19705,
+      "category": "根目录与入口文档",
+      "purpose": "体素重建总控：净化输入、独立进程建P/T、独立评分、核对指纹并拒绝混用陈旧缓存。",
       "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
     },
     {
@@ -2254,6 +4450,15 @@
       "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
     },
     {
+      "relative_path": "scripts/audit_voxel_reconstruction_results.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\audit_voxel_reconstruction_results.py",
+      "href": "scripts/audit_voxel_reconstruction_results.py",
+      "size_bytes": 14983,
+      "category": "辅助生成与核查脚本",
+      "purpose": "独立核查20次构建指纹/隔离证据、曲线采样收敛，以及另一分类方法的10000点对照。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
       "relative_path": "scripts/build_beginner_figures.py",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\build_beginner_figures.py",
       "href": "scripts/build_beginner_figures.py",
@@ -2275,7 +4480,7 @@
       "relative_path": "scripts/build_file_index.py",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\build_file_index.py",
       "href": "scripts/build_file_index.py",
-      "size_bytes": 32529,
+      "size_bytes": 39183,
       "category": "辅助生成与核查脚本",
       "purpose": "重新扫描项目并生成本文件用途索引；只读模型与结果，不生成新的 3D。",
       "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
@@ -2305,6 +4510,33 @@
       "size_bytes": 23884,
       "category": "辅助生成与核查脚本",
       "purpose": "读取实验结果、绘制 01～08 图并生成原技术说明；重跑会更新对应报告与图。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "scripts/build_voxel_reconstruction_figures.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\build_voxel_reconstruction_figures.py",
+      "href": "scripts/build_voxel_reconstruction_figures.py",
+      "size_bytes": 16983,
+      "category": "辅助生成与核查脚本",
+      "purpose": "读取净化体素、保存模型和评分绘制vr_01～04图；不会重新选择拟合参数。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "scripts/build_voxel_reconstruction_report.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\build_voxel_reconstruction_report.py",
+      "href": "scripts/build_voxel_reconstruction_report.py",
+      "size_bytes": 26195,
+      "category": "辅助生成与核查脚本",
+      "purpose": "由正式体素重建评分生成新报告HTML/Markdown及summary汇总，检查图片与文件链接。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "scripts/export_voxel_reconstruction_models.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\export_voxel_reconstruction_models.py",
+      "href": "scripts/export_voxel_reconstruction_models.py",
+      "size_bytes": 15230,
+      "category": "辅助生成与核查脚本",
+      "purpose": "从读回的P/T导出PLY，核验读回/闭合，打包单文件离线预览；P显示采样不作为评分模型。",
       "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
     },
     {
@@ -2368,6 +4600,24 @@
       "size_bytes": 1038,
       "category": "辅助生成与核查脚本",
       "purpose": "检查 B1～B4 的模型选择对应关系，并检查页面资源是否来自本机。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "scripts/voxel_reconstruction_viewer_template.html",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\voxel_reconstruction_viewer_template.html",
+      "href": "scripts/voxel_reconstruction_viewer_template.html",
+      "size_bytes": 15815,
+      "category": "辅助生成与核查脚本",
+      "purpose": "新体素重建3D页的界面模板；库和小网格占位由导出脚本内嵌，普通阅读应打开根目录成品。",
+      "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
+    },
+    {
+      "relative_path": "scripts/voxel_reconstruction_worker.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\voxel_reconstruction_worker.py",
+      "href": "scripts/voxel_reconstruction_worker.py",
+      "size_bytes": 4600,
+      "category": "辅助生成与核查脚本",
+      "purpose": "独立重建进程入口：限定可读路径，主动测试隐藏参考读取被禁止，并记录时间/内存。",
       "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
     },
     {
@@ -2443,6 +4693,24 @@
       "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
     },
     {
+      "relative_path": "src/ah53/voxel_reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\src\\ah53\\voxel_reconstruction.py",
+      "href": "src/ah53/voxel_reconstruction.py",
+      "size_bytes": 22725,
+      "category": "几何实现源码",
+      "purpose": "只从labels和精简grid建立模型：自动提取/对应轮廓后拟合周期P，或直接Marching Cubes建立T。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "src/ah53/voxel_reconstruction_metrics.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\src\\ah53\\voxel_reconstruction_metrics.py",
+      "href": "src/ah53/voxel_reconstruction_metrics.py",
+      "size_bytes": 27163,
+      "category": "几何实现源码",
+      "purpose": "体素重建独立评分：完整闭合/共同高度带截面距离、全格中心一致性、孔与网格拓扑。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
       "relative_path": "tests/conftest.py",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\tests\\conftest.py",
       "href": "tests/conftest.py",
@@ -2476,6 +4744,24 @@
       "size_bytes": 3203,
       "category": "自动检查代码",
       "purpose": "配置和续跑检查，防止把不同实验设置误当成同一轮结果。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "tests/test_voxel_reconstruction.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\tests\\test_voxel_reconstruction.py",
+      "href": "tests/test_voxel_reconstruction.py",
+      "size_bytes": 5018,
+      "category": "自动检查代码",
+      "purpose": "验证体素坐标、材料分类、多组件、孔洞/合并拒绝、双方向平滑及法向。",
+      "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
+    },
+    {
+      "relative_path": "tests/test_voxel_reconstruction_metrics.py",
+      "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\tests\\test_voxel_reconstruction_metrics.py",
+      "href": "tests/test_voxel_reconstruction_metrics.py",
+      "size_bytes": 3646,
+      "category": "自动检查代码",
+      "purpose": "验证保孔扫描线分类、共同高度范围剪裁、距离、网格拓扑和自交检测。",
       "how_to_use": "源程序/样式文件；编辑器可看代码，新人先使用现成入口。修改后才会影响对应程序行为。"
     },
     {
@@ -2545,7 +4831,7 @@
       "relative_path": "先看这里.md",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\先看这里.md",
       "href": "%E5%85%88%E7%9C%8B%E8%BF%99%E9%87%8C.md",
-      "size_bytes": 4766,
+      "size_bytes": 5108,
       "category": "根目录与入口文档",
       "purpose": "项目入口和最短操作步骤；Markdown 文本，可用编辑器阅读。",
       "how_to_use": "文本编辑器阅读；Markdown 预览更适合看表格。"
@@ -2572,7 +4858,7 @@
       "relative_path": "文件用途索引.html",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\文件用途索引.html",
       "href": "%E6%96%87%E4%BB%B6%E7%94%A8%E9%80%94%E7%B4%A2%E5%BC%95.html",
-      "size_bytes": 182706,
+      "size_bytes": 353775,
       "category": "根目录与入口文档",
       "purpose": "本离线文件索引：可搜索名字、用途、路径，按文件夹展开每个实际文件。",
       "how_to_use": "浏览器打开；viewer/index.html 请通过启动脚本打开。"
@@ -2581,7 +4867,7 @@
       "relative_path": "文件用途索引.json",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\文件用途索引.json",
       "href": "%E6%96%87%E4%BB%B6%E7%94%A8%E9%80%94%E7%B4%A2%E5%BC%95.json",
-      "size_bytes": 191649,
+      "size_bytes": 375926,
       "category": "根目录与入口文档",
       "purpose": "本索引的机器可读版本；包含逐文件路径、字节数、用途与运行环境分组统计。",
       "how_to_use": "文本编辑器查看结构化记录；结果/模型元数据不宜随意改。configs 中的配方可另存后调整。"
@@ -2591,50 +4877,50 @@
     {
       "path": ".playwright-cli",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\.playwright-cli",
-      "file_count": 19,
-      "total_bytes": 608019,
+      "file_count": 22,
+      "total_bytes": 781283,
       "purpose": "浏览器自动化的页面快照、控制台日志和临时截图；正式验收记录另存于 output/playwright 和 results 的 JSON。"
     },
     {
       "path": ".pytest_cache",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\.pytest_cache",
       "file_count": 5,
-      "total_bytes": 1544,
+      "total_bytes": 2815,
       "purpose": "自动测试工具的上次运行状态/缓存；不是测试结果正文或模型。"
     },
     {
       "path": ".venv",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\.venv",
-      "file_count": 8485,
-      "total_bytes": 287236028,
+      "file_count": 10930,
+      "total_bytes": 344527644,
       "purpose": "项目专用 Python 运行环境及第三方库。查看器依赖它；看结果不需要阅读这些库源码。删除后须重新安装环境。"
     },
     {
       "path": "__pycache__",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\__pycache__",
-      "file_count": 2,
-      "total_bytes": 84915,
+      "file_count": 3,
+      "total_bytes": 110694,
       "purpose": "Python 自动生成的编译缓存，来自同目录 .py；不是模型，运行时可以重新产生。"
     },
     {
       "path": "scripts/__pycache__",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\scripts\\__pycache__",
-      "file_count": 4,
-      "total_bytes": 80870,
+      "file_count": 5,
+      "total_bytes": 104310,
       "purpose": "Python 自动生成的编译缓存，来自同目录 .py；不是模型，运行时可以重新产生。"
     },
     {
       "path": "src/ah53/__pycache__",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\src\\ah53\\__pycache__",
-      "file_count": 7,
-      "total_bytes": 116267,
+      "file_count": 9,
+      "total_bytes": 193355,
       "purpose": "Python 自动生成的编译缓存，来自同目录 .py；不是模型，运行时可以重新产生。"
     },
     {
       "path": "tests/__pycache__",
       "absolute_path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\tests\\__pycache__",
-      "file_count": 5,
-      "total_bytes": 53497,
+      "file_count": 7,
+      "total_bytes": 97504,
       "purpose": "Python 自动生成的编译缓存，来自同目录 .py；不是模型，运行时可以重新产生。"
     }
   ]

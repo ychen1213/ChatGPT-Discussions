@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"unsupported_topology\", \"kind\": \"P\", \"seconds\": 0.024, \"output\": \"D:\\\\\\u5de5\\u4f5c\\\\ChatGPT-Discussions\\\\3D-Geometry\\\\ah53-geometry-validation\\\\results\\\\20261024_voxel_reconstruction\\\\models\\\\merging_bridge__P_sigma05\"}\n",
+  "stderr": "",
+  "subprocess_seconds": 3.0665932999690995
+}

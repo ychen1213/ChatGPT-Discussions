@@ -1,0 +1,188 @@
+[
+  {
+    "name": "local_10nm",
+    "source": "local_V_direct_coarse",
+    "spacing_nm": 10.0,
+    "input_kind": "AH53_saved_labels",
+    "grid": {
+      "origin_xyz_nm": [
+        -8000.0,
+        -100.0,
+        -2000.0
+      ],
+      "spacing_nm": 10.0,
+      "axis_order": "ZYX",
+      "units": "nm",
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      }
+    },
+    "source_labels_sha256": "fbd12bc303af7f915609490900498e75b67d3b9485ac3971c855b3f4acb2b2a8",
+    "input_labels_sha256": "fbd12bc303af7f915609490900498e75b67d3b9485ac3971c855b3f4acb2b2a8",
+    "array_shape_zyx": [
+      400,
+      50,
+      1600
+    ],
+    "payload_bytes": 32000000,
+    "input_files": [
+      "labels.npy",
+      "grid.json"
+    ]
+  },
+  {
+    "name": "local_5nm",
+    "source": "local_V_direct_fine",
+    "spacing_nm": 5.0,
+    "input_kind": "AH53_saved_labels",
+    "grid": {
+      "origin_xyz_nm": [
+        -8000.0,
+        -100.0,
+        -2000.0
+      ],
+      "spacing_nm": 5.0,
+      "axis_order": "ZYX",
+      "units": "nm",
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      }
+    },
+    "source_labels_sha256": "1971261dd6c022128117509f81e5893d15b6bca985321799629f912aed1209c0",
+    "input_labels_sha256": "1971261dd6c022128117509f81e5893d15b6bca985321799629f912aed1209c0",
+    "array_shape_zyx": [
+      800,
+      100,
+      3200
+    ],
+    "payload_bytes": 256000000,
+    "input_files": [
+      "labels.npy",
+      "grid.json"
+    ]
+  },
+  {
+    "name": "straight_control",
+    "input_kind": "independent_topology_challenge",
+    "grid": {
+      "origin_xyz_nm": [
+        -320.0,
+        -80.0,
+        -160.0
+      ],
+      "spacing_nm": 10.0,
+      "axis_order": "ZYX",
+      "units": "nm",
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      }
+    },
+    "input_labels_sha256": "be591273f69c29253866c9b5a33a0b97858b49d633747c63bb2b37421779b488",
+    "array_shape_zyx": [
+      32,
+      40,
+      64
+    ],
+    "payload_bytes": 81920,
+    "input_files": [
+      "labels.npy",
+      "grid.json"
+    ]
+  },
+  {
+    "name": "through_hole",
+    "input_kind": "independent_topology_challenge",
+    "grid": {
+      "origin_xyz_nm": [
+        -320.0,
+        -80.0,
+        -160.0
+      ],
+      "spacing_nm": 10.0,
+      "axis_order": "ZYX",
+      "units": "nm",
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      }
+    },
+    "input_labels_sha256": "483b6f11d1eff8650325fb68f6d9360b5c8168cbbaca5278fb1c573542ba92fc",
+    "array_shape_zyx": [
+      32,
+      40,
+      64
+    ],
+    "payload_bytes": 81920,
+    "input_files": [
+      "labels.npy",
+      "grid.json"
+    ]
+  },
+  {
+    "name": "merging_bridge",
+    "input_kind": "independent_topology_challenge",
+    "grid": {
+      "origin_xyz_nm": [
+        -320.0,
+        -80.0,
+        -160.0
+      ],
+      "spacing_nm": 10.0,
+      "axis_order": "ZYX",
+      "units": "nm",
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      }
+    },
+    "input_labels_sha256": "b301e466279938b3f9d9084782821b5902d297a234b73479b272997c4bf705cc",
+    "array_shape_zyx": [
+      32,
+      40,
+      64
+    ],
+    "payload_bytes": 81920,
+    "input_files": [
+      "labels.npy",
+      "grid.json"
+    ]
+  },
+  {
+    "name": "single_voxel_spur",
+    "input_kind": "independent_topology_challenge",
+    "grid": {
+      "origin_xyz_nm": [
+        -320.0,
+        -80.0,
+        -160.0
+      ],
+      "spacing_nm": 10.0,
+      "axis_order": "ZYX",
+      "units": "nm",
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      }
+    },
+    "input_labels_sha256": "0cef2458a79ac150e27a34d459d36925172b362cbc24cac2fef18ff64f11b378",
+    "array_shape_zyx": [
+      32,
+      40,
+      64
+    ],
+    "payload_bytes": 81920,
+    "input_files": [
+      "labels.npy",
+      "grid.json"
+    ]
+  }
+]
