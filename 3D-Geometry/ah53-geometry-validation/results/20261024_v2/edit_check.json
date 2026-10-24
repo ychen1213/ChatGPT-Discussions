@@ -1,0 +1,718 @@
+{
+  "operations": [
+    {
+      "source_id": "local_P_fine",
+      "output_id": "local_P_edited",
+      "seconds": 0.04026979999616742,
+      "edit_request": {
+        "line": 1,
+        "z_center_nm": 400,
+        "z_halfwidth_nm": 320,
+        "left_shoulder_inward_nm": 10
+      },
+      "maximum_sampled_free_contour_change_nm": 6.222212216533643,
+      "outside_support": {
+        "rms_nm": 7.897497447644039e-14,
+        "p95_nm": 2.248402613579336e-13,
+        "max_nm": 2.291432307303742e-13,
+        "mean_signed_nm": 3.971508428653181e-14,
+        "samples": 69390,
+        "missing": 0
+      },
+      "inside_support": {
+        "rms_nm": 0.5225169609405965,
+        "p95_nm": 0.00012474792272303855,
+        "max_nm": 6.222212216533643,
+        "mean_signed_nm": 0.06551165916947219,
+        "samples": 7710,
+        "missing": 0
+      },
+      "region_changes_at_center": {
+        "left_wall": {
+          "rms_nm": 0.0,
+          "p95_nm": 0.0,
+          "max_nm": 0.0,
+          "mean_signed_nm": 0.0,
+          "samples": 331,
+          "missing": 0
+        },
+        "left_shoulder": {
+          "rms_nm": 3.9750852201102145,
+          "p95_nm": 6.192775215868063,
+          "max_nm": 6.222601678682136,
+          "mean_signed_nm": 3.2708684775837518,
+          "samples": 131,
+          "missing": 0
+        },
+        "top": {
+          "rms_nm": 0.0,
+          "p95_nm": 0.0,
+          "max_nm": 0.0,
+          "mean_signed_nm": 0.0,
+          "samples": 1601,
+          "missing": 0
+        },
+        "right_shoulder": {
+          "rms_nm": 0.0,
+          "p95_nm": 0.0,
+          "max_nm": 0.0,
+          "mean_signed_nm": 0.0,
+          "samples": 181,
+          "missing": 0
+        },
+        "right_wall": {
+          "rms_nm": 0.0,
+          "p95_nm": 0.0,
+          "max_nm": 0.0,
+          "mean_signed_nm": 0.0,
+          "samples": 331,
+          "missing": 0
+        }
+      },
+      "saved_and_reloaded": true,
+      "metadata": {
+        "kind": "parametric",
+        "scene": "local",
+        "model_id": "local_P_edited",
+        "bounds": [
+          -8000,
+          8000,
+          -100,
+          400,
+          -2000,
+          2000
+        ],
+        "centers": [
+          -3200,
+          0,
+          3200
+        ],
+        "ids": [
+          "m0_s0",
+          "m0_s1",
+          "m0_s2"
+        ],
+        "units": "nm",
+        "materials": {
+          "0": "air",
+          "1": "stripe",
+          "2": "substrate"
+        },
+        "config": {
+          "identity": "基于 AH53 名义版图的合成工艺形貌；非实测重建",
+          "units": "nm",
+          "coordinates": {
+            "X": "transverse",
+            "Y": "height",
+            "Z": "line length"
+          },
+          "nominal": {
+            "mother_period_nm": 16000,
+            "stripe_zone_nm": 8000,
+            "blank_zone_nm": 8000,
+            "stripe_offsets_nm": [
+              -3200,
+              0,
+              3200
+            ],
+            "design_cd_nm": 1600,
+            "height_nm": 300
+          },
+          "scenes": {
+            "local": {
+              "bounds_nm": [
+                -8000,
+                8000,
+                -100,
+                400,
+                -2000,
+                2000
+              ],
+              "mother_ids": [
+                0
+              ]
+            },
+            "full": {
+              "bounds_nm": [
+                -24000,
+                24000,
+                -100,
+                400,
+                -24000,
+                24000
+              ],
+              "mother_ids": [
+                -1,
+                0,
+                1
+              ]
+            },
+            "status": "验证假设；现有 AH53_DEMO GDS 仅 8×2 μm，不能据其确定完整 Mark 尺寸"
+          },
+          "synthetic": {
+            "seed": 20261024,
+            "reference_y_nm": 150,
+            "left_angle_deg": 80,
+            "right_angle_deg": 86,
+            "wall_bending_nm": [
+              20,
+              12
+            ],
+            "shoulder_scale_nm": [
+              40,
+              70
+            ],
+            "shoulder_relative_variation": 0.15,
+            "top_transverse_rise_nm": 10,
+            "height_rms_nm": 4,
+            "center_rms_nm": 6,
+            "full_width_rms_nm": 8,
+            "height_residual_rms_nm": 3,
+            "wavelengths_nm": [
+              160,
+              211,
+              283,
+              397,
+              613,
+              947,
+              1499,
+              2203,
+              3797,
+              6101
+            ],
+            "spectral_weights": [
+              0.1,
+              0.18,
+              0.35,
+              0.6,
+              0.75,
+              0.55,
+              0.7,
+              0.9,
+              0.7,
+              0.4
+            ],
+            "field_definition": "Independent random-phase finite Fourier sums; weights normalized so theoretical infinite-domain RMS equals configured RMS. Fixed spectral wavelengths >=160nm; short and long bands around 0.3um and2um. Finite-window actual RMS remeasured.",
+            "local_feature": {
+              "stable_stripe_id": "m0_s1",
+              "z_center_nm": 400,
+              "z_hwhm_nm": 180,
+              "left_displacement_nm": 18,
+              "height_nm": 12
+            }
+          },
+          "sampling": {
+            "coarse": {
+              "boundary_step_nm": 20,
+              "z_step_nm": 80,
+              "voxel_nm": 10
+            },
+            "fine": {
+              "boundary_step_nm": 10,
+              "z_step_nm": 40,
+              "voxel_nm": 5
+            },
+            "full": {
+              "boundary_step_nm": 10,
+              "z_step_nm": 40,
+              "voxel_nm": 10
+            }
+          },
+          "materials": {
+            "0": "air",
+            "1": "stripe",
+            "2": "substrate"
+          },
+          "numerics": {
+            "query_contour_step_nm": 0.5,
+            "resource_available_fraction": 0.6,
+            "boundary_p95_observation_nm": 1
+          },
+          "end_faces": "Z ends close the computational window and are excluded from free-surface errors"
+        },
+        "array_payload_bytes": 2117592,
+        "reference_definition": "Independent analytic piecewise contour; no spline/triangle/voxel dependency",
+        "local_feature": {
+          "stable_stripe_id": "m0_s1",
+          "z_center_nm": 400,
+          "z_hwhm_nm": 180,
+          "left_displacement_nm": 18,
+          "height_nm": 12
+        },
+        "sections_y_unimodal": true,
+        "source_model": "local_P_fine",
+        "operation": "local_left_shoulder_control_edit",
+        "boundary_step_nm": 10.0,
+        "z_step_nm": 40.0,
+        "point_count": 130290,
+        "observation_sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211",
+        "sampling": "Common piecewise ordered contour samples; nominal per-region arc-length upper envelopes; no fitted model used",
+        "measured_max_contour_chord_nm": 9.974884063280044,
+        "measured_max_height_nm": 321.46779634443504,
+        "measured_min_stripe_gap_nm": 1512.5384155799375,
+        "measured_min_width_at_30_150_270_nm": 1532.2162522603799,
+        "y_unimodality_checked_at_all_observed_sections": true,
+        "coefficient_count": 263610,
+        "spline_degree": [
+          3,
+          3
+        ],
+        "parameterization": "six ordered contour parts C(u,Z); effective height is max Y; left/right interval queries invert the unimodal saved contour",
+        "parameterization_reason": "The crown has finite tangent in contour coordinates but unbounded |dX/dY| at its summit. Uniform-Y cubic interpolation amplifies endpoint coordinate error. Piecewise contour coordinates retain common arc-length observation spacing and bounded tangents; left/right representation remains mathematically valid.",
+        "source_observation_sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211",
+        "edit": {
+          "line": 1,
+          "z_center": 400,
+          "z_halfwidth": 320,
+          "requested_max_displacement_nm": 10,
+          "changed_scalar_coefficients": 130,
+          "definition": "compact quartic z envelope times sin² shoulder coordinate; only coefficients whose whole B-spline support lies inside target interval; first/last two u coefficients fixed to preserve joins and tangents; actual displacement measured after reload",
+          "guaranteed_support_z_nm": [
+            80,
+            720
+          ]
+        }
+      },
+      "memory": {
+        "baseline_rss_bytes": 79339520,
+        "sampled_peak_rss_bytes": 83976192,
+        "windows_process_peak_working_set_bytes": 85852160,
+        "sampling_period_seconds": 0.01,
+        "definition": "RSS includes interpreter, imported libraries and mapped resident pages; not disk size"
+      },
+      "saved_files": {
+        "sha256": "abf5c6a28a513e96b7f41fec94f1486332425c2bb06cd4987cce7e3b83985b82",
+        "file_bytes": 2127474,
+        "files": [
+          {
+            "name": "metadata.json",
+            "bytes": 5612,
+            "sha256": "f5526ae2cfdd676d6424fc7c7dabf4f9708e37defadd8a6b99080eb57ab6649b"
+          },
+          {
+            "name": "splines.npz",
+            "bytes": 2121862,
+            "sha256": "19cafb527bcf856bf6fb0d62ba33864babf69502ca55131753f6706083d402b3"
+          }
+        ]
+      },
+      "actual_x_displacement_at_z_center_max_nm": 9.706996974826666,
+      "actual_y_displacement_at_z_center_max_abs_nm": 0.0,
+      "maximum_sampled_free_contour_change_definition": "one-direction nearest free contour distance; not X displacement",
+      "changed_source_scalar_count": 130,
+      "endpoint_positions_unchanged": true,
+      "endpoint_tangents_preserved_by_fixed_first_last_two_controls": true
+    },
+    {
+      "source_id": "local_T_direct_fine",
+      "output_id": "local_T_direct_edited",
+      "seconds": 0.1420837000478059,
+      "edit_request": {
+        "line": 1,
+        "z_center_nm": 400,
+        "z_halfwidth_nm": 320,
+        "left_shoulder_inward_nm": 10
+      },
+      "maximum_sampled_free_contour_change_nm": 6.322786532833409,
+      "outside_support": {
+        "rms_nm": 6.291914354579878e-14,
+        "p95_nm": 1.6955835482446677e-13,
+        "max_nm": 2.287179616117566e-13,
+        "mean_signed_nm": 3.432924461329586e-14,
+        "samples": 33122,
+        "missing": 0
+      },
+      "inside_support": {
+        "rms_nm": 0.42385185053619207,
+        "p95_nm": 5.6781071843272077e-14,
+        "max_nm": 6.322786532833409,
+        "mean_signed_nm": 0.04374116764086131,
+        "samples": 3656,
+        "missing": 0
+      },
+      "region_changes_at_center": {
+        "left_wall": {
+          "rms_nm": 0.0,
+          "p95_nm": 0.0,
+          "max_nm": 0.0,
+          "mean_signed_nm": 0.0,
+          "samples": 34,
+          "missing": 0
+        },
+        "left_shoulder": {
+          "rms_nm": 3.943940784033869,
+          "p95_nm": 6.335330784861041,
+          "max_nm": 6.335330784861041,
+          "mean_signed_nm": 3.1332315220318496,
+          "samples": 14,
+          "missing": 0
+        },
+        "top": {
+          "rms_nm": 0.0,
+          "p95_nm": 0.0,
+          "max_nm": 0.0,
+          "mean_signed_nm": 0.0,
+          "samples": 161,
+          "missing": 0
+        },
+        "right_shoulder": {
+          "rms_nm": 0.0,
+          "p95_nm": 0.0,
+          "max_nm": 0.0,
+          "mean_signed_nm": 0.0,
+          "samples": 19,
+          "missing": 0
+        },
+        "right_wall": {
+          "rms_nm": 0.0,
+          "p95_nm": 0.0,
+          "max_nm": 0.0,
+          "mean_signed_nm": 0.0,
+          "samples": 34,
+          "missing": 0
+        }
+      },
+      "saved_and_reloaded": true,
+      "metadata": {
+        "kind": "surface",
+        "scene": "local",
+        "model_id": "local_T_direct_edited",
+        "bounds": [
+          -8000,
+          8000,
+          -100,
+          400,
+          -2000,
+          2000
+        ],
+        "centers": [
+          -3200,
+          0,
+          3200
+        ],
+        "ids": [
+          "m0_s0",
+          "m0_s1",
+          "m0_s2"
+        ],
+        "units": "nm",
+        "materials": {
+          "0": "air",
+          "1": "stripe",
+          "2": "substrate"
+        },
+        "config": {
+          "identity": "基于 AH53 名义版图的合成工艺形貌；非实测重建",
+          "units": "nm",
+          "coordinates": {
+            "X": "transverse",
+            "Y": "height",
+            "Z": "line length"
+          },
+          "nominal": {
+            "mother_period_nm": 16000,
+            "stripe_zone_nm": 8000,
+            "blank_zone_nm": 8000,
+            "stripe_offsets_nm": [
+              -3200,
+              0,
+              3200
+            ],
+            "design_cd_nm": 1600,
+            "height_nm": 300
+          },
+          "scenes": {
+            "local": {
+              "bounds_nm": [
+                -8000,
+                8000,
+                -100,
+                400,
+                -2000,
+                2000
+              ],
+              "mother_ids": [
+                0
+              ]
+            },
+            "full": {
+              "bounds_nm": [
+                -24000,
+                24000,
+                -100,
+                400,
+                -24000,
+                24000
+              ],
+              "mother_ids": [
+                -1,
+                0,
+                1
+              ]
+            },
+            "status": "验证假设；现有 AH53_DEMO GDS 仅 8×2 μm，不能据其确定完整 Mark 尺寸"
+          },
+          "synthetic": {
+            "seed": 20261024,
+            "reference_y_nm": 150,
+            "left_angle_deg": 80,
+            "right_angle_deg": 86,
+            "wall_bending_nm": [
+              20,
+              12
+            ],
+            "shoulder_scale_nm": [
+              40,
+              70
+            ],
+            "shoulder_relative_variation": 0.15,
+            "top_transverse_rise_nm": 10,
+            "height_rms_nm": 4,
+            "center_rms_nm": 6,
+            "full_width_rms_nm": 8,
+            "height_residual_rms_nm": 3,
+            "wavelengths_nm": [
+              160,
+              211,
+              283,
+              397,
+              613,
+              947,
+              1499,
+              2203,
+              3797,
+              6101
+            ],
+            "spectral_weights": [
+              0.1,
+              0.18,
+              0.35,
+              0.6,
+              0.75,
+              0.55,
+              0.7,
+              0.9,
+              0.7,
+              0.4
+            ],
+            "field_definition": "Independent random-phase finite Fourier sums; weights normalized so theoretical infinite-domain RMS equals configured RMS. Fixed spectral wavelengths >=160nm; short and long bands around 0.3um and2um. Finite-window actual RMS remeasured.",
+            "local_feature": {
+              "stable_stripe_id": "m0_s1",
+              "z_center_nm": 400,
+              "z_hwhm_nm": 180,
+              "left_displacement_nm": 18,
+              "height_nm": 12
+            }
+          },
+          "sampling": {
+            "coarse": {
+              "boundary_step_nm": 20,
+              "z_step_nm": 80,
+              "voxel_nm": 10
+            },
+            "fine": {
+              "boundary_step_nm": 10,
+              "z_step_nm": 40,
+              "voxel_nm": 5
+            },
+            "full": {
+              "boundary_step_nm": 10,
+              "z_step_nm": 40,
+              "voxel_nm": 10
+            }
+          },
+          "materials": {
+            "0": "air",
+            "1": "stripe",
+            "2": "substrate"
+          },
+          "numerics": {
+            "query_contour_step_nm": 0.5,
+            "resource_available_fraction": 0.6,
+            "boundary_p95_observation_nm": 1
+          },
+          "end_faces": "Z ends close the computational window and are excluded from free-surface errors"
+        },
+        "array_payload_bytes": 6243760,
+        "reference_definition": "Independent analytic piecewise contour; no spline/triangle/voxel dependency",
+        "local_feature": {
+          "stable_stripe_id": "m0_s1",
+          "z_center_nm": 400,
+          "z_hwhm_nm": 180,
+          "left_displacement_nm": 18,
+          "height_nm": 12
+        },
+        "sections_y_unimodal": true,
+        "source_model": "local_T_direct_fine",
+        "operation": "local_left_shoulder_vertex_edit_no_reconnection",
+        "boundary_step_nm": 10.0,
+        "z_step_nm": 40.0,
+        "point_count": 130290,
+        "observation_sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211",
+        "sampling": "Common piecewise ordered contour samples; nominal per-region arc-length upper envelopes; no fitted model used",
+        "measured_max_contour_chord_nm": 9.974884063280044,
+        "measured_max_height_nm": 321.46779634443504,
+        "measured_min_stripe_gap_nm": 1512.5384155799375,
+        "measured_min_width_at_30_150_270_nm": 1532.2162522603799,
+        "y_unimodality_checked_at_all_observed_sections": true,
+        "source_observation_sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211",
+        "vertex_count": 129993,
+        "face_count": 259974,
+        "ring_shape": [
+          3,
+          101,
+          429
+        ],
+        "material_volume_nm3": 5718898643.291945,
+        "min_triangle_area_nm2": 59.73086000585874,
+        "degenerate_triangle_count": 0,
+        "topology": "separate closed outward-oriented genus0 stripe solids; bottom and artificial Z-end caps retained",
+        "query": "Intersections of actual saved triangle vertices and face connectivity in the containing Z slab; structured mesh optimization, not arbitrary mesh benchmark",
+        "triangle_sha256": "5f2af2276d4d05bfd8a1256f7305311d8f3cbef38f14365d6be9590c73c41687",
+        "vertex_sha256": "fc156da7b99066ffa12e5e60502f11bc5f6553156168c8e47fe2cac369985155",
+        "edit": {
+          "line": 1,
+          "z_center": 400,
+          "z_halfwidth": 320,
+          "requested_max_displacement_nm": 10,
+          "changed_vertex_x_coordinates": 195,
+          "definition": "same compact quartic z × sin² shoulder physical displacement field evaluated at saved vertex parameters"
+        },
+        "face_materials": {
+          "inside": 1,
+          "free_surface_outside": 0,
+          "bottom_outside": 2,
+          "bottom_rule": "side face f: contour index = floor(f/2) mod nu; u[index]>=5 identifies the single shared stripe/substrate interface; all other side faces are stripe/air",
+          "artificial_z_end_caps_outside": 0,
+          "end_caps_excluded_from_free_surface_metrics": true,
+          "orientation": "outward from material1"
+        }
+      },
+      "memory": {
+        "baseline_rss_bytes": 83963904,
+        "sampled_peak_rss_bytes": 124911616,
+        "windows_process_peak_working_set_bytes": 139116544,
+        "sampling_period_seconds": 0.01,
+        "definition": "RSS includes interpreter, imported libraries and mapped resident pages; not disk size"
+      },
+      "saved_files": {
+        "sha256": "456486262e30bfb07fcd95ba3e693befa2cd86c7ce62458a9807e9a0e41d5873",
+        "file_bytes": 6250260,
+        "files": [
+          {
+            "name": "faces.npy",
+            "bytes": 3119816,
+            "sha256": "5f2af2276d4d05bfd8a1256f7305311d8f3cbef38f14365d6be9590c73c41687"
+          },
+          {
+            "name": "metadata.json",
+            "bytes": 5988,
+            "sha256": "35129466a997a996f184d9f74b7db68f47fc1fde95acb2750f9c27de656ac15e"
+          },
+          {
+            "name": "u.npy",
+            "bytes": 3560,
+            "sha256": "a2a8033b5b992549d1456b1bf42a52d8f0c090fe853f7d44670511346fdebd77"
+          },
+          {
+            "name": "vertices.npy",
+            "bytes": 3119960,
+            "sha256": "fc156da7b99066ffa12e5e60502f11bc5f6553156168c8e47fe2cac369985155"
+          },
+          {
+            "name": "z.npy",
+            "bytes": 936,
+            "sha256": "fa30b769ccd2bd45775fb099e7d366594a3d8d344a70bf7499154a6c045bfca1"
+          }
+        ]
+      },
+      "actual_x_displacement_at_z_center_max_nm": 9.854709087130232,
+      "actual_y_displacement_at_z_center_max_abs_nm": 0.0,
+      "maximum_sampled_free_contour_change_definition": "one-direction nearest free contour distance; not X displacement",
+      "changed_source_scalar_count": 195,
+      "endpoint_positions_unchanged": true,
+      "face_connectivity_unchanged": true,
+      "endpoint_facet_direction_change_degrees": [
+        6.592146935591185,
+        0.6341028702649554
+      ]
+    },
+    {
+      "source_id": "local_P_edited",
+      "output_id": "local_T_from_P_edited",
+      "seconds": 0.26732270000502467,
+      "saved_and_reloaded": true,
+      "material_probe_changed_count": 187,
+      "material_probe_count": 393,
+      "saved_files": {
+        "sha256": "d3c3b8c2fde3425fc342ae1c9ef8f3126174e81dcf7d5d6d2dd04e36cda84c62",
+        "file_bytes": 6312825,
+        "files": [
+          {
+            "name": "faces.npy",
+            "bytes": 3150704,
+            "sha256": "9928faf582d5a11f21025d94adfdd9791e85c35bd99ecc416d1ac1100c4801f0"
+          },
+          {
+            "name": "metadata.json",
+            "bytes": 6769,
+            "sha256": "3872f24290a95bc642510ffb282ab530b1dd6e3eb66c7adaa9a8865b6f8757f6"
+          },
+          {
+            "name": "u.npy",
+            "bytes": 3560,
+            "sha256": "a2a8033b5b992549d1456b1bf42a52d8f0c090fe853f7d44670511346fdebd77"
+          },
+          {
+            "name": "vertices.npy",
+            "bytes": 3150848,
+            "sha256": "0525d5ae4bd30f91b70d4a7f89884484bbac0462ea1e70ae3976ee7f668bb483"
+          },
+          {
+            "name": "z.npy",
+            "bytes": 944,
+            "sha256": "44f1af3eb21e7409d61a4bcee5e6f9380a232bdab698e65d15809eac1eb7abde"
+          }
+        ]
+      },
+      "memory": {
+        "baseline_rss_bytes": 85901312,
+        "sampled_peak_rss_bytes": 121372672,
+        "windows_process_peak_working_set_bytes": 139116544,
+        "sampling_period_seconds": 0.01,
+        "definition": "RSS includes interpreter, imported libraries and mapped resident pages; not disk size"
+      }
+    },
+    {
+      "source_id": "local_P_edited",
+      "output_id": "local_V_from_P_edited",
+      "seconds": 7.009473499958403,
+      "saved_and_reloaded": true,
+      "material_probe_changed_count": 131,
+      "material_probe_count": 393,
+      "saved_files": {
+        "sha256": "1e300415891319ddd70b63d3494cc9ffcccfedb1dac3970faa775333610e7271",
+        "file_bytes": 256006260,
+        "files": [
+          {
+            "name": "labels.npy",
+            "bytes": 256000128,
+            "sha256": "6a524e1d1109e51dcb705af4a915cd5559c28c720a90c67c5463edf0dde0de48"
+          },
+          {
+            "name": "metadata.json",
+            "bytes": 6132,
+            "sha256": "e5ec8b67efc1a9a40faa818b277af4561db03f6cc68e46d3331f49d33ecbdfc0"
+          }
+        ]
+      },
+      "memory": {
+        "baseline_rss_bytes": 85192704,
+        "sampled_peak_rss_bytes": 348913664,
+        "windows_process_peak_working_set_bytes": 351444992,
+        "sampling_period_seconds": 0.01,
+        "definition": "RSS includes interpreter, imported libraries and mapped resident pages; not disk size"
+      }
+    }
+  ]
+}

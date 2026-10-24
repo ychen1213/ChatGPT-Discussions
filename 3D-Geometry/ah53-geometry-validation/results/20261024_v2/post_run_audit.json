@@ -1,0 +1,20 @@
+{
+  "height_curve_supplemented_ids": [
+    "local_P_coarse",
+    "local_P_fine",
+    "local_T_direct_coarse",
+    "local_V_direct_coarse"
+  ],
+  "seconds": 109.8836738000391,
+  "saved_models_unchanged": true,
+  "material_interface_rule": {
+    "stripe_id": 1,
+    "air_id": 0,
+    "substrate_id": 2,
+    "surface_face_rule": "Saved outward stripe triangles at Y=0 interface to substrate; remaining faces interface to air. Finite Z caps close the computational window.",
+    "substrate": "Analytic rectangular domain Y<0 saved in model bounds; no optical parameters implied"
+  },
+  "reference_numeric_query": "Reference is analytic C(u,Z); material tests invert controlled0.5nm chords. Section metrics use1nm chords with measured0.25nm refinement; see preparation.json.",
+  "volume_audit": "volume_quadrature_audit.json",
+  "volume_numeric_query": "Reference and parametric section polygon area integrated at independent4point Gauss stations in40nm panels; triangle volume uses actual oriented faces; voxel volume is exact count times cell volume. Volume quadrature is auxiliary, not a boundary-error substitute."
+}

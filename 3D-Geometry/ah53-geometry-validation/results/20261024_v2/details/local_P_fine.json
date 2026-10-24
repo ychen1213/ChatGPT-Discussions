@@ -1,0 +1,1169 @@
+{
+  "id": "local_P_fine",
+  "scene": "local",
+  "method": "P",
+  "level": "fine",
+  "boundary_step_nm": 10,
+  "z_step_nm": 40,
+  "voxel_nm": 5,
+  "status": "completed",
+  "source_path": "models/local_observations_fine",
+  "model_path": "models/local_P_fine",
+  "construction_seconds": 0.09275030007120222,
+  "reload_seconds": 0.00758859992492944,
+  "array_payload_bytes": 2117592,
+  "saved_files": {
+    "sha256": "ff5cf1fe7e8eae9524d6875d901828ba73ad0f34a0864a7a3b790b99db72527b",
+    "file_bytes": 2127014,
+    "files": [
+      {
+        "name": "metadata.json",
+        "bytes": 5152,
+        "sha256": "409abcdd2c4b957fe46abe77506014468620f4862f3c324775b0846e93f00669"
+      },
+      {
+        "name": "splines.npz",
+        "bytes": 2121862,
+        "sha256": "2ae8fb1bb5a5de8b20ed383f37872c5060ad11e889676fbb34aeb0a688d524ac"
+      }
+    ]
+  },
+  "source_files": {
+    "sha256": "07ecfec5e350a39cb76ca0ac93ea87a375cf855e36d368578645ff7c5a55eadd",
+    "file_bytes": 2093741,
+    "files": [
+      {
+        "name": "metadata.json",
+        "bytes": 4469,
+        "sha256": "5999cf1d34917435e907592162deb6aa2c4364e97bfc450af546a0b660567944"
+      },
+      {
+        "name": "points.npy",
+        "bytes": 2084768,
+        "sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211"
+      },
+      {
+        "name": "u.npy",
+        "bytes": 3568,
+        "sha256": "e8dbb0cb54939b4abe3151a6c7dcbc8189b6b51c5cfef76dac3de43dc6c7a4ad"
+      },
+      {
+        "name": "z.npy",
+        "bytes": 936,
+        "sha256": "fa30b769ccd2bd45775fb099e7d366594a3d8d344a70bf7499154a6c045bfca1"
+      }
+    ]
+  },
+  "memory": {
+    "construction": {
+      "baseline_rss_bytes": 74887168,
+      "sampled_peak_rss_bytes": 82227200,
+      "windows_process_peak_working_set_bytes": 85016576,
+      "sampling_period_seconds": 0.01,
+      "definition": "RSS includes interpreter, imported libraries and mapped resident pages; not disk size"
+    },
+    "evaluation": {
+      "baseline_rss_bytes": 80084992,
+      "sampled_peak_rss_bytes": 97742848,
+      "windows_process_peak_working_set_bytes": 98050048,
+      "sampling_period_seconds": 0.01,
+      "definition": "RSS includes interpreter, imported libraries and mapped resident pages; not disk size"
+    },
+    "available_before_bytes": 11403231232,
+    "limit_bytes": 6841938739,
+    "within_budget": true
+  },
+  "model_metadata": {
+    "kind": "parametric",
+    "scene": "local",
+    "model_id": "local_P_fine",
+    "bounds": [
+      -8000,
+      8000,
+      -100,
+      400,
+      -2000,
+      2000
+    ],
+    "centers": [
+      -3200,
+      0,
+      3200
+    ],
+    "ids": [
+      "m0_s0",
+      "m0_s1",
+      "m0_s2"
+    ],
+    "units": "nm",
+    "materials": {
+      "0": "air",
+      "1": "stripe",
+      "2": "substrate"
+    },
+    "config": {
+      "identity": "基于 AH53 名义版图的合成工艺形貌；非实测重建",
+      "units": "nm",
+      "coordinates": {
+        "X": "transverse",
+        "Y": "height",
+        "Z": "line length"
+      },
+      "nominal": {
+        "mother_period_nm": 16000,
+        "stripe_zone_nm": 8000,
+        "blank_zone_nm": 8000,
+        "stripe_offsets_nm": [
+          -3200,
+          0,
+          3200
+        ],
+        "design_cd_nm": 1600,
+        "height_nm": 300
+      },
+      "scenes": {
+        "local": {
+          "bounds_nm": [
+            -8000,
+            8000,
+            -100,
+            400,
+            -2000,
+            2000
+          ],
+          "mother_ids": [
+            0
+          ]
+        },
+        "full": {
+          "bounds_nm": [
+            -24000,
+            24000,
+            -100,
+            400,
+            -24000,
+            24000
+          ],
+          "mother_ids": [
+            -1,
+            0,
+            1
+          ]
+        },
+        "status": "验证假设；现有 AH53_DEMO GDS 仅 8×2 μm，不能据其确定完整 Mark 尺寸"
+      },
+      "synthetic": {
+        "seed": 20261024,
+        "reference_y_nm": 150,
+        "left_angle_deg": 80,
+        "right_angle_deg": 86,
+        "wall_bending_nm": [
+          20,
+          12
+        ],
+        "shoulder_scale_nm": [
+          40,
+          70
+        ],
+        "shoulder_relative_variation": 0.15,
+        "top_transverse_rise_nm": 10,
+        "height_rms_nm": 4,
+        "center_rms_nm": 6,
+        "full_width_rms_nm": 8,
+        "height_residual_rms_nm": 3,
+        "wavelengths_nm": [
+          160,
+          211,
+          283,
+          397,
+          613,
+          947,
+          1499,
+          2203,
+          3797,
+          6101
+        ],
+        "spectral_weights": [
+          0.1,
+          0.18,
+          0.35,
+          0.6,
+          0.75,
+          0.55,
+          0.7,
+          0.9,
+          0.7,
+          0.4
+        ],
+        "field_definition": "Independent random-phase finite Fourier sums; weights normalized so theoretical infinite-domain RMS equals configured RMS. Fixed spectral wavelengths >=160nm; short and long bands around 0.3um and2um. Finite-window actual RMS remeasured.",
+        "local_feature": {
+          "stable_stripe_id": "m0_s1",
+          "z_center_nm": 400,
+          "z_hwhm_nm": 180,
+          "left_displacement_nm": 18,
+          "height_nm": 12
+        }
+      },
+      "sampling": {
+        "coarse": {
+          "boundary_step_nm": 20,
+          "z_step_nm": 80,
+          "voxel_nm": 10
+        },
+        "fine": {
+          "boundary_step_nm": 10,
+          "z_step_nm": 40,
+          "voxel_nm": 5
+        },
+        "full": {
+          "boundary_step_nm": 10,
+          "z_step_nm": 40,
+          "voxel_nm": 10
+        }
+      },
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      },
+      "numerics": {
+        "query_contour_step_nm": 0.5,
+        "resource_available_fraction": 0.6,
+        "boundary_p95_observation_nm": 1
+      },
+      "end_faces": "Z ends close the computational window and are excluded from free-surface errors"
+    },
+    "array_payload_bytes": 2117592,
+    "reference_definition": "Independent analytic piecewise contour; no spline/triangle/voxel dependency",
+    "local_feature": {
+      "stable_stripe_id": "m0_s1",
+      "z_center_nm": 400,
+      "z_hwhm_nm": 180,
+      "left_displacement_nm": 18,
+      "height_nm": 12
+    },
+    "sections_y_unimodal": true,
+    "source_model": "local_observations_fine",
+    "operation": "piecewise_tensor_cubic_interpolation_of_common_observations",
+    "boundary_step_nm": 10.0,
+    "z_step_nm": 40.0,
+    "point_count": 130290,
+    "observation_sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211",
+    "sampling": "Common piecewise ordered contour samples; nominal per-region arc-length upper envelopes; no fitted model used",
+    "measured_max_contour_chord_nm": 9.974884063280044,
+    "measured_max_height_nm": 321.46779634443504,
+    "measured_min_stripe_gap_nm": 1512.5384155799375,
+    "measured_min_width_at_30_150_270_nm": 1532.2162522603799,
+    "y_unimodality_checked_at_all_observed_sections": true,
+    "coefficient_count": 263610,
+    "spline_degree": [
+      3,
+      3
+    ],
+    "parameterization": "six ordered contour parts C(u,Z); effective height is max Y; left/right interval queries invert the unimodal saved contour",
+    "parameterization_reason": "The crown has finite tangent in contour coordinates but unbounded |dX/dY| at its summit. Uniform-Y cubic interpolation amplifies endpoint coordinate error. Piecewise contour coordinates retain common arc-length observation spacing and bounded tangents; left/right representation remains mathematically valid.",
+    "source_observation_sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211"
+  },
+  "metrics": {
+    "section_distance": {
+      "definition": "bidirectional arc-length-weighted XY-section point-to-segment distance",
+      "z_positions_nm": [
+        -1783.0,
+        -1167.0,
+        -443.0,
+        137.0,
+        413.0,
+        677.0,
+        1549.0
+      ],
+      "line_indices": [
+        0,
+        1,
+        2
+      ],
+      "curve_step_nm": 1.0,
+      "quadrature_max_step_nm": 2.026,
+      "region_assignment": "candidate samples assigned by nearest reference segment",
+      "sections": [
+        {
+          "line": 0,
+          "z_nm": -1783.0,
+          "rms_nm": 0.011038188353555679,
+          "p95_nm": 0.027311260822919577,
+          "max_nm": 0.028721783470374122,
+          "mean_signed_nm": 0.006765239086777785,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 0,
+          "z_nm": -1167.0,
+          "rms_nm": 0.002672426728477989,
+          "p95_nm": 0.007319184113473681,
+          "max_nm": 0.008025100841377492,
+          "mean_signed_nm": 0.0015292596515587894,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 0,
+          "z_nm": -443.0,
+          "rms_nm": 0.0013746885870181188,
+          "p95_nm": 0.0036115676485705306,
+          "max_nm": 0.004099611321437376,
+          "mean_signed_nm": 0.0009348300538961489,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 0,
+          "z_nm": 137.0,
+          "rms_nm": 0.011200079366570404,
+          "p95_nm": 0.023775798738660307,
+          "max_nm": 0.025541868450354836,
+          "mean_signed_nm": 0.00769578948661977,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 0,
+          "z_nm": 413.0,
+          "rms_nm": 0.005670835899720215,
+          "p95_nm": 0.00774836321786339,
+          "max_nm": 0.008730747404911551,
+          "mean_signed_nm": 0.005464018446612758,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 0,
+          "z_nm": 677.0,
+          "rms_nm": 0.000995645077870825,
+          "p95_nm": 0.0017151456257952422,
+          "max_nm": 0.0022280829123372914,
+          "mean_signed_nm": 0.0009347717646435985,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 0,
+          "z_nm": 1549.0,
+          "rms_nm": 0.005633323288333862,
+          "p95_nm": 0.012312349438762658,
+          "max_nm": 0.01309946038401099,
+          "mean_signed_nm": 0.004668224499415066,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 1,
+          "z_nm": -1783.0,
+          "rms_nm": 0.009919640709802025,
+          "p95_nm": 0.011492846390919829,
+          "max_nm": 0.012002997190936804,
+          "mean_signed_nm": 0.00932686547848042,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 1,
+          "z_nm": -1167.0,
+          "rms_nm": 0.003151495956407461,
+          "p95_nm": 0.0035335014234317945,
+          "max_nm": 0.004826587744042106,
+          "mean_signed_nm": 0.0029700749505282716,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 1,
+          "z_nm": -443.0,
+          "rms_nm": 0.0017662508205875524,
+          "p95_nm": 0.0019830507899680945,
+          "max_nm": 0.0027585203068730543,
+          "mean_signed_nm": 0.0016563259908720035,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 1,
+          "z_nm": 137.0,
+          "rms_nm": 0.013538057456455347,
+          "p95_nm": 0.015202051858469737,
+          "max_nm": 0.0161874553622892,
+          "mean_signed_nm": 0.0130496097459771,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 1,
+          "z_nm": 413.0,
+          "rms_nm": 0.006887325540562011,
+          "p95_nm": 0.020209735756870097,
+          "max_nm": 0.02565475314654234,
+          "mean_signed_nm": 0.004051786394878296,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 1,
+          "z_nm": 677.0,
+          "rms_nm": 0.000993754895985196,
+          "p95_nm": 0.001878640177181181,
+          "max_nm": 0.0026402137953369653,
+          "mean_signed_nm": 0.0009109182555580622,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 1,
+          "z_nm": 1549.0,
+          "rms_nm": 0.004372314602065966,
+          "p95_nm": 0.007278913629621639,
+          "max_nm": 0.009421145079800302,
+          "mean_signed_nm": 0.00412771406913473,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 2,
+          "z_nm": -1783.0,
+          "rms_nm": 0.008777761310237822,
+          "p95_nm": 0.02035307188595493,
+          "max_nm": 0.025785736454274438,
+          "mean_signed_nm": 0.007575893478300421,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 2,
+          "z_nm": -1167.0,
+          "rms_nm": 0.0019913883059909376,
+          "p95_nm": 0.004215864874684937,
+          "max_nm": 0.004991111269357841,
+          "mean_signed_nm": 0.001811573805119316,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 2,
+          "z_nm": -443.0,
+          "rms_nm": 0.0013514760614071364,
+          "p95_nm": 0.002139124296906749,
+          "max_nm": 0.0021836122323745082,
+          "mean_signed_nm": 0.001295201524763772,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 2,
+          "z_nm": 137.0,
+          "rms_nm": 0.007024542941355451,
+          "p95_nm": 0.012056210955140919,
+          "max_nm": 0.01504066288472787,
+          "mean_signed_nm": 0.0065402139384996595,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 2,
+          "z_nm": 413.0,
+          "rms_nm": 0.006870784990145902,
+          "p95_nm": 0.016875487529131605,
+          "max_nm": 0.01862009059247134,
+          "mean_signed_nm": 0.005193300002526588,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 2,
+          "z_nm": 677.0,
+          "rms_nm": 0.0015711795463167874,
+          "p95_nm": 0.002994659961417241,
+          "max_nm": 0.0032029896384027767,
+          "mean_signed_nm": 0.0014374959268299546,
+          "samples": 5140,
+          "missing": 0
+        },
+        {
+          "line": 2,
+          "z_nm": 1549.0,
+          "rms_nm": 0.0029961579590962488,
+          "p95_nm": 0.0077910408583073704,
+          "max_nm": 0.008626914676195169,
+          "mean_signed_nm": 0.001761368613578028,
+          "samples": 5140,
+          "missing": 0
+        }
+      ],
+      "reference_to_candidate": {
+        "rms_nm": 0.006452207870116163,
+        "p95_nm": 0.01502693971236209,
+        "max_nm": 0.028721781614833082,
+        "mean_signed_nm": 0.004271940502006884,
+        "samples": 53970,
+        "missing": 0
+      },
+      "candidate_to_reference": {
+        "rms_nm": 0.0064522051051086205,
+        "p95_nm": 0.015026939862226668,
+        "max_nm": 0.028721783470374122,
+        "mean_signed_nm": 0.004271940236153254,
+        "samples": 53970,
+        "missing": 0
+      },
+      "all": {
+        "rms_nm": 0.006452206487611981,
+        "p95_nm": 0.015026939862226668,
+        "max_nm": 0.028721783470374122,
+        "mean_signed_nm": 0.004271940369080016,
+        "samples": 107940,
+        "missing": 0
+      },
+      "regions": {
+        "left_wall": {
+          "rms_nm": 0.009210118108300277,
+          "p95_nm": 0.02485117558670746,
+          "max_nm": 0.028721783470374122,
+          "mean_signed_nm": 0.0057972642081929844,
+          "samples": 13860,
+          "missing": 0
+        },
+        "left_shoulder": {
+          "rms_nm": 0.007195683861704961,
+          "p95_nm": 0.01682667185596017,
+          "max_nm": 0.024551217999187552,
+          "mean_signed_nm": 0.004699521469763561,
+          "samples": 5460,
+          "missing": 0
+        },
+        "top": {
+          "rms_nm": 0.005103666069331862,
+          "p95_nm": 0.011494216271635533,
+          "max_nm": 0.015207516412583418,
+          "mean_signed_nm": 0.003529686907989273,
+          "samples": 67200,
+          "missing": 0
+        },
+        "right_shoulder": {
+          "rms_nm": 0.007187322204989809,
+          "p95_nm": 0.014565502560502519,
+          "max_nm": 0.025785736454274438,
+          "mean_signed_nm": 0.005104235763422359,
+          "samples": 7560,
+          "missing": 0
+        },
+        "right_wall": {
+          "rms_nm": 0.009327363042112069,
+          "p95_nm": 0.02135786428383626,
+          "max_nm": 0.02565475314654234,
+          "mean_signed_nm": 0.006897116913228643,
+          "samples": 13860,
+          "missing": 0
+        }
+      }
+    },
+    "profiles": {
+      "fixed_height_nm": [
+        30.0,
+        150.0,
+        270.0
+      ],
+      "evaluation_z_spacing_nm": 16.0,
+      "demeaning": "subtract each line's mean at each fixed physical Y; no detrending",
+      "per_height": {
+        "30": {
+          "cd": {
+            "rms_nm": 0.010515685751096028,
+            "p95_nm": 0.019053864181387326,
+            "max_nm": 0.07584687628980191,
+            "mean_signed_nm": -5.8884712571701434e-05,
+            "samples": 750,
+            "missing": 0
+          },
+          "center": {
+            "rms_nm": 0.013178326603298233,
+            "p95_nm": 0.017961113209821633,
+            "max_nm": 0.12891467432342552,
+            "mean_signed_nm": 0.0001324820713208131,
+            "samples": 750,
+            "missing": 0
+          },
+          "left": {
+            "rms_nm": 0.012007816556448447,
+            "p95_nm": 0.02001015333007672,
+            "max_nm": 0.11583911488105514,
+            "mean_signed_nm": 0.0001619244276066638,
+            "samples": 750,
+            "missing": 0
+          },
+          "right": {
+            "rms_nm": 0.016076030264993296,
+            "p95_nm": 0.0228326950614246,
+            "max_nm": 0.16683811246832647,
+            "mean_signed_nm": 0.00010303971503496238,
+            "samples": 750,
+            "missing": 0
+          },
+          "missing_intersection_pairs": 0
+        },
+        "150": {
+          "cd": {
+            "rms_nm": 0.011067889494096133,
+            "p95_nm": 0.018727422017036588,
+            "max_nm": 0.08655622837636656,
+            "mean_signed_nm": -2.0332585941105207e-05,
+            "samples": 750,
+            "missing": 0
+          },
+          "center": {
+            "rms_nm": 0.012001830771422006,
+            "p95_nm": 0.015528439087574952,
+            "max_nm": 0.12052704039672335,
+            "mean_signed_nm": 0.00013995952150465505,
+            "samples": 750,
+            "missing": 0
+          },
+          "left": {
+            "rms_nm": 0.010599784529220524,
+            "p95_nm": 0.018071261223212787,
+            "max_nm": 0.08399494387595041,
+            "mean_signed_nm": 0.00015012581447520763,
+            "samples": 750,
+            "missing": 0
+          },
+          "right": {
+            "rms_nm": 0.015394204772984,
+            "p95_nm": 0.02241253662668896,
+            "max_nm": 0.16380515458490663,
+            "mean_signed_nm": 0.00012979322853410243,
+            "samples": 750,
+            "missing": 0
+          },
+          "missing_intersection_pairs": 0
+        },
+        "270": {
+          "cd": {
+            "rms_nm": 0.016469281669710432,
+            "p95_nm": 0.03421848608968503,
+            "max_nm": 0.08067861048402847,
+            "mean_signed_nm": 0.00031773911843447424,
+            "samples": 750,
+            "missing": 0
+          },
+          "center": {
+            "rms_nm": 0.010702297131302482,
+            "p95_nm": 0.01596406618114088,
+            "max_nm": 0.09844230097843365,
+            "mean_signed_nm": 0.00018993194130174137,
+            "samples": 750,
+            "missing": 0
+          },
+          "left": {
+            "rms_nm": 0.012218324407795666,
+            "p95_nm": 0.019948280939388496,
+            "max_nm": 0.11408764407678973,
+            "mean_signed_nm": 3.1062382084504256e-05,
+            "samples": 750,
+            "missing": 0
+          },
+          "right": {
+            "rms_nm": 0.014676835346809795,
+            "p95_nm": 0.027939285023876437,
+            "max_nm": 0.12017599437342597,
+            "mean_signed_nm": 0.00034880150051897846,
+            "samples": 750,
+            "missing": 0
+          },
+          "missing_intersection_pairs": 0
+        }
+      },
+      "edge_features": {
+        "line0_y30_left": {
+          "rms_nm": 6.088313977171454,
+          "reference_rms_nm": 6.089793302483425,
+          "correlation": 0.9999979670233756,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 11.624250280042828,
+              "reference_nm2": 11.639725119782875,
+              "ratio": 0.9986705150181128,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 25.43975237046481,
+              "reference_nm2": 25.442488211208047,
+              "ratio": 0.9998924696075114,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line0_y30_right": {
+          "rms_nm": 9.582394066249057,
+          "reference_rms_nm": 9.582945474041113,
+          "correlation": 0.9999994498571235,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 23.434647475419773,
+              "reference_nm2": 23.449493997600545,
+              "ratio": 0.9993668723861465,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 67.98116291035562,
+              "reference_nm2": 67.98343438700235,
+              "ratio": 0.9999665877920525,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line0_y150_left": {
+          "rms_nm": 6.422317909452538,
+          "reference_rms_nm": 6.423391128273989,
+          "correlation": 0.9999978644147361,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 10.452496629065978,
+              "reference_nm2": 10.464726898656302,
+              "ratio": 0.9988312863098324,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 30.779610779260963,
+              "reference_nm2": 30.78294882763248,
+              "ratio": 0.9998915617736881,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line0_y150_right": {
+          "rms_nm": 9.34632436553476,
+          "reference_rms_nm": 9.346778595006558,
+          "correlation": 0.9999993849422115,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 21.594115406767607,
+              "reference_nm2": 21.607528514366862,
+              "ratio": 0.9993792391577622,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 65.51582461247104,
+              "reference_nm2": 65.51723733995908,
+              "ratio": 0.9999784373159584,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line0_y270_left": {
+          "rms_nm": 8.169814000703132,
+          "reference_rms_nm": 8.170355681094371,
+          "correlation": 0.9999975620557728,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 16.99948291843848,
+              "reference_nm2": 17.01357410844915,
+              "ratio": 0.9991717677943008,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 49.67697654324702,
+              "reference_nm2": 49.67780218717404,
+              "ratio": 0.9999833800230553,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line0_y270_right": {
+          "rms_nm": 10.002951434349804,
+          "reference_rms_nm": 10.004099322184933,
+          "correlation": 0.9999993670046201,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 21.087860311665438,
+              "reference_nm2": 21.115183296852095,
+              "ratio": 0.9987060029362506,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 78.68294180948557,
+              "reference_nm2": 78.68368339005242,
+              "ratio": 0.9999905751671134,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line1_y30_left": {
+          "rms_nm": 7.629152331072802,
+          "reference_rms_nm": 7.628458421838747,
+          "correlation": 0.9999989883057744,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 10.914610078450277,
+              "reference_nm2": 10.920390558742083,
+              "ratio": 0.9994706709196239,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 46.70370514750925,
+              "reference_nm2": 46.70002818918916,
+              "ratio": 1.0000787356766723,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line1_y30_right": {
+          "rms_nm": 7.073706701125573,
+          "reference_rms_nm": 7.0768011606408034,
+          "correlation": 0.9999951660096429,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 20.05016313721474,
+              "reference_nm2": 20.078841217345694,
+              "ratio": 0.9985717263351741,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 29.672213840752903,
+              "reference_nm2": 29.6695365815693,
+              "ratio": 1.000090235962272,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line1_y150_left": {
+          "rms_nm": 5.984681154199801,
+          "reference_rms_nm": 5.983903504731217,
+          "correlation": 0.9999989857765625,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 10.391419168499283,
+              "reference_nm2": 10.394782590127772,
+              "ratio": 0.9996764317483963,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 24.873713051820054,
+              "reference_nm2": 24.870685574767585,
+              "ratio": 1.0001217287333464,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line1_y150_right": {
+          "rms_nm": 6.770015793132145,
+          "reference_rms_nm": 6.772857457572844,
+          "correlation": 0.9999952937031069,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 16.809069005907276,
+              "reference_nm2": 16.834279538407493,
+              "ratio": 0.9985024287827288,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 28.742359102849097,
+              "reference_nm2": 28.739614588629227,
+              "ratio": 1.0000954958603014,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line1_y270_left": {
+          "rms_nm": 6.153163356749598,
+          "reference_rms_nm": 6.152826822792484,
+          "correlation": 0.9999986805437459,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 10.954789128966677,
+              "reference_nm2": 10.958922418157389,
+              "ratio": 0.9996228379914559,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 26.604283911973468,
+              "reference_nm2": 26.603746781418767,
+              "ratio": 1.0000201900341,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line1_y270_right": {
+          "rms_nm": 12.359733314109652,
+          "reference_rms_nm": 12.361508131043172,
+          "correlation": 0.9999993757596201,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 25.24669842228362,
+              "reference_nm2": 25.273135435693067,
+              "ratio": 0.9989539480181747,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 126.5445533689188,
+              "reference_nm2": 126.54407255323142,
+              "ratio": 1.0000037995907487,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line2_y30_left": {
+          "rms_nm": 5.851573044969217,
+          "reference_rms_nm": 5.8520184358206855,
+          "correlation": 0.999997649670118,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 17.887263041446943,
+              "reference_nm2": 17.9003091166842,
+              "ratio": 0.999271181567189,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 16.108845648621777,
+              "reference_nm2": 16.108973656085627,
+              "ratio": 0.9999920536549017,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line2_y30_right": {
+          "rms_nm": 8.088813955170364,
+          "reference_rms_nm": 8.089293705889416,
+          "correlation": 0.9999986244731638,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 19.764478280319725,
+              "reference_nm2": 19.77480273230402,
+              "ratio": 0.999477898610466,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 45.21588059796159,
+              "reference_nm2": 45.223085523641565,
+              "ratio": 0.9998406803605604,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line2_y150_left": {
+          "rms_nm": 6.371439143173657,
+          "reference_rms_nm": 6.371845598072058,
+          "correlation": 0.9999989396623569,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 12.700377018119546,
+              "reference_nm2": 12.708896134061748,
+              "ratio": 0.9993296730217687,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 27.63860743926378,
+              "reference_nm2": 27.640570973297063,
+              "ratio": 0.9999289618859473,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line2_y150_right": {
+          "rms_nm": 8.459430616173748,
+          "reference_rms_nm": 8.460165095510188,
+          "correlation": 0.9999988624725763,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 21.998152379213963,
+              "reference_nm2": 22.00941651691161,
+              "ratio": 0.9994882127979634,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 49.028680215549294,
+              "reference_nm2": 49.03705011893296,
+              "ratio": 0.9998293147046291,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line2_y270_left": {
+          "rms_nm": 8.253631588604371,
+          "reference_rms_nm": 8.254239399660293,
+          "correlation": 0.9999998410407818,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 12.361604682697687,
+              "reference_nm2": 12.369799224428109,
+              "ratio": 0.9993375363996014,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 55.03124616374895,
+              "reference_nm2": 55.033132359662375,
+              "ratio": 0.9999657261756228,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        },
+        "line2_y270_right": {
+          "rms_nm": 10.60174770981599,
+          "reference_rms_nm": 10.603908130658724,
+          "correlation": 0.9999985807429647,
+          "bands": {
+            "short_160_600nm": {
+              "candidate_nm2": 34.21156905933641,
+              "reference_nm2": 34.241498292738,
+              "ratio": 0.9991259368049342,
+              "frequency_bins": 19
+            },
+            "long_600_4000nm": {
+              "candidate_nm2": 78.15914214526028,
+              "reference_nm2": 78.17632480970764,
+              "ratio": 0.999780206290214,
+              "frequency_bins": 6
+            }
+          },
+          "missing": 0
+        }
+      },
+      "actual_geometry": {
+        "width_y150_mean_nm": 1600.144839975112,
+        "width_y150_fluctuation_rms_nm": [
+          8.899857650096985,
+          7.920217645132791,
+          8.928472002647087
+        ],
+        "center_y150_fluctuation_rms_nm": [
+          6.670690120964549,
+          5.014209737513802,
+          6.012420350989988
+        ],
+        "height_maximum_per_section_rms_nm": [
+          3.566881742070022,
+          6.500784345481793,
+          3.205990664885622
+        ],
+        "height_range_nm": [
+          290.0583264077499,
+          321.44980559396095
+        ],
+        "height_measurement_z_spacing_nm": 64.0
+      },
+      "top_height": {
+        "rms_nm": 0.00509957218820575,
+        "p95_nm": 0.011477806886489361,
+        "max_nm": 0.015181988093559085,
+        "mean_signed_nm": 0.0011307765437252437,
+        "samples": 105,
+        "missing": 0,
+        "physical_x_offsets_from_nominal_center_nm": [
+          -500,
+          -250,
+          0,
+          250,
+          500
+        ],
+        "reference_height_range_nm": [
+          288.6515121937151,
+          320.64046950473744
+        ]
+      }
+    },
+    "material": {
+      "global_fraction": 0.0,
+      "global_samples": 20000,
+      "global_z_planes_nm": [
+        -1959.8918918918919,
+        -1851.7837837837837,
+        -1743.6756756756756,
+        -1635.5675675675675,
+        -1527.4594594594596,
+        -1419.3513513513512,
+        -1311.2432432432433,
+        -1203.135135135135,
+        -1095.027027027027,
+        -986.918918918919,
+        -878.8108108108108,
+        -770.7027027027027,
+        -662.5945945945946,
+        -554.4864864864865,
+        -446.37837837837833,
+        -338.2702702702702,
+        -230.1621621621623,
+        -122.05405405405395,
+        -13.94594594594605,
+        94.16216216216208,
+        202.27027027027043,
+        310.37837837837833,
+        418.4864864864867,
+        526.5945945945946,
+        634.7027027027025,
+        742.8108108108108,
+        850.9189189189187,
+        959.0270270270271,
+        1067.135135135135,
+        1175.2432432432433,
+        1283.3513513513512,
+        1391.4594594594596,
+        1499.567567567568,
+        1607.6756756756758,
+        1715.7837837837837,
+        1823.891891891892,
+        1932.0
+      ],
+      "near_boundary_fraction": 0.0,
+      "near_boundary_samples": 4620,
+      "band_halfwidth_nm": 20.0,
+      "sampling": "global random XY on 37 independent fixed Z planes; fixed normal band around complete free XY contours; deterministic seed",
+      "confusion_rows_expected_cols_candidate": [
+        [
+          2285,
+          0,
+          0
+        ],
+        [
+          0,
+          2328,
+          0
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "volume": {
+      "reference_stripe_nm3": 5719013447.584944,
+      "candidate_stripe_nm3": 5719014093.544375,
+      "relative_error": 1.1294945143397655e-07,
+      "definition": {
+        "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+        "z_panel_nm": 40.0,
+        "gauss_order": 4,
+        "contour_chord_target_nm": 1.0,
+        "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+        "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+        "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+      }
+    },
+    "evaluation_seconds": 4.411855600075796
+  },
+  "incremental": null,
+  "height_supplement": "Added by querying saved model, without rebuilding representation",
+  "volume_readback_audit": "Independent quadrature update from unchanged saved models; timing and memory in volume_quadrature_audit.json"
+}

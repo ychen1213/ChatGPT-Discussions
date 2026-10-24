@@ -1,0 +1,239 @@
+{
+  "model": "local_V_from_Tdirect",
+  "range": "shoulder",
+  "height_gain": 1,
+  "projection": "orthographic",
+  "z_nm": 410,
+  "y_nm": 270,
+  "camera": {
+    "position": [
+      -729.9999999999999,
+      275.00000000000006,
+      905
+    ],
+    "target": [
+      -729.9999999999999,
+      275,
+      410
+    ]
+  },
+  "display": {
+    "mode": "raw_exposed_voxel_faces",
+    "boundary_step_nm": 2,
+    "z_step_nm": 20,
+    "note": "局部原始体素外露面",
+    "vertex_count": 21944,
+    "face_count": 10972,
+    "build_seconds": 0.021156099974177778,
+    "coordinate_units": "nm",
+    "scope": "shoulder"
+  },
+  "source": {
+    "kind": "voxel",
+    "scene": "local",
+    "model_id": "local_V_from_Tdirect",
+    "bounds": [
+      -8000,
+      8000,
+      -100,
+      400,
+      -2000,
+      2000
+    ],
+    "centers": [
+      -3200,
+      0,
+      3200
+    ],
+    "ids": [
+      "m0_s0",
+      "m0_s1",
+      "m0_s2"
+    ],
+    "units": "nm",
+    "materials": {
+      "0": "air",
+      "1": "stripe",
+      "2": "substrate"
+    },
+    "config": {
+      "identity": "基于 AH53 名义版图的合成工艺形貌；非实测重建",
+      "units": "nm",
+      "coordinates": {
+        "X": "transverse",
+        "Y": "height",
+        "Z": "line length"
+      },
+      "nominal": {
+        "mother_period_nm": 16000,
+        "stripe_zone_nm": 8000,
+        "blank_zone_nm": 8000,
+        "stripe_offsets_nm": [
+          -3200,
+          0,
+          3200
+        ],
+        "design_cd_nm": 1600,
+        "height_nm": 300
+      },
+      "scenes": {
+        "local": {
+          "bounds_nm": [
+            -8000,
+            8000,
+            -100,
+            400,
+            -2000,
+            2000
+          ],
+          "mother_ids": [
+            0
+          ]
+        },
+        "full": {
+          "bounds_nm": [
+            -24000,
+            24000,
+            -100,
+            400,
+            -24000,
+            24000
+          ],
+          "mother_ids": [
+            -1,
+            0,
+            1
+          ]
+        },
+        "status": "验证假设；现有 AH53_DEMO GDS 仅 8×2 μm，不能据其确定完整 Mark 尺寸"
+      },
+      "synthetic": {
+        "seed": 20261024,
+        "reference_y_nm": 150,
+        "left_angle_deg": 80,
+        "right_angle_deg": 86,
+        "wall_bending_nm": [
+          20,
+          12
+        ],
+        "shoulder_scale_nm": [
+          40,
+          70
+        ],
+        "shoulder_relative_variation": 0.15,
+        "top_transverse_rise_nm": 10,
+        "height_rms_nm": 4,
+        "center_rms_nm": 6,
+        "full_width_rms_nm": 8,
+        "height_residual_rms_nm": 3,
+        "wavelengths_nm": [
+          160,
+          211,
+          283,
+          397,
+          613,
+          947,
+          1499,
+          2203,
+          3797,
+          6101
+        ],
+        "spectral_weights": [
+          0.1,
+          0.18,
+          0.35,
+          0.6,
+          0.75,
+          0.55,
+          0.7,
+          0.9,
+          0.7,
+          0.4
+        ],
+        "field_definition": "Independent random-phase finite Fourier sums; weights normalized so theoretical infinite-domain RMS equals configured RMS. Fixed spectral wavelengths >=160nm; short and long bands around 0.3um and2um. Finite-window actual RMS remeasured.",
+        "local_feature": {
+          "stable_stripe_id": "m0_s1",
+          "z_center_nm": 400,
+          "z_hwhm_nm": 180,
+          "left_displacement_nm": 18,
+          "height_nm": 12
+        }
+      },
+      "sampling": {
+        "coarse": {
+          "boundary_step_nm": 20,
+          "z_step_nm": 80,
+          "voxel_nm": 10
+        },
+        "fine": {
+          "boundary_step_nm": 10,
+          "z_step_nm": 40,
+          "voxel_nm": 5
+        },
+        "full": {
+          "boundary_step_nm": 10,
+          "z_step_nm": 40,
+          "voxel_nm": 10
+        }
+      },
+      "materials": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      },
+      "numerics": {
+        "query_contour_step_nm": 0.5,
+        "resource_available_fraction": 0.6,
+        "boundary_p95_observation_nm": 1
+      },
+      "end_faces": "Z ends close the computational window and are excluded from free-surface errors"
+    },
+    "array_payload_bytes": 256000000,
+    "reference_definition": "Independent analytic piecewise contour; no spline/triangle/voxel dependency",
+    "local_feature": {
+      "stable_stripe_id": "m0_s1",
+      "z_center_nm": 400,
+      "z_hwhm_nm": 180,
+      "left_displacement_nm": 18,
+      "height_nm": 12
+    },
+    "sections_y_unimodal": true,
+    "source_model": "local_T_direct_fine",
+    "operation": "center_sample_reloaded_source",
+    "boundary_step_nm": 10,
+    "z_step_nm": 40,
+    "point_count": 130290,
+    "observation_sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211",
+    "sampling": "Common piecewise ordered contour samples; nominal per-region arc-length upper envelopes; no fitted model used",
+    "measured_max_contour_chord_nm": 9.974884063280044,
+    "measured_max_height_nm": 321.46779634443504,
+    "measured_min_stripe_gap_nm": 1512.5384155799375,
+    "measured_min_width_at_30_150_270_nm": 1532.2162522603799,
+    "y_unimodality_checked_at_all_observed_sections": true,
+    "source_observation_sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211",
+    "material_volume_nm3": 5718685625,
+    "min_triangle_area_nm2": 78.55110960721046,
+    "degenerate_triangle_count": 0,
+    "topology": "separate closed outward-oriented genus0 stripe solids; bottom and artificial Z-end caps retained",
+    "query": "actual saved label array only; boundaries are cell-face transitions; no smoothing",
+    "spacing_nm": 5,
+    "origin": [
+      -8000,
+      -100,
+      -2000
+    ],
+    "array_shape_zyx": [
+      800,
+      100,
+      3200
+    ],
+    "axis_order": "ZYX",
+    "material_counts": [
+      159050515,
+      45749485,
+      51200000
+    ],
+    "classification_rule": "closed source stripe intervals at voxel centers; substrate y<0; outside domain air",
+    "source_information": "saved upstream representation"
+  }
+}

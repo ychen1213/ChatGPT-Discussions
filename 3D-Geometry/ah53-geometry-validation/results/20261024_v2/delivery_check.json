@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "date_local": "2026-10-24",
+  "integration": "independent validation project",
+  "synthetic": true,
+  "A_count": 9,
+  "B_local_count": 4,
+  "B_full_count": 1,
+  "targeted_tests_passed": 11,
+  "browser_950x680_passed": true,
+  "offline_html": {
+    "url": "file:///D:/%E5%B7%A5%E4%BD%9C/ChatGPT-Discussions/3D-Geometry/ah53-geometry-validation/AH53_%E4%B8%89%E7%A7%8D%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA%E9%AA%8C%E8%AF%81_%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E.html",
+    "title": "AH53 几何验证说明",
+    "headings": 17,
+    "images": 9,
+    "broken": [],
+    "externalScripts": 0
+  },
+  "report_images_verified": 9,
+  "entries": [
+    "启动3D查看器.bat",
+    "先看这里.md",
+    "AH53_三种几何表示验证_详细说明.md",
+    "AH53_三种几何表示验证_详细说明.html",
+    "samples/AH53_实际模型小样.zip"
+  ],
+  "plan_blob_sha": "aaf7a8e832164072f7c4ffa8748632cebc2ac96e",
+  "report_sha256": "bd7388302b1b705cf69d25ba8e679539a9d32d414efcc254f79e7e4fe698e4ae"
+}

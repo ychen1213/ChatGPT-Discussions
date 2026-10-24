@@ -1,0 +1,47 @@
+{
+  "date_local": "2026-10-24",
+  "timezone": "Asia/Hong_Kong",
+  "scope": "Beginner documentation revision; saved model geometry unchanged",
+  "guide": "AH53_三种几何表示验证_详细说明.html",
+  "guide_characters_markdown": 39635,
+  "concept_figures": 4,
+  "explained_result_figures_and_viewer_screenshots": 11,
+  "browser": "Chrome via Playwright CLI",
+  "offline_file_url_checked": true,
+  "h2_headings": 15,
+  "images": 15,
+  "broken_images": [],
+  "missing_toc_anchors": [],
+  "external_scripts": 0,
+  "desktop_viewport": [1280, 900],
+  "desktop_horizontal_overflow": false,
+  "mobile_viewport": [390, 844],
+  "mobile_horizontal_overflow": false,
+  "mobile_toc_opens": true,
+  "page_errors": [],
+  "relative_links": {"beginner": 19, "technical": 9, "missing": []},
+  "file_index_browser": {
+    "search_local_T_direct_fine_matches": 14,
+    "formal_model_category_matches": 71,
+    "expand_works": true,
+    "mobile_width": 390,
+    "mobile_horizontal_overflow": false,
+    "external_requests": 0
+  },
+  "pytest": {"passed": 11, "failed": 0},
+  "samples_read_check": {
+    "vertices_shape": [43331, 3],
+    "faces_shape": [86658, 3],
+    "voxel_shape_zyx": [200, 100, 384],
+    "voxel_spacing_nm": 5,
+    "six_spline_coefficient_arrays_read": true
+  },
+  "screenshots_local_only": [
+    "output/playwright/report_offline_top.png",
+    "output/playwright/report_offline_results.png",
+    "output/playwright/report_beginner_figure.png",
+    "output/playwright/report_beginner_mobile.png",
+    "output/playwright/file_index_search.png"
+  ],
+  "publishing_policy": "Publish source, documentation, figures, measured result records, and small samples; omit full models, previews, local environment, and temporary browser artifacts."
+}

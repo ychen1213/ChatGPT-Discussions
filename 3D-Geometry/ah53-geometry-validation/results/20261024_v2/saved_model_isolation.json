@@ -1,0 +1,75 @@
+{
+  "reference_queries_disabled": true,
+  "checks": [
+    {
+      "model_id": "local_P_coarse",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_T_direct_coarse",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_direct_coarse",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_P_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_T_direct_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_direct_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "full_P_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "full_T_direct_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "full_V_direct_10nm",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_T_from_P",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_from_P",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_from_T",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_from_Tdirect",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "full_T_from_P",
+      "passed": true,
+      "queries": 6
+    }
+  ]
+}

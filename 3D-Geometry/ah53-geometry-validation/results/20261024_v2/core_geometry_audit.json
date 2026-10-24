@@ -1,0 +1,252 @@
+{
+  "status": "completed",
+  "formal_models_unchanged": true,
+  "observation_equality": [
+    {
+      "scene": "local",
+      "level": "coarse",
+      "observation_sha256": "dd53a40f10d8c1ef4c7a6925388c34dbcd6bf04eccfea6217f4547c7f7be04c4",
+      "P_source_hash_equal": true,
+      "T_source_hash_equal": true,
+      "saved_direct_vertices_equal_original_observations": true
+    },
+    {
+      "scene": "local",
+      "level": "fine",
+      "observation_sha256": "faa838dc47f3b81b536a23c6a181f2a0ea1bf2c9e9ad4959e93de333031a3211",
+      "P_source_hash_equal": true,
+      "T_source_hash_equal": true,
+      "saved_direct_vertices_equal_original_observations": true
+    },
+    {
+      "scene": "full",
+      "level": "fine",
+      "observation_sha256": "b2f0d1605d4157896ab26010cd58a1617958a31026373dbe6093eb192b9eeccd",
+      "P_source_hash_equal": true,
+      "T_source_hash_equal": true,
+      "saved_direct_vertices_equal_original_observations": true
+    }
+  ],
+  "actual_saved_mesh_topology": {
+    "local_T_direct_fine": {
+      "all_saved_faces_checked": true,
+      "vertices": 129993,
+      "triangles": 259974,
+      "directed_edges": 779922,
+      "bad_paired_edge_groups": 0,
+      "closed_and_oppositely_oriented": true,
+      "euler_characteristic": 6,
+      "expected_for_separate_genus0_solids": 6,
+      "signed_volume_from_actual_saved_triangles_nm3": 5718965110.530574,
+      "positive_signed_volume": true
+    },
+    "full_T_direct_fine": {
+      "all_saved_faces_checked": true,
+      "vertices": 4637079,
+      "triangles": 9274122,
+      "directed_edges": 27822366,
+      "bad_paired_edge_groups": 0,
+      "closed_and_oppositely_oriented": true,
+      "euler_characteristic": 18,
+      "expected_for_separate_genus0_solids": 18,
+      "signed_volume_from_actual_saved_triangles_nm3": 205590463325.45627,
+      "positive_signed_volume": true
+    }
+  },
+  "query_dependency_isolation": {
+    "P_with_reference_forbidden": true,
+    "T_with_reference_forbidden": true,
+    "V_with_reference_forbidden": true,
+    "T_with_P_forbidden": true,
+    "V_with_P_forbidden": true,
+    "V_with_T_forbidden": true
+  },
+  "independent_validity_samples": [
+    {
+      "model_id": "local_P_coarse",
+      "independent_sections_checked": 66,
+      "Y_unimodality_and_single_interval": true,
+      "min_width_at_30_150_270_nm": 1532.4742466833545,
+      "min_stripe_gap_nm": 1515.3047420256378,
+      "maximum_height_nm": 321.1583626637906,
+      "inside_saved_Y_bounds": true,
+      "interpretation": "Explicit independent section samples; not a continuous global nonintersection proof."
+    },
+    {
+      "model_id": "local_P_fine",
+      "independent_sections_checked": 66,
+      "Y_unimodality_and_single_interval": true,
+      "min_width_at_30_150_270_nm": 1532.1984933827857,
+      "min_stripe_gap_nm": 1514.8485619325143,
+      "maximum_height_nm": 321.16440464951535,
+      "inside_saved_Y_bounds": true,
+      "interpretation": "Explicit independent section samples; not a continuous global nonintersection proof."
+    },
+    {
+      "model_id": "local_T_direct_coarse",
+      "independent_sections_checked": 66,
+      "Y_unimodality_and_single_interval": true,
+      "min_width_at_30_150_270_nm": 1533.6631353067328,
+      "min_stripe_gap_nm": 1516.9139199285485,
+      "maximum_height_nm": 321.0381981994517,
+      "inside_saved_Y_bounds": true,
+      "interpretation": "Explicit independent section samples; not a continuous global nonintersection proof."
+    },
+    {
+      "model_id": "local_T_direct_fine",
+      "independent_sections_checked": 66,
+      "Y_unimodality_and_single_interval": true,
+      "min_width_at_30_150_270_nm": 1532.2333428052716,
+      "min_stripe_gap_nm": 1515.3162420553326,
+      "maximum_height_nm": 321.09801368233866,
+      "inside_saved_Y_bounds": true,
+      "interpretation": "Explicit independent section samples; not a continuous global nonintersection proof."
+    },
+    {
+      "model_id": "local_T_from_P",
+      "independent_sections_checked": 66,
+      "Y_unimodality_and_single_interval": true,
+      "min_width_at_30_150_270_nm": 1532.613818522815,
+      "min_stripe_gap_nm": 1515.304594188395,
+      "maximum_height_nm": 321.0143507106675,
+      "inside_saved_Y_bounds": true,
+      "interpretation": "Explicit independent section samples; not a continuous global nonintersection proof."
+    },
+    {
+      "model_id": "full_P_fine",
+      "independent_sections_checked": 198,
+      "Y_unimodality_and_single_interval": true,
+      "min_width_at_30_150_270_nm": 1529.8383958427257,
+      "min_stripe_gap_nm": 1504.1617434375912,
+      "maximum_height_nm": 320.6391616529204,
+      "inside_saved_Y_bounds": true,
+      "interpretation": "Explicit independent section samples; not a continuous global nonintersection proof."
+    },
+    {
+      "model_id": "full_T_direct_fine",
+      "independent_sections_checked": 198,
+      "Y_unimodality_and_single_interval": true,
+      "min_width_at_30_150_270_nm": 1529.7247808363063,
+      "min_stripe_gap_nm": 1504.2764757676887,
+      "maximum_height_nm": 320.52324567036237,
+      "inside_saved_Y_bounds": true,
+      "interpretation": "Explicit independent section samples; not a continuous global nonintersection proof."
+    },
+    {
+      "model_id": "full_T_from_P",
+      "independent_sections_checked": 198,
+      "Y_unimodality_and_single_interval": true,
+      "min_width_at_30_150_270_nm": 1530.2208503835027,
+      "min_stripe_gap_nm": 1504.4371835264974,
+      "maximum_height_nm": 320.54973014936917,
+      "inside_saved_Y_bounds": true,
+      "interpretation": "Explicit independent section samples; not a continuous global nonintersection proof."
+    }
+  ],
+  "small_samples": {
+    "path": "D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\samples",
+    "archive_bytes": 1064868,
+    "manifest": {
+      "identity": "基于 AH53 名义版图的合成工艺形貌；从本轮已保存模型提取，非实测数据",
+      "units": "nm",
+      "axis_coordinates": [
+        "X transverse",
+        "Y height",
+        "Z length"
+      ],
+      "stripe_id": "m0_s1",
+      "sources": {
+        "triangles": {
+          "model_id": "local_T_direct_fine",
+          "vertices_sha256": "ab7212b2246cdaa26533fdc596cfe472b3e8d80bdf162b750a5a4be966d1c5ac",
+          "faces_sha256": "5f2af2276d4d05bfd8a1256f7305311d8f3cbef38f14365d6be9590c73c41687",
+          "closed": true,
+          "z_range_nm": [
+            -2000,
+            2000
+          ],
+          "sample_vertex_count": 43331,
+          "sample_face_count": 86658
+        },
+        "splines": {
+          "model_id": "local_P_fine",
+          "source_sha256": "2ae8fb1bb5a5de8b20ed383f37872c5060ad11e889676fbb34aeb0a688d524ac",
+          "coefficient_axis": "line,Z coefficient,u coefficient,XY",
+          "degree": [
+            3,
+            3
+          ],
+          "regions": [
+            "left_wall",
+            "left_shoulder",
+            "top",
+            "right_shoulder",
+            "right_wall",
+            "bottom"
+          ],
+          "z_range_nm": [
+            -2000,
+            2000
+          ]
+        },
+        "voxels": {
+          "model_id": "local_V_direct_fine",
+          "source_file": "results/20261024_v2/models/local_V_direct_fine/labels.npy",
+          "source_sha256": "1971261dd6c022128117509f81e5893d15b6bca985321799629f912aed1209c0",
+          "shape_zyx": [
+            200,
+            100,
+            384
+          ],
+          "origin_xyz_nm": [
+            -960.0,
+            -100.0,
+            -200.0
+          ],
+          "spacing_nm": 5.0,
+          "labels": {
+            "0": "air",
+            "1": "stripe",
+            "2": "substrate"
+          },
+          "raw_uncompressed_label_bytes": 7680000,
+          "counts": [
+            2224659,
+            3919341,
+            1536000
+          ],
+          "center_sampled": true
+        }
+      },
+      "files": {
+        "central_stripe_splines.npz": {
+          "file_bytes": 471343,
+          "sha256": "dad740f6c631a7423c1e6c2680f3289fc2fc6164172f55ba9e02b5368cd6b76f"
+        },
+        "central_stripe_triangles.npz": {
+          "file_bytes": 811528,
+          "sha256": "7410d61f26058651861d4934d71f9d597f65c638a7e8af96a6bec9341f5625c8"
+        },
+        "central_stripe_voxels.npz": {
+          "file_bytes": 45309,
+          "sha256": "d13aab85f26d0aeb13b0831c190e3d6bc488e340423c6fa9e250d4ea481620fc"
+        }
+      }
+    }
+  },
+  "seconds": 5.730038300040178,
+  "memory": {
+    "baseline_rss_bytes": 80801792,
+    "sampled_peak_rss_bytes": 852447232,
+    "windows_process_peak_working_set_bytes": 864108544,
+    "sampling_period_seconds": 0.01,
+    "definition": "RSS includes interpreter, imported libraries and mapped resident pages; not disk size"
+  },
+  "limits": [
+    "Free-surface distances are sampled XY-section distances, not full 3D Hausdorff bounds.",
+    "All process morphology is synthetic; nominal dimensions alone originate from AH53.",
+    "Surface queries exploit known structured loft connectivity; not general imported-mesh performance.",
+    "Reference material inversion uses controlled 0.5nm contour chords; refinement evidence is in preparation.json.",
+    "Per-face neighboring material is inferred from saved bottom Y=0 and free-surface/cut-face rules; finite substrate is additionally saved as bounds, not duplicated as triangles."
+  ]
+}

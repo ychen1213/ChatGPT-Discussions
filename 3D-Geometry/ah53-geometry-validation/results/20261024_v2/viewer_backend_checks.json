@@ -1,0 +1,63 @@
+{
+  "api_checks": {
+    "local_raw_voxel": {
+      "xz_y_cell_nm": [
+        280,
+        285
+      ],
+      "spacing_nm": 5,
+      "faces": 11000,
+      "xy_z_cell_nm": [
+        400,
+        405
+      ],
+      "source": "local_V_direct_fine"
+    },
+    "full_parameterization": {
+      "vertices": 197073,
+      "sampled_preview_max_nm": 1.4784569598877173,
+      "faces": 394110,
+      "cold_http_seconds": 8.5631966,
+      "source": "full_P_fine"
+    },
+    "local_actual_triangles": {
+      "vertices": 536,
+      "faces": 964,
+      "display_geometry_error_nm": 0,
+      "source": "local_T_direct_fine"
+    },
+    "full_voxel": {
+      "vertices": 195714,
+      "sampled_preview_max_nm": 25.0,
+      "faces": 391392,
+      "cold_http_seconds": 8.7346808,
+      "source": "full_V_direct_10nm"
+    },
+    "local_raw_voxel_stripe": {
+      "source": "local_V_direct_fine",
+      "vertices": 779368,
+      "faces": 389684,
+      "cold_http_seconds": 10.9766071,
+      "raw_faces": true,
+      "build_seconds": 0.49267469998449087,
+      "z_span_nm": 1200
+    }
+  },
+  "date": "2026-10-24",
+  "timezone": "Asia/Hong_Kong",
+  "notes": [
+    "Display error samples are not global bounds or experiment metrics.",
+    "Source models remain separate; full voxel preview loft is display only.",
+    "UI flow and screenshots are recorded separately by root browser QA.",
+    "Full XZ non-voxel section display sampling <=40nm; voxel uses every actual layer."
+  ],
+  "launcher_checks": {
+    "occupied_port": "8765 occupied; second server selected 62212 and API returned 16 models",
+    "missing_environment": "Recovery commands printed and process failed explicitly in isolated missing-.venv harness; interactive Read-Host pause remains in launcher. Harness used -NonInteractive and therefore printed expected Read-Host disabled message.",
+    "windows_powershell_5": "passed",
+    "bat_encoding": "UTF-8 without BOM, CRLF",
+    "primary_server": "http://127.0.0.1:8765/",
+    "unicode_and_space_path": "passed via temporary junction in TEMP (removed afterward)",
+    "ps1_encoding": "UTF-8 BOM"
+  }
+}

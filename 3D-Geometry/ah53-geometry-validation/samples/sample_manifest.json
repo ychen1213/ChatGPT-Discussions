@@ -1,0 +1,87 @@
+{
+  "identity": "基于 AH53 名义版图的合成工艺形貌；从本轮已保存模型提取，非实测数据",
+  "units": "nm",
+  "axis_coordinates": [
+    "X transverse",
+    "Y height",
+    "Z length"
+  ],
+  "stripe_id": "m0_s1",
+  "sources": {
+    "triangles": {
+      "model_id": "local_T_direct_fine",
+      "vertices_sha256": "ab7212b2246cdaa26533fdc596cfe472b3e8d80bdf162b750a5a4be966d1c5ac",
+      "faces_sha256": "5f2af2276d4d05bfd8a1256f7305311d8f3cbef38f14365d6be9590c73c41687",
+      "closed": true,
+      "z_range_nm": [
+        -2000,
+        2000
+      ],
+      "sample_vertex_count": 43331,
+      "sample_face_count": 86658
+    },
+    "splines": {
+      "model_id": "local_P_fine",
+      "source_sha256": "2ae8fb1bb5a5de8b20ed383f37872c5060ad11e889676fbb34aeb0a688d524ac",
+      "coefficient_axis": "line,Z coefficient,u coefficient,XY",
+      "degree": [
+        3,
+        3
+      ],
+      "regions": [
+        "left_wall",
+        "left_shoulder",
+        "top",
+        "right_shoulder",
+        "right_wall",
+        "bottom"
+      ],
+      "z_range_nm": [
+        -2000,
+        2000
+      ]
+    },
+    "voxels": {
+      "model_id": "local_V_direct_fine",
+      "source_file": "results/20261024_v2/models/local_V_direct_fine/labels.npy",
+      "source_sha256": "1971261dd6c022128117509f81e5893d15b6bca985321799629f912aed1209c0",
+      "shape_zyx": [
+        200,
+        100,
+        384
+      ],
+      "origin_xyz_nm": [
+        -960.0,
+        -100.0,
+        -200.0
+      ],
+      "spacing_nm": 5.0,
+      "labels": {
+        "0": "air",
+        "1": "stripe",
+        "2": "substrate"
+      },
+      "raw_uncompressed_label_bytes": 7680000,
+      "counts": [
+        2224659,
+        3919341,
+        1536000
+      ],
+      "center_sampled": true
+    }
+  },
+  "files": {
+    "central_stripe_splines.npz": {
+      "file_bytes": 471343,
+      "sha256": "dad740f6c631a7423c1e6c2680f3289fc2fc6164172f55ba9e02b5368cd6b76f"
+    },
+    "central_stripe_triangles.npz": {
+      "file_bytes": 811528,
+      "sha256": "7410d61f26058651861d4934d71f9d597f65c638a7e8af96a6bec9341f5625c8"
+    },
+    "central_stripe_voxels.npz": {
+      "file_bytes": 45309,
+      "sha256": "d13aab85f26d0aeb13b0831c190e3d6bc488e340423c6fa9e250d4ea481620fc"
+    }
+  }
+}

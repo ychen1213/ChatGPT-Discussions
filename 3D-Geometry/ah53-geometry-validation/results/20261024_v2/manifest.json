@@ -1,0 +1,435 @@
+{
+  "title": "基于 AH53 名义版图的合成工艺形貌：两层几何验证",
+  "run_id": "20261024_v2",
+  "started_utc": "2026-10-24T05:22:27.734441+00:00",
+  "finished_utc": "2026-10-24T05:32:44.052157+00:00",
+  "status": "completed",
+  "A_case_count": 9,
+  "B_local_path_count": 4,
+  "B_large_path_count": 1,
+  "coordinate_units": "nm",
+  "coordinate_axes": {
+    "X": "lateral",
+    "Y": "height",
+    "Z": "line length"
+  },
+  "environment": {
+    "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "psutil": "7.2.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numeric_threads": 1
+  },
+  "configuration": {
+    "identity": "基于 AH53 名义版图的合成工艺形貌；非实测重建",
+    "units": "nm",
+    "coordinates": {
+      "X": "transverse",
+      "Y": "height",
+      "Z": "line length"
+    },
+    "nominal": {
+      "mother_period_nm": 16000,
+      "stripe_zone_nm": 8000,
+      "blank_zone_nm": 8000,
+      "stripe_offsets_nm": [
+        -3200,
+        0,
+        3200
+      ],
+      "design_cd_nm": 1600,
+      "height_nm": 300
+    },
+    "scenes": {
+      "local": {
+        "bounds_nm": [
+          -8000,
+          8000,
+          -100,
+          400,
+          -2000,
+          2000
+        ],
+        "mother_ids": [
+          0
+        ]
+      },
+      "full": {
+        "bounds_nm": [
+          -24000,
+          24000,
+          -100,
+          400,
+          -24000,
+          24000
+        ],
+        "mother_ids": [
+          -1,
+          0,
+          1
+        ]
+      },
+      "status": "验证假设；现有 AH53_DEMO GDS 仅 8×2 μm，不能据其确定完整 Mark 尺寸"
+    },
+    "synthetic": {
+      "seed": 20261024,
+      "reference_y_nm": 150,
+      "left_angle_deg": 80,
+      "right_angle_deg": 86,
+      "wall_bending_nm": [
+        20,
+        12
+      ],
+      "shoulder_scale_nm": [
+        40,
+        70
+      ],
+      "shoulder_relative_variation": 0.15,
+      "top_transverse_rise_nm": 10,
+      "height_rms_nm": 4,
+      "center_rms_nm": 6,
+      "full_width_rms_nm": 8,
+      "height_residual_rms_nm": 3,
+      "wavelengths_nm": [
+        160,
+        211,
+        283,
+        397,
+        613,
+        947,
+        1499,
+        2203,
+        3797,
+        6101
+      ],
+      "spectral_weights": [
+        0.1,
+        0.18,
+        0.35,
+        0.6,
+        0.75,
+        0.55,
+        0.7,
+        0.9,
+        0.7,
+        0.4
+      ],
+      "field_definition": "Independent random-phase finite Fourier sums; weights normalized so theoretical infinite-domain RMS equals configured RMS. Fixed spectral wavelengths >=160nm; short and long bands around 0.3um and2um. Finite-window actual RMS remeasured.",
+      "local_feature": {
+        "stable_stripe_id": "m0_s1",
+        "z_center_nm": 400,
+        "z_hwhm_nm": 180,
+        "left_displacement_nm": 18,
+        "height_nm": 12
+      }
+    },
+    "sampling": {
+      "coarse": {
+        "boundary_step_nm": 20,
+        "z_step_nm": 80,
+        "voxel_nm": 10
+      },
+      "fine": {
+        "boundary_step_nm": 10,
+        "z_step_nm": 40,
+        "voxel_nm": 5
+      },
+      "full": {
+        "boundary_step_nm": 10,
+        "z_step_nm": 40,
+        "voxel_nm": 10
+      }
+    },
+    "materials": {
+      "0": "air",
+      "1": "stripe",
+      "2": "substrate"
+    },
+    "numerics": {
+      "query_contour_step_nm": 0.5,
+      "resource_available_fraction": 0.6,
+      "boundary_p95_observation_nm": 1
+    },
+    "end_faces": "Z ends close the computational window and are excluded from free-surface errors"
+  },
+  "preparation": {
+    "preparation_seconds": 11.065108399954624,
+    "available_memory_bytes": 11649265664,
+    "resource_fraction_limit": 0.6,
+    "reference_convergence": {
+      "baseline_curve_step_nm": 1.0,
+      "refined_curve_step_nm": 0.25,
+      "locations": "central stripe local bump and shoulder challenge; free contour including round summit",
+      "observed_discretization_estimate_nm": 0.0013292532117866638,
+      "interpretation": "sampled convergence evidence, not a rigorous global analytic error bound",
+      "records": [
+        {
+          "line": 1,
+          "z_nm": 413.0,
+          "rms_nm": 0.0002234080477388477,
+          "p95_nm": 0.0005414722932019346,
+          "max_nm": 0.0013292532117866638,
+          "mean_signed_nm": 9.55431188081988e-05,
+          "samples": 15325,
+          "missing": 0
+        },
+        {
+          "line": 1,
+          "z_nm": 677.0,
+          "rms_nm": 0.00013865825510123077,
+          "p95_nm": 0.0004202742581381674,
+          "max_nm": 0.0007747425465445849,
+          "mean_signed_nm": 5.081903808936379e-05,
+          "samples": 15290,
+          "missing": 0
+        }
+      ]
+    },
+    "local_is_global_crop": [
+      {
+        "local_line": 0,
+        "full_line": 3,
+        "max_coordinate_difference_nm": 0.0,
+        "stable_id_local": "m0_s0",
+        "stable_id_full": "m0_s0"
+      },
+      {
+        "local_line": 1,
+        "full_line": 4,
+        "max_coordinate_difference_nm": 0.0,
+        "stable_id_local": "m0_s1",
+        "stable_id_full": "m0_s1"
+      },
+      {
+        "local_line": 2,
+        "full_line": 5,
+        "max_coordinate_difference_nm": 0.0,
+        "stable_id_local": "m0_s2",
+        "stable_id_full": "m0_s2"
+      }
+    ],
+    "reference_volumes_nm3": {
+      "local": 5719013447.584944,
+      "full": 205592874620.8763
+    },
+    "nominal_layout": {
+      "mother_period_nm": 16000,
+      "stripe_centers_per_mother_nm": [
+        -3200,
+        0,
+        3200
+      ],
+      "nominal_stripe_intervals_nm": [
+        [
+          -4000,
+          -2400
+        ],
+        [
+          -800,
+          800
+        ],
+        [
+          2400,
+          4000
+        ]
+      ],
+      "nominal_width_nm": 1600,
+      "stripe_zone_nm": 8000,
+      "blank_nm": 8000
+    },
+    "input_information": {
+      "P_and_T_direct": "identical saved ordered contours",
+      "V_direct": "continuous independent reference material oracle; discretization lower bound, not sparse-observation reconstruction ranking"
+    },
+    "volume_quadrature": {
+      "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+      "z_panel_nm": 40.0,
+      "gauss_order": 4,
+      "contour_chord_target_nm": 1.0,
+      "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+      "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+      "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+    }
+  },
+  "models": [
+    {
+      "id": "local_P_coarse",
+      "kind": "P",
+      "scene": "local",
+      "path": "models/local_P_coarse",
+      "file_bytes": 557488
+    },
+    {
+      "id": "local_T_direct_coarse",
+      "kind": "T_direct",
+      "scene": "local",
+      "path": "models/local_T_direct_coarse",
+      "file_bytes": 1594363
+    },
+    {
+      "id": "local_V_direct_coarse",
+      "kind": "V_direct",
+      "scene": "local",
+      "path": "models/local_V_direct_coarse",
+      "file_bytes": 32004563
+    },
+    {
+      "id": "local_P_fine",
+      "kind": "P",
+      "scene": "local",
+      "path": "models/local_P_fine",
+      "file_bytes": 2127014
+    },
+    {
+      "id": "local_T_direct_fine",
+      "kind": "T_direct",
+      "scene": "local",
+      "path": "models/local_T_direct_fine",
+      "file_bytes": 6249538
+    },
+    {
+      "id": "local_V_direct_fine",
+      "kind": "V_direct",
+      "scene": "local",
+      "path": "models/local_V_direct_fine",
+      "file_bytes": 256004565
+    },
+    {
+      "id": "full_P_fine",
+      "kind": "P",
+      "scene": "full",
+      "path": "models/full_P_fine",
+      "file_bytes": 75301740
+    },
+    {
+      "id": "full_T_direct_fine",
+      "kind": "T_direct",
+      "scene": "full",
+      "path": "models/full_T_direct_fine",
+      "file_bytes": 222598348
+    },
+    {
+      "id": "full_V_direct_10nm",
+      "kind": "V_direct",
+      "scene": "full",
+      "path": "models/full_V_direct_10nm",
+      "file_bytes": 1152004736
+    },
+    {
+      "id": "local_T_from_P",
+      "kind": "T_from_P",
+      "scene": "local",
+      "path": "models/local_T_from_P",
+      "file_bytes": 6312321
+    },
+    {
+      "id": "local_V_from_P",
+      "kind": "V_from_P",
+      "scene": "local",
+      "path": "models/local_V_from_P",
+      "file_bytes": 256005755
+    },
+    {
+      "id": "local_V_from_T",
+      "kind": "V_from_T",
+      "scene": "local",
+      "path": "models/local_V_from_T",
+      "file_bytes": 256006405
+    },
+    {
+      "id": "local_V_from_Tdirect",
+      "kind": "V_from_Tdirect",
+      "scene": "local",
+      "path": "models/local_V_from_Tdirect",
+      "file_bytes": 256005431
+    },
+    {
+      "id": "full_T_from_P",
+      "kind": "T_from_P",
+      "scene": "full",
+      "path": "models/full_T_from_P",
+      "file_bytes": 222784683
+    }
+  ],
+  "saved_model_isolation_checks": [
+    {
+      "model_id": "local_P_coarse",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_T_direct_coarse",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_direct_coarse",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_P_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_T_direct_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_direct_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "full_P_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "full_T_direct_fine",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "full_V_direct_10nm",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_T_from_P",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_from_P",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_from_T",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "local_V_from_Tdirect",
+      "passed": true,
+      "queries": 6
+    },
+    {
+      "model_id": "full_T_from_P",
+      "passed": true,
+      "queries": 6
+    }
+  ],
+  "metric_limitations": [
+    "XY-section distances are not full-3D surface distances or global Hausdorff bounds",
+    "P95 and maximum apply to stated arc-weighted sample sets",
+    "V_direct uses continuous truth; P and T_direct share sparse observations",
+    "Global finite Z caps and substrate contact excluded from free-surface scores",
+    "No measured 3D process data; full48x48um size is validation assumption"
+  ],
+  "resource_rule": "sequential isolated workers; memory-mapped voxel arrays; measured RSS <=60% available before each case"
+}

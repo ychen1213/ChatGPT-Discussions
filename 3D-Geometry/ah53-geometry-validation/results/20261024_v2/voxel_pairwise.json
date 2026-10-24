@@ -1,0 +1,148 @@
+{
+  "comparison": "exact persisted label-array cell equality; no reference call",
+  "chunk_z_slices": 16,
+  "pairs": [
+    {
+      "left_model": "local_V_from_P",
+      "right_model": "local_V_from_T",
+      "same_grid_verified": true,
+      "shape_zyx": [
+        800,
+        100,
+        3200
+      ],
+      "spacing_nm": 5.0,
+      "origin_nm": [
+        -8000.0,
+        -100.0,
+        -2000.0
+      ],
+      "rows_left_cols_right_material_counts": [
+        [
+          159040286,
+          9944,
+          0
+        ],
+        [
+          10383,
+          45739387,
+          0
+        ],
+        [
+          0,
+          0,
+          51200000
+        ]
+      ],
+      "total_cells": 256000000,
+      "changed_cells": 20327,
+      "changed_global_fraction": 7.940234375e-05,
+      "changed_fraction_of_stripe_union": 0.00044421169240699363,
+      "material_volume_delta_right_minus_left_nm3": {
+        "0": 54875.0,
+        "1": -54875.0,
+        "2": 0.0
+      },
+      "air_to_stripe_cells": 9944,
+      "stripe_to_air_cells": 10383,
+      "comparison_seconds": 1.9283198000630364
+    },
+    {
+      "left_model": "local_V_from_T",
+      "right_model": "local_V_from_Tdirect",
+      "same_grid_verified": true,
+      "shape_zyx": [
+        800,
+        100,
+        3200
+      ],
+      "spacing_nm": 5.0,
+      "origin_nm": [
+        -8000.0,
+        -100.0,
+        -2000.0
+      ],
+      "rows_left_cols_right_material_counts": [
+        [
+          159042373,
+          8296,
+          0
+        ],
+        [
+          8142,
+          45741189,
+          0
+        ],
+        [
+          0,
+          0,
+          51200000
+        ]
+      ],
+      "total_cells": 256000000,
+      "changed_cells": 16438,
+      "changed_global_fraction": 6.42109375e-05,
+      "changed_fraction_of_stripe_union": 0.0003592406573006944,
+      "material_volume_delta_right_minus_left_nm3": {
+        "0": -19250.0,
+        "1": 19250.0,
+        "2": 0.0
+      },
+      "air_to_stripe_cells": 8296,
+      "stripe_to_air_cells": 8142,
+      "comparison_seconds": 1.9115044999634847
+    },
+    {
+      "left_model": "local_V_from_P",
+      "right_model": "local_V_from_Tdirect",
+      "same_grid_verified": true,
+      "shape_zyx": [
+        800,
+        100,
+        3200
+      ],
+      "spacing_nm": 5.0,
+      "origin_nm": [
+        -8000.0,
+        -100.0,
+        -2000.0
+      ],
+      "rows_left_cols_right_material_counts": [
+        [
+          159040668,
+          9562,
+          0
+        ],
+        [
+          9847,
+          45739923,
+          0
+        ],
+        [
+          0,
+          0,
+          51200000
+        ]
+      ],
+      "total_cells": 256000000,
+      "changed_cells": 19409,
+      "changed_global_fraction": 7.581640625e-05,
+      "changed_fraction_of_stripe_union": 0.0004241539190301117,
+      "material_volume_delta_right_minus_left_nm3": {
+        "0": 35625.0,
+        "1": -35625.0,
+        "2": 0.0
+      },
+      "air_to_stripe_cells": 9562,
+      "stripe_to_air_cells": 9847,
+      "comparison_seconds": 2.0069653000682592
+    }
+  ],
+  "memory": {
+    "baseline_rss_bytes": 83701760,
+    "sampled_peak_rss_bytes": 635314176,
+    "windows_process_peak_working_set_bytes": 641900544,
+    "sampling_period_seconds": 0.01,
+    "definition": "RSS includes interpreter, imported libraries and mapped resident pages; not disk size"
+  }
+}

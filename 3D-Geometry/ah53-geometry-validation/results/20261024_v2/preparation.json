@@ -1,0 +1,99 @@
+{
+  "preparation_seconds": 11.065108399954624,
+  "available_memory_bytes": 11649265664,
+  "resource_fraction_limit": 0.6,
+  "reference_convergence": {
+    "baseline_curve_step_nm": 1.0,
+    "refined_curve_step_nm": 0.25,
+    "locations": "central stripe local bump and shoulder challenge; free contour including round summit",
+    "observed_discretization_estimate_nm": 0.0013292532117866638,
+    "interpretation": "sampled convergence evidence, not a rigorous global analytic error bound",
+    "records": [
+      {
+        "line": 1,
+        "z_nm": 413.0,
+        "rms_nm": 0.0002234080477388477,
+        "p95_nm": 0.0005414722932019346,
+        "max_nm": 0.0013292532117866638,
+        "mean_signed_nm": 9.55431188081988e-05,
+        "samples": 15325,
+        "missing": 0
+      },
+      {
+        "line": 1,
+        "z_nm": 677.0,
+        "rms_nm": 0.00013865825510123077,
+        "p95_nm": 0.0004202742581381674,
+        "max_nm": 0.0007747425465445849,
+        "mean_signed_nm": 5.081903808936379e-05,
+        "samples": 15290,
+        "missing": 0
+      }
+    ]
+  },
+  "local_is_global_crop": [
+    {
+      "local_line": 0,
+      "full_line": 3,
+      "max_coordinate_difference_nm": 0.0,
+      "stable_id_local": "m0_s0",
+      "stable_id_full": "m0_s0"
+    },
+    {
+      "local_line": 1,
+      "full_line": 4,
+      "max_coordinate_difference_nm": 0.0,
+      "stable_id_local": "m0_s1",
+      "stable_id_full": "m0_s1"
+    },
+    {
+      "local_line": 2,
+      "full_line": 5,
+      "max_coordinate_difference_nm": 0.0,
+      "stable_id_local": "m0_s2",
+      "stable_id_full": "m0_s2"
+    }
+  ],
+  "reference_volumes_nm3": {
+    "local": 5719013447.584944,
+    "full": 205592874620.8763
+  },
+  "nominal_layout": {
+    "mother_period_nm": 16000,
+    "stripe_centers_per_mother_nm": [
+      -3200,
+      0,
+      3200
+    ],
+    "nominal_stripe_intervals_nm": [
+      [
+        -4000,
+        -2400
+      ],
+      [
+        -800,
+        800
+      ],
+      [
+        2400,
+        4000
+      ]
+    ],
+    "nominal_width_nm": 1600,
+    "stripe_zone_nm": 8000,
+    "blank_nm": 8000
+  },
+  "input_information": {
+    "P_and_T_direct": "identical saved ordered contours",
+    "V_direct": "continuous independent reference material oracle; discretization lower bound, not sparse-observation reconstruction ranking"
+  },
+  "volume_quadrature": {
+    "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+    "z_panel_nm": 40.0,
+    "gauss_order": 4,
+    "contour_chord_target_nm": 1.0,
+    "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+    "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+    "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+  }
+}

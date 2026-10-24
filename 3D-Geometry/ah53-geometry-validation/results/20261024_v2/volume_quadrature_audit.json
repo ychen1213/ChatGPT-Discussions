@@ -1,0 +1,427 @@
+{
+  "status": "completed",
+  "saved_models_unchanged": true,
+  "reason": "Previous trapezoid stations aligned with interpolating model input knots; independent quadrature avoids that sampling bias.",
+  "definition": {
+    "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+    "z_panel_nm": 40.0,
+    "gauss_order": 4,
+    "contour_chord_target_nm": 1.0,
+    "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+    "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+    "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+  },
+  "convergence": {
+    "reference_scene": "local",
+    "baseline_order": 4,
+    "refined_order": 8,
+    "panel_nm": 40.0,
+    "baseline_nm3": 5719013447.584944,
+    "refined_nm3": 5719013447.584939,
+    "difference_nm3": -4.76837158203125e-06,
+    "relative_difference": 8.337752001693348e-16,
+    "refinement_seconds": 2.648458999930881,
+    "interpretation": "Observed independent quadrature convergence; contour discretization remains the separately checked 1 nm chord rule."
+  },
+  "model_costs": {
+    "reference_local": {
+      "kind": "reference",
+      "seconds": 1.3596622999757528,
+      "volume_nm3": 5719013447.584944
+    },
+    "reference_full": {
+      "kind": "reference",
+      "seconds": 46.80784409993794,
+      "volume_nm3": 205592874620.8763
+    },
+    "full_P_fine": {
+      "kind": "parametric",
+      "seconds": 47.40058550005779,
+      "volume_nm3": 205592876953.794
+    },
+    "full_T_direct_fine": {
+      "kind": "surface",
+      "seconds": 0.00435589998960495,
+      "volume_nm3": 205590463325.45627
+    },
+    "full_T_from_P": {
+      "kind": "surface",
+      "seconds": 0.004767399979755282,
+      "volume_nm3": 205590456833.46948
+    },
+    "full_V_direct_10nm": {
+      "kind": "voxel",
+      "seconds": 0.0025326000759378076,
+      "volume_nm3": 205612686000.0
+    },
+    "local_P_coarse": {
+      "kind": "parametric",
+      "seconds": 1.2968746999977157,
+      "volume_nm3": 5719021003.472392
+    },
+    "local_P_fine": {
+      "kind": "parametric",
+      "seconds": 1.5118499000091106,
+      "volume_nm3": 5719014093.544375
+    },
+    "local_T_direct_coarse": {
+      "kind": "surface",
+      "seconds": 0.004458699957467616,
+      "volume_nm3": 5718831695.692818
+    },
+    "local_T_direct_fine": {
+      "kind": "surface",
+      "seconds": 0.004873999976553023,
+      "volume_nm3": 5718965110.530574
+    },
+    "local_T_from_P": {
+      "kind": "surface",
+      "seconds": 0.005682799965143204,
+      "volume_nm3": 5718971587.2310295
+    },
+    "local_V_direct_coarse": {
+      "kind": "voxel",
+      "seconds": 0.0024161000037565827,
+      "volume_nm3": 5719477000.0
+    },
+    "local_V_direct_fine": {
+      "kind": "voxel",
+      "seconds": 0.0044874000595882535,
+      "volume_nm3": 5718715125.0
+    },
+    "local_V_from_P": {
+      "kind": "voxel",
+      "seconds": 0.0027840000111609697,
+      "volume_nm3": 5718721250.0
+    },
+    "local_V_from_T": {
+      "kind": "voxel",
+      "seconds": 0.0028874999843537807,
+      "volume_nm3": 5718666375.0
+    },
+    "local_V_from_Tdirect": {
+      "kind": "voxel",
+      "seconds": 0.003011799999512732,
+      "volume_nm3": 5718685625.0
+    }
+  },
+  "updated_model_count": 14,
+  "changes": [
+    {
+      "model_id": "full_P_fine",
+      "previous": {
+        "reference_stripe_nm3": 205592902869.80988,
+        "candidate_stripe_nm3": 205592902946.52686,
+        "relative_error": 3.7314994296787176e-10
+      },
+      "revised": {
+        "reference_stripe_nm3": 205592874620.8763,
+        "candidate_stripe_nm3": 205592876953.794,
+        "relative_error": 1.134726920081163e-08,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "full_T_direct_fine",
+      "previous": {
+        "reference_stripe_nm3": 205592902869.80988,
+        "candidate_stripe_nm3": 205590463325.45627,
+        "relative_error": -1.1865897701497995e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 205592874620.8763,
+        "candidate_stripe_nm3": 205590463325.45627,
+        "relative_error": -1.1728497033228882e-05,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "full_T_from_P",
+      "previous": {
+        "reference_stripe_nm3": 205592902869.80988,
+        "candidate_stripe_nm3": 205590456833.46948,
+        "relative_error": -1.1897474602720115e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 205592874620.8763,
+        "candidate_stripe_nm3": 205590456833.46948,
+        "relative_error": -1.176007393878974e-05,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "full_V_direct_10nm",
+      "previous": {
+        "reference_stripe_nm3": 205592902869.80988,
+        "candidate_stripe_nm3": 205612686000.0,
+        "relative_error": 9.62247719351092e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 205592874620.8763,
+        "candidate_stripe_nm3": 205612686000.0,
+        "relative_error": 9.636218745528478e-05,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_P_coarse",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5719037302.454464,
+        "relative_error": 9.951402683398364e-07
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5719021003.472392,
+        "relative_error": 1.3211872148161486e-06,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_P_fine",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5719031612.764161,
+        "relative_error": 2.7073628644692866e-10
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5719014093.544375,
+        "relative_error": 1.1294945143397655e-07,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_T_direct_coarse",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5718831695.692818,
+        "relative_error": -3.495618429560338e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5718831695.692818,
+        "relative_error": -3.178028759537793e-05,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_T_direct_fine",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5718965110.530574,
+        "relative_error": -1.1627962522093335e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5718965110.530574,
+        "relative_error": -8.451991731255412e-06,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_T_from_P",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5718971587.2310295,
+        "relative_error": -1.0495480504864425e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5718971587.2310295,
+        "relative_error": -7.3195061172548706e-06,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_V_direct_coarse",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5719477000.0,
+        "relative_error": 7.787835676844338e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5719477000.0,
+        "relative_error": 8.105461183204248e-05,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_V_direct_fine",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5718715125.0,
+        "relative_error": -5.5339126853409274e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5718715125.0,
+        "relative_error": -5.2163294889566774e-05,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_V_from_P",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5718721250.0,
+        "relative_error": -5.42681413411089e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5718721250.0,
+        "relative_error": -5.1092305975808145e-05,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_V_from_T",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5718666375.0,
+        "relative_error": -6.386329725743265e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5718666375.0,
+        "relative_error": -6.0687492366421184e-05,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    },
+    {
+      "model_id": "local_V_from_Tdirect",
+      "previous": {
+        "reference_stripe_nm3": 5719031611.215812,
+        "candidate_stripe_nm3": 5718685625.0,
+        "relative_error": -6.0497342790202914e-05
+      },
+      "revised": {
+        "reference_stripe_nm3": 5719013447.584944,
+        "candidate_stripe_nm3": 5718685625.0,
+        "relative_error": -5.7321527208894056e-05,
+        "definition": {
+          "reference_and_parametric": "Cross-section polygon areas at independent 4-point Gauss-Legendre stations inside <=40 nm Z panels; no station coincides with an input Z knot.",
+          "z_panel_nm": 40.0,
+          "gauss_order": 4,
+          "contour_chord_target_nm": 1.0,
+          "triangle": "Exact divergence-theorem volume of the saved oriented triangle mesh.",
+          "voxel": "Exact persisted material-1 label count times isotropic cell volume.",
+          "scope": "Auxiliary volume accuracy; no substitution for local boundary errors."
+        }
+      }
+    }
+  ],
+  "seconds": 101.51490680000279,
+  "memory": {
+    "baseline_rss_bytes": 600920064,
+    "sampled_peak_rss_bytes": 752627712,
+    "windows_process_peak_working_set_bytes": 752627712,
+    "sampling_period_seconds": 0.01,
+    "definition": "RSS includes interpreter, imported libraries and mapped resident pages; not disk size"
+  }
+}

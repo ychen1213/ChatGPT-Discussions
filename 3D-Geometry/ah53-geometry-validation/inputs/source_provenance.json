@@ -1,0 +1,42 @@
+{
+  "date_local": "2026-10-24",
+  "plan_url": "https://github.com/ychen1213/ChatGPT-Discussions/blob/main/3D-Geometry/AH53_3D_Geometry_Codex_Validation_Plan.md",
+  "plan_blob_sha": "aaf7a8e832164072f7c4ffa8748632cebc2ac96e",
+  "source_repo_commit": "b42623a5b8533e9d9cb8c37b85e5f6bd75e01d6a",
+  "local_project": "D:/工作/MarkSimModeler/examples/AH53_DEMO/process.yaml",
+  "gds": "D:/工作/MarkSimModeler/examples/AH53_DEMO/inputs/AH53.gds",
+  "gds_inspection": {
+    "cell": "AH53_MARK",
+    "unit_m": 1e-06,
+    "precision_m": 1e-12,
+    "bbox_layout_um": [
+      [
+        -4,
+        -1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "polygon_count": 3
+  },
+  "confirmed_nominal": {
+    "mother_period_nm": 16000,
+    "width_nm": 1600,
+    "height_nm": 300,
+    "subpitch_nm": 3200,
+    "centers_in_period_nm": [
+      -3200,
+      0,
+      3200
+    ]
+  },
+  "coordinate_mapping": "Modeler GDS uses X/Y layout and Z thickness. This validation uses X transverse / Y height / Z length, consistent with the supplied plan and AH53 optical discussion.",
+  "full_size_decision": "The inspected file is a synthetic demo (2 um layout length), not reliable evidence of the complete physical Mark. Use plan defaults: local16x4um and full48x48um, explicitly validation assumptions.",
+  "shape_status": "基于 AH53 名义版图的合成工艺形貌；不是实测 AH53 重建",
+  "integration_status": "独立验证项目；未接入或修改原 Modeler",
+  "local_project_sha256": "d47a12242ce75b83ce269a1bcd352fded68e24e5032abfc9376a60dd1ddd5d7f",
+  "gds_sha256": "1bac2cac32b87c23640ab6f053b74fa04358338c043d261f19266fbfc662310b",
+  "nominal_checks_passed": true
+}

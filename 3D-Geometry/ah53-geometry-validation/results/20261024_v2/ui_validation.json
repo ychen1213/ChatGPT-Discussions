@@ -1,0 +1,216 @@
+{
+  "passed": true,
+  "viewport": {
+    "width": 950,
+    "height": 680
+  },
+  "steps": [
+    {
+      "name": "whole_to_period",
+      "ms": 758,
+      "model": "full_P_fine",
+      "scope": "period",
+      "z": 0,
+      "y": 150,
+      "status": "参数化 · 已保存系数 · 精细 · 全域预览；加载 682 ms。全域简化预览；由已保存系数生成显示三角片；统计使用源模型。 显示抽样截面最大偏差 1.43 nm（非全域上界）。"
+    },
+    {
+      "name": "period_to_stripe",
+      "ms": 258,
+      "model": "full_P_fine",
+      "scope": "stripe",
+      "z": 0,
+      "y": 150,
+      "status": "参数化 · 已保存系数 · 精细；加载 182 ms。局部显示三角化；由已保存系数生成显示三角片；统计使用源模型。"
+    },
+    {
+      "name": "local_scene",
+      "ms": 7463,
+      "model": "local_P_fine",
+      "scope": "stripe",
+      "z": 0,
+      "y": 150,
+      "status": "参数化 · 已保存系数 · 精细；加载 182 ms。局部显示三角化；由已保存系数生成显示三角片；统计使用源模型。"
+    },
+    {
+      "name": "A_local_P_fine",
+      "ms": 197,
+      "model": "local_P_fine",
+      "scope": "stripe",
+      "z": 0,
+      "y": 150,
+      "status": "参数化 · 已保存系数 · 精细；加载 127 ms。局部显示三角化；由已保存系数生成显示三角片；统计使用源模型。"
+    },
+    {
+      "name": "A_local_T_direct_fine",
+      "ms": 224,
+      "model": "local_T_direct_fine",
+      "scope": "stripe",
+      "z": 0,
+      "y": 150,
+      "status": "直接三角面 · 观测轮廓放样 · 精细；加载 150 ms。直接读取原保存顶点与三角连接；局部未简化。"
+    },
+    {
+      "name": "A_local_V_direct_fine",
+      "ms": 9958,
+      "model": "local_V_direct_fine",
+      "scope": "stripe",
+      "z": 0,
+      "y": 150,
+      "status": "直接体素 · 参考中心采样 · 5 nm 单元 · 局部原始阶梯边界；加载 2470 ms。局部原始体素外露面"
+    },
+    {
+      "name": "shoulder",
+      "ms": 204,
+      "model": "local_V_direct_fine",
+      "scope": "shoulder",
+      "z": 0,
+      "y": 150,
+      "status": "正在读取已保存模型并生成显示数据…"
+    },
+    {
+      "name": "route_B1",
+      "ms": 7956,
+      "model": "local_P_coarse",
+      "scope": "shoulder",
+      "z": 0,
+      "y": 150,
+      "status": "参数化 · 已保存系数 · 基础；加载 34 ms。局部显示三角化；由已保存系数生成显示三角片；统计使用源模型。"
+    },
+    {
+      "name": "T_from_P",
+      "ms": 115,
+      "model": "local_T_from_P",
+      "scope": "shoulder",
+      "z": 0,
+      "y": 150,
+      "status": "三角面 · 参数化导出；加载 28 ms。直接读取原保存顶点与三角连接；局部未简化。"
+    },
+    {
+      "name": "same_view_P",
+      "ms": 3047,
+      "model": "local_P_fine",
+      "scope": "shoulder",
+      "z": 0,
+      "y": 150,
+      "status": "参数化 · 已保存系数 · 精细；加载 59 ms。局部显示三角化；由已保存系数生成显示三角片；统计使用源模型。"
+    },
+    {
+      "name": "B2_route",
+      "ms": 104,
+      "model": "local_P_fine",
+      "scope": "shoulder",
+      "z": 410,
+      "y": 270,
+      "status": "参数化 · 已保存系数 · 精细；加载 40 ms。局部显示三角化；由已保存系数生成显示三角片；统计使用源模型。"
+    },
+    {
+      "name": "B2_output",
+      "ms": 3048,
+      "model": "local_V_from_P",
+      "scope": "shoulder",
+      "z": 410,
+      "y": 270,
+      "status": "体素 · 参数化直接导出 · 5 nm 单元 · 局部原始阶梯边界；加载 172 ms。局部原始体素外露面"
+    },
+    {
+      "name": "B3_route",
+      "ms": 2346,
+      "model": "local_P_coarse",
+      "scope": "shoulder",
+      "z": 410,
+      "y": 270,
+      "status": "参数化 · 已保存系数 · 基础；加载 42 ms。局部显示三角化；由已保存系数生成显示三角片；统计使用源模型。"
+    },
+    {
+      "name": "B3_output",
+      "ms": 1498,
+      "model": "local_V_from_T",
+      "scope": "shoulder",
+      "z": 410,
+      "y": 270,
+      "status": "体素 · 参数化经三角面导出 · 5 nm 单元 · 局部原始阶梯边界；加载 139 ms。局部原始体素外露面"
+    },
+    {
+      "name": "B4_route",
+      "ms": 1395,
+      "model": "local_T_direct_coarse",
+      "scope": "shoulder",
+      "z": 410,
+      "y": 270,
+      "status": "直接三角面 · 观测轮廓放样 · 基础；加载 7 ms。直接读取原保存顶点与三角连接；局部未简化。"
+    },
+    {
+      "name": "B4_output",
+      "ms": 1499,
+      "model": "local_V_from_Tdirect",
+      "scope": "shoulder",
+      "z": 410,
+      "y": 270,
+      "status": "体素 · 直接三角面导出 · 5 nm 单元 · 局部原始阶梯边界；加载 162 ms。局部原始体素外露面"
+    }
+  ],
+  "camera_rotated": true,
+  "camera_preserved_on_model_switch": true,
+  "section_z_nm": 410,
+  "section_y_nm": 270,
+  "screenshot_message": "截图与来源信息已保存：D:\\工作\\ChatGPT-Discussions\\3D-Geometry\\ah53-geometry-validation\\results\\20261024_v2\\figures\\screenshots\\AH53_view_20261024_133824_924401.png",
+  "doc_title": "AH53 几何验证说明",
+  "broken_images": [],
+  "horizontal_overflow": false,
+  "errors": [],
+  "full_preview_frame_intervals_ms": {
+    "samples": 39,
+    "median": 16.69999999999709,
+    "p95": 16.799999999999272,
+    "max": 16.899999999997817
+  },
+  "date_local": "2026-10-24",
+  "cold_first_load_ms": 8653,
+  "cached_full_load_ms": 1980,
+  "runtime_dependencies": "All browser scripts/Three.js served locally; project Python environment required.",
+  "report_text": "已在真实 Chromium 浏览器的 950×680 窗口完成连续操作：全域→母单元→单条纹→A 三种实际表示→B1 参数导出面→圆肩叠加→Z=410 nm 的 XY 截面→Y=270 nm 的 XZ 截面→B2/B3/B4 各体素→隐藏衬底、线框、平面着色、倍率切换→重置→保存截图→打开详细说明。旋转、缩放和平移已实际操作，模型切换保持相机位置；页面没有横向溢出、最终流程没有 JavaScript 异常，文档图片均加载成功。左侧面板在小窗口独立滚动。\n\n全域 P 首次加载约 8.65 s，缓存后一次实测约 1.98 s。一次短时全域渲染采样的帧间隔中位数约 16.7 ms、P95 约 16.8 ms；这不是所有机器或所有操作的帧率承诺。细体素单条纹包含 389,684 个原始面片，选择到截面全部就绪约 10 s；圆肩局部切换通常较快。加载阶段会显示状态，不能把本轮说成所有操作瞬时完成。\n\n已核对中文及空格路径、端口占用自动换端口和缺失环境的恢复提示，证据见 `viewer_backend_checks.json`。完整预览显示精度单列：P 抽样截面最大偏差约 1.48 nm；体素全域简化预览约 25 nm，因此纳米细节必须使用局部原始边界，不能用全域预览代替正式误差。两个数都是指定预览截面的抽样证据。\n\n路线筛选修复后又逐项核对 B1～B4：默认选择该路线实际输出，仅保留实际细档上游，粗档不会混入 B。浏览器运行资源请求全部来自本机，没有外部 CDN 请求。",
+  "route_selection_followup": {
+    "passed": true,
+    "results": [
+      {
+        "route": "B1",
+        "selected": "local_T_from_P",
+        "options": [
+          "local_P_fine",
+          "local_T_from_P",
+          "reference_local"
+        ]
+      },
+      {
+        "route": "B2",
+        "selected": "local_V_from_P",
+        "options": [
+          "local_P_fine",
+          "local_V_from_P",
+          "reference_local"
+        ]
+      },
+      {
+        "route": "B3",
+        "selected": "local_V_from_T",
+        "options": [
+          "local_P_fine",
+          "local_T_from_P",
+          "local_V_from_T",
+          "reference_local"
+        ]
+      },
+      {
+        "route": "B4",
+        "selected": "local_V_from_Tdirect",
+        "options": [
+          "local_T_direct_fine",
+          "local_V_from_Tdirect",
+          "reference_local"
+        ]
+      }
+    ],
+    "externalResources": []
+  }
+}

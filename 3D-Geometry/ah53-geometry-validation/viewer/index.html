@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AH53 · 几何验证工作台</title>
+  <link rel="stylesheet" href="/viewer/style.css">
+  <script type="importmap">{"imports":{"three":"/viewer/vendor/three.module.js","three/addons/controls/OrbitControls.js":"/viewer/vendor/OrbitControls.js"}}</script>
+</head>
+<body>
+<header><div><span class="mark">A H 5 3</span><strong>几何验证工作台</strong><span class="badge">本地 · 离线</span></div><a href="/AH53_三种几何表示验证_详细说明.html" target="_blank" rel="noopener">从零开始：目的、原理与文件 ↗</a></header>
+<div class="workspace">
+ <aside>
+  <p class="intro">基于 AH53 名义版图的合成工艺形貌<br><span>16 µm 母周期 · 300 nm 名义高度</span></p>
+  <label for="experiment">实验 / 转换路线</label>
+  <select id="experiment"><option value="A">A · 三种独立表示</option><option value="B1">B1 · 参数化 → 三角面</option><option value="B2">B2 · 参数化 → 体素</option><option value="B3">B3 · 参数化 → 三角面 → 体素</option><option value="B4">B4 · 直接轮廓 → 三角面 → 体素</option><option value="all">全部已保存模型</option></select>
+  <label for="scene">数据场景</label><select id="scene"><option value="full">完整 Mark · 48 × 48 µm</option><option value="local">局部 · 16 × 4 µm</option></select>
+  <label for="model">实际数据 / 表示</label><select id="model" aria-label="实际数据表示"><option>正在读取模型…</option></select>
+  <div class="rule"></div><label for="scope">观察范围</label>
+  <select id="scope"><option value="full">整个 Mark</option><option value="period">一个 16 µm 母周期</option><option value="stripe">单条纹 · 中央条纹</option><option value="shoulder">局部圆肩 · 左上角</option></select>
+  <div class="button-grid"><button id="oblique">立体方向</button><button id="top">俯视 XZ</button><button id="xy">沿条纹看 XY</button><button id="side">侧视 YZ</button></div>
+  <label for="projection">投影方式</label><select id="projection"><option value="perspective">透视</option><option value="orthographic">正交 · 尺寸核对</option></select>
+  <label for="gain">Y 高度显示倍率</label><select id="gain"><option value="1">1× · 真实比例</option><option value="5">5× · 高度放大</option><option value="20">20× · 高度放大</option></select>
+  <div class="checks"><label><input type="checkbox" id="substrate" checked> 显示衬底（灰色）</label><label><input type="checkbox" id="wireframe"> 三角线框</label><label><input type="checkbox" id="flat"> 平面着色</label><label><input type="checkbox" id="overlay" checked> 截面叠加参考 / 直接面 / 参数导出面</label></div>
+  <div class="rule"></div>
+  <label for="zcut">XY 截面 · Z 位置 <output id="zvalue">0.000 µm</output></label><input type="range" id="zcut" min="-24000" max="24000" step="10" value="0"><div class="number-row"><span>Z / nm</span><input type="number" id="znumber" value="0" step="10"></div>
+  <label for="ycut">XZ 等高截面 · Y 高度 <output id="yvalue">150.0 nm</output></label><input type="range" id="ycut" min="0" max="350" step="1" value="150"><div class="number-row"><span>Y / nm</span><input type="number" id="ynumber" value="150" step="1"></div>
+  <p class="hint">真实截面按需从所选模型计算。体素切片显示所处单元层与实际间距。</p>
+  <div class="button-grid"><button id="reset">重置视角</button><button id="save" class="primary">保存截图</button></div>
+  <details id="details"><summary>来源、分辨率与显示精度</summary><pre id="metadata">等待数据</pre></details>
+ </aside>
+ <main>
+  <div id="status" role="status">正在读取本地结果…</div>
+  <div id="view3d"><div class="view-label"><span id="mesh-label">AH53</span><strong id="scale-label">Y ×1 · 真实比例</strong></div><div id="webgl"></div><div class="view-foot"><span>左键旋转 · 滚轮缩放 · 右键平移</span><span class="axis">X 横向 · Y 高度 · Z 长度 / nm</span></div><div id="error" hidden></div></div>
+  <div class="plots">
+   <section><div class="plot-title"><strong>XY 真实材料截面</strong><span id="xy-title">Z = 0 µm</span></div><canvas id="xyplot"></canvas><div class="legend"><span class="current">所选模型</span><span class="reference">参考</span><span class="direct">直接三角面</span><span class="derived">参数化导出面</span></div></section>
+   <section><div class="plot-title"><strong>XZ 真实等高截面</strong><span id="xz-title">Y = 150 nm</span></div><canvas id="xzplot"></canvas><div class="plot-note" id="section-note">中央条纹；横纵轴独立刻度，可核对数值。</div></section>
+  </div>
+  <footer><span id="source-label">数据来源加载中</span><span>验证尺寸假设 · 非实测重建</span></footer>
+ </main>
+</div><script type="module" src="/viewer/app.js"></script>
+</body></html>
