@@ -8,3 +8,8 @@
 - [2026-10-23_RCWA是否能作为FDTD正确性基准.md](AH53/2026-10-23_RCWA是否能作为FDTD正确性基准.md)
 
 > 讨论正文保持原文措辞；交互式展示元素（例如卡片、流程图）转写为 GitHub Markdown 表格、文本或列表。原对话中的引用标签保持原样记录，但 `Cite` 引用标记不属于 GitHub 的原生 Markdown 链接。
+
+## 三维 Mark 几何表示
+
+- [真实不规则 Mark 三维几何表示调研报告](3D-Geometry/2026-10-24_真实不规则Mark三维几何表示调研报告.md)
+- [非对称侧壁三种表示的工程验证：报告、代码与实际结果](3D-Geometry/mark-geometry-validation/README.md)
