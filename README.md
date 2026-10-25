@@ -13,3 +13,4 @@
 
 - [真实不规则 Mark 三维几何表示调研报告](3D-Geometry/2026-10-24_真实不规则Mark三维几何表示调研报告.md)
 - [非对称侧壁三种表示的工程验证：报告、代码与实际结果](3D-Geometry/mark-geometry-validation/README.md)
+- [非周期复杂三维有限 Mark 的开源 FDTD 与 Lumerical 对比调研](3D-Geometry/2026-10-26_非周期复杂三维Mark开源FDTD与Lumerical对比调研.md)：软件选型、Windows/GPU、衬底照明、复场与验证路线。
