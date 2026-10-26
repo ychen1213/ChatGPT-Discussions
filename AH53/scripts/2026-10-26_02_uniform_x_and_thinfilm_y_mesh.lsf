@@ -1,0 +1,64 @@
+# AH53: mesh refinement for periodic shift-invariance testing
+# Run in a COPY of the AH53 FSP. EDIT "film_7p9nm".
+# Applies x mesh across the entire 16 um period, not only near ridges.
+# Applies fine y mesh only near the actual film.
+switchtolayout;
+film="film_7p9nm";
+if (getnamednumber("FDTD")!=1) {
+  ?"ERROR: cannot find FDTD solver.";
+} else {
+  if (getnamednumber(film)!=1) {
+    ?"ERROR: please set film to the real 7.9 nm layer name.";
+  } else {
+    P=getnamed("FDTD","x span");
+    xc=getnamed("FDTD","x");
+    yc=getnamed("FDTD","y");
+    Y=getnamed("FDTD","y span");
+    yf=getnamed(film,"y");
+    tf=getnamed(film,"y span");
+    ?"Actual film thickness (nm)="+num2str(tf*1e9);
+
+    # User may compare 10, 5, 2.5 nm for dx.
+    dx_max=10e-9;
+    dy_max=2e-9;
+
+    # Default Auto non-uniform grid; not global Uniform.
+    setnamed("FDTD","mesh type","auto non-uniform");
+    # Small enough minimum allowed mesh step. This is a FLOOR, not target dx.
+    setnamed("FDTD","min mesh step",1e-9);
+
+    if (getnamednumber("uniform_x_for_AH53")!=1) {
+      addmesh;
+      set("name","uniform_x_for_AH53");
+    }
+    setnamed("uniform_x_for_AH53","x",xc);
+    setnamed("uniform_x_for_AH53","x span",P);
+    setnamed("uniform_x_for_AH53","y",yc);
+    setnamed("uniform_x_for_AH53","y span",Y);
+    setnamed("uniform_x_for_AH53","override x mesh",1);
+    setnamed("uniform_x_for_AH53","override y mesh",0);
+    setnamed("uniform_x_for_AH53","set maximum mesh step",1);
+    setnamed("uniform_x_for_AH53","dx",dx_max);
+
+    if (getnamednumber("fine_y_for_7p9nm")!=1) {
+      addmesh;
+      set("name","fine_y_for_7p9nm");
+    }
+    setnamed("fine_y_for_7p9nm","x",xc);
+    setnamed("fine_y_for_7p9nm","x span",P);
+    setnamed("fine_y_for_7p9nm","y",yf);
+    setnamed("fine_y_for_7p9nm","y span",tf+80e-9);
+    setnamed("fine_y_for_7p9nm","override x mesh",0);
+    setnamed("fine_y_for_7p9nm","override y mesh",1);
+    setnamed("fine_y_for_7p9nm","set maximum mesh step",1);
+    setnamed("fine_y_for_7p9nm","dy",dy_max);
+
+    xmesh=getresult("FDTD","x");
+    ymesh=getresult("FDTD","y");
+    ?"Mesh coordinates (x,y) available; saving LDF.";
+    savedata("AH53_mesh_coordinates",xmesh,ymesh,dx_max,dy_max);
+    save("AH53_mesh_x10_y2.fsp");
+  }
+}
+# Mesh override is a maximum step bound, NOT a guarantee of identical
+# xmesh/ymesh for all displacements. Save coordinates separately per case.
