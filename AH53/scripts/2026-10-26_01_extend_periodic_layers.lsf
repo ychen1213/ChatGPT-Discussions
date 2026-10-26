@@ -1,0 +1,33 @@
+# AH53 periodic-boundary continuous-layer extension test
+# Start from a COPY of the real AH53 FSP project in Layout mode.
+# EDIT layer names below to actual RECTANGULAR continuous layers.
+# Does NOT change FDTD x span; the physical period stays 16 um.
+# Only use on planar, laterally uniform rectangles.
+switchtolayout;
+solver="FDTD";
+if (getnamednumber(solver)!=1) {
+  ?"ERROR: FDTD solver object named FDTD not found.";
+} else {
+  xcen=getnamed(solver,"x");
+  P=getnamed(solver,"x span");
+  # Extend each continuous layer by one parent period at each side.
+  # This also leaves room to move the simulation-window center by 1.5 um.
+  newspan=3*P;
+  names={"film_7p9nm","flat_cover_1","flat_cover_2","Si_substrate"};
+  for (k=1:length(names)) {
+    nm=names{k};
+    if (getnamednumber(nm)==1) {
+      oldspan=getnamed(nm,"x span");
+      setnamed(nm,"x",xcen);
+      setnamed(nm,"x span",newspan);
+      ?"EXTENDED: "+nm+" old span (um)="+num2str(oldspan*1e6);
+    } else {
+      ?"CHECK NAME / NOT UPDATED: "+nm+" (object count="+num2str(getnamednumber(nm))+")";
+    }
+  }
+  ?"FDTD period stays (um): "+num2str(getnamed(solver,"x span")*1e6);
+  save("AH53_BC_layers_extended.fsp");
+}
+# This script does not replicate pattern-bearing geometry that crosses a seam.
+# If the boundary intersects a ridge, recreate adjacent periodic ridge copies
+# at +/-P, ensuring the true permittivity matches at opposite boundaries.
