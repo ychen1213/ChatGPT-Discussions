@@ -1,0 +1,44 @@
+# AH53: inspect actual mesh and dielectric index near 7.9 nm film.
+# Run from a COPY of your real project in Layout mode.
+# EDIT only film object name; 2D XY simulation assumed.
+switchtolayout;
+film="film_7p9nm";
+if ((getnamednumber("FDTD")!=1) | (getnamednumber(film)!=1)) {
+  ?"ERROR: check FDTD and 7.9 nm film object names.";
+} else {
+  P=getnamed("FDTD","x span");
+  xc=getnamed("FDTD","x");
+  yf=getnamed(film,"y");
+  tf=getnamed(film,"y span");
+  if (getnamednumber("AH53_index_check")==0) {
+    addindex;
+    set("name","AH53_index_check");
+  }
+  setnamed("AH53_index_check","monitor type",7); # 2D z-normal => XY
+  setnamed("AH53_index_check","x",xc);
+  setnamed("AH53_index_check","x span",P);
+  setnamed("AH53_index_check","y",yf);
+  setnamed("AH53_index_check","y span",tf+120e-9);
+  setnamed("AH53_index_check","z",0);
+  setnamed("AH53_index_check","down sample x",1);
+  setnamed("AH53_index_check","down sample y",1);
+  setnamed("AH53_index_check","spatial interpolation","nearest mesh cell");
+  setnamed("AH53_index_check","record conformal mesh when possible",1);
+
+  xmesh=getresult("FDTD","x");
+  ymesh=getresult("FDTD","y");
+  ylo=yf-tf/2;
+  yhi=yf+tf/2;
+  ?("Film bottom/top (nm): "+num2str(ylo*1e9)+" / "+num2str(yhi*1e9));
+  ?"Y-grid steps near film (nm):";
+  for (j=1:length(ymesh)-1) {
+    if ((ymesh(j)<yhi+20e-9) & (ymesh(j+1)>ylo-20e-9)) {
+      ?num2str((ymesh(j+1)-ymesh(j))*1e9);
+    }
+  }
+  index_preview=getresult("AH53_index_check","index preview");
+  visualize(index_preview);
+  savedata("AH53_7p9_mesh_index_preview",xmesh,ymesh,index_preview);
+  ?"IMPORTANT: preview is not the final conformal Yee material map.";
+  ?"After a run, inspect result names and the detailed index result.";
+}
