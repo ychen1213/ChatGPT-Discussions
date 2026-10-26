@@ -1,0 +1,48 @@
+# AH53 theoretical sanity check: a localized defect and diffraction spectrum
+# Standalone script: no FSP file or FDTD solver required.
+# Period = 16 um. Compare defect width 25, 200 and 1000 nm.
+clear;
+P = 16e-6;
+M = 0:24;
+a1 = 25e-9;
+a2 = 200e-9;
+a3 = 1000e-9;
+F1 = matrix(length(M));
+F2 = matrix(length(M));
+F3 = matrix(length(M));
+for (j=1:length(M)) {
+  m = M(j);
+  u1 = pi*m*a1/P;
+  u2 = pi*m*a2/P;
+  u3 = pi*m*a3/P;
+  if (m==0) {
+    F1(j)=1; F2(j)=1; F3(j)=1;
+  } else {
+    F1(j)=abs(sin(u1)/u1);
+    F2(j)=abs(sin(u2)/u2);
+    F3(j)=abs(sin(u3)/u3);
+  }
+}
+plot(M,F1,F2,F3,"|m|","Normalized |Fourier coefficient|","AH53 localized-defect sinc spectrum");
+legend("a=25 nm","a=200 nm","a=1000 nm");
+?"At |m|=1,5,8,24: defect spectrum";
+?F1;
+# Fixed parasitic scatterer: A exp(-i m G d) + B.
+# This does NOT produce a 25 nm modulation period by itself.
+d_nm = 0:10:3200;
+d = d_nm*1e-9;
+A = 0.10;
+B = 0.015;
+r1 = A*exp(-1i*2*pi*d/P)+B;
+r5 = A*exp(-1i*2*pi*5*d/P)+B;
+plot(d_nm,abs(r1),abs(r5),"d (nm)","|r|","Fixed-defect illustrative interference");
+legend("m=1, period 16 um","m=5, period 3.2 um");
+# Simple mesh locking (nearest grid snapping) is illustrative only.
+dx_nm=25;
+dn=0:0.25:100;
+edge_error = matrix(length(dn));
+for (j=1:length(dn)) {
+  dnow=dn(j);
+  edge_error(j)=floor(dnow/dx_nm+0.5)*dx_nm-dnow;
+}
+plot(dn,edge_error,"d (nm)","edge position error (nm)","Illustrative nearest-grid snapping");
