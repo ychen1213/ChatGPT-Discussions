@@ -8,7 +8,9 @@
 
 本报告已按后续要求改为所有软件共用的功能矩阵，并增加需要开发功能的难度等级、版本限制与来源。软件功能与版本状态以资料核查日期为准；开发难度为本项目的工程估计。
 
-**调研后的建议是：Meep 作为成熟的光学仿真基准；gprMax 4 和 openEMS 作为原生 Windows 的重点候选；FDTDX 保留为光子学开发和优化候选。flaport/fdtd 适合保留现有轻量用途，不建议继续把它扩展成完整的三维仿真平台。**
+**2026-10-26 补充核查：Meep Windows 判断已修正。** 上游已有原生 Windows CPU 构建脚本，并有当日成功的 C++/Python 测试记录；原表将 F1 统一标为“✗ D3”过于保守，现改为“△ D0”。该路线使用 MSYS2 UCRT64 Python，未启用 Scheme、旧 libGDSII 或 MPI，也未运行伴随专用测试；不等于已验证所有 Windows CPython 环境及全部 Meep 功能。当前提交还固定 HDF5/h5py 配套版本，体现依赖维护的实际工作。成功任务复用了依赖缓存，因此证明该依赖组合下的构建与测试，不能据此宣称本轮从零重建全部依赖或本机实测已经完成。GDS 仍可另走 gdstk 路线，不能将旧 libGDSII 的省略解释为完全不能读取 GDS。[固定提交构建脚本](https://github.com/NanoComp/meep/blob/f90d0c1863366dbc401c368ac4addc827358603b/.github/workflows/build-ci-windows.yml)、[成功任务](https://github.com/NanoComp/meep/actions/runs/40284415337)。
+
+**调研后的建议是：Meep 作为成熟的光学仿真基准，并优先复现其已有的原生 Windows CPU 路线；gprMax 4 和 openEMS 保留为 Windows 的重点比较候选；FDTDX 保留为光子学开发和优化候选。flaport/fdtd 适合保留现有轻量用途，不建议继续把它扩展成完整的三维仿真平台。**
 
 对于你的需求，决定选型的主要因素是：**复杂界面能否准确离散、吸收材料能否正确建模、衬底上的照明和散射能否正确分离，以及能否在可接受的内存和时间内得到可靠的复数场。**
 
@@ -46,7 +48,7 @@
 | 列名 | 本次比较范围 |
 |---|---|
 | Lumerical | Ansys 官方当前 FDTD 文档，以 CPU 功能为基准；GPU 的差异单独说明，不把全部 CPU 功能算到 GPU 上。 |
-| Meep | 官方 Meep 1.35.0；不把第三方 GPU 扩展算成官方功能。 |
+| Meep | 数值功能按 Meep 1.35.0；Windows CPU 另核对上游提交 f90d0c1863366dbc401c368ac4addc827358603b 的 UCRT64 构建与成功 CI，不把第三方 GPU 扩展算成官方功能。 |
 | gprMax | 4.0.1；关键能力交叉核对发布包，未发布几何修复另列。 |
 | openEMS | 0.37.0；CSXCAD 接口需配套；Unreleased GPU 不算已发布支持。 |
 | FDTDX | 0.6.3 发布包与官方 API；JAX 的平台限制单独计入。 |
@@ -175,7 +177,7 @@ A2 指输入空间材料分布，不表示自动完成 CAD 修复、薄层保真
 
 | 功能 | Lumerical | Meep | gprMax | openEMS | FDTDX | Angora | GSvit | flaport | SCUFF |
 |---|---|---|---|---|---|---|---|---|---|
-| F1 原生 Windows CPU 路线 | ✓ | ✗ D3 | ✓ | ✓ | △ D0 | ✗ D3 | △ D0 | ✓ | ？ |
+| F1 原生 Windows CPU 路线 | ✓ | △ D0 | ✓ | ✓ | △ D0 | ✗ D3 | △ D0 | ✓ | ？ |
 | F2 原生 Windows NVIDIA GPU 路线 | △ D0 | ✗ D3–D4 | △ D0 | ✗ D3–D4 | ✗ D3 | ✗ D3–D4 | △ D0 | △ D0 | ？ |
 | F3 Linux GPU 路线 | △ D0 | ✗ D3–D4 | ✓ | ✗ D3–D4 | ✓ | ✗ D3–D4 | △ D0 | ✓ | ？ |
 | F4 单个模型的 MPI 域分解 | ✓ | ✓ | △ D0 | ✗ D3 | ✗ D3 | ✓ | ？ | ✗ D3 | ？ |
@@ -184,7 +186,7 @@ A2 指输入空间材料分布，不表示自动完成 CAD 修复、薄层保真
 | F7 集成几何/材料/光源/结果 GUI | ✓ | ✗ D2–D3 | ✗ D2–D3 | △ D2 | ✗ D2–D3 | ✗ D2–D3 | △ 文 | ✗ D2–D3 | ✗ D2–D3 |
 | F8 伴随梯度/自动微分优化 | △ D0 | △ D0 | ✗ D3–D4 | ✗ D3–D4 | △ D0 | ✗ D3–D4 | ？ | ✗ D3–D4 | ？ |
 
-- F1/F2 的“原生”不包含 WSL。Meep 的 Windows 移植涉及依赖、构建与 Python/DLL；FDTDX 的 Windows GPU 缺口来自 JAX，不能只改 FDTD 参数解决。
+- F1/F2 的“原生”不包含 WSL。Meep 已有 MSYS2/mingw-w64 UCRT64 原生 CPU 构建及成功测试：复现已覆盖环境为 D0，打包和接入现有 Python/MarkSim 另估 D1–D2；Scheme、MPI、伴随等未覆盖组合需分别评估，不能用本行宣布完整平台对等。FDTDX 的 Windows GPU 缺口来自 JAX，不能只改 FDTD 参数解决。
 - gprMax Windows CPU wheel 已发布；CUDA 仍需 Toolkit、PyCUDA、MSVC 等环境。FDTDX Windows CPU 依赖路线存在，但项目完整流程尚未实测。GSvit 只有历史发行和平台声明，现代环境从 D0 验证开始；失败后的修复工作量尚不能承诺。
 - openEMS 0.37.0 移除了 MPI；GPU 仍在 Unreleased。试验未发布 GPU 核心与从零编写的成本不同，但都不能给当前发行版打勾。
 - F4 只指 MPI。FDTDX 已有 JAX sharding 多设备机制；没有 MPI 不等于没有任何多设备能力。gprMax 的 MPI CPU 域分解与 GPU 独立任务并行也不能混称单模型多 GPU。
@@ -209,7 +211,7 @@ A2 指输入空间材料分布，不表示自动完成 CAD 修复、薄层保真
 
 | 路线 | 应先补齐的功能 | 难度判断 | 何时才值得做更重的开发 |
 |---|---|---|---|
-| Meep | 几何/任务接口、参考场、反射角谱、NA 与成像 | D1–D2；严格高 NA 光源可到 D2–D3 | 原生 Windows 是不可放宽条件且其他候选未通过时，再评估 D3 移植。 |
+| Meep | 先复现 UCRT64 Windows CPU；再接几何/任务接口、反射角谱、NA 与成像 | 已有构建复现 D0；打包/项目适配 D1–D2；严格高 NA 光源 D2–D3 | 需要当前 Windows CI 未覆盖的 MPI、Scheme、伴随组合或另换编译器时，再按实际缺口评估 D2–D3；GPU 另计。 |
 | gprMax | 光学 n,k 拟合、有限光斑、几何核验、统一复场/成像 | 主要 D1–D2；Windows CUDA 先 D0 验证 | 确实需要分层斜入射 TFSF 或跨层金属/吸收外部介质投影时，再投入 D3。 |
 | openEMS | 层状样品激励、有限光斑、材料拟合、反射复场提取 | 主要 D2，不能只做文件格式转换 | 只有项目证据表明必须，才投入 D3 级 GPU、完整张量或新边界模块。 |
 | FDTDX | STL/多材料输入、材料拟合、角谱/NA/成像 | 主要 D1–D2 | 原生 Windows GPU 属 D3 后端问题；可优先选择其他运行路线。 |
@@ -275,7 +277,7 @@ $$
 
 **第四，Windows 和 GPU 要按已发布功能分别看。**
 
-- **Meep：**官方仍不支持原生 Windows，推荐 WSL；成熟并行路线是 CPU MPI。[安装说明](https://meep.readthedocs.io/en/latest/Installation/)、[并行说明](https://meep.readthedocs.io/en/latest/Parallel_Meep/)
+- **Meep：**安装文档仍写原生 Windows 不受支持，但上游源码已提供 UCRT64 原生 CPU 构建，且 2026-10-26 的 C++/Python 测试步骤成功。因此应区分文档中的正式安装支持与已经可核查的构建路线。该 Windows 任务未启用 MPI，不代表已有完整 Windows 并行发行。[安装说明](https://meep.readthedocs.io/en/latest/Installation/)、[固定提交构建脚本](https://github.com/NanoComp/meep/blob/f90d0c1863366dbc401c368ac4addc827358603b/.github/workflows/build-ci-windows.yml)、[成功任务](https://github.com/NanoComp/meep/actions/runs/40284415337)
 - **openEMS 0.37.0：**已有 Windows CPU 发行包；GPU 工作列在未发布部分，该版本还移除了 MPI。[版本记录](https://docs.openems.de/en/latest/changelog/openEMS.html)
 - **gprMax 4.0.1：**Windows CPU wheel 已发布；Windows CUDA 还需要 CUDA Toolkit、PyCUDA 和相应编译环境。公司电脑能否部署这套环境需要实际核查。[加速器要求](https://docs.gprmax.com/en/latest/accelerators.html)
 - **FDTDX：**JAX 有 Windows CPU 支持，但官方不支持原生 Windows NVIDIA GPU。这个限制会直接影响它作为我们大规模三维后端的价值。[JAX 平台支持](https://docs.jax.dev/en/latest/installation.html)
@@ -286,9 +288,9 @@ $$
 **对 MarkSimFDTD，我建议按以下路线选择。**
 
 1. **保留 Meep 和 Lumerical 作为交叉基准。** Lumerical 参考算例也要经过网格、时间和边界收敛，不能直接把默认结果当真值。
-2. **第一轮并行验证 gprMax 与 openEMS。** 前者重点看 Windows GPU、色散和复场；后者重点看 Windows 部署、薄膜网格以及衬底照明。
+2. **第一轮先复现 Meep 原生 Windows CPU，并比较 gprMax 与 openEMS。** Meep 重点看固定依赖、可分发运行环境和三维 Mark；gprMax 重点看 Windows GPU、色散和复场；openEMS 重点看薄膜网格及衬底照明。
 3. **FDTDX 做第二轮候选。** 如果后续需要自动优化，或能接受 Linux GPU，它的优先级可以提高。
-4. **暂缓全面移植 Meep，也暂缓给 flaport 大规模补功能。** 先确定现成后端缺的究竟是哪几项，再决定做局部扩展还是移植。
+4. **先复用 Meep 已有 Windows 工作，再决定未覆盖模块的投入；暂缓给 flaport 大规模补功能。** 无需把原生 CPU 路线当成从零移植，也不能把一次成功构建当成所有模块及实际 Mark 均已验收。
 
 验收至少应覆盖这几类模型：
 
