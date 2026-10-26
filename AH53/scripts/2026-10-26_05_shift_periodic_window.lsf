@@ -1,0 +1,40 @@
+# AH53 periodic-boundary window-position comparison.
+# EDIT the source/monitor names. Use on a COPY of the extended-layer model.
+# Do NOT shift the physical AH53 pattern or material-layer positions here.
+# This test changes ONLY which 16 um window is used to tile the same structure.
+# Ensure structures are periodically continued across BOTH new boundaries.
+switchtolayout;
+solver="FDTD";
+src="source";
+mon="R";
+dx_window=1.5e-6;
+valid=1;
+if (getnamednumber(solver)!=1) { ?"missing FDTD"; valid=0; }
+if (getnamednumber(src)!=1) { ?"source name incorrect"; valid=0; }
+if (getnamednumber(mon)!=1) { ?"monitor name incorrect"; valid=0; }
+if (valid==1) {
+  xold=getnamed(solver,"x");
+  P=getnamed(solver,"x span");
+  xnew=xold+dx_window;
+  setnamed(solver,"x",xnew);
+  # Recenter finite spatial span of the same fixed-incident plane wave
+  # and the SAME physical y position of the monitor.
+  setnamed(src,"x",xnew);
+  setnamed(src,"x span",P);
+  setnamed(mon,"x",xnew);
+  setnamed(mon,"x span",P);
+  if (getnamednumber("uniform_x_for_AH53")==1) {
+    setnamed("uniform_x_for_AH53","x",xnew);
+  }
+  if (getnamednumber("fine_y_for_7p9nm")==1) {
+    setnamed("fine_y_for_7p9nm","x",xnew);
+  }
+  if (getnamednumber("AH53_index_check")==1) {
+    setnamed("AH53_index_check","x",xnew);
+  }
+  ?"Old/new FDTD center (um): "+num2str(xold*1e6)+" / "+num2str(xnew*1e6);
+  ?"Period remains (um): "+num2str(getnamed(solver,"x span")*1e6);
+  save("AH53_shifted_computational_window.fsp");
+  # After saving, run this and the unshifted case with identical settings.
+  # Compare amplitudes/powers first. Projection phase origins may differ.
+}
