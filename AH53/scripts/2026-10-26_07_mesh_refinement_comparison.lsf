@@ -1,0 +1,19 @@
+# AH53: create separate solver mesh-refinement variants, no simulations run.
+# WORK ON A COPY of your real FSP. Mesh step sizes must be kept identical.
+# Material permittivity and geometry must not be altered.
+switchtolayout;
+if (getnamednumber("FDTD")!=1) {
+  ?"ERROR: FDTD solver not found.";
+} else {
+  types={"conformal variant 0","conformal variant 1","staircase"};
+  for (j=1:length(types)) {
+    setnamed("FDTD","mesh refinement",types{j});
+    fn="AH53_refinement_variant_"+num2str(j)+".fsp";
+    save(fn);
+    ?"saved "+fn+" : "+types{j};
+  }
+  # Existing project is left in staircase settings (third case).
+  # Reopen the preferred original model before continuing other edits.
+}
+# Variant 1 can produce numerical artifacts at metal interfaces.
+# This is not a recommendation to replace Variant 0 without validation.
