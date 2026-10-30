@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="390" viewBox="0 0 1080 390">
+<rect width="1080" height="390" fill="#fbfdff"/>
+<text x="540" y="34" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="25" font-weight="bold" fill="#12253d">薄透镜为什么使光线改变角度？</text>
+<text x="540" y="61" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="16" fill="#5e7188">在近轴近似下，透镜带来的角度变化仅由光线穿过透镜的高度决定</text>
+<line x1="50" y1="227" x2="1030" y2="227" stroke="#94a3b8" stroke-dasharray="7 7" stroke-width="2"/>
+<ellipse cx="470" cy="220" rx="14" ry="145" fill="#86d1ee" fill-opacity=".48" stroke="#2c7eaa" stroke-width="2"/>
+<path d="M80 116 L470 116 L867 227" fill="none" stroke="#de913a" stroke-width="4"/>
+<path d="M470 116 L875 116" fill="none" stroke="#de913a" stroke-width="1.5" stroke-dasharray="6 5" opacity=".55"/>
+<circle cx="867" cy="227" r="6" fill="#de913a"/>
+<line x1="430" y1="116" x2="430" y2="227" stroke="#16a085" stroke-width="2"/>
+<path d="M425 123 L430 116 L435 123 M425 220 L430 227 L435 220" fill="none" stroke="#16a085" stroke-width="2"/>
+<path d="M532 116 A62 62 0 0 1 530 133" fill="none" stroke="#de913a" stroke-width="1.6"/>
+<text x="96" y="99" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="18" fill="#bd7a20">入射光：θin = 0</text>
+<text x="359" y="172" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="22" fill="#138477" font-weight="bold">xL</text>
+<text x="545" y="145" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="19" fill="#bd7a20">θout &lt; 0</text>
+<text x="873" y="250" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="16" fill="#334155">焦点 F</text>
+<text x="470" y="380" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="16" text-anchor="middle" fill="#475569">薄凸透镜</text>
+<line x1="470" y1="314" x2="867" y2="314" stroke="#334155" stroke-width="1.6"/>
+<line x1="470" y1="303" x2="470" y2="325" stroke="#334155"/>
+<line x1="867" y1="303" x2="867" y2="325" stroke="#334155"/>
+<text x="660" y="344" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="20" text-anchor="middle" fill="#334155">焦距 f</text>
+<text x="725" y="87" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="22" fill="#152d4c" font-weight="bold">θout ≈ −xL / f</text>
+<text x="725" y="370" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="14" fill="#64748b">平行入射（θin=0）示例；一般情况：θout = θin − xL/f</text>
+</svg>

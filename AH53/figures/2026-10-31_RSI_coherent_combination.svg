@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1170" height="435" viewBox="0 0 1170 435">
+<rect width="1170" height="435" fill="#fbfdff"/>
+<text x="585" y="35" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="25" font-weight="bold" fill="#12314e">理想 RSI：同一复场分为两路，再相干合成</text>
+<text x="585" y="62" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="16" fill="#64748b">图示为相对旋转 180° 的理想模型，非 SMASH3.1 内部真实器件布局</text>
+<rect x="50" y="163" width="230" height="110" rx="13" fill="#dcecff" stroke="#5b9beb" stroke-width="2"/>
+<text x="165" y="205" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="20" fill="#1f5896" font-weight="bold">入射复角谱</text>
+<text x="165" y="241" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="22" fill="#1f5896">C(k)</text>
+<rect x="402" y="91" width="300" height="109" rx="12" fill="#edf7fe" stroke="#5499d1" stroke-width="2"/>
+<text x="552" y="128" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="21" fill="#24608e" font-weight="bold">第一路：直接传输</text>
+<text x="552" y="166" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="21" fill="#24608e">a · C(k)</text>
+<rect x="402" y="245" width="300" height="110" rx="12" fill="#fff0e1" stroke="#d9923b" stroke-width="2"/>
+<text x="552" y="282" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="20" fill="#965119" font-weight="bold">第二路：180° 旋转</text>
+<text x="552" y="322" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="20" fill="#965119">b exp(iφ) · C(−k)</text>
+<rect x="845" y="163" width="275" height="110" rx="12" fill="#e5f8ee" stroke="#54a986" stroke-width="2"/>
+<text x="982" y="201" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="19" fill="#146b4b" font-weight="bold">相干叠加的输出端口</text>
+<text x="982" y="243" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="21" fill="#146b4b">B(k) = E₁(k) + E₂(k)</text>
+<g stroke="#61748e" stroke-width="3" fill="none">
+  <path d="M280 217 L337 217 L337 146 L400 146"/>
+  <path d="M280 217 L337 217 L337 299 L400 299"/>
+  <path d="M703 146 L779 146 L779 214 L844 214"/>
+  <path d="M703 299 L779 299 L779 225 L844 225"/>
+</g>
+<g fill="#61748e">
+<polygon points="401,146 389,139 389,153"/>
+<polygon points="401,299 389,292 389,306"/>
+<polygon points="844,214 831,207 831,221"/>
+<polygon points="844,225 831,218 831,232"/>
+</g>
+<text x="585" y="397" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="22" fill="#203c58" font-weight="bold">像面：I(X,Y) = | IFFT[B(k)] |²</text>
+<text x="585" y="422" text-anchor="middle" font-family="'Noto Sans CJK SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="15" fill="#61748e">空间反转不自动取复共轭；强度交叉项计算才出现复共轭</text>
+</svg>
