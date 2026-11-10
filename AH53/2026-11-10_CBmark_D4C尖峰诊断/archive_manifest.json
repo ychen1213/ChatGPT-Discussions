@@ -1,0 +1,156 @@
+{
+  "archive_date": "2026-11-10",
+  "timezone": "Asia/Hong_Kong",
+  "actual_company_data_included": false,
+  "complete_user_entries": 7,
+  "complete_assistant_answers": 5,
+  "relative_links_valid": true,
+  "transcript_section_hashes_valid": true,
+  "python_syntax_valid": true,
+  "csv": [
+    {
+      "file": "examples/envelope/scan_alpha20.csv",
+      "columns": 20,
+      "rows": 3601
+    },
+    {
+      "file": "examples/envelope/scan_x_alpha0.csv",
+      "columns": 20,
+      "rows": 3601
+    },
+    {
+      "file": "examples/pupil_fft/cb_scan_curves.csv",
+      "columns": 9,
+      "rows": 501
+    }
+  ],
+  "images": [
+    {
+      "file": "figures/patent_figure6.png",
+      "dimensions": [
+        820,
+        800
+      ]
+    },
+    {
+      "file": "examples/envelope/cb_mark_postprocess_demo.png",
+      "dimensions": [
+        2484,
+        1692
+      ]
+    },
+    {
+      "file": "examples/pupil_fft/cb_scan_curves.png",
+      "dimensions": [
+        1736,
+        1148
+      ]
+    },
+    {
+      "file": "examples/pupil_fft/cb_x_fringe_detail.png",
+      "dimensions": [
+        1400,
+        504
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "discussion.md",
+      "bytes": 41397,
+      "sha256": "6029a6ae774c4c2e37d365f2bbe5ffd9042739a5839dbbc0dcc9e95220eceecd",
+      "git_blob_sha1": "e0562718e6820c9ff543252fa790554dabc6981f"
+    },
+    {
+      "path": "examples/envelope/cb_mark_postprocess.py",
+      "bytes": 13994,
+      "sha256": "ac39d112aac0af8ee9a57d0501e2a044e09df24e281ede937413d9cda32540bc",
+      "git_blob_sha1": "42c3f5c7bc06564276390176a1cb76453d946706"
+    },
+    {
+      "path": "examples/envelope/cb_mark_postprocess_demo.png",
+      "bytes": 493476,
+      "sha256": "6640f9215fdfd576860bc41eb6be01ef650a4fae9ea5974c5dde0f658ffc765a",
+      "git_blob_sha1": "a455851ba018bb169ac4c1b689eba35258aa8542"
+    },
+    {
+      "path": "examples/envelope/README.txt",
+      "bytes": 4649,
+      "sha256": "2f481dbda0c28271077c4ab5720356373a0bb889f6f60af847d8e4ca6e7140c5",
+      "git_blob_sha1": "c978afbdd21b3900a73146b983f327dbf80b42a0"
+    },
+    {
+      "path": "examples/envelope/scan_alpha20.csv",
+      "bytes": 1386798,
+      "sha256": "5a254fb6ef1f38d3b4e6f8d4bd14a436e1eeea595b9bce35ef82fff520b4cf45",
+      "git_blob_sha1": "7a7408d777ac320dbf66740414a5dd22457632de"
+    },
+    {
+      "path": "examples/envelope/scan_x_alpha0.csv",
+      "bytes": 1314796,
+      "sha256": "7095348883476397cbe2541810af5cb7a375a7f699b873a284e15a1566f858d9",
+      "git_blob_sha1": "51dd2249e3337956854b84bc300743a55700c80f"
+    },
+    {
+      "path": "examples/envelope/validation.txt",
+      "bytes": 300,
+      "sha256": "b241c436fec5ad103bd6eec7707506877ced617e2f8c2c18a8e7fc7639ecaddc",
+      "git_blob_sha1": "d69a685f2d45e0de97c997fe27c7694e65d45dea"
+    },
+    {
+      "path": "examples/pupil_fft/cb_scan_curves.csv",
+      "bytes": 87719,
+      "sha256": "d774c69da65ee9ccbecbd1dc0b03be9a0a3003d97fa0d3bd801abf67d6995ff6",
+      "git_blob_sha1": "125f7f4e15c6ba6bd58133b1acfec2cfaab85154"
+    },
+    {
+      "path": "examples/pupil_fft/cb_scan_curves.png",
+      "bytes": 271400,
+      "sha256": "6b2b506ad03ea4e3b244d7a8b1f73959570d26f9144fa26fd677a67ffac88089",
+      "git_blob_sha1": "9fe5ad145c5f82dee2d2a3c149adf907c673b237"
+    },
+    {
+      "path": "examples/pupil_fft/cb_x_fringe_detail.png",
+      "bytes": 118861,
+      "sha256": "4c46b2e6692a3252b0816c305831924ddb8ae966edae70a3ea766735bfd6b859",
+      "git_blob_sha1": "76712da006e4c716b63dc4ac5a8f2ecafc322557"
+    },
+    {
+      "path": "examples/pupil_fft/pupil_fft_demo.py",
+      "bytes": 16244,
+      "sha256": "07456d045fbd3482a2ba297297fe9c77f8d8bbdc61860ff8d39d3f22e020e283",
+      "git_blob_sha1": "b09f708542173e57eac66d0915932d3c4ee897a9"
+    },
+    {
+      "path": "examples/pupil_fft/README.txt",
+      "bytes": 5267,
+      "sha256": "55a95afe9a5db63d646db47a12bee409bee72c935647c16b6d8673c7e5ded5f2",
+      "git_blob_sha1": "0687210671d86248d7650c7a6cccf9172383b9e6"
+    },
+    {
+      "path": "examples/pupil_fft/validation.txt",
+      "bytes": 477,
+      "sha256": "ef88ae83a7c90b16e6dada17f500475ca54afe10198ce9ce3f7de8e865e8ca2b",
+      "git_blob_sha1": "1283c274ff47f6cfc87e95eb6871b103877ce826"
+    },
+    {
+      "path": "figures/patent_figure6.png",
+      "bytes": 157651,
+      "sha256": "2709188c2e75c826b277d4843896e2cfd1a587b3d00e7c44942d19de489c3b22",
+      "git_blob_sha1": "3919df2203166cea5294d032f8e84fc366bf377c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12730,
+      "sha256": "02853334ebe069c82d6fb96722eec8b5e0e2c4db7007386345e1176987fcf5c3",
+      "git_blob_sha1": "a0a887b4b6f92e01d9392c02e2ff9884c89f159b"
+    },
+    {
+      "path": "transcript_provenance.json",
+      "bytes": 4112,
+      "sha256": "b9ef058286622436ef0c609a074e2ab90f0a2dbc6521fb4f03ffb6382e9cfbc6",
+      "git_blob_sha1": "8c75d1cc8110912a3bc6baa2f877e31148923f31"
+    }
+  ],
+  "scope_of_checks": "Archive completeness, local links, file integrity, syntax and existing synthetic validation records; no validation of company D4C results."
+}

@@ -14,3 +14,7 @@
 - [真实不规则 Mark 三维几何表示调研报告](3D-Geometry/2026-10-24_真实不规则Mark三维几何表示调研报告.md)
 - [非对称侧壁三种表示的工程验证：报告、代码与实际结果](3D-Geometry/mark-geometry-validation/README.md)
 - [非周期复杂三维有限 Mark 的开源 FDTD 与 Lumerical 对比调研](3D-Geometry/2026-10-26_非周期复杂三维Mark开源FDTD与Lumerical对比调研.md)：9 款软件、40 项统一功能对照，含勾叉、条件限制、D0–D4 开发难度与 Mark 验证路线。
+
+## CB mark 与 D4C 扫描尖峰
+
+- [2026-11-10：RCWA 后处理、半周期尖峰与反射矩阵诊断](AH53/2026-11-10_CBmark_D4C尖峰诊断/README.md)：包含完整问答、最新结论、逐阶受控验证路线，以及已运行的示意 Python 程序、曲线和图。实际公司 D4C 数据未提供，机制归因仍待受控验证。

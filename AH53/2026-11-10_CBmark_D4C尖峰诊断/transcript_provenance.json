@@ -1,0 +1,112 @@
+{
+  "archive_date": "2026-11-10",
+  "timezone": "Asia/Hong_Kong",
+  "scope": "CB mark RCWA postprocessing and D4C half-pitch peak discussion",
+  "user_entries": 7,
+  "complete_assistant_answers": 5,
+  "actual_company_data_included": false,
+  "source": "Current chat user-visible questions and final answers",
+  "formatting_changes": [
+    "GitHub math delimiters",
+    "relative attachment links",
+    "remove local file line suffixes"
+  ],
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "source_characters": 185,
+      "source_sha256": "5b2e79fd475a47c655662f7ebf0c9bf8796c65b0cb52b778104b1f49bfb52706",
+      "archived_characters": 185,
+      "archived_sha256": "5b2e79fd475a47c655662f7ebf0c9bf8796c65b0cb52b778104b1f49bfb52706"
+    },
+    {
+      "index": 2,
+      "role": "assistant",
+      "source_characters": 7267,
+      "source_sha256": "3c99a9855c91c7dedc2fadab24ace9c869237cebcd92d5ff760396fdfa1d3069",
+      "archived_characters": 6997,
+      "archived_sha256": "a144e33ef7b0c95741ddd89cf8654c9c02f7a207ea57c153eecf5d1ad730dc8d"
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "source_characters": 71,
+      "source_sha256": "e41ed46e34a4edd128256f54b759a6e6b100394ec9d9a3d9c6038ccb1d199670",
+      "archived_characters": 71,
+      "archived_sha256": "e41ed46e34a4edd128256f54b759a6e6b100394ec9d9a3d9c6038ccb1d199670"
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "source_characters": 206,
+      "source_sha256": "97666c0c73c7fe277539542b322afd575fde2e288ae3c5ba8bca422850009659",
+      "archived_characters": 206,
+      "archived_sha256": "97666c0c73c7fe277539542b322afd575fde2e288ae3c5ba8bca422850009659"
+    },
+    {
+      "index": 5,
+      "role": "assistant",
+      "source_characters": 3083,
+      "source_sha256": "d1f0342f934859e3205291fcb7fe3fd78699e7bd1084003f58a59bb3af0ae979",
+      "archived_characters": 3049,
+      "archived_sha256": "62b2dd3a93e5a27016f886039a9df8600633bef9817cdd4e02627d75d68029ea"
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "source_characters": 41,
+      "source_sha256": "208fda785bd0c1ad73bba675c94aa29383f13776a246d24dd50fd744421d8b49",
+      "archived_characters": 41,
+      "archived_sha256": "208fda785bd0c1ad73bba675c94aa29383f13776a246d24dd50fd744421d8b49"
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "source_characters": 6,
+      "source_sha256": "c033fff1e98274ee0005b5c2e23e3372e7101d66b7edb3a98e4a0976ba45ab91",
+      "archived_characters": 6,
+      "archived_sha256": "c033fff1e98274ee0005b5c2e23e3372e7101d66b7edb3a98e4a0976ba45ab91"
+    },
+    {
+      "index": 8,
+      "role": "assistant",
+      "source_characters": 2522,
+      "source_sha256": "cc51c511f33ec972ffbb518c45755762637cb26d073ce4882cffb4b980953a94",
+      "archived_characters": 2496,
+      "archived_sha256": "bcbdcbf00115fb2f77078c8996707e210be704df8a2cfb0c3163288ce81d4810"
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "source_characters": 30,
+      "source_sha256": "4e0b8be5685afb6f0fbdbf9a22e9e368e7351b47c42a226cd328bf46429706ab",
+      "archived_characters": 28,
+      "archived_sha256": "a2cade558037ae9ba45ba728a36199aafd63ad590c5b4cd3c6ecbf1b872f1d8c"
+    },
+    {
+      "index": 10,
+      "role": "assistant",
+      "source_characters": 2391,
+      "source_sha256": "c8dbc193fc30f1f175446de511448e6ad87e985f6729610f599ca2ce352bddab",
+      "archived_characters": 2355,
+      "archived_sha256": "7a136801468276515baadf42d8cf3de18da38e5f1a070f701a92aaf6f6d1fc57"
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "source_characters": 61,
+      "source_sha256": "f1be9b7cb2e780daee7e7e360520555c5aadd5c96a7d6567c6059365c91490a3",
+      "archived_characters": 61,
+      "archived_sha256": "f1be9b7cb2e780daee7e7e360520555c5aadd5c96a7d6567c6059365c91490a3"
+    },
+    {
+      "index": 12,
+      "role": "assistant",
+      "source_characters": 3675,
+      "source_sha256": "3ed9832d750b7d323b5b74d975364d3b675ac630c3e6d77e5a21f8ec75c50445",
+      "archived_characters": 3611,
+      "archived_sha256": "27d65c95bc4012914a5d0c3f3a0aa82b5b918c9291d995eb8766b85d3f26de0a"
+    }
+  ]
+}

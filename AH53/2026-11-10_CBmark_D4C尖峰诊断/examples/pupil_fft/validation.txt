@@ -1,0 +1,8 @@
+parseval_absolute_error: 0.0
+incident_gaussian_power: 0.9999999999473212
+infinite_X_plus_normalized_at_0_025_05_075_1_um: [0.9999999999919965, 0.4999999999952183, 9.746832211925585e-14, 0.5000000000008775, 1.0]
+infinite_X_expected: [1.0, 0.5, 0.0, 0.4999999999999999, 1.0]
+infinite_X_fringe_max_error: 8.003486762220291e-12
+infinite_Y_xscan_peak_to_peak: 0.0
+max_complementary_output_identity_absolute_error: 4.163336342344337e-17
+minimum_detected_power: 6.725263063629096e-34

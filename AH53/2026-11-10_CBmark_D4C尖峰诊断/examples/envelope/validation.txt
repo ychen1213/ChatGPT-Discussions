@@ -1,0 +1,2 @@
+alpha=0 deg: {'max_q_partition_error': 3.1086244689504383e-15, 'min_detector_power': 2.0486281082443516e-09, 'max_t_minus_q': 3.3306690738754696e-15}
+alpha=20 deg: {'max_q_partition_error': 2.9976021664879227e-15, 'min_detector_power': 6.602609604497594e-07, 'max_t_minus_q': 3.3306690738754696e-15}
