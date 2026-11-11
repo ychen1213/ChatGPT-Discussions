@@ -1,0 +1,29 @@
+{
+  "disk_r020": {
+    "s_um": 3.02,
+    "coarse_same_arm_xy": 2.0816681711721685e-17,
+    "coarse_raw_sum": 0.03445189269883783,
+    "coarse_max_raw_sum": 0.0373876728794643,
+    "fine_same_arm_xy": 1.030797233243133e-19,
+    "fine_raw_sum": 0.03446319793691266,
+    "same_arm_xy_change_over_coarse_max_raw": 5.540222322789876e-16
+  },
+  "disk_r010_y006": {
+    "s_um": 5.0,
+    "coarse_same_arm_xy": -0.0002618527788707109,
+    "coarse_raw_sum": 0.02410962487202206,
+    "coarse_max_raw_sum": 0.030519059857155858,
+    "fine_same_arm_xy": -0.0002658988049411185,
+    "fine_raw_sum": 0.024109576388330452,
+    "same_arm_xy_change_over_coarse_max_raw": 0.00013257374536912334
+  },
+  "disk_r020_edge_y004": {
+    "s_um": 5.0,
+    "coarse_same_arm_xy": -0.0003047092766975956,
+    "coarse_raw_sum": 0.0027895018680166015,
+    "coarse_max_raw_sum": 0.0038179454963455815,
+    "fine_same_arm_xy": -0.00030941554473672757,
+    "fine_raw_sum": 0.002788085732890607,
+    "same_arm_xy_change_over_coarse_max_raw": 0.0012326703049157315
+  }
+}

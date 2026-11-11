@@ -1,0 +1,956 @@
+{
+  "ideal": {
+    "disk_r020": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.004481783185874,
+          2.005252669566244,
+          3.003563154414869,
+          4.00285763444516
+        ],
+        "peak_heights": [
+          0.037843888845229934,
+          0.03566126140359411,
+          0.031400905125631345,
+          0.027751232439308392,
+          0.02450134694951339
+        ],
+        "absolute_drops": [
+          0.0021826274416358246,
+          0.004260356277962764,
+          0.003649672686322953,
+          0.003249885489795004
+        ],
+        "successive_drop_ratios": [
+          0.5123110132656612,
+          1.167325577969863,
+          1.1230157794123283
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": true
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.5025184177588641,
+          1.5054071956015926,
+          2.5044456494676988,
+          3.5031014911727625,
+          4.50250384162867
+        ],
+        "peak_heights": [
+          0.03724896443609426,
+          0.03355305748941119,
+          0.029465911367595216,
+          0.02613003158762311,
+          0.02285576646611296
+        ],
+        "absolute_drops": [
+          0.003695906946683071,
+          0.004087146121815974,
+          0.003335879779972104,
+          0.003274265121510151
+        ],
+        "successive_drop_ratios": [
+          0.9042757064533161,
+          1.2252078586147825,
+          1.0188178587180305
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": true
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.037843888845229934
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.03744773503459986
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 6.938893903907228e-18,
+        "max_same_arm_xy_fraction_of_raw": 0.010468105226981893,
+        "central_port_sum": 0.037843888845229934,
+        "central_raw_sum": 0.037843888845229934,
+        "max_cross_arm_real": 0.018921944422614967
+      }
+    },
+    "disk_r010": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.002346461441922,
+          2.004123331812913,
+          3.004778634092678,
+          4.0039824704492215
+        ],
+        "peak_heights": [
+          0.03451071029837455,
+          0.033395686226353936,
+          0.030470701318455536,
+          0.026704829168526633,
+          0.023002252952870048
+        ],
+        "absolute_drops": [
+          0.0011150240720206109,
+          0.002924984907898401,
+          0.0037658721499289026,
+          0.0037025762156565854
+        ],
+        "successive_drop_ratios": [
+          0.38120677785710516,
+          0.7767084997703979,
+          1.0170951063761136
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": true
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.5012018189208818,
+          1.5033410066358504,
+          2.5046498964242145,
+          3.5045909811019906,
+          4.503083620375054
+        ],
+        "peak_heights": [
+          0.034224752905735734,
+          0.0321050784369255,
+          0.028627862138340152,
+          0.024806207516595607,
+          0.021324697392609733
+        ],
+        "absolute_drops": [
+          0.0021196744688102356,
+          0.0034772162985853457,
+          0.0038216546217445455,
+          0.003481510123985874
+        ],
+        "successive_drop_ratios": [
+          0.6095894781330095,
+          0.909871938400868,
+          1.0977002753532856
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": true
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.03451071029837455
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.034348827996579206
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 6.938893903907228e-18,
+        "max_same_arm_xy_fraction_of_raw": 0.004690784408542453,
+        "central_port_sum": 0.03451071029837455,
+        "central_raw_sum": 0.03451071029837455,
+        "max_cross_arm_real": 0.017255355149187274
+      }
+    },
+    "disk_r005": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.0017156073748699,
+          2.0032787615269045,
+          3.004535606957392,
+          4.005290234056245
+        ],
+        "peak_heights": [
+          0.02713366487223601,
+          0.026608034635464232,
+          0.02510744685038945,
+          0.022841110411785326,
+          0.020099550286270206
+        ],
+        "absolute_drops": [
+          0.0005256302367717784,
+          0.001500587785074784,
+          0.0022663364386041225,
+          0.0027415601255151197
+        ],
+        "successive_drop_ratios": [
+          0.3502828971419242,
+          0.6621204864000789,
+          0.8266593964187796
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": true
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.5008635048094353,
+          1.5025257655173268,
+          2.5039746717882014,
+          3.5050141521593394,
+          4.5053778754512415
+        ],
+        "peak_heights": [
+          0.027001038077484447,
+          0.025969276506061352,
+          0.02405302932507544,
+          0.021510040699319586,
+          0.018647096474535458
+        ],
+        "absolute_drops": [
+          0.0010317615714230954,
+          0.0019162471809859132,
+          0.002542988625755853,
+          0.002862944224784128
+        ],
+        "successive_drop_ratios": [
+          0.5384282266196222,
+          0.753541388890934,
+          0.8882424616384552
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": true
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.02713366487223601
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.02705434065415632
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 3.469446951953614e-18,
+        "max_same_arm_xy_fraction_of_raw": 0.002923592764299191,
+        "central_port_sum": 0.02713366487223601,
+        "central_raw_sum": 0.02713366487223601,
+        "max_cross_arm_real": 0.013566832436118005
+      }
+    },
+    "disk_r010_y006": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.002166700902342,
+          2.003853847724452,
+          3.0046107061139486,
+          4.00413944512776
+        ],
+        "peak_heights": [
+          0.03232934100555699,
+          0.03132216046639021,
+          0.02865862861850541,
+          0.025166716612150395,
+          0.021632974260832258
+        ],
+        "absolute_drops": [
+          0.001007180539166777,
+          0.0026635318478848043,
+          0.0034919120063550135,
+          0.003533742351318137
+        ],
+        "successive_drop_ratios": [
+          0.378137224064586,
+          0.7627717545680932,
+          0.9881625934195456
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": true
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.5011069490628542,
+          1.5030992342119291,
+          2.5044008849044106,
+          3.504563669964352,
+          4.503427644009373
+        ],
+        "peak_heights": [
+          0.03207141104844777,
+          0.03015111131224329,
+          0.026960374205630543,
+          0.02336934579745629,
+          0.01999195095571255
+        ],
+        "absolute_drops": [
+          0.0019202997362044762,
+          0.003190737106612749,
+          0.003591028408174251,
+          0.003377394841743743
+        ],
+        "successive_drop_ratios": [
+          0.6018357740049117,
+          0.888530176856769,
+          1.0632539505864258
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": true
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.03232934100555699
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.03218878811293097
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 6.938893903907228e-18,
+        "max_same_arm_xy_fraction_of_raw": 0.00434753348674375,
+        "central_port_sum": 0.03232934100555699,
+        "central_raw_sum": 0.03232934100555699,
+        "max_cross_arm_real": 0.016164670502778495
+      }
+    },
+    "disk_r020_edge_y004": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.0156632384754476,
+          2.017801034027681,
+          2.993004703373303,
+          3.9959198866385184
+        ],
+        "peak_heights": [
+          0.003451145904448167,
+          0.002939250157099689,
+          0.00219465025340607,
+          0.0020298802367283274,
+          0.002040780875010501
+        ],
+        "absolute_drops": [
+          0.0005118957473484779,
+          0.0007445999036936194,
+          0.00016477001667774237,
+          -1.0900638282173528e-05
+        ],
+        "successive_drop_ratios": [
+          0.6874775900576905,
+          4.519025479920353,
+          -15.115630150502353
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.5080666324835421,
+          1.5205321211121612,
+          2.504510711932398,
+          3.4919492481094556,
+          4.499868010153498
+        ],
+        "peak_heights": [
+          0.0033057177620174055,
+          0.0025161324510973074,
+          0.0020452156948489015,
+          0.0020529726260157793,
+          0.001973774369015046
+        ],
+        "absolute_drops": [
+          0.000789585310920098,
+          0.00047091675624840595,
+          -7.756931166877801e-06,
+          7.919825700073314e-05
+        ],
+        "successive_drop_ratios": [
+          1.6766982708587166,
+          -60.70915754148067,
+          -0.097943205578451
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": false
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.003451145904448167
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.0033095618306022384
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 4.336808689942018e-19,
+        "max_same_arm_xy_fraction_of_raw": 0.041025235607524316,
+        "central_port_sum": 0.003451145904448167,
+        "central_raw_sum": 0.003451145904448167,
+        "max_cross_arm_real": 0.0017255729522240835
+      }
+    }
+  },
+  "cross_gap1": {
+    "disk_r020": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.0049535364376934,
+          2.0059023338125614,
+          3.0039569556970234,
+          4.00321833892234
+        ],
+        "peak_heights": [
+          0.030016041285346084,
+          0.02807960625153584,
+          0.02502213867232401,
+          0.02289378366276081,
+          0.020588990145680674
+        ],
+        "absolute_drops": [
+          0.001936435033810243,
+          0.0030574675792118325,
+          0.0021283550095631994,
+          0.002304793517080135
+        ],
+        "successive_drop_ratios": [
+          0.6333460563821991,
+          1.4365402226009816,
+          0.9234471521160561
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": true
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.5025397084433973,
+          1.50558657683646,
+          2.504778992399636,
+          3.5037485403662165,
+          4.503558690362022
+        ],
+        "peak_heights": [
+          0.029461379098134836,
+          0.026443366511665043,
+          0.023906561616664847,
+          0.021801362849914987,
+          0.01933722001857559
+        ],
+        "absolute_drops": [
+          0.0030180125864697933,
+          0.0025368048950001956,
+          0.0021051987667498606,
+          0.0024641428313393957
+        ],
+        "successive_drop_ratios": [
+          1.189690461579451,
+          1.2050191815933258,
+          0.8543330930234959
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": true
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.030016041285346084
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.029678887219185175
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 3.469446951953614e-18,
+        "max_same_arm_xy_fraction_of_raw": 0.011258103126764953,
+        "central_port_sum": 0.030016041285346084,
+        "central_raw_sum": 0.030016041285346084,
+        "max_cross_arm_real": 0.015008020642673042
+      }
+    },
+    "disk_r010": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.0026548163227682,
+          2.004420788807732,
+          3.005098061039972,
+          4.004562798986071
+        ],
+        "peak_heights": [
+          0.026664137832627527,
+          0.02596691360179813,
+          0.024114413477323425,
+          0.021649971145921817,
+          0.019088103680090094
+        ],
+        "absolute_drops": [
+          0.000697224230829397,
+          0.0018525001244747048,
+          0.0024644423314016083,
+          0.002561867465831723
+        ],
+        "successive_drop_ratios": [
+          0.37636933008417583,
+          0.7516914073704974,
+          0.961971048178917
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": true
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.5011594888273426,
+          1.503217662660974,
+          2.5047441955922896,
+          3.5053544640529064,
+          4.504341425301726
+        ],
+        "peak_heights": [
+          0.026481757893403658,
+          0.025154862093526752,
+          0.022925711691414868,
+          0.02035942636886199,
+          0.017860519417774105
+        ],
+        "absolute_drops": [
+          0.0013268957998769058,
+          0.0022291504021118846,
+          0.0025662853225528783,
+          0.002498906951087884
+        ],
+        "successive_drop_ratios": [
+          0.5952473187182938,
+          0.8686292137985577,
+          1.0269631373971972
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": true
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.026664137832627527
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.026460200159956038
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 3.469446951953614e-18,
+        "max_same_arm_xy_fraction_of_raw": 0.00766158965605027,
+        "central_port_sum": 0.026664137832627527,
+        "central_raw_sum": 0.026664137832627527,
+        "max_cross_arm_real": 0.013332068916313763
+      }
+    },
+    "disk_r005": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.0017774032337774,
+          2.003102772283758,
+          3.0041770421398004,
+          4.004929541161743
+        ],
+        "peak_heights": [
+          0.02116731221080398,
+          0.02081526647199383,
+          0.019806217243986797,
+          0.018260228919814922,
+          0.016347258958356606
+        ],
+        "absolute_drops": [
+          0.0003520457388101507,
+          0.0010090492280070314,
+          0.001545988324171875,
+          0.0019129699614583162
+        ],
+        "successive_drop_ratios": [
+          0.34888856662174417,
+          0.652688776642307,
+          0.8081613173859354
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": true
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.5006941425080788,
+          1.5020386865424966,
+          2.503532497772462,
+          3.5049560284561703,
+          4.505582264180558
+        ],
+        "peak_heights": [
+          0.021075386138755318,
+          0.020387257754385275,
+          0.019093739123499844,
+          0.017339263824155713,
+          0.015310969754803437
+        ],
+        "absolute_drops": [
+          0.0006881283843700424,
+          0.0012935186308854311,
+          0.0017544752993441312,
+          0.0020282940693522756
+        ],
+        "successive_drop_ratios": [
+          0.5319818114247099,
+          0.737268077452548,
+          0.8650004581951044
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": true
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.02116731221080398
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.02099841966074019
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 3.469446951953614e-18,
+        "max_same_arm_xy_fraction_of_raw": 0.007982611799818929,
+        "central_port_sum": 0.02116731221080398,
+        "central_raw_sum": 0.02116731221080398,
+        "max_cross_arm_real": 0.01058365610540199
+      }
+    },
+    "disk_r010_y006": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.0025989789502716,
+          2.00429940958224,
+          3.0049669564802257,
+          4.0045586228842565
+        ],
+        "peak_heights": [
+          0.024805710342277184,
+          0.024155200088695074,
+          0.02243100516808146,
+          0.02013855160851815,
+          0.01773664512654019
+        ],
+        "absolute_drops": [
+          0.0006505102535821101,
+          0.001724194920613615,
+          0.0022924535595633087,
+          0.00240190648197796
+        ],
+        "successive_drop_ratios": [
+          0.37728347636623555,
+          0.752117709613301,
+          0.9544308143402331
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": true
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.5011196206888351,
+          1.5031030461631658,
+          2.5046059340497373,
+          3.505295882524592,
+          4.504480395404002
+        ],
+        "peak_heights": [
+          0.024635269053883597,
+          0.023398861996086675,
+          0.02132616976183008,
+          0.018932792622865926,
+          0.016570816771842016
+        ],
+        "absolute_drops": [
+          0.001236407057796922,
+          0.0020726922342565943,
+          0.0023933771389641548,
+          0.00236197585102391
+        ],
+        "successive_drop_ratios": [
+          0.5965222609329551,
+          0.8660115451565014,
+          1.0132944999952613
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": true
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.024805710342277184
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.0246051260130856
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 3.469446951953614e-18,
+        "max_same_arm_xy_fraction_of_raw": 0.008097153254614135,
+        "central_port_sum": 0.024805710342277184,
+        "central_raw_sum": 0.024805710342277184,
+        "max_cross_arm_real": 0.012402855171138592
+      }
+    },
+    "disk_r020_edge_y004": {
+      "port_sum": {
+        "peak_positions_um": [
+          0.0,
+          1.0166584402709706,
+          2.0184913831389832,
+          2.9918434052896905,
+          3.996436580492605
+        ],
+        "peak_heights": [
+          0.0033655076234308506,
+          0.002839073000670732,
+          0.002106605785916879,
+          0.001994158468720511,
+          0.0020200388216060263
+        ],
+        "absolute_drops": [
+          0.0005264346227601188,
+          0.0007324672147538528,
+          0.00011244731719636802,
+          -2.588035288551534e-05
+        ],
+        "successive_drop_ratios": [
+          0.7187142470766125,
+          6.513870077262378,
+          -4.344891188068084
+        ],
+        "peak_count": 5,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "port_diff": {
+        "peak_positions_um": [
+          0.508484753462625,
+          1.5218649221456069,
+          2.5031160297702018,
+          3.492125879971389,
+          4.50048061609263
+        ],
+        "peak_heights": [
+          0.0032148558234989313,
+          0.0024142109155557965,
+          0.0019834802492521625,
+          0.002031501120122757,
+          0.0019467360969300258
+        ],
+        "absolute_drops": [
+          0.0008006449079431348,
+          0.00043073066630363406,
+          -4.802087087059457e-05,
+          8.476502319273126e-05
+        ],
+        "successive_drop_ratios": [
+          1.8588063738622638,
+          -8.969655453862055,
+          -0.5665175217543318
+        ],
+        "peak_count": 5,
+        "has_central_maximum": false,
+        "all_drops_positive": false
+      },
+      "raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.0033655076234308506
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "incoherent_raw_sum": {
+        "peak_positions_um": [
+          0.0
+        ],
+        "peak_heights": [
+          0.0032751372720830605
+        ],
+        "absolute_drops": [],
+        "successive_drop_ratios": [],
+        "peak_count": 1,
+        "has_central_maximum": true,
+        "all_drops_positive": false
+      },
+      "checks": {
+        "max_complement_error": 4.336808689942018e-19,
+        "max_same_arm_xy_fraction_of_raw": 0.026851922936862973,
+        "central_port_sum": 0.0033655076234308506,
+        "central_raw_sum": 0.0033655076234308506,
+        "max_cross_arm_real": 0.0016827538117154253
+      }
+    }
+  }
+}

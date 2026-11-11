@@ -1,0 +1,31 @@
+{
+  "pitch_um": 2.0,
+  "L_um": 40.0,
+  "gaussian_intensity_1e2_radius_um": 12.0,
+  "domain_um": 80.0,
+  "wavelength_um": 0.633,
+  "NA": 0.45,
+  "r_pm1_real": 0.2,
+  "r0": 0.0,
+  "scan_step_um": 0.02,
+  "central_cross_gap_width_um": 1.0,
+  "central_square_gap_side_um": 2.0,
+  "phase_upper_pi": "Both X orders in upper triangle multiply exp(i*pi); lower X and both Y regions unchanged",
+  "roi_definitions": {
+    "disk_r020": "(fx-.5)^2+fy^2 <= .2^2",
+    "disk_r010": "(fx-.5)^2+fy^2 <= .1^2",
+    "disk_r005": "(fx-.5)^2+fy^2 <= .05^2",
+    "disk_r010_y006": "(fx-.5)^2+(fy-.06)^2 <= .1^2",
+    "disk_r020_edge_y004": "disk_r020 AND fy >= .04"
+  },
+  "all_rois_intersect_physical_pupil": "fx^2+fy^2 <= (NA/wavelength)^2",
+  "sum_diff_definition": "I_SUM=.5 ||F(k)+F(-k)||^2; I_DIFF=.5 ||F(k)-F(-k)||^2 within fixed ROI",
+  "no_fitting": true,
+  "physical_limitations": [
+    "scalar single-mode illumination",
+    "synthetic RCWA order coefficients",
+    "no central blank r0 scattering",
+    "no finite-height electromagnetic boundary solution",
+    "ideal rotation and splitter"
+  ]
+}

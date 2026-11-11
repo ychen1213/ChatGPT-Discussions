@@ -1,0 +1,597 @@
+{
+  "archive_date": "2026-11-11",
+  "new_user_entries": 13,
+  "new_assistant_final_answers": 11,
+  "complete_user_entries": 20,
+  "complete_assistant_final_answers": 16,
+  "files": [
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/2026-11-11_对话校验.json",
+      "bytes": 13342,
+      "sha256": "d50a36188657a7edd93aee7e1d0e48bf6c1a4ea44ca0898e50976610fbb2c76a",
+      "git_blob_sha1": "b791d7fc7fee202bf18417bcf477376779b4db6b"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/2026-11-11_更正说明.md",
+      "bytes": 3458,
+      "sha256": "0b90fb5bebf5959c129b09e7001cf515ac2c41119e665db45c53547d81747981",
+      "git_blob_sha1": "41799f5d7ffc8c0b0056c6ec2ca8a0bb35af34a8"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/discussion_完整对话.md",
+      "bytes": 101168,
+      "sha256": "720e111dbb338776ee61d7687b5093de869ea8b1f978ee713b14e26749a09c25",
+      "git_blob_sha1": "807982d2571b896ed709bc05b196628640b5970e"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/center_envelope_checks.png",
+      "bytes": 326478,
+      "sha256": "9aa77670d77e5f7b30678246e5fb09cc1a3b6a37a25a63575613e1f6cff0996d",
+      "git_blob_sha1": "8d19120ed2f17b4682a795d76d80acde497511c3"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/check_center_models.py",
+      "bytes": 7710,
+      "sha256": "5ba145a861f279f138d98bf12f7fbc2d1ee87712126ca22cad435c608b70caa8",
+      "git_blob_sha1": "23a42b74a621808c38e464a7cc69ee6d12685f60"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/check_finite_pupil.py",
+      "bytes": 7999,
+      "sha256": "5438877c0a0708e21afb3b3d3d0080b42c0543c623dff241647646d6008c3d46",
+      "git_blob_sha1": "872a4b33fba70562d53028928b6868744347df1f"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/envelope_n1024_r0.05.csv",
+      "bytes": 14722,
+      "sha256": "68e0439e3128a00c3a476b863603b45c5fbded2dfae50e6b35102d5f12eb8f41",
+      "git_blob_sha1": "4227926ba143da557a0fd93b0200761afef87497"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/envelope_n1024_r0.1.csv",
+      "bytes": 14738,
+      "sha256": "cc0f4d21d815787c7203b34e3518113a4b4923ac885613398a23bab9200d011e",
+      "git_blob_sha1": "7e77c045f0d4299c795bc95af7f9b66e0e8e8a93"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/envelope_n1024_r0.2.csv",
+      "bytes": 14717,
+      "sha256": "4dd8ea7f737636ccc877978bdd4b906a3c6f6be18a86c8db11cbf4f771fa5b09",
+      "git_blob_sha1": "afa969fef3d2645f36ebd2cfa5dbcab4f885fc5d"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/envelope_n1024_r0.4.csv",
+      "bytes": 14737,
+      "sha256": "026016c1207c3b4b4d13d41449d6c02d54edca491b0871c89042d216dacf0b73",
+      "git_blob_sha1": "701320a2c40ff744a236bd0e83f456953ec3198b"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/envelope_n512_r0.05.csv",
+      "bytes": 14758,
+      "sha256": "4c641fa22f590639bcccb9cff813980920633af8f5d5498040942f466cc47f08",
+      "git_blob_sha1": "423879c16ce69c82a97e3427c77a76e0c7e38947"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/envelope_n512_r0.1.csv",
+      "bytes": 14727,
+      "sha256": "08de961e0da9cef95b4c42e17076a8a6a2f831a9f82035ee2e50106213562bbb",
+      "git_blob_sha1": "a9a17400605c54136301e88fdf6d0b88d7b65fc7"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/envelope_n512_r0.2.csv",
+      "bytes": 14722,
+      "sha256": "b243a07a42b7e5b1037ae22328fbee464b02c95d2675362b5c3019c4ef95f959",
+      "git_blob_sha1": "22a3b5a701493475a171d33a8130f66766ed4e28"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/envelope_n512_r0.4.csv",
+      "bytes": 14751,
+      "sha256": "24d21fdfc722773e6674e202dc4b749004d064b000750a0fa37c3fc08742d585",
+      "git_blob_sha1": "bea8b7090adf186ab700ade2cb4185610df046e7"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/envelopes.png",
+      "bytes": 234625,
+      "sha256": "09e81d95d3fffd67f6ba9c2ebe868f1b0927b569dba1ba7861386b087cbbd416",
+      "git_blob_sha1": "232d10bd5361ddfbc66bfe89c78397d6fd7b2649"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/full_collection.csv",
+      "bytes": 14699,
+      "sha256": "a6ae5017d94962c1886bbf42abc8b1b4b60fdf2a6cd86049f0794ab4b7323a1a",
+      "git_blob_sha1": "0f2491518b6b32aa754596c7293befd3940710c2"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/full_xy_annulus.csv",
+      "bytes": 12650,
+      "sha256": "76d98b078ee882a2d206bd419612ac85d81306cd22eed1d2aa91bdbcff899040",
+      "git_blob_sha1": "8e0ceb838dc3cc274162b94297c1eeb55c09285b"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/full_xy_X_disk_0.1.csv",
+      "bytes": 13058,
+      "sha256": "59ed329f6b3ec8074c3990190497039a3edbe93630279f4d8f12c46e080d7d05",
+      "git_blob_sha1": "8d5bfbb35131c0bbfa0ac105b6c874e05ce74693"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/full_xy_X_disk_0.2.csv",
+      "bytes": 12980,
+      "sha256": "15d8f6876d9fb76b789b0c6f61d271ec7678dce3b59c8836495d2261230b142f",
+      "git_blob_sha1": "02561ce6a60d1efa12f9f8fec3c217cccc4b5aee"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/full_xy_X_half_wedge.csv",
+      "bytes": 12961,
+      "sha256": "f705a902799708753fd9dfe6fa51532eef8ecb0a9eede4cd49a20f0fcc62289d",
+      "git_blob_sha1": "207b9079a010f6bd6b72b719d443a468733771e6"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/README.md",
+      "bytes": 3566,
+      "sha256": "5fdb928d022446455b126ad7f12a68126cb6de91c1eb5a752115fd583c5534ae",
+      "git_blob_sha1": "107bf7b2930fe039675da6329d9cd9fa2f2cb6f2"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/finite_pupil/results.json",
+      "bytes": 55908,
+      "sha256": "e1b1f97661d5022993c07fed1282347b5487cd6436e67ec5b83a44398bc687f9",
+      "git_blob_sha1": "626945f7d7a1d34331066a0bbeee494ceaf9a810"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/model_comparison.csv",
+      "bytes": 6860,
+      "sha256": "aa25ee2ee20442d9f88aade66da0c25d9086f95437ee387df8b0dc5c7c18486b",
+      "git_blob_sha1": "df2c72ba2d0bee05e561976d4ee8ac515a3c19d5"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/model_summary.json",
+      "bytes": 4910,
+      "sha256": "1322ea209df9da4793aa7eaa12c001d319493daf1f35c084371da84131b22127",
+      "git_blob_sha1": "a3d184d88b3558dd887fe042a18fc5a5350f0dea"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_envelope/README.txt",
+      "bytes": 2491,
+      "sha256": "f0f76bb89206e2c278e7b232f7a7668d1c1e84510eac7f2e7b1c1e0f67e40ec2",
+      "git_blob_sha1": "11fa9c7d05b94b331e22e6c4b13bf673ddc2f3a8"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/CB中心结构与光路耦合_构造和数据.html",
+      "bytes": 1486689,
+      "sha256": "90d597c2e09956c5296202b947f3424911d986206e7186508c83978fde765fa5",
+      "git_blob_sha1": "9687a3b5644cab9e707d4f0010dd3dc5d6af201f"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/check_report.js",
+      "bytes": 1505,
+      "sha256": "e312b8a4df7387278c1199150915cebc02f364d5967b1bec693e17086cd4d538",
+      "git_blob_sha1": "1e145d4110971295b98de1aa4e2609b1039a760d"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/actual_plus_peaks.csv",
+      "bytes": 3066,
+      "sha256": "60b71f823bcf90c7bbb549b36eba8c5441c84298965450fa8e317ca9be74f10f",
+      "git_blob_sha1": "62b3040e7696ab4309e19c8748ebec9d91e8dd9d"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/arrays.npz",
+      "bytes": 248797,
+      "sha256": "4adfef40a0ebfc281358295bef0d755cdf625e287cbd6876cd4bef362cc13d68",
+      "git_blob_sha1": "1fe1826b0fc7f6b6ce9b240cf4c661a4c1c6303c"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/center_geometry.png",
+      "bytes": 100785,
+      "sha256": "f5f40ae84d682dd36cad98c5cf5dd4d994f1124002977c9b0935c0a7a466d3d1",
+      "git_blob_sha1": "390c58976de455d057e763dfc51c938d30546bc5"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/geometry_experiments.py",
+      "bytes": 14799,
+      "sha256": "0495ece0a9c7ae27fb6f9e5d3d1366f40635deba1e7bea2574fc0f7b22dbc032",
+      "git_blob_sha1": "3fd9b15326c1bcd23ecdd7b117bff27a825ad84a"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/geometry_scans.png",
+      "bytes": 446274,
+      "sha256": "88c031dda05d0d9a15676ca2a81718f4d4f23f2310a363eeef34d51f1d8943a4",
+      "git_blob_sha1": "eb86c28a30ae80a90060ced83befaf5687f58124"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/hole_overlap_decomposition.csv",
+      "bytes": 138110,
+      "sha256": "041fa12a5b4bd939cee87cf74b63bfea179927f79a038042d7fbecc1664b92db",
+      "git_blob_sha1": "a3626a31ee4a92d232397355f4d736b786014f8f"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/hole_overlap_decomposition.png",
+      "bytes": 309193,
+      "sha256": "bd83ba68871893271d0b8982021b4346149dd50923abb292b530aa9132646371",
+      "git_blob_sha1": "a3353055c4beb9fb02d8ba590d5408aac292af82"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/README.txt",
+      "bytes": 4569,
+      "sha256": "11c271399c27631873f76256e9ef50b5c09757e6ff6086751a80915c06654928",
+      "git_blob_sha1": "77541e7f270484991407385ef57b7aa5f43cb9fd"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/registry_scans.png",
+      "bytes": 412982,
+      "sha256": "d1f23833cb93ef1150cc02300e9bc5449a58a91e9fc9239728658d9dc9ed0561",
+      "git_blob_sha1": "faf5e6272c11c1cea4183ab8d02c359d963c4fe6"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/scans.csv",
+      "bytes": 910481,
+      "sha256": "e5d7d26aeaa63643a2e60e1e6e742982df38c626ab4ddb343607d19c73a0ba47",
+      "git_blob_sha1": "2ff790eb6ab2a0bdce22cef4a1c1074bdd5cd057"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/geometry/summary.json",
+      "bytes": 22032,
+      "sha256": "0a09f11dd384bf5a9bf7d4be9c77b3cb2f95eee6541d3873acd8c5827e60552d",
+      "git_blob_sha1": "8565b02e73608292020f3557338177e540444b7d"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/make_explanation.py",
+      "bytes": 19597,
+      "sha256": "8b57805a9da7eeea13466e584b79ababd3e48f5eb15bbd138cd79e900263bbc2",
+      "git_blob_sha1": "86547084dbc444c66ba9877a7b2102fc064a524c"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/check_phase_coupling.py",
+      "bytes": 1838,
+      "sha256": "28377e2c1555314b2ff536eb2836ceedbd89f094d4915894a2979e77d7641ac5",
+      "git_blob_sha1": "83d099cff40569ae7a8c6462b9e1a7e04e895f5a"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/convergence.json",
+      "bytes": 5001,
+      "sha256": "f3e9de4c9663a68ce44fa6b33552e79a57fdfb7cc402694a794aee3f0fe4d789",
+      "git_blob_sha1": "df962ae30843ebe428c23a383c87bb463c8c7adf"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/cross_term_decomposition_n512.png",
+      "bytes": 188586,
+      "sha256": "d04027153e7de03279a2f5e2d6a11062c1f3bfbbf0742cb9ea43af255eda2522",
+      "git_blob_sha1": "eb5fc6303542f806497578bc3b4aca305da167fe"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/finish_report.py",
+      "bytes": 9354,
+      "sha256": "370cf0d1a4aecbd5f05963d496afedbab406b6aae075be4103eb653a2c394242",
+      "git_blob_sha1": "161d60713fb575cde5c6510797de7d7281869ab7"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/optical_comparison_n512.png",
+      "bytes": 557267,
+      "sha256": "fbd67bc9333268ff8a1cd9a5927b938128d28dca3c333f104955fa392e9451fb",
+      "git_blob_sha1": "72a89458dbbbe358ba1e350a20e27afb5f9a0536"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/parameters.json",
+      "bytes": 1118,
+      "sha256": "db743e6b4a4867711842338b357b9f48c348a35a8c7b12e8a4cc7821f24b0cbe",
+      "git_blob_sha1": "1657777f7b15a5c3db595062f3c713cb56c7341a"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/peak_comparison.csv",
+      "bytes": 8112,
+      "sha256": "aee1595af3c5f997ab70745e052a9242a19cf130464726f103b14e0b54eaf46d",
+      "git_blob_sha1": "8761a10412701b70d5b86ba286d2792f2d4a1fb4"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/phase_coupling_spotcheck.json",
+      "bytes": 1061,
+      "sha256": "930be918eeafb897cbf1460ad7e718417cb71787ec655998d3ab463f74267ab0",
+      "git_blob_sha1": "6f0362d2caa03b6a9338eba1686171adcd14f095"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/pupil_effect_summary.png",
+      "bytes": 215141,
+      "sha256": "ef7596be61edb037a1afc3d2c47803827dad8409eb238333515945f55b191818",
+      "git_blob_sha1": "e3d168dc0a666019579425a5668a03e2b608ac9b"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/README.txt",
+      "bytes": 5620,
+      "sha256": "0593982c1d083f4f7358952b4c8806841097112288d9cbd052cb0d3dafc57118",
+      "git_blob_sha1": "ab480b070c4fe178988df6b4370207b820d84d26"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/run_optical_coupling.py",
+      "bytes": 10990,
+      "sha256": "43cc258b5c5a71f99de24c446b11f4fa51f03ef49885c1669d03e9663fa2ac17",
+      "git_blob_sha1": "b2af089eebcd29bc23c98a825c7a8e6850dbdc7d"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_cross_gap1_disk_r005.csv",
+      "bytes": 49710,
+      "sha256": "52f2d6f3e3c08994a4511f865b2fd1111110ef5c1690051e18f316434fe868de",
+      "git_blob_sha1": "b165114fc20c4a4c08648c887a7bcdef461c2f62"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_cross_gap1_disk_r010.csv",
+      "bytes": 49790,
+      "sha256": "c30903ee96017b483243e0522c2babfc302ec8182ee8a1a53c87516b57ae42dd",
+      "git_blob_sha1": "9cc317c21a1f306af6fcce1b4222fee02f1aec75"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_cross_gap1_disk_r010_y006.csv",
+      "bytes": 49760,
+      "sha256": "8557a835807f9eaab5e062cfb3f6723a96e97d4ad06d3a6c53a59bc61bf617f0",
+      "git_blob_sha1": "264b2f7fdb01d05af779980c87eb3e17c42da33c"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_cross_gap1_disk_r020.csv",
+      "bytes": 50005,
+      "sha256": "53d4495cae4c5f47fa26c71816f1c790f06ac0c1e9122705f72d56d5239ce276",
+      "git_blob_sha1": "b0e01958449c25afce234d3453ad47049b083553"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_cross_gap1_disk_r020_edge_y004.csv",
+      "bytes": 51505,
+      "sha256": "d861c6e7fb87f29c4aff4edddf165bb5782ff2ad7dd7d33dea20d560df8c2442",
+      "git_blob_sha1": "86a26028ea68e379b7e7a1c336ff4cac499e3d46"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_ideal_disk_r005.csv",
+      "bytes": 49872,
+      "sha256": "2811f4f9b18ad0f522eca18ea0868e6a4dcee38ad1f0b7c9724df8396e4d8426",
+      "git_blob_sha1": "29bfb9083fa5abc15cf388c5094bc57660029e2d"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_ideal_disk_r010.csv",
+      "bytes": 49391,
+      "sha256": "4d77cfb2fd3dd8cd97ba325516514e4ab247955c1bad71628ca721fcb2ff837d",
+      "git_blob_sha1": "5e2baeb3849ba58014390dadd8146748a8212dfe"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_ideal_disk_r010_y006.csv",
+      "bytes": 49563,
+      "sha256": "d6bec207a3ab6e866643a85e30a47568a2df07f623ad23a4cdf402502df536cb",
+      "git_blob_sha1": "9b9f83cab85933b492256458058183b02f9a31a8"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_ideal_disk_r020.csv",
+      "bytes": 49721,
+      "sha256": "8ae16a399489c7f14d1093b21b1310b30ced8ef088a1fa5a4cb623d804933d5b",
+      "git_blob_sha1": "8174dd694da472eb9614aabba38229ec56a22e47"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n1024_ideal_disk_r020_edge_y004.csv",
+      "bytes": 51339,
+      "sha256": "30ba1f43b0caf8e37ad3161dfa4ec485cc0ac13e7dc1542f5a31e70b650f3d86",
+      "git_blob_sha1": "c50f50ba629541b2bb5429acd62e41934f6f33a0"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_cross_gap1_disk_r005.csv",
+      "bytes": 49719,
+      "sha256": "009dda0ff2c57d61ce5f248c826c47c3c8f12b9783b3284b5e43a7d27ebb2b7a",
+      "git_blob_sha1": "121fa18bd9170c3ae9ec5d23313e0c8e0b4bebf3"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_cross_gap1_disk_r010.csv",
+      "bytes": 49815,
+      "sha256": "5bcd0b189728bedaffac31d205d2a4f19e04ede2377defd0fe75052c99b0771d",
+      "git_blob_sha1": "7de432d166900100ac034f05e54d67ffe2a49c8b"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_cross_gap1_disk_r010_y006.csv",
+      "bytes": 49726,
+      "sha256": "55a99800d0dcb5286d0cc3408f18e19f2c791c4784614a97ada3befe8e262fa1",
+      "git_blob_sha1": "33f28101ec613aee0d2e5eb6b60404eed0d02219"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_cross_gap1_disk_r020.csv",
+      "bytes": 50029,
+      "sha256": "6bf85e06fac2a4b6eb64587fbf68ea81a9f479129e008a2035bf6e3795dd6456",
+      "git_blob_sha1": "af5e84d8fa96bd2c300ed9a609696ecb715acaf9"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_cross_gap1_disk_r020_edge_y004.csv",
+      "bytes": 51565,
+      "sha256": "d38e281eadf22ee2f95cf56a63f347b883ee5e670fcc722a1a5a934a0b9aca75",
+      "git_blob_sha1": "cf347fdd4da407a636ffa36987fe47c9cc69099c"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_ideal_disk_r005.csv",
+      "bytes": 49932,
+      "sha256": "2f08f07da08b1752c6cf13230cc3c9d5661edc0ae6e0cdab9f8fdca28e764130",
+      "git_blob_sha1": "3d877997f41dd24194129f6977cc0b90c59ae1a7"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_ideal_disk_r010.csv",
+      "bytes": 49405,
+      "sha256": "37c6549fbc42a50e79e7a0e8cf1a8245a2b421f9f11576596b75c4077cd048a0",
+      "git_blob_sha1": "dfd052f43a7a87f03103f60207bb86759a66d3fd"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_ideal_disk_r010_y006.csv",
+      "bytes": 49510,
+      "sha256": "7387c04a2b51e3fd3968b338f41b4b35e24d53c768f63d2ccd8674be3315ddde",
+      "git_blob_sha1": "fb890abbba246eb73e7f02f4baf7eec31ca8ac94"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_ideal_disk_r020.csv",
+      "bytes": 49717,
+      "sha256": "73705ff045d8ab0cff02580a4b7581e4fa3726485033d4a636fe3896319e9f88",
+      "git_blob_sha1": "c591150933bab3019361b1f94d380641fdc73adf"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_ideal_disk_r020_edge_y004.csv",
+      "bytes": 51244,
+      "sha256": "80f20a64c53b6fbe162c2f1c706c1302b2635a88f3d97c8b8ee8a86be1c81b00",
+      "git_blob_sha1": "490dc666a5f020138a920c389d6c1d8aeea762f6"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_phase_upper_pi_disk_r005.csv",
+      "bytes": 44401,
+      "sha256": "85b6b2e6e07c7067f395fd160ba83d25d88357e466c3d1dbfd52c1170da98340",
+      "git_blob_sha1": "4b89daff43377657ba40b3c6092ed08e0c95fed6"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_phase_upper_pi_disk_r010.csv",
+      "bytes": 45137,
+      "sha256": "7921c81db133ca00fde08cc80fbc0782751c3b49fc845140d3293f1e09655a35",
+      "git_blob_sha1": "3ebfee2fb7dfb77b78189a718a920951586adedf"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_phase_upper_pi_disk_r010_y006.csv",
+      "bytes": 50357,
+      "sha256": "9e4652a43344780f723bc177b1ffcac9991fc6e7746a2d0e7855adf717aacdf5",
+      "git_blob_sha1": "dd15de56da0e71622b37458b1f68ca5ac5c5ea6f"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_phase_upper_pi_disk_r020.csv",
+      "bytes": 44956,
+      "sha256": "0a8de536ca6899f025bf0e813badb9186db08a641a2d77933ff5829459134bdb",
+      "git_blob_sha1": "0c12297bc89dde5c77038dfc0ba93b31cd28a007"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_phase_upper_pi_disk_r020_edge_y004.csv",
+      "bytes": 52046,
+      "sha256": "38c64e7136771d10fd975c18ddf55e9a14e9b8eec09a1c054ac373ce63848de6",
+      "git_blob_sha1": "be4a3d6a1b1c71f9a20c5221c7d42f728cd6a565"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_square_gap2_disk_r005.csv",
+      "bytes": 49919,
+      "sha256": "88f48f748af0aab3f87783350d39bd1ad5b9f7380f9141627caf956a1040d6af",
+      "git_blob_sha1": "47ac0c31fe2ba300272592749908c16f96599df3"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_square_gap2_disk_r010.csv",
+      "bytes": 49381,
+      "sha256": "1e5f531b894e3bf56ee00176129c229a6495a94b53e2165d17ea089c5d56e527",
+      "git_blob_sha1": "ae1610eafc1a5a802f30777995c2bf3349408bbf"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_square_gap2_disk_r010_y006.csv",
+      "bytes": 49638,
+      "sha256": "c6df3dee86ffcc0b0adc2e73bb4c926976903b6a107d341d3dc41fc201667a7a",
+      "git_blob_sha1": "9c65f97a1d9d273f673072d9b46301a5362e2d90"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_square_gap2_disk_r020.csv",
+      "bytes": 49655,
+      "sha256": "29ef205097b80d9a909b4f474d4c2f957609204ec768be8bde1f703bf2ee9300",
+      "git_blob_sha1": "0456fb9d802d1186e404b90f2f6ce99193eff3b7"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/scan_n512_square_gap2_disk_r020_edge_y004.csv",
+      "bytes": 51326,
+      "sha256": "90162354ca8038b1ee3d1dbd38f09da27f6fbe6b5eb60ae0ce583ef32b1bff7f",
+      "git_blob_sha1": "4ba3fbb7b54893cae6790a26fc3d120bddb455f3"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/summary_n1024.json",
+      "bytes": 26861,
+      "sha256": "f4649ba9cecef3522beadee50727c2b00474a603159622f298c181a33ec8ab50",
+      "git_blob_sha1": "68ed993781b3128b4b0a6387a462e3a858951de8"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/optical/summary_n512.json",
+      "bytes": 60152,
+      "sha256": "8a9461159462cd861edd0bab03e02631a4170469461dbee9963df465f4634fcc",
+      "git_blob_sha1": "52ede8120e1a4e9577ab4dd0af458c466e411174"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/overlap/curves.csv",
+      "bytes": 375002,
+      "sha256": "edf6d15bd67ae9fd08bf9b7b00a15997ea602a185af743807b3d0baf3fd85999",
+      "git_blob_sha1": "2a12d4f19415ee97dd9757d40e442f71b2cfb53b"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/overlap/overlap_center.png",
+      "bytes": 187439,
+      "sha256": "632b9c0316a8436bb984644db77c314f2cd053917d0a6336f93efd663bc41a3e",
+      "git_blob_sha1": "23285a6ae9ab080b9fe380d13be9a7702835ef88"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/overlap/summary.json",
+      "bytes": 32521,
+      "sha256": "a46421c29324693e0884bafb11ceb830aaa8fb8cbbacec21ecb8fc63e1be29cc",
+      "git_blob_sha1": "a26d44dca7675198d460dddd150c2c616f96640b"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/overlap_center.py",
+      "bytes": 7491,
+      "sha256": "0ecd75831cfd2993c68fb5e6a4f72063c5108d3c167498efd05a5a672813799d",
+      "git_blob_sha1": "8caef858d87707bf8c81367e369b291d59db70f3"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/README.txt",
+      "bytes": 4265,
+      "sha256": "dabf6c2e4f228b2e68b1a537f794c5aabbd86e470517539f5d1f1cdc7abcc1c1",
+      "git_blob_sha1": "5a78b062598e2f78b0003023550d48bb332fa5f2"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/report_interactive.js",
+      "bytes": 593733,
+      "sha256": "313e7925fe03e142ddb1fa63e2b771b13da863b477f9db44fcdef830be771702",
+      "git_blob_sha1": "4eb8757e15fcbcaf7ee4019c806c40ccafc92e5a"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/review/efficiency_sweep.csv",
+      "bytes": 1886,
+      "sha256": "7dc7abd995d9e0e27093e5683ba332df70b344d2fd7b1a62324419ee9460b309",
+      "git_blob_sha1": "567014fcbddcb4e035bf1ebda8ab1f5e86dc4334"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/review/mode_scan.csv",
+      "bytes": 14637,
+      "sha256": "9895a3e9fd633df42a2a0cce24a7daf44d03a57f2351c48f0189aaf1be9d5404",
+      "git_blob_sha1": "26886730b25988df181dd0a15d0485e8c0669c11"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/review/mode_selection.png",
+      "bytes": 247738,
+      "sha256": "0ba64d20207971cbf60c523c045ba04a2ee00d4235e1c77adf6f711549913d88",
+      "git_blob_sha1": "2d654e37a14f05a3530bc7494c60285304d77ce5"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/review/mode_selection_example.py",
+      "bytes": 7872,
+      "sha256": "314fea2dc7a05d235fb9751c0254e2c1801b12cb8811b6d19b7f4764c015cdcf",
+      "git_blob_sha1": "69442c1720a371ccd05ecb634a62874cfb4f3c8a"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/review/raw_sum_samples_NOT_peaks.csv",
+      "bytes": 1026,
+      "sha256": "0fae6f7d61bd7ac760182435995da6a2eca7c8a70123baed05363b0985ae0044",
+      "git_blob_sha1": "92b20fa34467f6d0bc2de4745895aa8934472dbb"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/review/README.txt",
+      "bytes": 6608,
+      "sha256": "1448fe3d34cb6c3b26fba54f7c9b5213dbeb9a4ae6c682cbeee8b5e56ed0ca6b",
+      "git_blob_sha1": "448fe9128eb696541c13e7f98dd5bc1b4bed9f44"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure/review/summary.json",
+      "bytes": 5354,
+      "sha256": "22a257a080de1cd701d622ddd234be5bbad841f0e1bbbe99d8d95f1a15bf3452",
+      "git_blob_sha1": "28438b4151cd634b6988e5d731203548697a5db7"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/examples/center_structure_bundle.zip",
+      "bytes": 5054874,
+      "sha256": "714f5ca7f8d16cfa50c00745c1a804a77dae4fd20cb87f9bb565f26b7a872ed4",
+      "git_blob_sha1": "7b0caa78158751b0cc3adc69b2d5df0c676890b9"
+    },
+    {
+      "path": "AH53/2026-11-11_CBmark_D4C中心峰讨论/README.md",
+      "bytes": 2011,
+      "sha256": "70853d9894038b17f14ce26023abb0809449b8330c3a314c08659d3bf045be16",
+      "git_blob_sha1": "b3f8e3bff8e24cec800ff960bd5470d440884efc"
+    }
+  ],
+  "total_bytes": 14193306,
+  "relative_transcript_links_valid": true,
+  "historical_artifact_edits": [
+    "prepend correction banner to four README files and HTML; historical ZIP remains original"
+  ],
+  "notes": "First-stage archive remains unchanged; root index updated. This manifest excludes itself."
+}

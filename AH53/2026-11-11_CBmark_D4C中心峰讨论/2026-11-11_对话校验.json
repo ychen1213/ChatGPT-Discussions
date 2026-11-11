@@ -1,0 +1,342 @@
+{
+  "archive_date": "2026-11-11",
+  "timezone": "Asia/Hong_Kong",
+  "user_entries": 20,
+  "assistant_final_answers": 16,
+  "includes_this_upload_request": true,
+  "upload_response_not_yet_available": true,
+  "actual_company_data_included": false,
+  "formatting_changes": [
+    "drop automatic UI context",
+    "render form questions and answers",
+    "GitHub math delimiters",
+    "relative local artifact links",
+    "remove local file line suffixes"
+  ],
+  "messages": [
+    {
+      "index": 1,
+      "role": "user",
+      "time": "2026-11-10 12:04:52 +0800",
+      "source_sha256": "5b2e79fd475a47c655662f7ebf0c9bf8796c65b0cb52b778104b1f49bfb52706",
+      "archived_sha256": "5b2e79fd475a47c655662f7ebf0c9bf8796c65b0cb52b778104b1f49bfb52706",
+      "source_characters": 185,
+      "archived_characters": 185
+    },
+    {
+      "index": 2,
+      "role": "assistant",
+      "time": "2026-11-10 12:21:26 +0800",
+      "source_sha256": "3c99a9855c91c7dedc2fadab24ace9c869237cebcd92d5ff760396fdfa1d3069",
+      "archived_sha256": "205d64e871839a7a8528eacf97922fd7936ce9283b94ee1c89f1f5b146a9f11a",
+      "source_characters": 7267,
+      "archived_characters": 7258
+    },
+    {
+      "index": 3,
+      "role": "user",
+      "time": "2026-11-10 18:08:49 +0800",
+      "source_sha256": "e41ed46e34a4edd128256f54b759a6e6b100394ec9d9a3d9c6038ccb1d199670",
+      "archived_sha256": "e41ed46e34a4edd128256f54b759a6e6b100394ec9d9a3d9c6038ccb1d199670",
+      "source_characters": 71,
+      "archived_characters": 71
+    },
+    {
+      "index": 4,
+      "role": "user",
+      "time": "2026-11-10 18:11:43 +0800",
+      "source_sha256": "97666c0c73c7fe277539542b322afd575fde2e288ae3c5ba8bca422850009659",
+      "archived_sha256": "97666c0c73c7fe277539542b322afd575fde2e288ae3c5ba8bca422850009659",
+      "source_characters": 206,
+      "archived_characters": 206
+    },
+    {
+      "index": 5,
+      "role": "assistant",
+      "time": "2026-11-10 18:17:11 +0800",
+      "source_sha256": "d1f0342f934859e3205291fcb7fe3fd78699e7bd1084003f58a59bb3af0ae979",
+      "archived_sha256": "62b2dd3a93e5a27016f886039a9df8600633bef9817cdd4e02627d75d68029ea",
+      "source_characters": 3083,
+      "archived_characters": 3049
+    },
+    {
+      "index": 6,
+      "role": "user",
+      "time": "2026-11-10 18:22:52 +0800",
+      "source_sha256": "208fda785bd0c1ad73bba675c94aa29383f13776a246d24dd50fd744421d8b49",
+      "archived_sha256": "208fda785bd0c1ad73bba675c94aa29383f13776a246d24dd50fd744421d8b49",
+      "source_characters": 41,
+      "archived_characters": 41
+    },
+    {
+      "index": 7,
+      "role": "user",
+      "time": "2026-11-10 18:23:48 +0800",
+      "source_sha256": "c033fff1e98274ee0005b5c2e23e3372e7101d66b7edb3a98e4a0976ba45ab91",
+      "archived_sha256": "c033fff1e98274ee0005b5c2e23e3372e7101d66b7edb3a98e4a0976ba45ab91",
+      "source_characters": 6,
+      "archived_characters": 6
+    },
+    {
+      "index": 8,
+      "role": "assistant",
+      "time": "2026-11-10 18:27:20 +0800",
+      "source_sha256": "cc51c511f33ec972ffbb518c45755762637cb26d073ce4882cffb4b980953a94",
+      "archived_sha256": "bcbdcbf00115fb2f77078c8996707e210be704df8a2cfb0c3163288ce81d4810",
+      "source_characters": 2522,
+      "archived_characters": 2496
+    },
+    {
+      "index": 9,
+      "role": "user",
+      "time": "2026-11-10 18:28:32 +0800",
+      "source_sha256": "4e0b8be5685afb6f0fbdbf9a22e9e368e7351b47c42a226cd328bf46429706ab",
+      "archived_sha256": "a2cade558037ae9ba45ba728a36199aafd63ad590c5b4cd3c6ecbf1b872f1d8c",
+      "source_characters": 30,
+      "archived_characters": 28
+    },
+    {
+      "index": 10,
+      "role": "assistant",
+      "time": "2026-11-10 18:32:23 +0800",
+      "source_sha256": "c8dbc193fc30f1f175446de511448e6ad87e985f6729610f599ca2ce352bddab",
+      "archived_sha256": "7a136801468276515baadf42d8cf3de18da38e5f1a070f701a92aaf6f6d1fc57",
+      "source_characters": 2391,
+      "archived_characters": 2355
+    },
+    {
+      "index": 11,
+      "role": "user",
+      "time": "2026-11-10 18:39:13 +0800",
+      "source_sha256": "f1be9b7cb2e780daee7e7e360520555c5aadd5c96a7d6567c6059365c91490a3",
+      "archived_sha256": "f1be9b7cb2e780daee7e7e360520555c5aadd5c96a7d6567c6059365c91490a3",
+      "source_characters": 61,
+      "archived_characters": 61
+    },
+    {
+      "index": 12,
+      "role": "assistant",
+      "time": "2026-11-10 18:46:15 +0800",
+      "source_sha256": "3ed9832d750b7d323b5b74d975364d3b675ac630c3e6d77e5a21f8ec75c50445",
+      "archived_sha256": "27d65c95bc4012914a5d0c3f3a0aa82b5b918c9291d995eb8766b85d3f26de0a",
+      "source_characters": 3675,
+      "archived_characters": 3611
+    },
+    {
+      "index": 13,
+      "role": "user",
+      "time": "2026-11-10 18:49:05 +0800",
+      "source_sha256": "2b61e30bb6eccb451be2269f1aa940e9f4031b52e54b9cd4a747c7cb320c0279",
+      "archived_sha256": "2b61e30bb6eccb451be2269f1aa940e9f4031b52e54b9cd4a747c7cb320c0279",
+      "source_characters": 21,
+      "archived_characters": 21
+    },
+    {
+      "index": 14,
+      "role": "assistant",
+      "time": "2026-11-10 19:02:08 +0800",
+      "source_sha256": "437ab38a7bccb566e549fc6d62615dbdc43f7a8817c7e2fb39eae64525251c54",
+      "archived_sha256": "bd51aed1217a7c87991a845ff57b5018ed8be61bc2a29452aa90cfa606769e23",
+      "source_characters": 682,
+      "archived_characters": 680
+    },
+    {
+      "index": 15,
+      "role": "user",
+      "time": "2026-11-10 22:11:21 +0800",
+      "source_sha256": "b340270ce0a7dadaf0f0c15f45f8b2de0e54b32fb8df1867cfaf2cd60fb2aaef",
+      "archived_sha256": "b340270ce0a7dadaf0f0c15f45f8b2de0e54b32fb8df1867cfaf2cd60fb2aaef",
+      "source_characters": 135,
+      "archived_characters": 135
+    },
+    {
+      "index": 16,
+      "role": "user",
+      "time": "2026-11-10 22:12:48 +0800",
+      "source_sha256": "054ae614323e5907ae18efc5b3b2a41dc1891038f38e3261907ed8f0accf6b96",
+      "archived_sha256": "054ae614323e5907ae18efc5b3b2a41dc1891038f38e3261907ed8f0accf6b96",
+      "source_characters": 153,
+      "archived_characters": 153
+    },
+    {
+      "index": 17,
+      "role": "assistant",
+      "time": "2026-11-10 22:21:36 +0800",
+      "source_sha256": "ca6a936ce9dd35a36a3f852402c90559ec390c32dbb37d7fecea176f5894a72d",
+      "archived_sha256": "445dab7f0f7d54cbe472c65ab5eb4fa7e824a65fff2753f5edd5edc3fdea2b0b",
+      "source_characters": 3437,
+      "archived_characters": 3361
+    },
+    {
+      "index": 18,
+      "role": "user",
+      "time": "2026-11-10 22:22:49 +0800",
+      "source_sha256": "1d26ebcada0df43703b89b82d47fbcfcd77ebf0aba268933a8396a6863e7d737",
+      "archived_sha256": "1d26ebcada0df43703b89b82d47fbcfcd77ebf0aba268933a8396a6863e7d737",
+      "source_characters": 17,
+      "archived_characters": 17
+    },
+    {
+      "index": 19,
+      "role": "assistant",
+      "time": "2026-11-10 22:32:40 +0800",
+      "source_sha256": "3852f74b836c65cb3bcecfd58400c804be5b674e5b09cc773c12e78754c10813",
+      "archived_sha256": "8268a71ca49e4fa3d3fb6fada9af54870e8cb401fa65e365c10b74fd85140d1d",
+      "source_characters": 3447,
+      "archived_characters": 3277
+    },
+    {
+      "index": 20,
+      "role": "user",
+      "time": "2026-11-10 22:36:52 +0800",
+      "source_sha256": "f19c9296d060ad16c832eb444eb160fe2061c7c4bbafa380ebe8b30291f85764",
+      "archived_sha256": "43f77f3de5ca7fb9dcc4b47a4928bc2faf77ed01105c68832971df4f5edca0ae",
+      "source_characters": 301,
+      "archived_characters": 299
+    },
+    {
+      "index": 21,
+      "role": "assistant",
+      "time": "2026-11-10 22:59:13 +0800",
+      "source_sha256": "36cbf79d0e3a330223ecf865857c64e043ad6cfbbb19ce40300deb1d3299e302",
+      "archived_sha256": "0ef35b5af0bda7ccf250e8cd392215a96ce9813e943519fa641807907c16006d",
+      "source_characters": 7837,
+      "archived_characters": 7544
+    },
+    {
+      "index": 22,
+      "role": "user",
+      "time": "2026-11-10 23:18:24 +0800",
+      "source_sha256": "c06210a979bfd5a81c619f40f0d1c44193c33fe62d20429a51d35f8ef57dee4f",
+      "archived_sha256": "29e230ed59b95f217d1a375b68a5ef44ea8f6f5336a83af1a1b30eb23c1d7879",
+      "source_characters": 842,
+      "archived_characters": 824
+    },
+    {
+      "index": 23,
+      "role": "assistant",
+      "time": "2026-11-10 23:23:56 +0800",
+      "source_sha256": "db7836e28421b13fab0a531aea261e45602463a395cd9b77b95b4afb15987141",
+      "archived_sha256": "692ae59855378b96aa6aaa343d9577e49800fd79bb424ce7c49fdfaea3bc8fdb",
+      "source_characters": 4494,
+      "archived_characters": 4430
+    },
+    {
+      "index": 24,
+      "role": "user",
+      "time": "2026-11-10 23:24:20 +0800",
+      "source_sha256": "7644691c9a2538b9f31012fe08f535da8d424e9a74c302b2164ebce172f12a6a",
+      "archived_sha256": "a62b56db52307b404728a98a8dc8dddf1ab5236bc5fa12e8b34054bc6f52cc9c",
+      "source_characters": 73,
+      "archived_characters": 71
+    },
+    {
+      "index": 25,
+      "role": "assistant",
+      "time": "2026-11-10 23:25:29 +0800",
+      "source_sha256": "de8eb83b1a1e26dc3c4cca0357c8ac6e39f068f61883ce04987c9a87b5f004be",
+      "archived_sha256": "160e8e4d4aa100eae75cd83fd925a95031e9371fc193fdd398f75b59b5f7631f",
+      "source_characters": 1373,
+      "archived_characters": 1361
+    },
+    {
+      "index": 26,
+      "role": "user",
+      "time": "2026-11-11 00:03:00 +0800",
+      "source_sha256": "2343e513e12187c217ae22ebf1d64202a8f2e930c0ba13af4b3c1be8c9e9498f",
+      "archived_sha256": "2343e513e12187c217ae22ebf1d64202a8f2e930c0ba13af4b3c1be8c9e9498f",
+      "source_characters": 75,
+      "archived_characters": 75
+    },
+    {
+      "index": 27,
+      "role": "assistant",
+      "time": "2026-11-11 00:06:30 +0800",
+      "source_sha256": "6009401039c2af3155d5c92f6a67cc0678f3404c421d402e1c4fe6f19e7a817e",
+      "archived_sha256": "e2f507af586e3c7a14dfe068a163115e7e589473c393a4f29c0f689ba6078005",
+      "source_characters": 1835,
+      "archived_characters": 1801
+    },
+    {
+      "index": 28,
+      "role": "user",
+      "time": "2026-11-11 00:07:09 +0800",
+      "source_sha256": "4e4da9e08d4e8800a57232c847e7314623f6be37e2cbf245be826bc5f6da3fd5",
+      "archived_sha256": "4e4da9e08d4e8800a57232c847e7314623f6be37e2cbf245be826bc5f6da3fd5",
+      "source_characters": 15,
+      "archived_characters": 15
+    },
+    {
+      "index": 29,
+      "role": "assistant",
+      "time": "2026-11-11 00:08:29 +0800",
+      "source_sha256": "8cb7565d0bda6c3e6221e8cb4976fed3ff351315d52e79a851c502275c6332ce",
+      "archived_sha256": "4e8d6e85113b1b9e4ecfa9ae9e9a724c5a70fd808998b1c973b00d5dd2e53731",
+      "source_characters": 1006,
+      "archived_characters": 994
+    },
+    {
+      "index": 30,
+      "role": "user",
+      "time": "2026-11-11 00:08:58 +0800",
+      "source_sha256": "677d3f9824bcd3def734304157647bf2e5e52ba6037960a262a18abeae427f9f",
+      "archived_sha256": "677d3f9824bcd3def734304157647bf2e5e52ba6037960a262a18abeae427f9f",
+      "source_characters": 46,
+      "archived_characters": 46
+    },
+    {
+      "index": 31,
+      "role": "assistant",
+      "time": "2026-11-11 00:09:52 +0800",
+      "source_sha256": "13480844bf641eb0323162fdcddfe3f74b04ed01fc2394708dec1289bfda6e91",
+      "archived_sha256": "c36511831186ab1ad46f91599822722258711cd1de7680f7751c6015918b670b",
+      "source_characters": 477,
+      "archived_characters": 475
+    },
+    {
+      "index": 32,
+      "role": "user",
+      "time": "2026-11-11 00:10:26 +0800",
+      "source_sha256": "8b1ec7c4c2fefa7f1a8b6a0bbe92bd10f084b8d64455fde935d07e9a52a2bb8f",
+      "archived_sha256": "8b1ec7c4c2fefa7f1a8b6a0bbe92bd10f084b8d64455fde935d07e9a52a2bb8f",
+      "source_characters": 33,
+      "archived_characters": 33
+    },
+    {
+      "index": 33,
+      "role": "assistant",
+      "time": "2026-11-11 00:10:52 +0800",
+      "source_sha256": "c3427ac9165d70ad87f8bf3d17f33cf70555e26057faa799fe6d065006ad189e",
+      "archived_sha256": "3b52572a55ea6c3f3e831af6ffec8cffa3350fadd26b121a9674f990825c3efd",
+      "source_characters": 339,
+      "archived_characters": 337
+    },
+    {
+      "index": 34,
+      "role": "user",
+      "time": "2026-11-11 00:11:35 +0800",
+      "source_sha256": "4f1eca10b3f4ebbb759e2b57ca80f540db72a753c6959fe308f614ec442a13bc",
+      "archived_sha256": "4f1eca10b3f4ebbb759e2b57ca80f540db72a753c6959fe308f614ec442a13bc",
+      "source_characters": 40,
+      "archived_characters": 40
+    },
+    {
+      "index": 35,
+      "role": "assistant",
+      "time": "2026-11-11 00:16:41 +0800",
+      "source_sha256": "49c389281d2c110f48021ce9cf74854da7df7044be847d8670c16dcc0a4a8452",
+      "archived_sha256": "0ae657bc2ad8ab57a40a6b85dabf9fd8d9b0d669edcec78b0e404dd2d42d5e8a",
+      "source_characters": 3527,
+      "archived_characters": 3471
+    },
+    {
+      "index": 36,
+      "role": "user",
+      "time": "2026-11-11 08:00:49 +0800",
+      "source_sha256": "d39d6be5ee2dd93eed7a2646fa70b7422b3f5715da121623bca7cd0b68ff8424",
+      "archived_sha256": "d39d6be5ee2dd93eed7a2646fa70b7422b3f5715da121623bca7cd0b68ff8424",
+      "source_characters": 13,
+      "archived_characters": 13
+    }
+  ]
+}
