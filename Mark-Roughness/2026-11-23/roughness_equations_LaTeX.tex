@@ -1,0 +1,163 @@
+% 该文件包含《随机 Mark 边缘参数化与电磁仿真》报告中替换的 31 个公式。
+% XeLaTeX 编译，公式均为可编辑的原生 LaTeX，并非截图/位图。
+% 注意：此源码是公式集合，不包含原报告全部正文与图表。
+\documentclass[UTF8,11pt,a4paper]{ctexart}
+\usepackage[margin=22mm]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{unicode-math}
+% uses default Latin Modern Math (TeX distribution)
+\setCJKmainfont{Noto Serif CJK SC}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parskip}{5pt}
+\begin{document}
+\begin{center}
+{\LARGE 随机 Mark 边缘参数化与电磁仿真}\\[5pt]
+{\large 报告公式 LaTeX 源码（31 处）}
+\end{center}
+所有公式均对应上一份 22 页 PDF 中的公式位置；PDF 正文、图表及参考文献未包含在此源文件中。
+
+\section*{报告第 4 页}
+% p04_f01
+\begin{equation*}
+ u_{L,j}(v,w)=c_j(v,w)-\frac{d_j(v,w)}{2}
+\end{equation*}
+% p04_f02
+\begin{equation*}
+ u_{R,j}(v,w)=c_j(v,w)+\frac{d_j(v,w)}{2}
+\end{equation*}
+% p04_f03
+\begin{equation*}
+ c_j=c_j^{(0)}(w)+c_{j,\mathrm{det}}(v,w)+c_{j,\mathrm{rnd}}(v,w)
+\end{equation*}
+% p04_f04
+\begin{equation*}
+ d_j=d_j^{(0)}(w)+d_{j,\mathrm{det}}(v,w)+d_{j,\mathrm{rnd}}(v,w)
+\end{equation*}
+
+\section*{报告第 5 页}
+% p05_f01
+\begin{equation*}
+ h_c=\frac{h_L+h_R}{2},\qquad h_d=h_R-h_L
+\end{equation*}
+% p05_f02
+\begin{equation*}
+ \sigma_c^2=\frac{\sigma^2}{2}(1+\rho),\qquad\sigma_d^2=2\sigma^2(1-\rho)
+\end{equation*}
+
+\section*{报告第 6 页}
+% p06_f01
+\begin{equation*}
+ C(\tau)=\mathbb{E}\!\left[h(v)h(v+\tau)\right],\qquad S(q)=\int_{-\infty}^{\infty}C(\tau)e^{-iq\tau}\,\mathrm{d}\tau
+\end{equation*}
+% p06_f02
+\begin{equation*}
+ \sigma^2=C(0)=\frac{1}{2\pi}\int_{-\infty}^{\infty} S(q)\,\mathrm{d}q
+\end{equation*}
+% p06_f03
+\begin{equation*}
+ C(\tau)=\sigma^2\exp\!\left[-\left(|\tau|/\xi\right)^{2H}\right],\quad 0<H\leq 1
+\end{equation*}
+% p06_f04
+\begin{equation*}
+ H=\frac12:\qquad S(q)=\frac{2\sigma^2\xi}{1+(q\xi)^2}
+\end{equation*}
+% p06_f05
+\begin{equation*}
+ H=1:\qquad S(q)=\sqrt{\pi}\,\sigma^2\xi\,e^{-(q\xi)^2/4}
+\end{equation*}
+
+\section*{报告第 7 页}
+% p07_f01
+\begin{equation*}
+ h(v)=2\operatorname{Re}\sum_{n>0}\sqrt{\frac{S(q_n)}{L}}\,z_n e^{iq_n v}
+\end{equation*}
+% p07_f02
+\begin{equation*}
+ \mathbb{E}[h(v)^2]=\frac{2}{L}\sum_{n>0}S(q_n)
+\end{equation*}
+% p07_f03
+\begin{equation*}
+ \mathbf{S}(q)=\mathbf{B}(q)\mathbf{B}(q)^\dagger,\qquad \mathbf{a}_n=\frac{\mathbf{B}(q_n)\mathbf{z}_n}{\sqrt L}
+\end{equation*}
+
+\section*{报告第 10 页}
+% p10_f01
+\begin{equation*}
+ h_j(v,w)=\sum_{a=0}^{A}\psi_a(w)z_{j,a}(v)
+\end{equation*}
+
+\section*{报告第 11 页}
+% p11_f01
+\begin{equation*}
+ k_{u,\ell}=k_{u,\mathrm{in}}+\frac{2\pi\ell}{L_u},\qquad k_{v,n}=k_{v,\mathrm{in}}+\frac{2\pi n}{L_v}
+\end{equation*}
+% p11_f02
+\begin{equation*}
+ \mathbf{R}_{\ell,n}=\left\{r_{ss},\,r_{sp},\,r_{ps},\,r_{pp}\right\}_{\ell,n}
+\end{equation*}
+% p11_f03
+\begin{equation*}
+ N_k=(2M_u+1)(2M_v+1),\qquad \text{memory}\sim\mathcal{O}(N_k^2)
+\end{equation*}
+
+\section*{报告第 13 页}
+% p13_f01
+\begin{equation*}
+ k_u^2+k_v^2\leq(k_0\,\mathrm{NA})^2
+\end{equation*}
+% p13_f02
+\begin{equation*}
+ I_m(\Delta u)=\|\mathbf{b}_+\|^2+\|\mathbf{b}_-\|^2+2\operatorname{Re}\!\left[C_m e^{-i2G_m\Delta u}\right]
+\end{equation*}
+% p13_f03
+\begin{equation*}
+ C_m=\mathbf{b}_-^\dagger\mathbf{b}_+,\qquad G_m=\frac{2\pi m}{P}
+\end{equation*}
+% p13_f04
+\begin{equation*}
+ I(x)=\mathbf{b}^\dagger\mathbf{Q}(x)\mathbf{b},\qquad\mathbb{E}[I(x)]=\operatorname{Tr}\!\left[\mathbf{Q}(x)\mathbf{W}\right]
+\end{equation*}
+% p13_f05
+\begin{equation*}
+ \mathbf{W}=\mathbb{E}[\mathbf{b}\mathbf{b}^\dagger]=\bar{\mathbf{b}}\bar{\mathbf{b}}^\dagger+\operatorname{Cov}(\mathbf{b})
+\end{equation*}
+
+\section*{报告第 14 页}
+% p14_f01
+\begin{equation*}
+ |q_v|\leq\sqrt{(k_0\,\mathrm{NA})^2-\left(\frac{2\pi m}{P}\right)^2}
+\end{equation*}
+% p14_f02
+\begin{equation*}
+ \mathbb{E}\!\left[e^{-iG_m h}\right]=e^{-G_m^2\sigma^2/2}\qquad(h\ \text{Gaussian})
+\end{equation*}
+
+\section*{报告第 15 页}
+% p15_f01
+\begin{equation*}
+ \mathcal{K}(\mathbf{a})\simeq\mathcal{K}_0+\mathbf{g}^{\mathsf T}\mathbf{a}+\frac12\mathbf{a}^{\mathsf T}\mathbf{H}\mathbf{a}
+\end{equation*}
+% p15_f02
+\begin{equation*}
+ \operatorname{Var}(\mathcal{K})\simeq\mathbf{g}^{\mathsf T}\mathbf{C}\mathbf{g},\qquad\mathbb{E}[\mathcal{K}]-\mathcal{K}_0\simeq\frac12\operatorname{Tr}(\mathbf{H}\mathbf{C})
+\end{equation*}
+% p15_f03
+\begin{equation*}
+ \sigma^2_{\mathcal{K},>q_c}\simeq\int_{|q|>q_c}|\widetilde{g}_{\mathcal{K}}(q)|^2S_h(q)\,\frac{\mathrm{d}q}{2\pi}
+\end{equation*}
+% p15_f04
+\begin{equation*}
+ \Delta\simeq-\frac{\int w(x)I_0\prime(x)\,\delta I(x)\,\mathrm{d}x}{\int w(x)[I_0\prime(x)]^2\,\mathrm{d}x}
+\end{equation*}
+
+\section*{报告第 17 页}
+% p17_f01
+\begin{equation*}
+ g_j\simeq\frac{\mathcal{K}(+a\phi_j)-\mathcal{K}(-a\phi_j)}{2a}
+\end{equation*}
+% p17_f02
+\begin{equation*}
+ H_{jj}\simeq\frac{\mathcal{K}(+a\phi_j)+\mathcal{K}(-a\phi_j)-2\mathcal{K}_0}{a^2}
+\end{equation*}
+
+\end{document}
