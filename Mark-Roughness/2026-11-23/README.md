@@ -25,3 +25,8 @@ xelatex roughness_equations_LaTeX.tex
 ```
 
 **归档说明：**原始的两份 22 页图文 PDF（LaTeX 版与中文兼容版）仍保留在对应的 ChatGPT 会话文件中。当前 GitHub 连接器只支持从文本内容创建文件，未能直接读取并提交 PDF 二进制文件。故本目录目前上传的是**文本与 LaTeX 源码**，不是 PDF 原件。
+
+## 打包下载
+
+- [LaTeX 与 Markdown 源码压缩包](mark_roughness_LaTeX_source_bundle_2026-11-23.zip)：已通过 GitHub 二进制 blob 上传，包含原生可编辑公式、报告全文文字转存及本 README。
+- **原始 22 页图文 PDF 不在上述 ZIP 中。** 目前 GitHub 连接器不能直接读取本地 PDF 二进制字节；含两份 PDF 原件的完整 ZIP 已在 ChatGPT 当前会话生成，需通过会话附件下载。
